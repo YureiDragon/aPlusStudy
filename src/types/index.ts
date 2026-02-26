@@ -108,3 +108,9 @@ export interface ObjectiveProgress {
   flashcardsReviewed: number;
   lastStudied: string;
 }
+
+export interface AppSettings {
+  onboardingCompleted?: boolean;
+  onboardingSkipped?: boolean;
+  pwaInstallDismissed?: boolean;
+}

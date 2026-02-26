@@ -8,6 +8,7 @@ import QuizEngine from './components/QuizEngine.tsx';
 import PracticeExam from './components/PracticeExam.tsx';
 import Glossary from './components/Glossary.tsx';
 import StudyNotes from './components/StudyNotes.tsx';
+import Onboarding from './components/Onboarding.tsx';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <main className="flex-1 overflow-y-auto p-4 lg:p-8">
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/onboarding" element={<Onboarding />} />
             <Route path="/objectives" element={<ObjectiveBrowser />} />
             <Route path="/flashcards" element={<Flashcards />} />
             <Route path="/quiz" element={<QuizEngine />} />

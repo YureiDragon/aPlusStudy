@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import objectivesData from '../data/objectives.json';
 import flashcardsData from '../data/flashcards.json';
@@ -6,7 +6,9 @@ import { storage, STORAGE_KEYS } from '../utils/storage.ts';
 import { calculateDomainScore, calculateReadinessScore } from '../utils/scoring.ts';
 import { getDomainColor } from '../utils/colors.ts';
 import { getDueCards } from '../utils/spaced-repetition.ts';
-import type { ObjectivesData, Flashcard, ObjectiveProgress, StreakData, CardSchedule } from '../types/index.ts';
+import { useInstallPrompt } from '../hooks/useInstallPrompt.ts';
+import SyncProgress from './SyncProgress.tsx';
+import type { ObjectivesData, Flashcard, ObjectiveProgress, StreakData, CardSchedule, AppSettings } from '../types/index.ts';
 
 const data = objectivesData as ObjectivesData;
 const flashcards = flashcardsData as Flashcard[];
@@ -46,10 +48,32 @@ function RadialScore({ score }: { score: number }) {
 
 export default function Dashboard() {
   const navigate = useNavigate();
+  const { canInstall, promptInstall } = useInstallPrompt();
+  const [installDismissed, setInstallDismissed] = useState(() => {
+    const settings = storage.load<AppSettings>(STORAGE_KEYS.SETTINGS, {});
+    return settings?.pwaInstallDismissed ?? false;
+  });
+  const [syncExpanded, setSyncExpanded] = useState(false);
 
   const progress = storage.load<ObjectiveProgress[]>(STORAGE_KEYS.PROGRESS, []) ?? [];
   const streak = storage.load<StreakData>(STORAGE_KEYS.STREAK);
   const schedules = storage.load<CardSchedule[]>(STORAGE_KEYS.FLASHCARD_SCHEDULE, []) ?? [];
+
+  // Redirect new users to onboarding
+  useEffect(() => {
+    const settings = storage.load<AppSettings>(STORAGE_KEYS.SETTINGS, {});
+    const hasProgress = progress.length > 0;
+    const onboardingDone = settings?.onboardingCompleted === true;
+    if (!hasProgress && !onboardingDone) {
+      navigate('/onboarding', { replace: true });
+    }
+  }, [navigate, progress.length]);
+
+  const dismissInstall = () => {
+    setInstallDismissed(true);
+    const settings = storage.load<AppSettings>(STORAGE_KEYS.SETTINGS, {}) ?? {};
+    storage.save<AppSettings>(STORAGE_KEYS.SETTINGS, { ...settings, pwaInstallDismissed: true });
+  };
 
   const dueCardCount = useMemo(() => getDueCards(schedules).length, [schedules]);
 
@@ -99,6 +123,35 @@ export default function Dashboard() {
 
   return (
     <div className="max-w-6xl mx-auto space-y-8">
+      {/* PWA Install Banner */}
+      {canInstall && !installDismissed && (
+        <div className="bg-blue-900/30 border border-blue-800/50 rounded-xl p-4 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center shrink-0">
+              <span className="text-sm font-bold text-white">A+</span>
+            </div>
+            <div className="min-w-0">
+              <p className="text-sm font-medium text-gray-100">Install A+ Study</p>
+              <p className="text-xs text-gray-400">Study offline anytime, even without internet.</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              onClick={dismissInstall}
+              className="px-3 py-1.5 text-xs text-gray-400 hover:text-gray-200 transition-colors min-h-[44px]"
+            >
+              Dismiss
+            </button>
+            <button
+              onClick={promptInstall}
+              className="px-4 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium rounded-lg transition-colors min-h-[44px]"
+            >
+              Install
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Top Row: Readiness + Streak */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Readiness Score */}
@@ -240,6 +293,27 @@ export default function Dashboard() {
                 </span>
               </button>
             ))}
+          </div>
+        )}
+      </div>
+
+      {/* Sync Progress */}
+      <div className="bg-gray-800 rounded-xl border border-gray-700">
+        <button
+          onClick={() => setSyncExpanded(prev => !prev)}
+          className="w-full flex items-center justify-between p-6 text-left min-h-[44px]"
+        >
+          <h2 className="text-lg font-semibold text-gray-100">Sync Progress</h2>
+          <svg
+            className={`w-5 h-5 text-gray-400 transition-transform ${syncExpanded ? 'rotate-180' : ''}`}
+            fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        {syncExpanded && (
+          <div className="px-6 pb-6 border-t border-gray-700 pt-4">
+            <SyncProgress />
           </div>
         )}
       </div>

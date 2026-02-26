@@ -38,18 +38,33 @@ export interface Flashcard {
   tags: string[];
 }
 
-export interface Question {
+interface QuestionBase {
   id: string;
   exam: string;
   domain: string;
   objectiveId: string;
+  explanation: string;
+  difficulty: 'easy' | 'medium' | 'hard';
+}
+
+export interface MultipleChoiceQuestion extends QuestionBase {
+  questionType: 'multiple-choice';
   type: 'concept' | 'scenario' | 'comparison' | 'troubleshooting';
   question: string;
   options: Record<string, string>;
   correct: string;
-  explanation: string;
-  difficulty: 'easy' | 'medium' | 'hard';
 }
+
+export interface MatchingQuestion extends QuestionBase {
+  questionType: 'matching';
+  type: 'matching';
+  question: string;
+  pairs: { left: string; right: string }[];
+  leftLabel: string;
+  rightLabel: string;
+}
+
+export type Question = MultipleChoiceQuestion | MatchingQuestion;
 
 export interface GlossaryTerm {
   term: string;
@@ -82,11 +97,24 @@ export interface QuizResult {
   questionResults: QuestionResult[];
 }
 
-export interface QuestionResult {
+export interface MultipleChoiceResult {
   questionId: string;
+  questionType: 'multiple-choice';
   selectedAnswer: string;
   correct: boolean;
 }
+
+export interface MatchingResult {
+  questionId: string;
+  questionType: 'matching';
+  selectedPairs: { left: string; right: string }[];
+  correctPairs: number;
+  totalPairs: number;
+  correct: boolean;
+  partialScore: number; // 0.0–1.0
+}
+
+export type QuestionResult = MultipleChoiceResult | MatchingResult;
 
 export interface ExamResult extends QuizResult {
   timeSpent: number;
@@ -107,6 +135,16 @@ export interface ObjectiveProgress {
   quizScores: number[];
   flashcardsReviewed: number;
   lastStudied: string;
+}
+
+export interface GlossaryProgress {
+  term: string;
+  exam: string;
+  domain: string;
+  correctCount: number;
+  attemptCount: number;
+  lastStudied: string;
+  mastery: 'not_started' | 'in_progress' | 'mastered';
 }
 
 export interface AppSettings {

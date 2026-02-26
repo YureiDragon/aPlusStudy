@@ -30,6 +30,7 @@ function shuffleArray<T>(arr: T[]): T[] {
 
 /** Shuffle option positions so the correct answer isn't always in the same slot */
 function shuffleOptions(q: Question): Question {
+  if (q.questionType === 'matching') return q;
   const entries = Object.entries(q.options);
   const shuffled = shuffleArray(entries);
   const keys = ['A', 'B', 'C', 'D'];
@@ -46,11 +47,13 @@ function shuffleOptions(q: Question): Question {
 
 function selectDiagnosticQuestions(): Question[] {
   const selected: Question[] = [];
+  // Filter out matching questions — diagnostic uses MC only
+  const mcQuestions = allQuestions.filter(q => q.questionType !== 'matching');
 
   for (const exam of data.exams) {
     for (const domain of exam.domains) {
       const domainPrefix = domain.id.replace('.0', '.');
-      const domainQuestions = allQuestions.filter(
+      const domainQuestions = mcQuestions.filter(
         q => q.exam === exam.exam && q.objectiveId.startsWith(domainPrefix)
       );
 
@@ -113,6 +116,7 @@ export default function Onboarding() {
 
   const handleNext = () => {
     const q = questions[currentIdx];
+    if (q.questionType === 'matching') return; // shouldn't happen — diagnostic is MC only
     const isCorrect = selectedAnswer === q.correct;
     const newAnswers = [...answers, { questionId: q.id, correct: isCorrect }];
     setAnswers(newAnswers);
@@ -233,7 +237,10 @@ export default function Onboarding() {
 
   // QUIZ PHASE
   if (phase === 'quiz') {
-    const q = questions[currentIdx];
+    const qRaw = questions[currentIdx];
+    // Diagnostic only uses MC questions
+    if (qRaw.questionType === 'matching') return null;
+    const q = qRaw;
     const progress = (currentIdx / questions.length) * 100;
     const domainId = q.objectiveId.split('.')[0] + '.0';
     const color = getDomainColor(domainId, q.exam);

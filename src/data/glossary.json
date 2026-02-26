@@ -1,7 +1,7 @@
 [
   {
     "term": "2.4 GHz",
-    "fullName": "",
+    "fullName": "2.4 GHz",
     "definition": "A Wi-Fi frequency band with longer range and more interference than 5 GHz. Non-overlapping channels: 1, 6, 11.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -9,7 +9,7 @@
   },
   {
     "term": "3-2-1 rule",
-    "fullName": "",
+    "fullName": "3-2-1 rule",
     "definition": "A backup best practice: maintain 3 copies of data, on 2 different media types, with 1 copy stored offsite.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -17,7 +17,7 @@
   },
   {
     "term": "5 GHz",
-    "fullName": "",
+    "fullName": "5 GHz",
     "definition": "A Wi-Fi frequency band offering faster speeds, less interference, and shorter range than 2.4 GHz.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -25,7 +25,7 @@
   },
   {
     "term": "6 GHz",
-    "fullName": "",
+    "fullName": "6 GHz",
     "definition": "The newest Wi-Fi frequency band (Wi-Fi 6E/7) offering the most channels and least interference.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -33,7 +33,7 @@
   },
   {
     "term": "802.11",
-    "fullName": "",
+    "fullName": "802.11",
     "definition": "A family of IEEE standards for wireless networking, including a/b/g/n/ac/ax variants.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -41,7 +41,7 @@
   },
   {
     "term": "802.1X",
-    "fullName": "",
+    "fullName": "802.1X",
     "definition": "An IEEE standard for port-based network access control providing authentication for LAN/WLAN connections.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -49,7 +49,7 @@
   },
   {
     "term": "A record",
-    "fullName": "",
+    "fullName": "A record",
     "definition": "A DNS record type that maps a domain name to an IPv4 address.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -65,7 +65,7 @@
   },
   {
     "term": "AAAA record",
-    "fullName": "",
+    "fullName": "AAAA record",
     "definition": "A DNS record type that maps a domain name to an IPv6 address.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -81,7 +81,7 @@
   },
   {
     "term": "Active Directory",
-    "fullName": "",
+    "fullName": "Active Directory",
     "definition": "A Microsoft directory service for Windows domain networks providing authentication, group policy, and centralized resource management.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -97,7 +97,7 @@
   },
   {
     "term": "adware",
-    "fullName": "",
+    "fullName": "adware",
     "definition": "Software that automatically displays or downloads advertising material, often bundled with free programs.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -113,7 +113,7 @@
   },
   {
     "term": "APCM",
-    "fullName": "",
+    "fullName": "Administrative, Physical, and Technical Controls Model",
     "definition": "Administrative, Physical, and Technical security controls used to protect information systems.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -193,7 +193,7 @@
   },
   {
     "term": "backup",
-    "fullName": "",
+    "fullName": "backup",
     "definition": "A copy of data stored separately to protect against data loss from hardware failure, malware, or deletion.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -201,7 +201,7 @@
   },
   {
     "term": "batch file",
-    "fullName": "",
+    "fullName": "batch file",
     "definition": "A script file (.bat) in Windows that contains a series of commands executed sequentially.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -217,7 +217,7 @@
   },
   {
     "term": "biometrics",
-    "fullName": "",
+    "fullName": "biometrics",
     "definition": "Authentication using unique physical characteristics such as fingerprints, facial features, or retinal patterns.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -233,7 +233,7 @@
   },
   {
     "term": "BitLocker",
-    "fullName": "",
+    "fullName": "BitLocker",
     "definition": "A Windows full-disk encryption feature that protects data by encrypting entire volumes. Requires TPM or USB startup key.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -241,7 +241,7 @@
   },
   {
     "term": "Bluetooth",
-    "fullName": "",
+    "fullName": "Bluetooth",
     "definition": "A short-range wireless technology for exchanging data over short distances (typically up to 10 meters).",
     "exam": "Core 1",
     "domain": "1.0",
@@ -249,7 +249,7 @@
   },
   {
     "term": "boot order",
-    "fullName": "",
+    "fullName": "boot order",
     "definition": "The BIOS/UEFI sequence for checking devices for a bootable operating system during startup.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -257,7 +257,7 @@
   },
   {
     "term": "botnet",
-    "fullName": "",
+    "fullName": "botnet",
     "definition": "A network of compromised computers controlled by an attacker for coordinated attacks like DDoS.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -265,7 +265,7 @@
   },
   {
     "term": "brownout",
-    "fullName": "",
+    "fullName": "brownout",
     "definition": "A temporary drop in voltage in an electrical power supply that can cause hardware instability.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -273,7 +273,7 @@
   },
   {
     "term": "brute force",
-    "fullName": "",
+    "fullName": "brute force",
     "definition": "An attack that systematically tries all possible password combinations until finding the correct one.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -297,7 +297,7 @@
   },
   {
     "term": "cable tester",
-    "fullName": "",
+    "fullName": "cable tester",
     "definition": "A device that verifies network cables are properly wired, checking continuity and correct pin-outs.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -337,7 +337,7 @@
   },
   {
     "term": "certificate",
-    "fullName": "",
+    "fullName": "certificate",
     "definition": "A digital document using cryptographic keys to verify the identity of a person, device, or organization.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -345,7 +345,7 @@
   },
   {
     "term": "chain of custody",
-    "fullName": "",
+    "fullName": "chain of custody",
     "definition": "A documented process tracking the handling and location of evidence from collection to presentation.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -353,7 +353,7 @@
   },
   {
     "term": "chipset",
-    "fullName": "",
+    "fullName": "chipset",
     "definition": "Integrated circuits on a motherboard managing data flow between processor, memory, and peripherals.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -393,7 +393,7 @@
   },
   {
     "term": "cloud-based backup",
-    "fullName": "",
+    "fullName": "cloud-based backup",
     "definition": "A backup strategy storing data copies on remote servers via the internet for off-site protection.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -417,7 +417,7 @@
   },
   {
     "term": "compliance",
-    "fullName": "",
+    "fullName": "compliance",
     "definition": "Adherence to laws, regulations, and policies governing IT operations and data handling.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -425,7 +425,7 @@
   },
   {
     "term": "container",
-    "fullName": "",
+    "fullName": "container",
     "definition": "A lightweight, isolated application environment that shares the host OS kernel. More efficient than full VMs.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -441,7 +441,7 @@
   },
   {
     "term": "crimper",
-    "fullName": "",
+    "fullName": "crimper",
     "definition": "A tool for attaching connectors (like RJ-45) to network cable ends.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -449,7 +449,7 @@
   },
   {
     "term": "crosstalk",
-    "fullName": "",
+    "fullName": "crosstalk",
     "definition": "Unwanted signal interference between adjacent wires in a cable degrading network performance.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -457,7 +457,7 @@
   },
   {
     "term": "cryptominer",
-    "fullName": "",
+    "fullName": "cryptominer",
     "definition": "Malware that uses system resources to mine cryptocurrency without the owner knowledge or consent.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -473,7 +473,7 @@
   },
   {
     "term": "data at rest",
-    "fullName": "",
+    "fullName": "data at rest",
     "definition": "Stored data not actively being transmitted, requiring encryption for protection.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -481,7 +481,7 @@
   },
   {
     "term": "data in transit",
-    "fullName": "",
+    "fullName": "data in transit",
     "definition": "Data actively moving across a network, requiring encryption protocols like TLS.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -505,7 +505,7 @@
   },
   {
     "term": "default gateway",
-    "fullName": "",
+    "fullName": "default gateway",
     "definition": "The router IP address that devices use as the access point to reach other networks.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -513,7 +513,7 @@
   },
   {
     "term": "defragmentation",
-    "fullName": "",
+    "fullName": "defragmentation",
     "definition": "Reorganizing fragmented data on a hard disk to improve performance. Not needed for SSDs.",
     "exam": "Core 2",
     "domain": "3.0",
@@ -521,7 +521,7 @@
   },
   {
     "term": "degaussing",
-    "fullName": "",
+    "fullName": "degaussing",
     "definition": "A data destruction method that uses a strong magnetic field to erase data from magnetic storage media.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -537,7 +537,7 @@
   },
   {
     "term": "dictionary attack",
-    "fullName": "",
+    "fullName": "dictionary attack",
     "definition": "A password attack systematically trying words from a predefined list of likely passwords.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -545,7 +545,7 @@
   },
   {
     "term": "differential backup",
-    "fullName": "",
+    "fullName": "differential backup",
     "definition": "A backup copying all files changed since the last full backup, growing larger each day.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -569,7 +569,7 @@
   },
   {
     "term": "DisplayPort",
-    "fullName": "",
+    "fullName": "DisplayPort",
     "definition": "A digital display interface supporting high resolutions and multi-monitor daisy-chaining.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -617,7 +617,7 @@
   },
   {
     "term": "docking station",
-    "fullName": "",
+    "fullName": "docking station",
     "definition": "A device allowing a laptop to connect to multiple peripherals through a single connection.",
     "exam": "Core 1",
     "domain": "1.0",
@@ -625,7 +625,7 @@
   },
   {
     "term": "domain controller",
-    "fullName": "",
+    "fullName": "domain controller",
     "definition": "A Windows server providing authentication and enforcing security policies across a domain.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -641,7 +641,7 @@
   },
   {
     "term": "driver",
-    "fullName": "",
+    "fullName": "driver",
     "definition": "Software allowing the operating system to communicate with and control a specific hardware device.",
     "exam": "Both",
     "domain": "1.0",
@@ -649,7 +649,7 @@
   },
   {
     "term": "dumpster diving",
-    "fullName": "",
+    "fullName": "dumpster diving",
     "definition": "A social engineering technique searching through discarded materials for sensitive information.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -657,7 +657,7 @@
   },
   {
     "term": "duplex",
-    "fullName": "",
+    "fullName": "duplex",
     "definition": "Communication mode: half-duplex allows one direction at a time; full-duplex allows simultaneous bidirectional.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -729,7 +729,7 @@
   },
   {
     "term": "event log",
-    "fullName": "",
+    "fullName": "event log",
     "definition": "Windows records of system events (System, Application, Security logs) used for troubleshooting.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -737,7 +737,7 @@
   },
   {
     "term": "evil twin",
-    "fullName": "",
+    "fullName": "evil twin",
     "definition": "A rogue wireless access point impersonating a legitimate one to intercept user traffic.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -769,7 +769,7 @@
   },
   {
     "term": "fileless malware",
-    "fullName": "",
+    "fullName": "fileless malware",
     "definition": "Malware that operates entirely in memory without writing files to disk, making it harder to detect.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -777,7 +777,7 @@
   },
   {
     "term": "firewall",
-    "fullName": "",
+    "fullName": "firewall",
     "definition": "A security device or software that monitors and controls network traffic based on predefined rules.",
     "exam": "Both",
     "domain": "2.0",
@@ -793,7 +793,7 @@
   },
   {
     "term": "full backup",
-    "fullName": "",
+    "fullName": "full backup",
     "definition": "A complete copy of all selected data, the baseline for differential and incremental strategies.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -801,7 +801,7 @@
   },
   {
     "term": "gateway",
-    "fullName": "",
+    "fullName": "gateway",
     "definition": "A network device connecting two different networks or protocols, translating between them.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -817,7 +817,7 @@
   },
   {
     "term": "geotracking",
-    "fullName": "",
+    "fullName": "geotracking",
     "definition": "Using GPS or network methods to determine and record a mobile device geographic location.",
     "exam": "Core 1",
     "domain": "1.0",
@@ -857,7 +857,7 @@
   },
   {
     "term": "gpupdate",
-    "fullName": "",
+    "fullName": "gpupdate",
     "definition": "A Windows command (gpupdate /force) that refreshes Group Policy settings without rebooting.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -865,7 +865,7 @@
   },
   {
     "term": "Group Policy",
-    "fullName": "",
+    "fullName": "Group Policy",
     "definition": "A Windows feature providing centralized management of settings in an Active Directory environment.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -881,7 +881,7 @@
   },
   {
     "term": "hard reset",
-    "fullName": "",
+    "fullName": "hard reset",
     "definition": "A forced restart clearing volatile memory, typically done by holding the power button.",
     "exam": "Core 1",
     "domain": "1.0",
@@ -889,7 +889,7 @@
   },
   {
     "term": "hash",
-    "fullName": "",
+    "fullName": "hash",
     "definition": "A fixed-size output from a hash function used to verify data integrity. Common: MD5, SHA-256.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -913,7 +913,7 @@
   },
   {
     "term": "heatsink",
-    "fullName": "",
+    "fullName": "heatsink",
     "definition": "A passive heat exchanger transferring heat from a CPU or other component to surrounding air.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -921,7 +921,7 @@
   },
   {
     "term": "hibernate",
-    "fullName": "",
+    "fullName": "hibernate",
     "definition": "A power state saving the session to disk and powering off. Session restores on next boot.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -929,7 +929,7 @@
   },
   {
     "term": "honeypot",
-    "fullName": "",
+    "fullName": "honeypot",
     "definition": "A decoy system designed to attract and detect attackers, providing early warning of intrusions.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -953,7 +953,7 @@
   },
   {
     "term": "hub",
-    "fullName": "",
+    "fullName": "hub",
     "definition": "A basic network device that broadcasts all traffic to every port. Replaced by switches.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -961,7 +961,7 @@
   },
   {
     "term": "hybrid cloud",
-    "fullName": "",
+    "fullName": "hybrid cloud",
     "definition": "A cloud environment combining public and private cloud infrastructure with orchestration between them.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -969,7 +969,7 @@
   },
   {
     "term": "hypervisor",
-    "fullName": "",
+    "fullName": "hypervisor",
     "definition": "Software that creates and manages virtual machines. Type 1 runs on bare metal; Type 2 runs on a host OS.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -1017,7 +1017,7 @@
   },
   {
     "term": "image deployment",
-    "fullName": "",
+    "fullName": "image deployment",
     "definition": "Applying a disk image with OS and applications to multiple computers for standardized setup.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -1033,7 +1033,7 @@
   },
   {
     "term": "impersonation",
-    "fullName": "",
+    "fullName": "impersonation",
     "definition": "A social engineering technique where an attacker pretends to be a trusted individual.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1041,7 +1041,7 @@
   },
   {
     "term": "incremental backup",
-    "fullName": "",
+    "fullName": "incremental backup",
     "definition": "A backup copying only files changed since the last backup of any type. Less storage, complex restore.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -1073,7 +1073,7 @@
   },
   {
     "term": "ipconfig",
-    "fullName": "",
+    "fullName": "ipconfig",
     "definition": "A Windows command displaying network configuration (IP address, subnet mask, default gateway).",
     "exam": "Both",
     "domain": "2.0",
@@ -1121,7 +1121,7 @@
   },
   {
     "term": "jailbreaking",
-    "fullName": "",
+    "fullName": "jailbreaking",
     "definition": "Removing software restrictions on iOS devices to allow installation of unauthorized apps.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1129,7 +1129,7 @@
   },
   {
     "term": "Kerberos",
-    "fullName": "",
+    "fullName": "Kerberos",
     "definition": "A network authentication protocol using tickets to verify identity. Used in Active Directory environments.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1137,7 +1137,7 @@
   },
   {
     "term": "keylogger",
-    "fullName": "",
+    "fullName": "keylogger",
     "definition": "Malware that records keystrokes to capture passwords, credit card numbers, and other sensitive data.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1169,7 +1169,7 @@
   },
   {
     "term": "laser printer",
-    "fullName": "",
+    "fullName": "laser printer",
     "definition": "A printer using laser, toner, and fuser. Steps: processing, charging, exposing, developing, transferring, fusing, cleaning.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1177,7 +1177,7 @@
   },
   {
     "term": "latency",
-    "fullName": "",
+    "fullName": "latency",
     "definition": "The time delay between sending a request and receiving a response, measured in milliseconds.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -1193,7 +1193,7 @@
   },
   {
     "term": "least privilege",
-    "fullName": "",
+    "fullName": "least privilege",
     "definition": "A security principle granting users only the minimum permissions needed to perform their job functions.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1201,7 +1201,7 @@
   },
   {
     "term": "Lightning",
-    "fullName": "",
+    "fullName": "Lightning",
     "definition": "Apple proprietary reversible connector used on older iPhones and iPads for charging and data transfer.",
     "exam": "Core 1",
     "domain": "1.0",
@@ -1209,7 +1209,7 @@
   },
   {
     "term": "load balancer",
-    "fullName": "",
+    "fullName": "load balancer",
     "definition": "A device distributing incoming traffic across multiple servers for reliability and performance.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1217,7 +1217,7 @@
   },
   {
     "term": "localhost",
-    "fullName": "",
+    "fullName": "localhost",
     "definition": "The hostname referring to the current device (127.0.0.1), used for testing local network services.",
     "exam": "Both",
     "domain": "2.0",
@@ -1225,7 +1225,7 @@
   },
   {
     "term": "loopback address",
-    "fullName": "",
+    "fullName": "loopback address",
     "definition": "IP address 127.0.0.1 (IPv4) or ::1 (IPv6) used to test the TCP/IP stack on the local machine.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1233,7 +1233,7 @@
   },
   {
     "term": "M.2",
-    "fullName": "",
+    "fullName": "M.2",
     "definition": "A compact form factor specification for expansion cards and SSDs, supporting both SATA and NVMe interfaces.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1257,7 +1257,7 @@
   },
   {
     "term": "man-in-the-middle",
-    "fullName": "",
+    "fullName": "man-in-the-middle",
     "definition": "An attack intercepting and possibly altering communication between two parties.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1281,7 +1281,7 @@
   },
   {
     "term": "MBR vs GPT",
-    "fullName": "",
+    "fullName": "MBR vs GPT",
     "definition": "MBR: legacy, 2TB max, 4 primary partitions. GPT: modern, 9.4 ZB max, 128 partitions, requires UEFI.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -1313,7 +1313,7 @@
   },
   {
     "term": "modem",
-    "fullName": "",
+    "fullName": "modem",
     "definition": "A device that modulates/demodulates signals to connect to an ISP, converting digital data to analog and vice versa.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1337,7 +1337,7 @@
   },
   {
     "term": "multimeter",
-    "fullName": "",
+    "fullName": "multimeter",
     "definition": "A testing tool measuring voltage, current, and resistance for diagnosing electrical issues.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -1353,7 +1353,7 @@
   },
   {
     "term": "NAND flash",
-    "fullName": "",
+    "fullName": "NAND flash",
     "definition": "Non-volatile storage technology used in SSDs, USB drives, and memory cards.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1401,7 +1401,7 @@
   },
   {
     "term": "netstat",
-    "fullName": "",
+    "fullName": "netstat",
     "definition": "A command displaying active network connections, listening ports, and routing tables.",
     "exam": "Both",
     "domain": "2.0",
@@ -1417,7 +1417,7 @@
   },
   {
     "term": "nslookup",
-    "fullName": "",
+    "fullName": "nslookup",
     "definition": "A command-line tool querying DNS servers to find IP addresses for domain names.",
     "exam": "Both",
     "domain": "2.0",
@@ -1449,7 +1449,7 @@
   },
   {
     "term": "offboarding",
-    "fullName": "",
+    "fullName": "offboarding",
     "definition": "Revoking access, recovering equipment, and disabling accounts when an employee leaves.",
     "exam": "Core 2",
     "domain": "4.0",
@@ -1457,7 +1457,7 @@
   },
   {
     "term": "on-premises",
-    "fullName": "",
+    "fullName": "on-premises",
     "definition": "IT infrastructure installed on the organization's physical premises rather than in the cloud.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -1505,7 +1505,7 @@
   },
   {
     "term": "parity",
-    "fullName": "",
+    "fullName": "parity",
     "definition": "An error detection method in RAID (RAID 5) using calculated data to rebuild if a drive fails.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1521,7 +1521,7 @@
   },
   {
     "term": "patch cable",
-    "fullName": "",
+    "fullName": "patch cable",
     "definition": "A short Ethernet cable connecting devices to wall jacks, patch panels, or switches.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1545,7 +1545,7 @@
   },
   {
     "term": "penetration testing",
-    "fullName": "",
+    "fullName": "penetration testing",
     "definition": "An authorized simulated attack to evaluate system security and identify vulnerabilities.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1553,7 +1553,7 @@
   },
   {
     "term": "phishing",
-    "fullName": "",
+    "fullName": "phishing",
     "definition": "A social engineering attack using fraudulent emails or messages to trick users into revealing sensitive information.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1569,7 +1569,7 @@
   },
   {
     "term": "ping",
-    "fullName": "",
+    "fullName": "ping",
     "definition": "A network diagnostic command using ICMP to test connectivity and measure round-trip time to a host.",
     "exam": "Both",
     "domain": "2.0",
@@ -1585,7 +1585,7 @@
   },
   {
     "term": "plenum cable",
-    "fullName": "",
+    "fullName": "plenum cable",
     "definition": "Network cable with fire-retardant jacket for installation in air circulation spaces in buildings.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1609,7 +1609,7 @@
   },
   {
     "term": "port",
-    "fullName": "",
+    "fullName": "port",
     "definition": "A logical communication endpoint (0-65535) directing network traffic to specific services.",
     "exam": "Both",
     "domain": "2.0",
@@ -1617,7 +1617,7 @@
   },
   {
     "term": "port forwarding",
-    "fullName": "",
+    "fullName": "port forwarding",
     "definition": "Redirecting network traffic from one port/IP to another, commonly configured on routers.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1633,7 +1633,7 @@
   },
   {
     "term": "PowerShell",
-    "fullName": "",
+    "fullName": "PowerShell",
     "definition": "A Microsoft task automation framework with a command-line shell and scripting language (.ps1 files).",
     "exam": "Core 2",
     "domain": "1.0",
@@ -1641,7 +1641,7 @@
   },
   {
     "term": "private cloud",
-    "fullName": "",
+    "fullName": "private cloud",
     "definition": "Cloud infrastructure dedicated to a single organization, offering greater control and security.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -1649,7 +1649,7 @@
   },
   {
     "term": "proxy",
-    "fullName": "",
+    "fullName": "proxy",
     "definition": "A server that acts as an intermediary between clients and the internet, providing caching, filtering, and anonymity.",
     "exam": "Both",
     "domain": "2.0",
@@ -1665,7 +1665,7 @@
   },
   {
     "term": "public cloud",
-    "fullName": "",
+    "fullName": "public cloud",
     "definition": "Cloud services available to anyone over the internet, owned and operated by third-party providers.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -1673,7 +1673,7 @@
   },
   {
     "term": "punchdown tool",
-    "fullName": "",
+    "fullName": "punchdown tool",
     "definition": "A hand tool inserting wires into insulation displacement connectors on patch panels.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -1713,7 +1713,7 @@
   },
   {
     "term": "RAID 0",
-    "fullName": "",
+    "fullName": "RAID 0",
     "definition": "Disk striping across two or more drives for performance. No redundancy — if one drive fails, all data is lost.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1721,7 +1721,7 @@
   },
   {
     "term": "RAID 1",
-    "fullName": "",
+    "fullName": "RAID 1",
     "definition": "Disk mirroring using two drives with identical copies. Full redundancy but uses 50% of total capacity.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1729,7 +1729,7 @@
   },
   {
     "term": "RAID 10",
-    "fullName": "",
+    "fullName": "RAID 10",
     "definition": "A combination of RAID 1 and RAID 0 (mirroring + striping). Requires 4+ drives. High performance and redundancy.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1737,7 +1737,7 @@
   },
   {
     "term": "RAID 5",
-    "fullName": "",
+    "fullName": "RAID 5",
     "definition": "Striping with distributed parity across 3+ drives. Can survive one drive failure. Most popular RAID level.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1745,7 +1745,7 @@
   },
   {
     "term": "RAID 6",
-    "fullName": "",
+    "fullName": "RAID 6",
     "definition": "RAID with double distributed parity across 4+ drives. Can survive two simultaneous drive failures.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -1761,7 +1761,7 @@
   },
   {
     "term": "ransomware",
-    "fullName": "",
+    "fullName": "ransomware",
     "definition": "Malware that encrypts files and demands payment for the decryption key.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1769,7 +1769,7 @@
   },
   {
     "term": "ransomware removal",
-    "fullName": "",
+    "fullName": "ransomware removal",
     "definition": "Process of identifying and removing ransomware, often requiring safe mode boot and anti-malware tools.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1785,7 +1785,7 @@
   },
   {
     "term": "remote wipe",
-    "fullName": "",
+    "fullName": "remote wipe",
     "definition": "A security feature allowing remote erasure of all data on a lost or stolen mobile device.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1841,7 +1841,7 @@
   },
   {
     "term": "rooting",
-    "fullName": "",
+    "fullName": "rooting",
     "definition": "Gaining root (superuser) access on an Android device, allowing modifications beyond manufacturer restrictions.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1849,7 +1849,7 @@
   },
   {
     "term": "rootkit",
-    "fullName": "",
+    "fullName": "rootkit",
     "definition": "Malware that hides deep in the OS to provide continued privileged access while evading detection.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1857,7 +1857,7 @@
   },
   {
     "term": "router",
-    "fullName": "",
+    "fullName": "router",
     "definition": "A network device that forwards packets between different networks based on IP addresses.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -1881,7 +1881,7 @@
   },
   {
     "term": "Safe Mode",
-    "fullName": "",
+    "fullName": "Safe Mode",
     "definition": "A Windows diagnostic mode loading only essential drivers for troubleshooting system problems.",
     "exam": "Core 2",
     "domain": "3.0",
@@ -1921,7 +1921,7 @@
   },
   {
     "term": "Secure Boot",
-    "fullName": "",
+    "fullName": "Secure Boot",
     "definition": "A UEFI feature ensuring only signed, trusted software loads during boot to prevent rootkits.",
     "exam": "Both",
     "domain": "3.0",
@@ -1937,7 +1937,7 @@
   },
   {
     "term": "SFC /scannow",
-    "fullName": "",
+    "fullName": "SFC /scannow",
     "definition": "Windows command that scans and repairs protected system files.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -1953,7 +1953,7 @@
   },
   {
     "term": "shoulder surfing",
-    "fullName": "",
+    "fullName": "shoulder surfing",
     "definition": "Looking over someone's shoulder to steal passwords or sensitive information.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -1985,7 +1985,7 @@
   },
   {
     "term": "smishing",
-    "fullName": "",
+    "fullName": "smishing",
     "definition": "Phishing attacks conducted via SMS text messages.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2017,7 +2017,7 @@
   },
   {
     "term": "social engineering",
-    "fullName": "",
+    "fullName": "social engineering",
     "definition": "Manipulation techniques that exploit human psychology to gain unauthorized access to information or systems.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2033,7 +2033,7 @@
   },
   {
     "term": "spear phishing",
-    "fullName": "",
+    "fullName": "spear phishing",
     "definition": "A targeted phishing attack directed at specific individuals or organizations.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2057,7 +2057,7 @@
   },
   {
     "term": "spyware",
-    "fullName": "",
+    "fullName": "spyware",
     "definition": "Malware that secretly monitors user activity and collects personal information without consent.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2065,7 +2065,7 @@
   },
   {
     "term": "SQL injection",
-    "fullName": "",
+    "fullName": "SQL injection",
     "definition": "An attack that inserts malicious SQL code into input fields to manipulate database queries.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2113,7 +2113,7 @@
   },
   {
     "term": "stalkerware",
-    "fullName": "",
+    "fullName": "stalkerware",
     "definition": "Malware designed to covertly monitor someone activities including location, messages, and calls.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2121,7 +2121,7 @@
   },
   {
     "term": "star topology",
-    "fullName": "",
+    "fullName": "star topology",
     "definition": "A network layout where all devices connect to a central hub or switch. Most common LAN topology.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2137,7 +2137,7 @@
   },
   {
     "term": "subnet",
-    "fullName": "",
+    "fullName": "subnet",
     "definition": "A logical subdivision of an IP network, defined by a subnet mask, that segments network traffic.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2145,7 +2145,7 @@
   },
   {
     "term": "subnet mask",
-    "fullName": "",
+    "fullName": "subnet mask",
     "definition": "A 32-bit number dividing an IP address into network and host portions.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2153,7 +2153,7 @@
   },
   {
     "term": "supply chain attack",
-    "fullName": "",
+    "fullName": "supply chain attack",
     "definition": "An attack targeting less-secure elements in a supply chain to compromise the final product or service.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2161,7 +2161,7 @@
   },
   {
     "term": "surge protector",
-    "fullName": "",
+    "fullName": "surge protector",
     "definition": "A device protecting electronics from voltage spikes by diverting excess electricity to ground.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -2169,7 +2169,7 @@
   },
   {
     "term": "switch",
-    "fullName": "",
+    "fullName": "switch",
     "definition": "A network device that forwards traffic based on MAC addresses within a LAN, operating at Layer 2.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2177,7 +2177,7 @@
   },
   {
     "term": "Syslog",
-    "fullName": "",
+    "fullName": "Syslog",
     "definition": "A standard for message logging that collects log data from multiple network devices centrally. Port 514.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2185,7 +2185,7 @@
   },
   {
     "term": "System Restore",
-    "fullName": "",
+    "fullName": "System Restore",
     "definition": "A Windows feature reverting system files and settings to a previous point without affecting personal files.",
     "exam": "Core 2",
     "domain": "3.0",
@@ -2201,7 +2201,7 @@
   },
   {
     "term": "tailgating",
-    "fullName": "",
+    "fullName": "tailgating",
     "definition": "Following an authorized person through a secure door without presenting credentials.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2209,7 +2209,7 @@
   },
   {
     "term": "Task Manager",
-    "fullName": "",
+    "fullName": "Task Manager",
     "definition": "A Windows utility showing running processes, performance stats, and allowing process termination.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -2217,7 +2217,7 @@
   },
   {
     "term": "Task Scheduler",
-    "fullName": "",
+    "fullName": "Task Scheduler",
     "definition": "A Windows utility that runs programs or scripts automatically at scheduled times or in response to events.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -2233,7 +2233,7 @@
   },
   {
     "term": "Telnet",
-    "fullName": "",
+    "fullName": "Telnet",
     "definition": "An unencrypted remote access protocol. Uses port 23. Replaced by SSH for security.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2241,7 +2241,7 @@
   },
   {
     "term": "tethering",
-    "fullName": "",
+    "fullName": "tethering",
     "definition": "Using a mobile device's cellular connection to provide internet access to other devices.",
     "exam": "Core 1",
     "domain": "1.0",
@@ -2249,7 +2249,7 @@
   },
   {
     "term": "thin client",
-    "fullName": "",
+    "fullName": "thin client",
     "definition": "A lightweight computer relying on a server for processing, used in VDI environments.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -2257,7 +2257,7 @@
   },
   {
     "term": "throughput",
-    "fullName": "",
+    "fullName": "throughput",
     "definition": "The actual data successfully transferred over a network per unit of time.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -2265,7 +2265,7 @@
   },
   {
     "term": "Thunderbolt",
-    "fullName": "",
+    "fullName": "Thunderbolt",
     "definition": "A high-speed interface combining PCIe and DisplayPort. Thunderbolt 3/4 uses USB-C connector.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -2289,7 +2289,7 @@
   },
   {
     "term": "tone generator",
-    "fullName": "",
+    "fullName": "tone generator",
     "definition": "A network tool sending a signal through a cable, used with a tone probe to trace cables.",
     "exam": "Core 1",
     "domain": "5.0",
@@ -2313,7 +2313,7 @@
   },
   {
     "term": "traceroute",
-    "fullName": "",
+    "fullName": "traceroute",
     "definition": "A command (tracert on Windows) showing the path packets take through the network to reach a destination.",
     "exam": "Both",
     "domain": "2.0",
@@ -2321,7 +2321,7 @@
   },
   {
     "term": "trojan",
-    "fullName": "",
+    "fullName": "trojan",
     "definition": "Malware disguised as legitimate software that creates backdoors for unauthorized access.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2329,7 +2329,7 @@
   },
   {
     "term": "TXT record",
-    "fullName": "",
+    "fullName": "TXT record",
     "definition": "A DNS record holding text data, used for SPF, DKIM, and DMARC email authentication.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2337,7 +2337,7 @@
   },
   {
     "term": "Type 1 hypervisor",
-    "fullName": "",
+    "fullName": "Type 1 hypervisor",
     "definition": "A hypervisor running directly on hardware (bare-metal) without a host OS. Examples: VMware ESXi, Hyper-V.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -2345,7 +2345,7 @@
   },
   {
     "term": "Type 2 hypervisor",
-    "fullName": "",
+    "fullName": "Type 2 hypervisor",
     "definition": "A hypervisor running on top of a host OS. Examples: VMware Workstation, VirtualBox.",
     "exam": "Core 1",
     "domain": "4.0",
@@ -2401,7 +2401,7 @@
   },
   {
     "term": "USB-C",
-    "fullName": "",
+    "fullName": "USB-C",
     "definition": "A reversible USB connector supporting data, video, and power delivery in a compact form factor.",
     "exam": "Core 1",
     "domain": "3.0",
@@ -2433,7 +2433,7 @@
   },
   {
     "term": "virus",
-    "fullName": "",
+    "fullName": "virus",
     "definition": "Malware attaching to legitimate programs, replicating when the host executes.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2441,7 +2441,7 @@
   },
   {
     "term": "vishing",
-    "fullName": "",
+    "fullName": "vishing",
     "definition": "Phishing attacks conducted via voice phone calls.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2481,7 +2481,7 @@
   },
   {
     "term": "wake-on-LAN",
-    "fullName": "",
+    "fullName": "wake-on-LAN",
     "definition": "A standard allowing a computer to be turned on remotely by a network message.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2505,7 +2505,7 @@
   },
   {
     "term": "whaling",
-    "fullName": "",
+    "fullName": "whaling",
     "definition": "A phishing attack specifically targeting high-level executives or important individuals.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2537,7 +2537,7 @@
   },
   {
     "term": "workgroup",
-    "fullName": "",
+    "fullName": "workgroup",
     "definition": "A peer-to-peer Windows network where each computer manages its own security independently.",
     "exam": "Core 2",
     "domain": "1.0",
@@ -2545,7 +2545,7 @@
   },
   {
     "term": "worm",
-    "fullName": "",
+    "fullName": "worm",
     "definition": "Self-replicating malware spreading across networks without user interaction.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2585,7 +2585,7 @@
   },
   {
     "term": "Z-Wave",
-    "fullName": "",
+    "fullName": "Z-Wave",
     "definition": "A wireless communication protocol for home automation operating on sub-1 GHz frequencies.",
     "exam": "Core 1",
     "domain": "2.0",
@@ -2593,7 +2593,7 @@
   },
   {
     "term": "zero trust",
-    "fullName": "",
+    "fullName": "zero trust",
     "definition": "A security model requiring strict identity verification for every person and device regardless of network location.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2601,7 +2601,7 @@
   },
   {
     "term": "zero-day",
-    "fullName": "",
+    "fullName": "zero-day",
     "definition": "A previously unknown vulnerability exploited before the vendor releases a patch.",
     "exam": "Core 2",
     "domain": "2.0",
@@ -2609,7 +2609,7 @@
   },
   {
     "term": "Zigbee",
-    "fullName": "",
+    "fullName": "Zigbee",
     "definition": "A low-power, short-range wireless protocol for IoT devices and home automation.",
     "exam": "Core 1",
     "domain": "2.0",

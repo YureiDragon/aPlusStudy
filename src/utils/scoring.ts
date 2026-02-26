@@ -1,4 +1,4 @@
-import type { ObjectiveProgress, StreakData } from '../types';
+import type { ObjectiveProgress, StreakData, QuestionResult } from '../types';
 
 export function calculateMastery(scores: number[]): 'not_started' | 'in_progress' | 'mastered' {
   if (scores.length === 0) return 'not_started';
@@ -27,6 +27,13 @@ export function calculateReadinessScore(
     totalWeight += weight;
   }
   return totalWeight > 0 ? Math.round(weightedSum / totalWeight) : 0;
+}
+
+export function calculateQuestionScore(result: QuestionResult): number {
+  if (result.questionType === 'matching') {
+    return result.partialScore;
+  }
+  return result.correct ? 1 : 0;
 }
 
 export function updateStreak(current: StreakData | null): StreakData {

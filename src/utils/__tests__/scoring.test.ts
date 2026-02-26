@@ -3,9 +3,10 @@ import {
   calculateMastery,
   calculateDomainScore,
   calculateReadinessScore,
+  calculateQuestionScore,
   updateStreak,
 } from '../scoring';
-import type { ObjectiveProgress, StreakData } from '../../types';
+import type { ObjectiveProgress, StreakData, QuestionResult } from '../../types';
 
 describe('Scoring utilities', () => {
   describe('calculateMastery', () => {
@@ -46,6 +47,82 @@ describe('Scoring utilities', () => {
       const weights = { '1.0': 25, '2.0': 75 };
       // (100*25 + 50*75) / 100 = (2500 + 3750) / 100 = 62.5 -> 63
       expect(calculateReadinessScore(scores, weights)).toBe(63);
+    });
+  });
+
+  describe('calculateQuestionScore', () => {
+    it('returns 1 for correct MC answer', () => {
+      const result: QuestionResult = {
+        questionId: 'q-1',
+        questionType: 'multiple-choice',
+        selectedAnswer: 'A',
+        correct: true,
+      };
+      expect(calculateQuestionScore(result)).toBe(1);
+    });
+
+    it('returns 0 for incorrect MC answer', () => {
+      const result: QuestionResult = {
+        questionId: 'q-1',
+        questionType: 'multiple-choice',
+        selectedAnswer: 'B',
+        correct: false,
+      };
+      expect(calculateQuestionScore(result)).toBe(0);
+    });
+
+    it('returns 0 for matching with 0/4 correct pairs', () => {
+      const result: QuestionResult = {
+        questionId: 'q-2',
+        questionType: 'matching',
+        selectedPairs: [
+          { left: 'A', right: '2' },
+          { left: 'B', right: '1' },
+          { left: 'C', right: '4' },
+          { left: 'D', right: '3' },
+        ],
+        correctPairs: 0,
+        totalPairs: 4,
+        correct: false,
+        partialScore: 0,
+      };
+      expect(calculateQuestionScore(result)).toBe(0);
+    });
+
+    it('returns 0.5 for matching with 2/4 correct pairs', () => {
+      const result: QuestionResult = {
+        questionId: 'q-2',
+        questionType: 'matching',
+        selectedPairs: [
+          { left: 'A', right: '1' },
+          { left: 'B', right: '2' },
+          { left: 'C', right: '4' },
+          { left: 'D', right: '3' },
+        ],
+        correctPairs: 2,
+        totalPairs: 4,
+        correct: false,
+        partialScore: 0.5,
+      };
+      expect(calculateQuestionScore(result)).toBe(0.5);
+    });
+
+    it('returns 1 for matching with 4/4 correct pairs', () => {
+      const result: QuestionResult = {
+        questionId: 'q-2',
+        questionType: 'matching',
+        selectedPairs: [
+          { left: 'A', right: '1' },
+          { left: 'B', right: '2' },
+          { left: 'C', right: '3' },
+          { left: 'D', right: '4' },
+        ],
+        correctPairs: 4,
+        totalPairs: 4,
+        correct: true,
+        partialScore: 1,
+      };
+      expect(calculateQuestionScore(result)).toBe(1);
     });
   });
 

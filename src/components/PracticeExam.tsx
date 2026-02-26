@@ -2,8 +2,9 @@ import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import objectivesData from '../data/objectives.json';
 import questionsData from '../data/questions.json';
 import { storage, STORAGE_KEYS } from '../utils/storage.ts';
-import { updateStreak } from '../utils/scoring.ts';
+import { updateStreak, calculateQuestionScore } from '../utils/scoring.ts';
 import { getDomainColor } from '../utils/colors.ts';
+import MatchingQuestionView from './MatchingQuestionView.tsx';
 import type { ObjectivesData, Question, ExamResult, QuestionResult, StreakData } from '../types/index.ts';
 
 const data = objectivesData as ObjectivesData;
@@ -12,7 +13,10 @@ const allQuestions = questionsData as Question[];
 type Phase = 'setup' | 'exam' | 'results';
 
 interface ExamAnswer {
+  /** MC answer key, or null if unanswered */
   answer: string | null;
+  /** Matching pairs, or null if unanswered */
+  matchingPairs: { left: string; right: string }[] | null;
   flagged: boolean;
 }
 
@@ -34,6 +38,8 @@ function formatTime(seconds: number): string {
 export default function PracticeExam() {
   const [phase, setPhase] = useState<Phase>('setup');
   const [examChoice, setExamChoice] = useState('Core 1');
+  const [showHistory, setShowHistory] = useState(false);
+  const [expandedResult, setExpandedResult] = useState<string | null>(null);
 
   // Exam state
   const [examQuestions, setExamQuestions] = useState<Question[]>([]);
@@ -55,7 +61,7 @@ export default function PracticeExam() {
     const count = examConfig?.totalQuestions ?? 90;
     const selected = shuffleArray(examQs).slice(0, count);
     setExamQuestions(selected);
-    setAnswers(selected.map(() => ({ answer: null, flagged: false })));
+    setAnswers(selected.map(() => ({ answer: null, matchingPairs: null, flagged: false })));
     setCurrentIdx(0);
     setTimeRemaining((examConfig?.timeMinutes ?? 90) * 60);
     setPhase('exam');
@@ -87,6 +93,14 @@ export default function PracticeExam() {
     });
   };
 
+  const setMatchingPairs = (pairs: { left: string; right: string }[]) => {
+    setAnswers(prev => {
+      const next = [...prev];
+      next[currentIdx] = { ...next[currentIdx], matchingPairs: pairs };
+      return next;
+    });
+  };
+
   const toggleFlag = () => {
     setAnswers(prev => {
       const next = [...prev];
@@ -95,15 +109,42 @@ export default function PracticeExam() {
     });
   };
 
+  const isAnswered = (a: ExamAnswer, q: Question): boolean => {
+    if (q.questionType === 'matching') {
+      return a.matchingPairs !== null && a.matchingPairs.length === q.pairs.length;
+    }
+    return a.answer !== null;
+  };
+
   const submitExam = useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
 
-    const questionResults: QuestionResult[] = examQuestions.map((q, i) => ({
-      questionId: q.id,
-      selectedAnswer: answers[i]?.answer ?? '',
-      correct: answers[i]?.answer === q.correct,
-    }));
+    const questionResults: QuestionResult[] = examQuestions.map((q, i) => {
+      if (q.questionType === 'matching') {
+        const userPairs = answers[i]?.matchingPairs ?? [];
+        const correctCount = userPairs.filter(up =>
+          q.pairs.some(cp => cp.left === up.left && cp.right === up.right)
+        ).length;
+        const total = q.pairs.length;
+        return {
+          questionId: q.id,
+          questionType: 'matching' as const,
+          selectedPairs: userPairs,
+          correctPairs: correctCount,
+          totalPairs: total,
+          correct: correctCount === total,
+          partialScore: total > 0 ? correctCount / total : 0,
+        };
+      }
+      return {
+        questionId: q.id,
+        questionType: 'multiple-choice' as const,
+        selectedAnswer: answers[i]?.answer ?? '',
+        correct: answers[i]?.answer === q.correct,
+      };
+    });
 
+    const totalScoreSum = questionResults.reduce((sum, r) => sum + calculateQuestionScore(r), 0);
     const correct = questionResults.filter(r => r.correct).length;
     const total = questionResults.length;
 
@@ -116,8 +157,8 @@ export default function PracticeExam() {
       if (questionResults[i].correct) domainScores[domainKey].correct++;
     });
 
-    // Calculate score on 900-point scale
-    const rawPct = total > 0 ? correct / total : 0;
+    // Calculate score on 900-point scale using partial credit
+    const rawPct = total > 0 ? totalScoreSum / total : 0;
     const scaledScore = Math.round(100 + rawPct * 800);
     const passingScore = examConfig?.passingScore ?? 675;
 
@@ -150,62 +191,165 @@ export default function PracticeExam() {
   if (phase === 'setup') {
     const availableCount = allQuestions.filter(q => q.exam === examChoice).length;
     const neededCount = examConfig?.totalQuestions ?? 90;
+    const examHistory = (storage.load<ExamResult[]>(STORAGE_KEYS.EXAM_RESULTS, []) ?? [])
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
     return (
       <div className="max-w-2xl mx-auto space-y-6">
-        <div className="bg-gray-800 rounded-xl border border-gray-700 p-6 space-y-5">
-          <h2 className="text-xl font-bold text-gray-100">Practice Exam Setup</h2>
-
-          <div>
-            <label className="block text-sm text-gray-400 mb-2">Select Exam</label>
-            <div className="flex gap-3">
-              {data.exams.map(e => (
-                <button
-                  key={e.exam}
-                  onClick={() => setExamChoice(e.exam)}
-                  className={`flex-1 py-3 rounded-lg text-sm font-medium transition-colors min-h-[44px] ${
-                    examChoice === e.exam
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-900 border border-gray-700 text-gray-400 hover:text-gray-200'
-                  }`}
-                >
-                  {e.exam} ({e.examCode})
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {examConfig && (
-            <div className="grid grid-cols-2 gap-4 text-sm">
-              <div className="bg-gray-900 rounded-lg p-3">
-                <div className="text-gray-400">Questions</div>
-                <div className="text-xl font-bold text-gray-100">{examConfig.totalQuestions}</div>
-              </div>
-              <div className="bg-gray-900 rounded-lg p-3">
-                <div className="text-gray-400">Time Limit</div>
-                <div className="text-xl font-bold text-gray-100">{examConfig.timeMinutes} min</div>
-              </div>
-              <div className="bg-gray-900 rounded-lg p-3">
-                <div className="text-gray-400">Passing Score</div>
-                <div className="text-xl font-bold text-gray-100">{examConfig.passingScore}/{examConfig.maxScore}</div>
-              </div>
-              <div className="bg-gray-900 rounded-lg p-3">
-                <div className="text-gray-400">Available Questions</div>
-                <div className="text-xl font-bold text-gray-100">{availableCount}</div>
-              </div>
-            </div>
-          )}
-
+        {/* Tab Toggle */}
+        <div className="flex gap-2">
           <button
-            onClick={startExam}
-            disabled={availableCount === 0}
-            className="w-full py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-700 disabled:text-gray-500 text-white rounded-lg font-medium transition-colors min-h-[44px]"
+            onClick={() => setShowHistory(false)}
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors min-h-[44px] ${
+              !showHistory ? 'bg-blue-600 text-white' : 'bg-gray-800 border border-gray-700 text-gray-400 hover:text-gray-200'
+            }`}
           >
-            {availableCount < neededCount
-              ? `Start Exam (${availableCount}/${neededCount} questions available)`
-              : 'Start Practice Exam'}
+            New Exam
+          </button>
+          <button
+            onClick={() => setShowHistory(true)}
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors min-h-[44px] ${
+              showHistory ? 'bg-blue-600 text-white' : 'bg-gray-800 border border-gray-700 text-gray-400 hover:text-gray-200'
+            }`}
+          >
+            History ({examHistory.length})
           </button>
         </div>
+
+        {showHistory ? (
+          /* History View */
+          <div className="space-y-3">
+            {examHistory.length === 0 ? (
+              <div className="bg-gray-800 rounded-xl border border-gray-700 p-12 text-center">
+                <p className="text-gray-400">No exam history yet. Take a practice exam to see results here.</p>
+              </div>
+            ) : (
+              examHistory.map(result => {
+                const isExpanded = expandedResult === result.id;
+                const date = new Date(result.date);
+                const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                const timeStr = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+
+                return (
+                  <div key={result.id} className="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
+                    <button
+                      onClick={() => setExpandedResult(isExpanded ? null : result.id)}
+                      className="w-full p-4 text-left"
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <span className={`px-2 py-0.5 rounded text-xs font-bold ${
+                            result.passed
+                              ? 'bg-green-900/50 text-green-400 border border-green-600/50'
+                              : 'bg-red-900/50 text-red-400 border border-red-600/50'
+                          }`}>
+                            {result.passed ? 'PASS' : 'FAIL'}
+                          </span>
+                          <span className="text-gray-100 font-medium">{result.exam}</span>
+                        </div>
+                        <div className="flex items-center gap-4 text-sm">
+                          <span className="text-gray-100 font-bold">{result.score}/900</span>
+                          <span className="text-gray-400">{result.correctAnswers}/{result.totalQuestions}</span>
+                          <span className="text-gray-500">{formatTime(result.timeSpent)}</span>
+                          <span className="text-gray-500 text-xs">{dateStr} {timeStr}</span>
+                          <span className="text-gray-500">{isExpanded ? '\u25B2' : '\u25BC'}</span>
+                        </div>
+                      </div>
+                    </button>
+
+                    {isExpanded && result.domainScores && (
+                      <div className="px-4 pb-4 border-t border-gray-700 pt-3">
+                        <h4 className="text-sm font-semibold text-gray-300 mb-3">Domain Breakdown</h4>
+                        <div className="space-y-2">
+                          {Object.entries(result.domainScores).map(([domainName, score]) => {
+                            const pct = score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0;
+                            const domainId = domainName.split(' ')[0];
+                            const color = getDomainColor(domainId, result.exam);
+                            return (
+                              <div key={domainName} className="space-y-1">
+                                <div className="flex justify-between text-xs">
+                                  <div className="flex items-center gap-2">
+                                    <div className="w-2 h-2 rounded-full" style={{ backgroundColor: color }} />
+                                    <span className="text-gray-300">{domainName}</span>
+                                  </div>
+                                  <span className="text-gray-400">{score.correct}/{score.total} ({pct}%)</span>
+                                </div>
+                                <div className="h-1.5 bg-gray-700 rounded-full overflow-hidden">
+                                  <div
+                                    className="h-full rounded-full"
+                                    style={{
+                                      width: `${pct}%`,
+                                      backgroundColor: pct >= 80 ? '#10B981' : pct >= 60 ? '#F59E0B' : '#EF4444',
+                                    }}
+                                  />
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })
+            )}
+          </div>
+        ) : (
+          /* New Exam Setup */
+          <div className="bg-gray-800 rounded-xl border border-gray-700 p-6 space-y-5">
+            <h2 className="text-xl font-bold text-gray-100">Practice Exam Setup</h2>
+
+            <div>
+              <label className="block text-sm text-gray-400 mb-2">Select Exam</label>
+              <div className="flex gap-3">
+                {data.exams.map(e => (
+                  <button
+                    key={e.exam}
+                    onClick={() => setExamChoice(e.exam)}
+                    className={`flex-1 py-3 rounded-lg text-sm font-medium transition-colors min-h-[44px] ${
+                      examChoice === e.exam
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-gray-900 border border-gray-700 text-gray-400 hover:text-gray-200'
+                    }`}
+                  >
+                    {e.exam} ({e.examCode})
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {examConfig && (
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div className="bg-gray-900 rounded-lg p-3">
+                  <div className="text-gray-400">Questions</div>
+                  <div className="text-xl font-bold text-gray-100">{examConfig.totalQuestions}</div>
+                </div>
+                <div className="bg-gray-900 rounded-lg p-3">
+                  <div className="text-gray-400">Time Limit</div>
+                  <div className="text-xl font-bold text-gray-100">{examConfig.timeMinutes} min</div>
+                </div>
+                <div className="bg-gray-900 rounded-lg p-3">
+                  <div className="text-gray-400">Passing Score</div>
+                  <div className="text-xl font-bold text-gray-100">{examConfig.passingScore}/{examConfig.maxScore}</div>
+                </div>
+                <div className="bg-gray-900 rounded-lg p-3">
+                  <div className="text-gray-400">Available Questions</div>
+                  <div className="text-xl font-bold text-gray-100">{availableCount}</div>
+                </div>
+              </div>
+            )}
+
+            <button
+              onClick={startExam}
+              disabled={availableCount === 0}
+              className="w-full py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-700 disabled:text-gray-500 text-white rounded-lg font-medium transition-colors min-h-[44px]"
+            >
+              {availableCount < neededCount
+                ? `Start Exam (${availableCount}/${neededCount} questions available)`
+                : 'Start Practice Exam'}
+            </button>
+          </div>
+        )}
       </div>
     );
   }
@@ -218,7 +362,7 @@ export default function PracticeExam() {
     const domainId = q.objectiveId.split('.')[0] + '.0';
     const color = getDomainColor(domainId, q.exam);
 
-    const answeredCount = answers.filter(a => a.answer !== null).length;
+    const answeredCount = answers.filter((a, i) => isAnswered(a, examQuestions[i])).length;
     const flaggedCount = answers.filter(a => a.flagged).length;
 
     return (
@@ -255,25 +399,34 @@ export default function PracticeExam() {
               <p className="text-lg text-gray-100 leading-relaxed">{q.question}</p>
             </div>
 
-            {/* Options */}
-            <div className="space-y-3">
-              {Object.entries(q.options).map(([key, value]) => (
-                <button
-                  key={key}
-                  onClick={() => selectAnswer(key)}
-                  className={`w-full flex items-start gap-4 p-4 rounded-xl border text-left transition-colors min-h-[44px] ${
-                    currentAnswer?.answer === key
-                      ? 'bg-blue-900/30 border-blue-600'
-                      : 'bg-gray-800 border-gray-700 hover:border-gray-500'
-                  }`}
-                >
-                  <span className="w-8 h-8 rounded-lg bg-gray-700 flex items-center justify-center text-sm font-bold text-gray-300 shrink-0">
-                    {key}
-                  </span>
-                  <span className="text-sm text-gray-200 pt-1">{value}</span>
-                </button>
-              ))}
-            </div>
+            {/* Matching or MC Options */}
+            {q.questionType === 'matching' ? (
+              <MatchingQuestionView
+                question={q}
+                onAnswer={setMatchingPairs}
+                showResult={false}
+                disabled={false}
+              />
+            ) : (
+              <div className="space-y-3">
+                {Object.entries(q.options).map(([key, value]) => (
+                  <button
+                    key={key}
+                    onClick={() => selectAnswer(key)}
+                    className={`w-full flex items-start gap-4 p-4 rounded-xl border text-left transition-colors min-h-[44px] ${
+                      currentAnswer?.answer === key
+                        ? 'bg-blue-900/30 border-blue-600'
+                        : 'bg-gray-800 border-gray-700 hover:border-gray-500'
+                    }`}
+                  >
+                    <span className="w-8 h-8 rounded-lg bg-gray-700 flex items-center justify-center text-sm font-bold text-gray-300 shrink-0">
+                      {key}
+                    </span>
+                    <span className="text-sm text-gray-200 pt-1">{value}</span>
+                  </button>
+                ))}
+              </div>
+            )}
 
             {/* Navigation + Flag */}
             <div className="flex items-center justify-between">
@@ -320,11 +473,12 @@ export default function PracticeExam() {
             <div className="bg-gray-800 rounded-xl border border-gray-700 p-4 sticky top-4">
               <h3 className="text-sm font-semibold text-gray-300 mb-3">Questions</h3>
               <div className="grid grid-cols-5 gap-2">
-                {examQuestions.map((_, i) => {
+                {examQuestions.map((eq, i) => {
                   const a = answers[i];
+                  const answered = isAnswered(a, eq);
                   let bg = 'bg-gray-700 text-gray-400'; // unanswered
                   if (a?.flagged) bg = 'bg-yellow-600/30 text-yellow-400 border border-yellow-600/40';
-                  else if (a?.answer !== null) bg = 'bg-blue-600/30 text-blue-400';
+                  else if (answered) bg = 'bg-blue-600/30 text-blue-400';
                   if (i === currentIdx) bg += ' ring-2 ring-white/50';
 
                   return (
@@ -427,7 +581,6 @@ export default function PracticeExam() {
         <div className="space-y-3">
           {Object.entries(examResult.domainScores).map(([domainName, score]) => {
             const pct = score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0;
-            // Extract domain id from domain name like "1.0 Mobile Devices"
             const domainId = domainName.split(' ')[0];
             const color = getDomainColor(domainId, examResult.exam);
             return (
@@ -466,18 +619,46 @@ export default function PracticeExam() {
               .map(r => {
                 const q = examQuestions.find(qq => qq.id === r.questionId);
                 if (!q) return null;
-                return (
-                  <div key={r.questionId} className="bg-gray-900 rounded-lg p-4 border border-gray-700/50">
-                    <p className="text-sm text-gray-200 mb-2">{q.question}</p>
-                    {r.selectedAnswer ? (
-                      <p className="text-sm text-red-400">Your answer: {r.selectedAnswer} - {q.options[r.selectedAnswer]}</p>
-                    ) : (
-                      <p className="text-sm text-gray-500">Not answered</p>
-                    )}
-                    <p className="text-sm text-green-400">Correct: {q.correct} - {q.options[q.correct]}</p>
-                    <p className="text-xs text-gray-400 mt-2">{q.explanation}</p>
-                  </div>
-                );
+
+                if (r.questionType === 'matching' && q.questionType === 'matching') {
+                  return (
+                    <div key={r.questionId} className="bg-gray-900 rounded-lg p-4 border border-gray-700/50">
+                      <p className="text-sm text-gray-200 mb-2">{q.question}</p>
+                      <p className="text-sm text-amber-400 mb-1">{r.correctPairs} of {r.totalPairs} pairs correct</p>
+                      <div className="space-y-1 mt-2">
+                        {q.pairs.map(cp => {
+                          const userPair = r.selectedPairs.find(up => up.left === cp.left);
+                          const isRight = userPair?.right === cp.right;
+                          return (
+                            <div key={cp.left} className="flex items-center gap-2 text-xs">
+                              <span className={isRight ? 'text-green-400' : 'text-red-400'}>{isRight ? '\u2713' : '\u2717'}</span>
+                              <span className="text-gray-300">{cp.left} &rarr; {cp.right}</span>
+                              {!isRight && userPair && <span className="text-gray-500">(you: {userPair.right})</span>}
+                            </div>
+                          );
+                        })}
+                      </div>
+                      <p className="text-xs text-gray-400 mt-2">{q.explanation}</p>
+                    </div>
+                  );
+                }
+
+                if (r.questionType === 'multiple-choice' && q.questionType === 'multiple-choice') {
+                  return (
+                    <div key={r.questionId} className="bg-gray-900 rounded-lg p-4 border border-gray-700/50">
+                      <p className="text-sm text-gray-200 mb-2">{q.question}</p>
+                      {r.selectedAnswer ? (
+                        <p className="text-sm text-red-400">Your answer: {r.selectedAnswer} - {q.options[r.selectedAnswer]}</p>
+                      ) : (
+                        <p className="text-sm text-gray-500">Not answered</p>
+                      )}
+                      <p className="text-sm text-green-400">Correct: {q.correct} - {q.options[q.correct]}</p>
+                      <p className="text-xs text-gray-400 mt-2">{q.explanation}</p>
+                    </div>
+                  );
+                }
+
+                return null;
               })}
           </div>
         </div>

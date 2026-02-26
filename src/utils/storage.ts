@@ -4,6 +4,7 @@ export const STORAGE_KEYS = {
   FLASHCARD_SCHEDULE: 'aplus_flashcard_schedule',
   STREAK: 'aplus_streak',
   EXAM_RESULTS: 'aplus_exam_results',
+  GLOSSARY_PROGRESS: 'aplus_glossary_progress',
   SETTINGS: 'aplus_settings',
 } as const;
 

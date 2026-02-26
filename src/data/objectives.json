@@ -1,0 +1,925 @@
+{
+  "exams": [
+    {
+      "exam": "Core 1",
+      "examCode": "220-1201",
+      "passingScore": 675,
+      "maxScore": 900,
+      "totalQuestions": 90,
+      "timeMinutes": 90,
+      "domains": [
+        {
+          "id": "1.0",
+          "name": "Mobile Devices",
+          "weight": 13,
+          "objectives": [
+            {
+              "id": "1.1",
+              "title": "Given a scenario, monitor mobile device hardware and use appropriate replacement techniques.",
+              "subtopics": [
+                "Battery",
+                "Keyboard/keys",
+                "RAM",
+                "HDD/SSD",
+                "Wireless cards",
+                "Physical privacy and security components (Biometrics, Near-field scanner features)",
+                "Wi-Fi antenna connector/placement",
+                "Camera/webcam",
+                "Microphone"
+              ],
+              "studyNotes": "This objective focuses on laptop and mobile device hardware replacement. Key exam tips: (1) Always disconnect the battery FIRST before any internal repair -- this is a safety must-know. (2) Know the difference between field-replaceable units (battery, RAM, HDD/SSD, wireless cards) vs. components that typically require professional repair (soldered CPU, integrated GPU). (3) Wi-Fi antenna wires usually run through the display bezel -- remember that disconnecting the display may affect wireless. (4) For biometrics, know that fingerprint readers and IR cameras are used for Windows Hello. (5) Common pitfall: confusing NFC (near-field communication for short-range data/payments) with Bluetooth. NFC range is about 4 cm. (6) Memory aid: 'BKRH-WP-WCM' -- Battery, Keyboard, RAM, HDD, Wireless, Privacy, Wi-Fi antenna, Camera, Mic."
+            },
+            {
+              "id": "1.2",
+              "title": "Compare and contrast accessories and connectivity options for mobile devices.",
+              "subtopics": [
+                "Connection methods (USB/USB-C/microUSB/miniUSB, Lightning, NFC, Bluetooth, Tethering/hotspot)",
+                "Docking station",
+                "Port replicator",
+                "Trackpad/drawing pad/track points",
+                "Accessories (Stylus, Headsets, Speakers, Webcam)"
+              ],
+              "studyNotes": "Focus on distinguishing connection types and their use cases. Key exam tips: (1) Docking station vs. port replicator -- a docking station provides additional functionality (extra ports, drives, power) while a port replicator simply duplicates ports for convenience. The exam loves this distinction. (2) USB connector types: USB-A (standard rectangular), USB-C (reversible oval), microUSB (small trapezoid, older Android), miniUSB (older devices), Lightning (Apple proprietary, reversible). (3) Tethering shares cellular data via USB cable; hotspot shares it wirelessly. (4) NFC is extremely short range (~4 cm) and is used for contactless payments and quick pairing. (5) Bluetooth versions: know that 5.0+ offers longer range and faster speeds. (6) Common pitfall: Lightning is Apple-only and NOT the same as USB-C, though newer Apple devices use USB-C."
+            },
+            {
+              "id": "1.3",
+              "title": "Given a scenario, configure basic mobile device network connectivity and provide application support.",
+              "subtopics": [
+                "Wireless/cellular data network (3G/4G/5G, Hotspot, Wi-Fi, SIM/eSIM)",
+                "Bluetooth (Enable, pairing, find device, PIN, test)",
+                "Location services (GPS, Cellular)",
+                "MDM (Device configs Corporate/BYOD, Policy enforcement, Corporate apps)",
+                "Mobile device synchronization (Data caps, Calendar, Contacts, Business apps Mail/Cloud storage)"
+              ],
+              "studyNotes": "This is a high-value objective covering mobile connectivity and management. Key exam tips: (1) SIM vs eSIM: traditional SIM is a physical card; eSIM is embedded and can be reprogrammed remotely -- no physical swap needed. (2) Bluetooth pairing process: Enable Bluetooth > Set device to discoverable > Search for devices > Enter PIN/confirm code > Test connection. Memorize this sequence. (3) GPS uses satellites; cellular location uses cell tower triangulation -- GPS is more accurate but uses more battery. (4) MDM (Mobile Device Management) is critical for corporate environments: it enforces policies like password requirements, remote wipe, app restrictions, and encryption. Know BYOD vs corporate-owned device policies. (5) Data caps: understand that sync settings can consume cellular data; configure sync to Wi-Fi only to avoid overages. (6) Common pitfall: 5G and 5 GHz Wi-Fi are completely different technologies. 5G is cellular; 5 GHz is a Wi-Fi frequency band."
+            }
+          ]
+        },
+        {
+          "id": "2.0",
+          "name": "Networking",
+          "weight": 23,
+          "objectives": [
+            {
+              "id": "2.1",
+              "title": "Compare and contrast TCP and UDP ports, protocols, and their purposes.",
+              "subtopics": [
+                "Ports and protocols (20/21 FTP, 22 SSH, 23 Telnet, 25 SMTP, 53 DNS, 67/68 DHCP, 80 HTTP, 110 POP3, 143 IMAP, 137-139 NetBIOS/NetBT, 389 LDAP, 443 HTTPS, 445 SMB/CIFS, 3389 RDP)",
+                "TCP vs. UDP"
+              ],
+              "studyNotes": "PORT NUMBERS ARE GUARANTEED ON THE EXAM. Memorize every single one. Memory aids: (1) FTP = 20/21 ('File Transfer needs TWO ports -- 20 data, 21 control'). (2) SSH = 22, Telnet = 23 ('Secure comes before insecure, 22 before 23'). (3) SMTP = 25 ('Sending Mail To People'). (4) DNS = 53, DHCP = 67/68 ('DNS is the phone book at port 53'). (5) HTTP = 80, HTTPS = 443 ('HTTP is an even 80; HTTPS adds Security at 443'). (6) POP3 = 110, IMAP = 143. (7) RDP = 3389 ('Remote Desktop at 3389'). (8) TCP vs UDP: TCP is connection-oriented (reliable, uses three-way handshake SYN/SYN-ACK/ACK), UDP is connectionless (faster, no guarantee). DNS uses BOTH TCP and UDP (UDP for queries, TCP for zone transfers). (9) Common trap: DHCP uses UDP (67 server, 68 client). (10) SMB/CIFS on port 445 replaced older NetBIOS ports 137-139."
+            },
+            {
+              "id": "2.2",
+              "title": "Explain wireless networking technologies.",
+              "subtopics": [
+                "Frequencies (2.4GHz, 5GHz, 6GHz)",
+                "Channels (Regulations, Channel selection Widths/Frequencies/Bands)",
+                "Bluetooth",
+                "802.11 standards",
+                "NFC",
+                "RFID"
+              ],
+              "studyNotes": "Wireless standards and frequencies are heavily tested. Key facts: (1) 2.4 GHz: longer range, more interference, fewer non-overlapping channels (1, 6, 11 in US). 5 GHz: shorter range, less interference, more channels. 6 GHz: Wi-Fi 6E/7, even more channels, least interference. (2) 802.11 standards to know: 802.11a (5 GHz, 54 Mbps), 802.11b (2.4 GHz, 11 Mbps), 802.11g (2.4 GHz, 54 Mbps), 802.11n/Wi-Fi 4 (2.4/5 GHz, 600 Mbps), 802.11ac/Wi-Fi 5 (5 GHz, 6.9 Gbps), 802.11ax/Wi-Fi 6 (2.4/5/6 GHz). (3) Memory aid for channel widths: wider channels = more bandwidth but fewer available channels. (4) Bluetooth: short-range PAN technology, ~10m for most classes. (5) NFC: ~4 cm range, used for mobile payments and quick pairing. (6) RFID: uses radio waves for identification/tracking (badges, inventory). Passive RFID has no battery; active RFID has longer range. (7) Common pitfall: 802.11a and 802.11b were released around the same time but use different frequencies."
+            },
+            {
+              "id": "2.3",
+              "title": "Summarize services provided by networked hosts.",
+              "subtopics": [
+                "Server roles (DNS, DHCP, Fileshare, Print servers, Mail servers, Syslog, Web servers, AAA, Database servers, NTP)",
+                "Internet appliances (Spam gateways, UTM, Load balancers, Proxy servers)",
+                "Legacy/embedded systems (SCADA)",
+                "IoT devices"
+              ],
+              "studyNotes": "Know what each server role does and when to use each appliance. Key exam tips: (1) DNS resolves names to IPs; DHCP assigns IPs automatically. These are the two most commonly referenced services. (2) Syslog collects log data from multiple devices centrally -- port 514. (3) AAA = Authentication, Authorization, Accounting (think RADIUS/TACACS+). (4) NTP = Network Time Protocol (port 123) -- ensures all devices have synchronized time, critical for security logging. (5) UTM (Unified Threat Management) = all-in-one security appliance combining firewall, antivirus, content filtering, IDS/IPS. (6) Load balancer distributes traffic across multiple servers for reliability and performance. (7) Proxy server acts as intermediary -- can cache content, filter requests, and provide anonymity. (8) SCADA = Supervisory Control and Data Acquisition, used in industrial control systems (power plants, manufacturing). These are legacy/embedded systems that are often vulnerable because they cannot be easily updated. (9) IoT devices: smart thermostats, cameras, speakers -- know security concerns (default passwords, no updates)."
+            },
+            {
+              "id": "2.4",
+              "title": "Explain common network configuration concepts.",
+              "subtopics": [
+                "DNS (A, AAAA, CNAME, MX, TXT incl SPF/DKIM/DMARC)",
+                "DHCP (Leases, Reservations, Scope, Exclusions)",
+                "VLAN",
+                "VPN"
+              ],
+              "studyNotes": "DNS record types and DHCP concepts are heavily tested. Memorize these: (1) DNS Records: A = IPv4 address, AAAA = IPv6 address ('four As for IPv6 because addresses are 4x longer'), CNAME = alias pointing to another domain name, MX = mail exchange (directs email), TXT = text records used for SPF/DKIM/DMARC email authentication. (2) SPF verifies sender IP, DKIM adds digital signature, DMARC sets policy for failures -- all prevent email spoofing. (3) DHCP: Scope = range of IPs available for assignment. Lease = time period an IP is assigned. Reservation = permanently assigns a specific IP to a specific MAC address. Exclusion = IPs within the scope that should NOT be assigned (e.g., reserved for servers/printers). (4) VLAN = Virtual LAN, logically segments a network without physical separation. Devices on different VLANs cannot communicate without a Layer 3 device (router). (5) VPN creates an encrypted tunnel over a public network. Know split tunnel (only corporate traffic through VPN) vs full tunnel (all traffic through VPN). (6) Common pitfall: DHCP reservation is NOT the same as a static IP -- reservation is configured on the DHCP server, static IP is configured on the device itself."
+            },
+            {
+              "id": "2.5",
+              "title": "Compare and contrast common networking hardware devices.",
+              "subtopics": [
+                "Routers",
+                "Switches (Managed, Unmanaged)",
+                "Access points",
+                "Patch panel",
+                "Firewall",
+                "PoE (Injectors, Switch, Standards)",
+                "Cable modem",
+                "DSL",
+                "ONT",
+                "NIC (MAC address)"
+              ],
+              "studyNotes": "Understanding what each device does at which OSI layer is key. Key exam tips: (1) Router = Layer 3, routes between networks using IP addresses. Switch = Layer 2, forwards frames using MAC addresses within a network. (2) Managed switch allows configuration (VLANs, port mirroring, QoS); unmanaged switch is plug-and-play with no configuration. (3) Access point extends wireless coverage -- it does NOT route traffic. (4) Patch panel is a passive device for cable organization; it connects wall jacks to switch ports. (5) PoE (Power over Ethernet) delivers power and data over the same Ethernet cable. Know standards: 802.3af (15.4W), 802.3at/PoE+ (25.5W), 802.3bt/PoE++ (up to 90W). PoE injector adds power to a single cable; PoE switch provides power to all ports. (6) Cable modem connects to ISP via coaxial cable. DSL uses telephone lines. ONT (Optical Network Terminal) converts fiber optic to Ethernet for fiber connections. (7) NIC: every NIC has a unique MAC address (48-bit, written as six hex pairs like AA:BB:CC:DD:EE:FF). First 3 octets = OUI (manufacturer)."
+            },
+            {
+              "id": "2.6",
+              "title": "Given a scenario, configure basic wired/wireless SOHO networks.",
+              "subtopics": [
+                "IP addressing (IPv4 Private/Public, IPv6, APIPA, Static, Dynamic, Subnet mask, Gateway)"
+              ],
+              "studyNotes": "IP addressing is CRITICAL for the exam. Memorize these ranges: (1) Private IPv4 ranges: 10.0.0.0/8 (Class A: 10.0.0.0-10.255.255.255), 172.16.0.0/12 (Class B: 172.16.0.0-172.31.255.255), 192.168.0.0/16 (Class C: 192.168.0.0-192.168.255.255). Memory aid: '10, 172.16, 192.168'. (2) APIPA (Automatic Private IP Addressing): 169.254.x.x -- assigned when DHCP fails. If you see 169.254.x.x, the device cannot reach the DHCP server. (3) IPv6: 128-bit addresses written in hex. Link-local starts with fe80::, loopback is ::1. (4) Subnet mask defines network vs host portion: 255.255.255.0 (/24) means first 3 octets are network, last octet is hosts (254 usable). (5) Default gateway is the router's IP -- the exit point from the local network. (6) Static IP = manually configured, used for servers/printers. Dynamic = assigned by DHCP, used for workstations. (7) Common pitfall: 127.0.0.1 is the IPv4 loopback (localhost), NOT a private address range. (8) For SOHO setup: connect modem to WAN port, configure SSID/password, enable DHCP on LAN side, set WPA3/WPA2 encryption."
+            },
+            {
+              "id": "2.7",
+              "title": "Compare and contrast internet connection types, network types, and their characteristics.",
+              "subtopics": [
+                "Internet connection types (Satellite, Fiber, Cable, DSL, Cellular, WISP)",
+                "Network types (LAN, WAN, PAN, MAN, SAN, WLAN)"
+              ],
+              "studyNotes": "Know speed rankings and characteristics of each connection type. Key facts: (1) Speed ranking fastest to slowest (typical): Fiber > Cable > DSL > Cellular > Satellite > WISP. (2) Fiber: fastest, uses light over glass/plastic strands, highest bandwidth, most expensive to deploy. (3) Cable: uses coaxial cable (shared bandwidth with neighbors), asymmetric speeds. (4) DSL: uses phone lines, speed degrades with distance from central office. (5) Satellite: available almost anywhere, HIGH LATENCY (~600ms round trip) -- terrible for real-time applications. (6) Cellular: 4G LTE/5G, mobile connectivity, variable speeds. (7) WISP (Wireless ISP): uses fixed wireless, common in rural areas. (8) Network types: LAN = Local (single building), WAN = Wide (spans cities/countries, the Internet is a WAN), PAN = Personal (Bluetooth devices around a person), MAN = Metropolitan (city-wide), SAN = Storage Area Network (dedicated high-speed storage network using Fibre Channel or iSCSI), WLAN = Wireless LAN. (9) Common trap: SAN is Storage Area Network, NOT a geographic area. Do not confuse SAN with NAS (Network Attached Storage) -- SAN is block-level, NAS is file-level."
+            },
+            {
+              "id": "2.8",
+              "title": "Explain networking tools and their purposes.",
+              "subtopics": [
+                "Crimper",
+                "Cable stripper",
+                "Wi-Fi analyzer",
+                "Toner probe",
+                "Punchdown tool",
+                "Cable tester",
+                "Loopback plug",
+                "Network tap"
+              ],
+              "studyNotes": "Know what each tool does and when to use it. Key exam tips: (1) Crimper: attaches RJ-45/RJ-11 connectors to cable ends. Used when making custom Ethernet cables. (2) Cable stripper: removes outer jacket from cables without damaging inner wires. (3) Wi-Fi analyzer: scans for wireless networks, shows signal strength, channel usage, interference -- use to find optimal channel placement. (4) Toner probe (fox and hound): two-part tool -- the toner generates a signal on a cable, the probe traces/locates that cable in a bundle or wall. Essential for identifying unlabeled cables. (5) Punchdown tool: pushes wires into a punchdown block or patch panel using 110 or 66 block. Cuts excess wire simultaneously. (6) Cable tester: verifies cable continuity, checks for opens, shorts, crossed pairs, and proper pin-out (T568A vs T568B). (7) Loopback plug: connects TX to RX on the same port to test NIC functionality without a network connection. (8) Network tap: passively copies network traffic for monitoring/analysis without affecting the data flow. (9) Memory aid: 'Crimp, Strip, Analyze, Tone, Punch, Test, Loop, Tap' = the cable technician's toolkit."
+            }
+          ]
+        },
+        {
+          "id": "3.0",
+          "name": "Hardware",
+          "weight": 25,
+          "objectives": [
+            {
+              "id": "3.1",
+              "title": "Compare and contrast display components and attributes.",
+              "subtopics": [
+                "Types (LCD: IPS/TN/VA, OLED, Mini-LED)",
+                "Touch screen/digitizer",
+                "Inverter",
+                "Attributes (Pixel density, Refresh rates, Screen resolution, Color gamut)"
+              ],
+              "studyNotes": "Display technology differences are commonly tested. Key facts: (1) LCD subtypes: IPS = best color accuracy and wide viewing angles (design/photo work), TN = fastest response time but poor viewing angles (gaming), VA = best contrast ratio, middle ground. (2) OLED = self-emitting pixels, perfect blacks, risk of burn-in, thinner. (3) Mini-LED = many small LEDs for backlighting, better local dimming than standard LED-backlit LCD. (4) Inverter: converts DC to AC to power the backlight in older LCD displays (CCFL). Modern LED-backlit displays do NOT use inverters. If a screen is very dim but you can barely see the image with a flashlight, suspect a failed inverter or backlight. (5) Digitizer: the touch-sensitive layer on a touch screen that converts touch input to digital signals. A cracked screen may still display but the digitizer may not respond to touch (or vice versa). (6) Resolution: know common resolutions (1080p = 1920x1080, 1440p = 2560x1440, 4K = 3840x2160). (7) Refresh rate: measured in Hz; higher = smoother motion. Standard is 60Hz; gaming monitors go 144Hz+. (8) Common pitfall: pixel density (PPI) depends on BOTH resolution AND screen size -- a 1080p 24-inch has lower PPI than 1080p 14-inch."
+            },
+            {
+              "id": "3.2",
+              "title": "Summarize basic cable types and their connectors, features, and purposes.",
+              "subtopics": [
+                "Network cables (Copper: Categories T568A/T568B, Coaxial, STP Direct burial, UTP, Plenum-rated, Optical: Single-mode/Multimode)",
+                "Peripheral cables (USB 2.0, USB 3.0, Serial, Thunderbolt)",
+                "Video cables (HDMI, DisplayPort, DVI, VGA, USB-C)",
+                "Hard drive cables (SATA, eSATA)",
+                "Adapters",
+                "Connector types (RJ11, RJ45, F-type, ST, SC, LC, Punchdown block, MicroUSB, MiniUSB, USB-C, Molex, Lightning, DB9)"
+              ],
+              "studyNotes": "Cable types and connectors are HEAVILY tested -- expect multiple questions. Key facts: (1) Ethernet categories: Cat 5e (1 Gbps/100m), Cat 6 (1 Gbps/100m or 10 Gbps/55m), Cat 6a (10 Gbps/100m), Cat 7 (10 Gbps/100m shielded), Cat 8 (25-40 Gbps/30m). Maximum copper run is 100 meters. (2) T568A vs T568B: two wiring standards for RJ-45. A straight-through cable uses the same standard on both ends. A crossover uses T568A on one end and T568B on the other. Most networks use T568B. (3) Plenum-rated cable has fire-retardant jacket for air circulation spaces (above ceilings). Required by building code in plenum spaces. (4) STP (Shielded) resists EMI better; UTP (Unshielded) is cheaper and most common. Direct burial STP is rated for underground installation. (5) Fiber: Single-mode = long distance (miles), small core, one light path. Multimode = shorter distance (up to 2km), larger core, multiple light paths. (6) Connectors: ST = round bayonet twist, SC = square snap-in, LC = small form factor (most common modern fiber). (7) USB speeds: 2.0 = 480 Mbps, 3.0 = 5 Gbps (blue connector), 3.1 = 10 Gbps, 3.2 = 20 Gbps. (8) Video: VGA = analog (DB-15), DVI = digital or analog, HDMI = digital audio+video, DisplayPort = digital (supports daisy-chaining). (9) DB9 = serial port (legacy RS-232). Molex = older 4-pin power connector."
+            },
+            {
+              "id": "3.3",
+              "title": "Compare and contrast RAM characteristics.",
+              "subtopics": [
+                "Form factors (SODIMM, DIMM)",
+                "DDR iterations",
+                "ECC vs non-ECC",
+                "Channel configurations"
+              ],
+              "studyNotes": "RAM questions are common and straightforward if you memorize the facts. Key exam tips: (1) DIMM = desktop, SODIMM = laptop (smaller). They are NOT interchangeable. (2) DDR generations are NOT backward compatible -- each has a different notch position. DDR3 = 240 pins, 1.5V. DDR4 = 288 pins, 1.2V. DDR5 = 288 pins (different notch), 1.1V. Each generation approximately doubles bandwidth. (3) ECC (Error-Correcting Code) RAM: detects and corrects single-bit errors. Used in servers and workstations. Requires motherboard/CPU support. Non-ECC is standard for consumer PCs. (4) Channel configurations: Single-channel = one stick, Dual-channel = two matched sticks (doubles bandwidth), Triple/Quad also possible. For dual-channel, install matched pairs in correct slots (usually alternating colors on motherboard). (5) Common pitfall: DDR4 and DDR5 both have 288 pins but the key notch is in a different position -- they are physically incompatible. (6) Memory aid: 'DDR generation goes up, voltage goes down' (DDR3=1.5V, DDR4=1.2V, DDR5=1.1V)."
+            },
+            {
+              "id": "3.4",
+              "title": "Compare and contrast storage devices.",
+              "subtopics": [
+                "Hard drives (Spindle speeds, Form factors 2.5\"/3.5\")",
+                "SSDs (NVMe, SATA, PCIe, SAS, Form factors M.2/mSATA)",
+                "RAID (0, 1, 5, 6, 10)",
+                "Removable storage (Flash drives, Memory cards)",
+                "Optical drives"
+              ],
+              "studyNotes": "RAID levels are GUARANTEED on the exam. Memorize this chart: (1) RAID 0 = Striping, minimum 2 drives, NO redundancy, best performance, any drive failure = total data loss. (2) RAID 1 = Mirroring, minimum 2 drives, exact copy, 50% storage efficiency. (3) RAID 5 = Striping with parity, minimum 3 drives, can survive 1 drive failure, good balance of performance/redundancy. (4) RAID 6 = Striping with double parity, minimum 4 drives, can survive 2 drive failures. (5) RAID 10 = Mirror + Stripe (RAID 1+0), minimum 4 drives, can survive 1 failure per mirror set, best performance with redundancy. (6) Memory aid: 'RAID 0 = Zero redundancy, RAID 1 = 1 copy, RAID 5 = survive 1 failure, RAID 6 = survive 2 failures'. (7) HDD spindle speeds: 5400 RPM (laptop/low power), 7200 RPM (desktop standard), 10000/15000 RPM (enterprise). 3.5\" = desktop, 2.5\" = laptop. (8) SSD interfaces: SATA (550 MB/s max), NVMe over PCIe (3500+ MB/s for Gen 3, 7000+ MB/s for Gen 4). M.2 is a form factor that can use SATA or NVMe -- the key notch differs. (9) Common pitfall: M.2 is a form factor, NOT a protocol. An M.2 drive can be SATA or NVMe."
+            },
+            {
+              "id": "3.5",
+              "title": "Given a scenario, install and configure motherboards, CPUs, and add-on cards.",
+              "subtopics": [
+                "Motherboard form factors (ATX, microATX, ITX)",
+                "Connector types (PCI, PCIe, Power, SATA, eSATA, Headers, M.2)",
+                "Compatibility (CPU sockets AMD/Intel, Multisocket)",
+                "BIOS/UEFI settings (Boot options, USB permissions, TPM, Fan, Secure Boot, Boot/BIOS password, Temp monitoring)",
+                "Virtualization support",
+                "Encryption (TPM, HSM)",
+                "CPU architecture (x86/x64, ARM, Core configs)",
+                "Expansion cards (Sound, Video, Capture, NIC)",
+                "Cooling (Fans, Heat sink, Thermal paste/pads, Liquid)"
+              ],
+              "studyNotes": "This is a large, heavily tested objective. Key exam tips: (1) Motherboard sizes: ATX (12\"x9.6\", most expansion), microATX (9.6\"x9.6\", fits in ATX cases), ITX/Mini-ITX (6.7\"x6.7\", compact builds). Larger boards fit more expansion slots. (2) PCIe slots: x1, x4, x8, x16 (x16 is for GPUs). A smaller card can fit in a larger slot. (3) CPU sockets: Intel uses LGA (pins on socket), AMD has used PGA (pins on CPU) but newer AM5 uses LGA. NEVER touch pins. (4) BIOS/UEFI critical settings: Secure Boot (prevents unauthorized OS loading, requires UEFI), TPM (Trusted Platform Module, stores encryption keys, required for BitLocker and Windows 11), Boot order (set which device boots first). (5) TPM vs HSM: TPM is soldered to the motherboard for that specific system. HSM (Hardware Security Module) is a removable/network device for managing keys at enterprise scale. (6) x86 = 32-bit, x64 = 64-bit. ARM = mobile/low-power (used in phones, tablets, Apple Silicon). (7) Thermal paste fills microscopic gaps between CPU and heatsink -- always clean old paste and apply fresh when reseating. Too much or too little causes overheating. (8) Common pitfall: not all M.2 slots support NVMe -- some only support SATA M.2 drives. Check motherboard specs."
+            },
+            {
+              "id": "3.6",
+              "title": "Given a scenario, install the appropriate power supply.",
+              "subtopics": [
+                "Input 110-120V vs 220-240V",
+                "Output 3.3V/5V/12V",
+                "20+4 pin connector",
+                "Redundant PSU",
+                "Modular PSU",
+                "Wattage rating",
+                "Energy efficiency"
+              ],
+              "studyNotes": "Power supply knowledge is essential for building and troubleshooting PCs. Key exam tips: (1) Input voltage: US/Canada = 110-120V AC, Europe/Asia = 220-240V AC. Some PSUs have a voltage switch; using the wrong setting can destroy components. Modern PSUs are usually auto-switching. (2) Output voltages: 12V (CPU, GPU, fans -- the 'heavy' components), 5V (USB, SATA drives, older components), 3.3V (RAM, chipset). (3) 20+4 pin motherboard connector: the main power connector. The +4 is detachable for older 20-pin boards. CPU gets a separate 4+4 pin (EPS) connector. (4) Redundant PSU: two power supplies in one system; if one fails, the other takes over. Used in servers for high availability. (5) Modular PSU: only attach cables you need, improving airflow and cable management. Semi-modular has some fixed cables. Non-modular has all cables permanently attached. (6) Wattage: must exceed total system power draw. Use online calculators. Overloaded PSU = shutdowns, instability. (7) 80 Plus efficiency ratings: Standard (80%), Bronze (82-85%), Silver, Gold (87-90%), Platinum, Titanium (90-94%). Higher rating = less wasted energy as heat. (8) Common pitfall: wattage rating is maximum output, not consumption. A 750W PSU only draws what components need."
+            },
+            {
+              "id": "3.7",
+              "title": "Given a scenario, deploy and configure multifunction devices/printers and settings.",
+              "subtopics": [
+                "Unbox/setup location",
+                "Drivers (PCL vs postscript)",
+                "Firmware",
+                "Connectivity (USB, Ethernet, Wireless)",
+                "Public/shared (Printer share, Print server)",
+                "Config settings (Duplex, Orientation, Tray, Quality)",
+                "Security (User auth, Badging, Audit logs, Secured prints)",
+                "Network scan services (Email, SMB, Cloud)",
+                "ADF/flatbed scanner"
+              ],
+              "studyNotes": "Printer configuration is a significant exam topic. Key exam tips: (1) PCL (Printer Command Language) = HP-developed, fast, good for standard office printing. PostScript = Adobe-developed, better for complex graphics and desktop publishing. Know this distinction. (2) Printer connectivity order of preference for shared environments: Network (Ethernet/Wireless) > USB shared via print server > USB direct. (3) Printer share vs print server: sharing from a workstation means that workstation must stay on. A dedicated print server manages the queue independently. (4) Duplex = double-sided printing. Know simplex (one-sided) vs duplex. (5) Secured print/pull printing: job is held in queue until user authenticates at the printer (PIN, badge). Prevents sensitive documents from sitting in output tray. (6) ADF (Automatic Document Feeder) handles multi-page scanning automatically. Flatbed scans one page at a time but handles bound books and odd-sized items. (7) Network scan to SMB sends scans to a shared folder; scan to email sends as attachment; scan to cloud uploads to a cloud service. (8) Security: enable user authentication, configure audit logs for compliance, use badging for physical access to printing. (9) Common pitfall: firmware updates for printers can fix bugs but can also break compatibility -- always back up settings before updating."
+            },
+            {
+              "id": "3.8",
+              "title": "Given a scenario, perform appropriate printer maintenance.",
+              "subtopics": [
+                "Laser (Replace toner, maintenance kit, calibrate, clean)",
+                "Inkjet (Ink cartridge, printhead, roller, feeder; Clean printheads, replace cartridges, calibrate, clear jams)",
+                "Thermal (Feed assembly, special paper; Replace paper, clean heating element, remove debris)",
+                "Impact (Multipart paper; Replace ribbon, printhead, paper)"
+              ],
+              "studyNotes": "The laser printing process and printer maintenance are exam favorites. Key exam tips: (1) LASER PRINTING PROCESS (memorize this order): Processing > Charging > Exposing > Developing > Transferring > Fusing. Memory aid: 'People Can't Ever Do Things Fast' or 'Printing Costs Extra During Tax Filings'. (2) Laser maintenance kit typically includes: fuser assembly, transfer roller, pickup rollers, separation pad. Replace at manufacturer-specified page count intervals. (3) Inkjet maintenance: clean printheads to fix missing lines/colors, replace cartridges when low, calibrate for alignment, clean rollers for paper feed issues. (4) Thermal printers: use heat-sensitive paper (receipts). No ink/toner needed. Clean the heating element regularly. Paper must be special thermal paper -- regular paper will not work. (5) Impact printers (dot matrix): use a ribbon and physically strike the paper. Only printer type that can print multi-part carbon forms (NCR paper). Used for invoices, shipping labels. (6) Common troubleshooting: white vertical lines on laser = drum issue or toner. Ghosting/double images = fuser not hot enough or drum not cleaning. Smearing on laser = fuser assembly problem. Paper jams = worn pickup rollers or incorrect paper weight/type."
+            }
+          ]
+        },
+        {
+          "id": "4.0",
+          "name": "Virtualization and Cloud Computing",
+          "weight": 11,
+          "objectives": [
+            {
+              "id": "4.1",
+              "title": "Explain virtualization concepts.",
+              "subtopics": [
+                "Purpose (Sandbox, Test development, Application virtualization Legacy/Cross-platform)",
+                "Requirements (Security, Network, Storage)",
+                "Desktop virtualization (VDI)",
+                "Containers",
+                "Hypervisors (Type 1, Type 2)"
+              ],
+              "studyNotes": "Virtualization concepts are straightforward but distinctions matter. Key exam tips: (1) Type 1 hypervisor (bare-metal): runs directly on hardware, no host OS needed. Examples: VMware ESXi, Microsoft Hyper-V (server), Citrix XenServer. Used in enterprise/data centers. Better performance. (2) Type 2 hypervisor (hosted): runs on top of a host OS as an application. Examples: VMware Workstation, VirtualBox, Parallels. Used for testing/development on personal machines. (3) Memory aid: 'Type 1 = First on hardware, Type 2 = Second layer on top of OS'. (4) Containers: lightweight, share the host OS kernel. Faster to start than VMs. Docker is the most common container platform. Containers isolate apps but are less isolated than full VMs. (5) VDI (Virtual Desktop Infrastructure): desktop environments run on centralized servers; users connect via thin clients. Benefits: centralized management, security, lower endpoint costs. (6) Sandbox: isolated environment for testing untrusted code/software without risking the production system. (7) Application virtualization: run legacy or cross-platform apps without full OS installation (e.g., App-V, Wine). (8) VM resource allocation: CPU cores, RAM, storage, and network can all be allocated per VM. Over-provisioning resources can cause performance issues on the host."
+            },
+            {
+              "id": "4.2",
+              "title": "Summarize cloud computing concepts.",
+              "subtopics": [
+                "Cloud models (Private, Public, Hybrid, Community, IaaS, SaaS, PaaS)",
+                "Cloud characteristics (Shared vs dedicated, Metered utilization Ingress/egress, Elasticity, Availability, File sync, Multitenancy)"
+              ],
+              "studyNotes": "Cloud models and service types are heavily tested. Memorize: (1) Deployment models: Public = shared infrastructure owned by provider (AWS, Azure, GCP). Private = dedicated infrastructure for one organization (on-premises or hosted). Hybrid = combination of public and private. Community = shared by organizations with common needs (government, healthcare). (2) Service models (know the responsibility boundaries): IaaS (Infrastructure as a Service) = provider manages hardware/networking, you manage OS and up. Examples: AWS EC2, Azure VMs. PaaS (Platform as a Service) = provider manages hardware through runtime, you manage apps and data. Examples: AWS Elastic Beanstalk, Azure App Service. SaaS (Software as a Service) = provider manages everything, you just use the application. Examples: Microsoft 365, Google Workspace, Salesforce. (3) Memory aid: 'Pizza analogy' -- IaaS = you cook at their kitchen, PaaS = you add toppings to their dough, SaaS = you eat delivered pizza. (4) Elasticity = ability to scale resources up/down automatically based on demand. (5) Metered utilization = pay for what you use. Ingress = data coming in (often free), Egress = data going out (usually costs money). (6) Multitenancy = multiple customers share same physical infrastructure but data is logically separated."
+            }
+          ]
+        },
+        {
+          "id": "5.0",
+          "name": "Hardware and Network Troubleshooting",
+          "weight": 28,
+          "objectives": [
+            {
+              "id": "5.1",
+              "title": "Given a scenario, troubleshoot motherboards, RAM, CPUs, and power.",
+              "subtopics": [
+                "POST beeps",
+                "Proprietary crash screens",
+                "Blank screen",
+                "No power",
+                "Sluggish performance",
+                "Overheating",
+                "Burning smell",
+                "Random shutdown",
+                "Application crashes",
+                "Unusual noise",
+                "Capacitor swelling",
+                "Inaccurate system date/time"
+              ],
+              "studyNotes": "Troubleshooting is the largest domain. Match symptoms to components. Key exam tips: (1) POST beeps: specific beep patterns indicate specific hardware failures. One short beep usually = normal boot. Continuous/repeated beeps = RAM issue. No beeps at all with no display = possible CPU or motherboard failure. (2) Blank screen: check monitor connection first, then video card, then RAM (bad RAM can prevent POST). (3) No power: check power cable, PSU switch, outlet, test PSU with multimeter or PSU tester. (4) Burning smell: IMMEDIATELY power off. Usually indicates a blown capacitor, overloaded PSU, or short circuit. Capacitor swelling (bulging/leaking) on the motherboard means the board needs replacement. (5) Random shutdowns: most commonly caused by overheating (check fans, thermal paste, airflow) or failing PSU. (6) Inaccurate system date/time: the CMOS battery (CR2032) is dead. Replace it. If BIOS settings reset after power off, this is also the CMOS battery. (7) Sluggish performance with RAM: check if RAM is recognized in BIOS, run memory diagnostics. Ensure RAM is seated in correct slots for dual-channel. (8) Proprietary crash screens: Windows BSOD, macOS kernel panic, Linux kernel panic -- all indicate kernel-level failures. (9) Memory aid for troubleshooting order: check power > check connections > check POST > check BIOS > boot to OS."
+            },
+            {
+              "id": "5.2",
+              "title": "Given a scenario, troubleshoot drive and RAID issues.",
+              "subtopics": [
+                "LED status indicators",
+                "Grinding noises",
+                "Clicking sounds",
+                "Bootable device not found",
+                "Data loss/corruption",
+                "RAID failure",
+                "S.M.A.R.T. failure",
+                "Extended read/write times",
+                "Low performance IOPS",
+                "Missing drives in OS",
+                "Array missing",
+                "Audible alarms"
+              ],
+              "studyNotes": "Drive symptoms directly point to specific issues. Key exam tips: (1) Clicking or grinding noises from an HDD = mechanical failure imminent. DO NOT continue using the drive. Back up data immediately if possible, then replace. (2) 'Bootable device not found' or 'No boot device': check boot order in BIOS, verify drive is connected (SATA data + power), check if drive is detected in BIOS. If not detected, try different SATA port/cable. (3) S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) warning = drive is predicting its own failure. Replace the drive proactively and restore from backup. (4) RAID failure: single drive failure in RAID 5 = degraded but functional (replace drive, rebuild array). Two drives fail in RAID 5 = data loss. RAID 6 can survive two failures. (5) Extended read/write times on HDD = possible fragmentation or imminent failure. On SSD = possible firmware issue or drive nearing end of life. (6) Missing drives in OS: check Device Manager, check BIOS detection, try different SATA port, check cable connections. (7) Audible alarms typically come from RAID controllers in servers when a drive fails. (8) LED indicators: solid = normal activity, no light = drive not detected, amber/red = failure. (9) Low IOPS: check if drive is nearly full, check for fragmentation (HDD), check interface bottleneck (SATA vs NVMe)."
+            },
+            {
+              "id": "5.3",
+              "title": "Given a scenario, troubleshoot video, projector, and display issues.",
+              "subtopics": [
+                "Incorrect input source",
+                "Physical cabling issues",
+                "Burnt-out bulb",
+                "Fuzzy image",
+                "Display burn-in",
+                "Dead pixels",
+                "Flashing screen",
+                "Incorrect color display",
+                "Audio issues",
+                "Dim image",
+                "Intermittent projector shutdown",
+                "Sizing issues",
+                "Distorted image"
+              ],
+              "studyNotes": "Display troubleshooting follows a logical elimination process. Key exam tips: (1) No display -- FIRST check: is the correct input source selected? This is the #1 oversight. Use the monitor's input/source button. (2) Physical cabling: check both ends of the cable, try a known-good cable. VGA connections can come loose -- tighten thumbscrews. (3) Fuzzy image: running at non-native resolution. Set display to its native resolution for sharpest image. (4) Burn-in: permanent ghost image caused by static content displayed too long. Affects OLED and older plasma displays most. Use screen savers, vary content, enable pixel shift. (5) Dead pixels: stuck pixels may be recoverable with pixel-fixing software; truly dead pixels (always black) cannot be fixed. (6) Dim image on laptop: check brightness settings first, then suspect backlight/inverter failure. Flashlight test -- if you can see a faint image with a flashlight against the screen, the backlight has failed. (7) Projector: burnt-out bulb = no image but fans running. Intermittent shutdown = overheating (blocked vents, dirty filter). (8) Audio issues with HDMI/DisplayPort: these carry audio. Check that the display is selected as the audio output device in OS settings. (9) Distorted image/artifacts: usually GPU issue -- check GPU temperatures, drivers, or test with a different GPU."
+            },
+            {
+              "id": "5.4",
+              "title": "Given a scenario, troubleshoot common mobile device issues.",
+              "subtopics": [
+                "Poor battery health",
+                "Swollen battery",
+                "Broken screen",
+                "Improper charging",
+                "Poor/no connectivity",
+                "Liquid damage",
+                "Overheating",
+                "Digitizer issues",
+                "Physically damaged ports",
+                "Malware",
+                "Cursor drift/touch calibration",
+                "Unable to install new apps",
+                "Stylus does not work",
+                "Degraded performance"
+              ],
+              "studyNotes": "Mobile device troubleshooting often appears as scenario questions. Key exam tips: (1) Swollen battery = SAFETY HAZARD. Do NOT puncture or continue using. Replace immediately. Can cause screen to bulge/separate from housing. Dispose of properly per regulations. (2) Poor battery health: batteries degrade over charge cycles. Check battery health in settings. Replace if below 80% capacity. Calibrate by full discharge/charge cycle. (3) Improper charging: try different cable, adapter, outlet. Clean the charging port (lint/debris is common). Check for damage to port pins. (4) Liquid damage: power off immediately, do NOT charge, do NOT use rice (myth). Use silica gel or professional drying service. Check liquid damage indicators (LDI). (5) Cursor drift/touch calibration: touchscreen responds to wrong location. Restart device, remove screen protector, recalibrate touch if OS allows. (6) Unable to install new apps: check storage space, check OS version compatibility, check if device is managed (MDM restrictions), check if side-loading is attempted on locked device. (7) Degraded performance: clear cache, close background apps, check for malware, update OS, factory reset as last resort. (8) Overheating: close heavy apps, remove case temporarily, avoid direct sunlight, check for runaway processes. (9) Digitizer vs screen: you can have a working display with broken digitizer (shows image but no touch response) or broken screen with working digitizer (cracked but touch works)."
+            },
+            {
+              "id": "5.5",
+              "title": "Given a scenario, troubleshoot network issues.",
+              "subtopics": [
+                "Intermittent wireless connectivity",
+                "Slow network speeds",
+                "Limited connectivity",
+                "Jitter",
+                "Poor VoIP quality",
+                "Port flapping",
+                "High latency",
+                "External interference",
+                "Authentication failures",
+                "Intermittent internet connectivity"
+              ],
+              "studyNotes": "Network troubleshooting is a core exam skill. Key exam tips: (1) Troubleshooting methodology: check physical connections > check link lights > ipconfig/ifconfig > ping loopback (127.0.0.1) > ping local IP > ping gateway > ping remote IP > ping DNS name. This sequence isolates where the problem is. (2) Intermittent wireless: check for interference (2.4 GHz conflicts with microwaves, Bluetooth, baby monitors), check signal strength, change channels. (3) Limited connectivity (exclamation mark on network icon): usually means the device has an IP but cannot reach the internet. Check gateway and DNS settings. If APIPA address (169.254.x.x), DHCP is unreachable. (4) Jitter and poor VoIP: jitter = variation in packet delay. VoIP needs low latency (<150ms), low jitter (<30ms), and low packet loss. QoS settings can prioritize voice traffic. (5) Port flapping: a switch port rapidly going up and down. Usually caused by a bad cable, bad NIC, or duplex mismatch. Check cable and replace. (6) High latency: use ping and traceroute to identify where delay occurs. Satellite connections inherently have high latency. (7) Authentication failures: verify credentials, check RADIUS/LDAP server status, check certificate validity. (8) External interference: use Wi-Fi analyzer to identify competing signals, relocate AP, switch to 5 GHz/6 GHz band."
+            },
+            {
+              "id": "5.6",
+              "title": "Given a scenario, troubleshoot printer issues.",
+              "subtopics": [
+                "Lines down pages",
+                "Garbled print",
+                "Paper jams",
+                "Faded prints",
+                "Paper not feeding",
+                "Multipage misfeed",
+                "Multiple prints pending",
+                "Speckling",
+                "Double/echo images",
+                "Grinding noise",
+                "Finishing issues (Staple jams, Hole punch)",
+                "Incorrect page orientation",
+                "Tray not recognized",
+                "Connectivity issues",
+                "Frozen print queue"
+              ],
+              "studyNotes": "Printer troubleshooting maps symptoms to specific components. Key exam tips: (1) Lines down pages (laser): scratched drum or debris on drum. Clean or replace imaging drum. For inkjet: clogged printhead nozzle -- run cleaning cycle. (2) Garbled print: usually a driver issue. Reinstall or update the print driver. Could also be wrong driver type (PCL vs PostScript mismatch). (3) Faded prints (laser): low toner -- shake cartridge gently for temporary fix, then replace. For inkjet: low ink or clogged nozzle. (4) Paper jams: check for debris, use correct paper weight/type, check pickup rollers (worn rollers = paper not feeding or multipage misfeed). Replace rollers and separation pad. (5) Speckling: toner on the page where it shouldn't be. Defective toner cartridge or contaminated drum. (6) Double/echo images (ghosting): fuser is not reaching proper temperature or drum is not fully discharging. Replace fuser or drum. (7) Frozen print queue: restart the Print Spooler service (net stop spooler, delete files in C:\\Windows\\System32\\spool\\PRINTERS, net start spooler). (8) Connectivity issues: check cable, check IP address (network printers), reinstall printer port/driver. (9) Incorrect page orientation: check application settings and printer driver settings (portrait vs landscape). (10) Multiple prints pending in queue: spooler issue, insufficient memory, or slow network connection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exam": "Core 2",
+      "examCode": "220-1202",
+      "passingScore": 700,
+      "maxScore": 900,
+      "totalQuestions": 90,
+      "timeMinutes": 90,
+      "domains": [
+        {
+          "id": "1.0",
+          "name": "Operating Systems",
+          "weight": 28,
+          "objectives": [
+            {
+              "id": "1.1",
+              "title": "Explain common OS types and their purposes.",
+              "subtopics": [
+                "Workstation OSs (Windows, Linux, macOS, Chrome OS)",
+                "Mobile OSs (iPadOS, iOS, Android)",
+                "Vendor life-cycle limitations (EOL, Update limitations)",
+                "Compatibility concerns"
+              ],
+              "studyNotes": "Know OS characteristics and when each is appropriate. Key exam tips: (1) Windows: most common enterprise desktop OS, extensive software compatibility, Active Directory integration. (2) macOS: Apple hardware only, .dmg/.pkg installation, preferred for creative/design work. (3) Linux: open-source, many distributions (Ubuntu, Fedora, CentOS), preferred for servers and development, extensive command-line tools. (4) Chrome OS: lightweight, cloud-dependent, runs web apps and Android apps, used in education (Chromebooks), minimal local storage. (5) Mobile: iOS/iPadOS = Apple only, App Store only (locked ecosystem). Android = multiple manufacturers, Google Play Store, more customizable, sideloading possible. (6) EOL (End of Life): no more security updates -- running EOL software is a security risk. Know that Windows 10 has a specific EOL date. (7) Compatibility concerns: 32-bit vs 64-bit (32-bit OS cannot use more than 4 GB RAM), driver availability varies by OS, application compatibility may limit OS choice. (8) Common pitfall: Chrome OS is NOT the same as the Chrome browser. Chrome OS is a full lightweight operating system."
+            },
+            {
+              "id": "1.2",
+              "title": "Given a scenario, perform OS installations and upgrades in a diverse environment.",
+              "subtopics": [
+                "Boot methods (USB, Network, Solid-state/flash, Internet-based, External/hot-swappable, Internal HD partition, Multiboot)",
+                "Types of installations (Clean install, Upgrade, Image deployment, Remote network, Zero-touch, Recovery partition, Repair, Third-party drivers)",
+                "Partitioning (GPT, MBR)",
+                "Various filesystems (NTFS, ReFS, FAT32, ext4, XFS, APFS, exFAT)",
+                "Drive format",
+                "Upgrade considerations (Backup, App/driver compatibility, Hardware compatibility)",
+                "Feature updates (Product life cycle)"
+              ],
+              "studyNotes": "Filesystem and partitioning knowledge is critical. Key exam tips: (1) GPT vs MBR: GPT (GUID Partition Table) supports drives >2 TB, up to 128 partitions, requires UEFI. MBR (Master Boot Record) limited to 2 TB, max 4 primary partitions (or 3 primary + 1 extended), supports BIOS/legacy boot. (2) Filesystems: NTFS = Windows default (permissions, encryption, compression, large file support). FAT32 = universal compatibility, 4 GB file size limit, 32 GB partition limit in Windows. exFAT = FAT32 successor without size limits, ideal for flash drives/SD cards. ext4 = Linux default. APFS = macOS default (Apple File System). ReFS = Windows Server resilient filesystem. XFS = high-performance Linux filesystem. (3) Clean install wipes everything; upgrade preserves files/apps. Always backup before either. (4) Image deployment: cloning a preconfigured OS image to multiple machines. Most efficient for large rollouts. (5) Zero-touch: automated deployment requiring no user interaction (MDT, SCCM, WDS). (6) Network boot (PXE): boots from network server, used for imaging/deployment. Must be enabled in BIOS. (7) Multiboot: multiple OSs on one machine, each on its own partition. Boot manager selects which to load. (8) Common pitfall: upgrading from 32-bit to 64-bit requires a clean install -- you cannot upgrade in-place."
+            },
+            {
+              "id": "1.3",
+              "title": "Compare and contrast basic features of Microsoft Windows editions.",
+              "subtopics": [
+                "Windows 10 editions (Home, Pro, Pro for Workstations, Enterprise)",
+                "Windows 11 editions (Home, Pro, Enterprise)",
+                "N versions",
+                "Feature differences (Domain vs workgroup, Desktop styles/UI, RDP availability, RAM support, BitLocker, gpedit.msc)",
+                "Upgrade paths (In-place, Clean install)",
+                "Hardware requirements (TPM, UEFI)"
+              ],
+              "studyNotes": "Windows edition differences are HEAVILY tested. Memorize what each edition includes: (1) Home: basic edition, workgroup only (NO domain join), no BitLocker, no gpedit.msc, no RDP host (can connect to others but cannot BE remote-controlled via RDP). (2) Pro: adds domain join, BitLocker, gpedit.msc, RDP host, Hyper-V, Remote Desktop. This is the standard business edition. (3) Pro for Workstations: adds ReFS, persistent memory support, more CPU sockets/cores. (4) Enterprise: adds advanced security features, volume licensing, DirectAccess, AppLocker, BranchCache. Only available through volume licensing. (5) N versions: European editions without Windows Media Player/related technologies due to antitrust ruling. (6) Windows 11 hardware requirements: TPM 2.0, UEFI with Secure Boot, 4 GB RAM, 64 GB storage, compatible 64-bit CPU. (7) Upgrade paths: Home to Pro (in-place upgrade possible), Pro to Enterprise (in-place), Home to Enterprise (NOT directly -- must go Home > Pro > Enterprise). (8) Memory aid: 'Home = Basic, Pro = Business, Enterprise = Everything'. (9) Key domain vs workgroup: domain = centralized management via Active Directory server. Workgroup = peer-to-peer, no central management, max 10-20 computers practical limit."
+            },
+            {
+              "id": "1.4",
+              "title": "Given a scenario, use Microsoft Windows OS features and tools.",
+              "subtopics": [
+                "Task Manager (Services, Startup, Performance, Processes, Users)",
+                "MMC snap-ins (Event Viewer, Disk Management, Task Scheduler, Device Manager, Certificate Manager, Local Users and Groups, Performance Monitor, Group Policy Editor)",
+                "Additional tools (System Information, Resource Monitor, System Configuration, Disk Cleanup, Disk Defragment, Registry Editor)"
+              ],
+              "studyNotes": "Know when to use each tool and how to access it. Key exam tips: (1) Task Manager (Ctrl+Shift+Esc): Processes tab shows running apps and resource usage. Performance tab shows CPU, memory, disk, network overview. Startup tab enables/disables startup programs. Services tab shows all services. Users tab shows logged-in users and their resource usage. (2) Event Viewer (eventvwr.msc): logs system events in Application, Security, System categories. Use to investigate crashes, errors, security events. Error = problem, Warning = potential problem, Information = normal operation. (3) Disk Management (diskmgmt.msc): create/delete/format/resize partitions, assign drive letters, convert between basic/dynamic disks. (4) Device Manager (devmgmt.msc): manage hardware drivers. Yellow triangle = driver problem. Red X = device disabled. (5) Group Policy Editor (gpedit.msc): configure hundreds of OS settings. Pro/Enterprise only -- NOT available in Home edition. (6) Registry Editor (regedit): direct database of all Windows settings. HKLM = machine settings, HKCU = current user. Be extremely careful -- incorrect changes can break Windows. (7) System Configuration (msconfig): configure boot options, selective startup, enable/disable services. (8) Resource Monitor: more detailed than Task Manager for CPU, memory, disk, network per-process monitoring. (9) Disk Cleanup: removes temp files, thumbnails, recycle bin, Windows Update cleanup. (10) Disk Defragment: reorganizes HDD data for faster access. SSDs should be optimized (TRIM), NOT defragmented."
+            },
+            {
+              "id": "1.5",
+              "title": "Given a scenario, use the appropriate Microsoft command-line tools.",
+              "subtopics": [
+                "Navigation (cd, dir)",
+                "Network (ipconfig, ping, netstat, nslookup, net use, tracert, pathping)",
+                "Disk management (chkdsk, format, diskpart)",
+                "File management (md, rmdir, robocopy)",
+                "Informational (hostname, net user, winver, whoami, /? help)",
+                "OS management (gpupdate, gpresult, sfc)"
+              ],
+              "studyNotes": "Command-line tools are GUARANTEED on the exam. Know each command and its common switches. Key commands: (1) ipconfig: shows IP configuration. ipconfig /all = detailed info. ipconfig /release + /renew = get new DHCP lease. ipconfig /flushdns = clear DNS cache. (2) ping: tests connectivity. ping -t = continuous ping. If ping fails to IP but works to loopback, problem is network. (3) tracert: traces the route to a destination, shows each hop. Use to find WHERE a connection fails. pathping combines ping and tracert with statistics. (4) nslookup: queries DNS servers. Use to verify DNS resolution. (5) netstat: shows active connections and listening ports. netstat -an = all connections with numeric addresses. (6) net use: maps network drives (net use Z: \\\\server\\share). (7) chkdsk: checks disk for errors. chkdsk /f = fix errors. chkdsk /r = locate bad sectors and recover data. (8) diskpart: advanced disk partitioning tool. Can clean, create, format partitions. (9) sfc /scannow: System File Checker -- scans and repairs corrupted Windows system files. Run from elevated command prompt. (10) gpupdate /force: immediately refreshes Group Policy. gpresult /r: shows applied Group Policy results. (11) robocopy: robust file copy with mirroring, retry, logging features. Better than xcopy for large transfers. (12) Common pitfall: sfc requires admin privileges. Always 'Run as Administrator'."
+            },
+            {
+              "id": "1.6",
+              "title": "Given a scenario, configure Microsoft Windows settings.",
+              "subtopics": [
+                "Internet Options",
+                "Devices and Printers",
+                "Program and Features",
+                "Network and Sharing Center",
+                "System",
+                "Windows Defender Firewall",
+                "Mail",
+                "Sound",
+                "User Accounts",
+                "Device Manager",
+                "Indexing Options",
+                "Administrative Tools",
+                "File Explorer Options (View hidden files, Hide extensions)",
+                "Power Options (Hibernate, Power plans, Sleep/suspend, Standby, Lid close, Fast startup, USB selective suspend)",
+                "Ease of Access",
+                "Time and Language",
+                "Update and Security",
+                "Personalization",
+                "Apps",
+                "Privacy",
+                "System",
+                "Devices",
+                "Network and Internet",
+                "Gaming",
+                "Accounts"
+              ],
+              "studyNotes": "Know where to find each setting in Control Panel and Windows Settings. Key exam tips: (1) Control Panel (legacy) vs Settings (modern): both coexist in Windows 10/11. Some options only in one or the other. (2) Power Options: Sleep = saves state to RAM (fast resume, uses some power). Hibernate = saves state to disk (no power used, slower resume). Standby is the same as sleep. Fast Startup = combines shutdown and hibernate for faster boot. USB selective suspend saves power by suspending unused USB devices. (3) File Explorer Options: 'Show hidden files' and 'Show file extensions' are commonly needed for troubleshooting. Malware often hides in hidden files or uses double extensions (invoice.pdf.exe). (4) Program and Features (appwiz.cpl): uninstall/repair programs. Also where Windows features can be enabled/disabled. (5) Network and Sharing Center: change adapter settings, set up new connections, troubleshoot networking. (6) Windows Defender Firewall: enable/disable per network profile (public/private/domain). Create inbound/outbound rules for specific ports and applications. (7) Indexing Options: manage which locations are indexed for Windows Search. Add/remove locations to speed up or expand search. (8) Power plans: Balanced (default), Power saver, High performance. Can create custom plans."
+            },
+            {
+              "id": "1.7",
+              "title": "Given a scenario, configure Microsoft Windows networking features on a client/desktop.",
+              "subtopics": [
+                "Domain joined vs workgroup (Shared resources, Printers, File servers, Mapped drives)",
+                "Establish connections (VPN, Wireless, Wired, WWAN/cellular)",
+                "Local OS firewall (App restrictions/exceptions, Configuration)",
+                "Proxy settings",
+                "Public vs private network",
+                "File Explorer network paths",
+                "Metered connections",
+                "Client network config (IP addressing, DNS, Subnet mask, Gateway, Static vs dynamic)"
+              ],
+              "studyNotes": "Windows networking configuration comes up frequently. Key exam tips: (1) Domain vs Workgroup: Domain requires a Windows Server with Active Directory. Provides centralized authentication, Group Policy, and resource management. Workgroup is peer-to-peer with no central management. Home = Home edition cannot join a domain. (2) Mapped drives: persistent connection to a network share. Map via File Explorer or 'net use Z: \\\\server\\share /persistent:yes'. (3) UNC path format: \\\\servername\\sharename\\folder. This is how you access network resources in File Explorer. (4) Public vs Private network: Private allows discovery and file sharing. Public disables discovery for security. Set to Private for home/office, Public for coffee shops/airports. (5) Metered connection: limits background data usage. Windows Update may be restricted. Enable on cellular/hotspot connections to avoid data overages. (6) Proxy settings: route traffic through a proxy server. Configure in Settings > Network & Internet > Proxy. Can also be configured via Group Policy or PAC file. (7) Firewall exceptions: allow specific apps/ports through the firewall. Be selective -- each exception is a potential attack vector. (8) VPN setup: built-in Windows VPN client supports PPTP, L2TP, SSTP, IKEv2. Configure server address, authentication type, and credentials. (9) WWAN: cellular data connection via built-in or USB cellular modem."
+            },
+            {
+              "id": "1.8",
+              "title": "Explain common features and tools of the macOS/desktop operating system.",
+              "subtopics": [
+                "Installation/uninstallation (.dmg, .pkg, .app, App Store, Uninstall process)",
+                "System Preferences (Displays, Networks, Printers, Scanners, Privacy, Accessibility, Time Machine)",
+                "System folders (/Applications, /Users, /Library, /System, /Users/Library)",
+                "Features (Multiple desktops, Mission Control, Keychain, Spotlight, iCloud/iMessage/FaceTime/Drive, Gestures, Finder, Dock, Continuity)",
+                "Apple ID/corporate restrictions",
+                "Best practices (Backups, Antivirus, Updates/patches, RSR)",
+                "Disk Utility",
+                "FileVault",
+                "Terminal",
+                "Force Quit"
+              ],
+              "studyNotes": "macOS specifics appear on the exam even though it is Windows-focused. Key exam tips: (1) Installation: .dmg = disk image (mount, drag app to /Applications). .pkg = installer package (runs an installer). .app = application bundle. Uninstalling = drag app to Trash (some apps need dedicated uninstallers for complete removal). (2) Time Machine: built-in backup solution. Supports incremental backups to external drives. Can restore entire system or individual files. (3) FileVault: full-disk encryption for macOS (equivalent of BitLocker on Windows). Uses XTS-AES-128 encryption. (4) Keychain: macOS password manager. Stores passwords, certificates, keys. Keychain Access app manages stored credentials. (5) Spotlight (Cmd+Space): system-wide search. Searches files, apps, emails, web results. (6) Mission Control: shows all open windows, desktops, and full-screen apps. Use to manage multiple desktops/spaces. (7) Disk Utility: partition, format, repair disks. Run First Aid to check/repair disk errors. (8) Force Quit (Cmd+Option+Esc): kill unresponsive applications. Equivalent to End Task in Windows. (9) RSR = Rapid Security Response -- quick security patches between major updates. (10) Common pitfall: /Library (system-wide) vs ~/Library (user-specific). System Preferences is called System Settings in newer macOS versions."
+            },
+            {
+              "id": "1.9",
+              "title": "Identify common features and tools of the Linux client/desktop OS.",
+              "subtopics": [
+                "File management (ls, pwd, mv, cp, rm, chmod, chown, grep, find)",
+                "Package management (apt, dnf)",
+                "Filesystem management (fsck, mount)",
+                "Informational (man, cat, top, ps, du, df)",
+                "Administrative (su, sudo)",
+                "Network (ip, ping, curl, dig, traceroute)",
+                "Text editors (nano)",
+                "Common config files (/etc/passwd, /etc/shadow, /etc/hosts, /etc/fstab, /etc/resolv.conf)",
+                "OS components (systemd, kernel, bootloader)",
+                "Root account"
+              ],
+              "studyNotes": "Linux commands and file locations are tested. Key exam tips: (1) Essential commands: ls (list files, -la for all details), cd (change directory), pwd (print working directory), cp (copy), mv (move/rename), rm (remove, -r for recursive), mkdir (make directory). (2) chmod: change permissions. Numeric: 7=rwx, 6=rw, 5=rx, 4=r, 0=none. chmod 755 = owner rwx, group rx, others rx. chown changes ownership. (3) grep: search file contents for patterns. find: locate files by name/type/size. (4) apt (Debian/Ubuntu) and dnf (Fedora/RHEL) are package managers. apt update && apt upgrade to update system. (5) Config files: /etc/passwd = user accounts. /etc/shadow = encrypted passwords. /etc/hosts = local DNS override. /etc/fstab = filesystem mount points at boot. /etc/resolv.conf = DNS server configuration. (6) su = switch user (su - root). sudo = execute single command as root. sudo is preferred over logging in as root. (7) top/ps: top shows real-time process monitoring (like Task Manager). ps shows snapshot of processes. (8) df = disk free space. du = disk usage by directory/file. (9) fsck: filesystem check and repair (run on unmounted filesystems). mount: attach a filesystem to a directory. (10) systemd: modern init system, manages services. systemctl start/stop/enable/disable services. (11) nano: simple text editor. vi/vim also common but harder to learn."
+            },
+            {
+              "id": "1.10",
+              "title": "Given a scenario, install applications according to requirements.",
+              "subtopics": [
+                "System requirements (32-bit vs 64-bit, Dedicated vs integrated GPU, VRAM, RAM, CPU requirements, External hardware tokens, Storage, Application to OS compatibility)",
+                "Distribution methods (Physical media vs ISO, Downloadable package, Image deployment)",
+                "Impact considerations (Device, Network, Operation, Business)"
+              ],
+              "studyNotes": "Application installation requires matching requirements to available resources. Key exam tips: (1) 32-bit vs 64-bit: 64-bit OS can run both 32-bit and 64-bit applications. 32-bit OS can ONLY run 32-bit apps. 32-bit apps limited to 4 GB RAM. Always prefer 64-bit when available. (2) Dedicated vs integrated GPU: dedicated GPU has its own VRAM (needed for gaming, video editing, CAD). Integrated uses shared system RAM (fine for office work). (3) Check ALL requirements before installing: CPU speed/cores, RAM, storage space, GPU/VRAM, OS version compatibility. (4) Distribution methods: Physical media (USB/DVD) for air-gapped systems. ISO files can be mounted or burned. Downloadable packages (.exe, .msi, .dmg, .deb, .rpm) from vendor websites. Image deployment for mass rollout. (5) External hardware tokens: some software requires USB dongles or smart cards for licensing/authentication. (6) Impact considerations: Device = will it slow down the machine? Network = does it consume bandwidth? Operation = does it require downtime? Business = does it affect productivity during rollout? (7) Common pitfall: always verify download integrity (hash comparison) before installing. Downloading from untrusted sources risks malware. (8) Application-to-OS compatibility: not all apps support all OSs. Check vendor compatibility matrix. Use compatibility mode for legacy Windows apps."
+            },
+            {
+              "id": "1.11",
+              "title": "Given a scenario, install and configure cloud-based productivity tools.",
+              "subtopics": [
+                "Email systems",
+                "Storage (Sync/folder settings)",
+                "Collaboration tools (Spreadsheets, Videoconferencing, Presentation, Word processing, Instant messaging)",
+                "Identity synchronization",
+                "Licensing assignment"
+              ],
+              "studyNotes": "Cloud productivity tools are increasingly important for the exam. Key exam tips: (1) Email systems: cloud-based email (Microsoft 365 Exchange Online, Google Workspace Gmail) vs on-premises Exchange. IMAP syncs across devices (emails stay on server). POP3 downloads and typically removes from server. (2) Cloud storage sync: OneDrive, Google Drive, Dropbox, iCloud. Configure which folders sync to save local storage. Sync conflicts occur when the same file is edited on multiple devices offline. (3) Collaboration tools: Microsoft 365 (Word, Excel, PowerPoint, Teams), Google Workspace (Docs, Sheets, Slides, Meet). Real-time co-authoring allows multiple simultaneous editors. (4) Identity synchronization: Azure AD Connect syncs on-premises Active Directory with Azure AD/Microsoft 365. Enables single sign-on (SSO) -- one set of credentials for both local and cloud resources. (5) Licensing: each user needs a license assigned (Microsoft 365 E3/E5, Google Workspace Business). Admins assign licenses in admin portal. Over-provisioning wastes money; under-provisioning blocks users. (6) Videoconferencing: Teams, Zoom, Google Meet. Check bandwidth requirements, camera/mic permissions. (7) Common pitfall: sync settings can consume significant bandwidth and storage. Configure selective sync for large cloud storage accounts."
+            }
+          ]
+        },
+        {
+          "id": "2.0",
+          "name": "Security",
+          "weight": 28,
+          "objectives": [
+            {
+              "id": "2.1",
+              "title": "Summarize various security measures and their purposes.",
+              "subtopics": [
+                "Physical security (Bollards, Access control vestibule, Badge reader, Video surveillance, Alarm systems, Motion sensors, Door locks, Equipment locks, Security guards, Fences)",
+                "Physical access security (Key fobs, Smart cards, Mobile digital key, Keys, Biometrics Retina/Fingerprint/Palm/Facial/Voice, Lighting, Magnetometers)",
+                "Logical security (Least privilege, Zero Trust, ACLs, MFA Email/Hardware token/Authenticator/SMS/Voice/TOTP/OTP, SAML, SSO, Just-in-time access PAM, MDM, DLP, IAM, Directory services)"
+              ],
+              "studyNotes": "Security measures span physical and logical controls. Key exam tips: (1) Access control vestibule (formerly mantrap): small room with two doors -- only one can open at a time. Prevents tailgating. (2) Bollards: posts preventing vehicle access to buildings. (3) Biometric types: Fingerprint (most common), Retina scan (blood vessel pattern, most unique), Facial recognition, Palm scanner, Voice recognition. Know that biometrics are 'something you are' in MFA. (4) MFA factors: Something you know (password), Something you have (token, phone), Something you are (biometrics). True MFA requires at least TWO DIFFERENT factors. Two passwords is NOT MFA. (5) Least privilege: users get only the minimum access needed. (6) Zero Trust: never trust, always verify -- every access request is authenticated regardless of location. (7) ACL (Access Control List): defines who can access what resources and what actions they can perform. (8) SAML (Security Assertion Markup Language): XML-based protocol for SSO between identity providers and service providers. (9) PAM (Privileged Access Management) with just-in-time access: admin privileges granted only when needed and automatically revoked. (10) DLP (Data Loss Prevention): monitors and prevents sensitive data from leaving the organization. (11) Common pitfall: SMS-based MFA is considered less secure than authenticator apps or hardware tokens due to SIM swapping attacks."
+            },
+            {
+              "id": "2.2",
+              "title": "Given a scenario, configure and apply basic Microsoft Windows OS security settings.",
+              "subtopics": [
+                "Defender Antivirus (Activate/deactivate, Update definitions)",
+                "Firewall (Activate/deactivate, Port security, Application security)",
+                "Users and groups (Local vs Microsoft account, Standard, Administrator, Guest, Power user)",
+                "Login options (Username/password, PIN, Fingerprint, Facial recognition, SSO, Passwordless/Windows Hello)",
+                "NTFS vs share permissions (File/folder attributes, Inheritance)",
+                "Run as admin vs standard",
+                "UAC",
+                "BitLocker",
+                "BitLocker-To-Go",
+                "EFS",
+                "Active Directory (Join domain, Login scripts, OU objects, Home folders, Group Policy, Security groups, Folder redirection)"
+              ],
+              "studyNotes": "Windows security is a major exam topic. Key exam tips: (1) NTFS vs Share permissions: NTFS applies locally AND over network. Share permissions only apply over network. When BOTH apply, the MOST RESTRICTIVE wins. NTFS permissions: Full Control, Modify, Read & Execute, List, Read, Write. (2) Inheritance: child folders inherit parent permissions by default. Can be disabled per folder. (3) BitLocker: full-volume encryption. Requires TPM (or USB key as fallback). Only in Pro/Enterprise editions. BitLocker-To-Go: encrypts removable USB drives. (4) EFS (Encrypting File System): file-level encryption within NTFS. Tied to user certificate -- if user profile is lost, encrypted files may be unrecoverable without recovery agent. (5) UAC (User Account Control): prompts for elevation when admin actions are needed. Even admin accounts run with standard privileges until UAC elevation. Do NOT disable UAC -- it is a security boundary. (6) Windows Hello: passwordless authentication using biometrics (fingerprint, face) or PIN. PIN is device-specific (unlike passwords which work on any device). (7) Account types: Administrator has full control. Standard user for daily work (least privilege). Guest account should be disabled. (8) Active Directory: OU (Organizational Unit) = container for organizing objects. Group Policy links to OUs. Security groups assign permissions. Login scripts automate tasks at sign-in. Folder redirection moves user folders (Desktop, Documents) to a network share."
+            },
+            {
+              "id": "2.3",
+              "title": "Compare and contrast wireless security protocols and authentication methods.",
+              "subtopics": [
+                "Protocols and encryption (WPA2, WPA3, TKIP, AES)",
+                "Authentication (RADIUS, TACACS+, Kerberos, Multifactor)"
+              ],
+              "studyNotes": "Wireless security protocols are tested frequently. Key exam tips: (1) Evolution: WEP (broken, never use) > WPA (TKIP, legacy) > WPA2 (AES, current standard) > WPA3 (SAE, newest). (2) WPA2-Personal (PSK): pre-shared key, suitable for home/small office. WPA2-Enterprise: uses RADIUS server for individual authentication, required for business environments. (3) WPA3 improvements: SAE (Simultaneous Authentication of Equals) replaces PSK handshake -- resistant to offline dictionary attacks. Forward secrecy prevents decryption of past sessions even if key is compromised. (4) AES (Advanced Encryption Standard): current encryption standard, 128/256-bit. TKIP (Temporal Key Integrity Protocol): older, used with WPA, deprecated. Always prefer AES over TKIP. (5) RADIUS (Remote Authentication Dial-In User Service): centralized authentication for network access (Wi-Fi, VPN). Uses ports 1812/1813 (or 1645/1646 legacy). (6) TACACS+ (Terminal Access Controller Access-Control System Plus): Cisco-developed, separates AAA functions, encrypts entire packet (vs RADIUS which only encrypts password). Used mainly for network device administration. (7) Kerberos: Active Directory authentication protocol. Uses tickets (TGT from KDC). Port 88. Time-sensitive -- requires synchronized clocks. (8) Common pitfall: WPA2 with TKIP is possible but insecure. Always use WPA2-AES or WPA3."
+            },
+            {
+              "id": "2.4",
+              "title": "Summarize types of malware and tools/methods for detection, removal, and prevention.",
+              "subtopics": [
+                "Malware (Trojan, Rootkit, Virus, Spyware, Ransomware, Keylogger, Boot sector virus, Cryptominer, Stalkerware, Fileless)",
+                "Adware",
+                "PUP",
+                "Tools/methods (Recovery console, EDR, MDR, XDR, Antivirus, Anti-malware, Email security gateway, Software firewalls, User education/Antiphishing, OS reinstallation)"
+              ],
+              "studyNotes": "Know each malware type and the appropriate response. Key exam tips: (1) Trojan: disguised as legitimate software. Does NOT self-replicate. Named after Trojan horse. (2) Virus: self-replicating, attaches to files/programs. Requires user action to spread. (3) Rootkit: hides deep in the OS (kernel level). Very difficult to detect/remove. May require OS reinstallation. (4) Ransomware: encrypts files and demands payment. NEVER pay the ransom. Restore from backup. (5) Spyware: monitors user activity, collects data. Keylogger captures keystrokes (subset of spyware). Stalkerware tracks location/messages (often installed by someone with physical access). (6) Boot sector virus: infects the boot sector/MBR. Loads before OS, very hard to remove. (7) Cryptominer: uses system resources to mine cryptocurrency. Symptoms: high CPU usage, overheating, slow performance. (8) Fileless malware: operates in memory only, no files on disk. Evades traditional antivirus. Uses legitimate tools (PowerShell, WMI). (9) Detection tools: EDR (Endpoint Detection and Response) monitors endpoints for threats. MDR (Managed Detection and Response) is outsourced EDR with human analysts. XDR (Extended Detection and Response) correlates data across endpoints, network, cloud. (10) PUP (Potentially Unwanted Program): not malware per se but unwanted (toolbars, adware bundled with installs). (11) Common pitfall: fileless malware will not be caught by traditional file-scanning antivirus."
+            },
+            {
+              "id": "2.5",
+              "title": "Compare and contrast common social engineering attacks, threats, and vulnerabilities.",
+              "subtopics": [
+                "Social engineering (Phishing: Vishing/Smishing/QR code/Spear/Whaling, Shoulder surfing, Tailgating, Impersonation, Dumpster diving)",
+                "Threats (DoS, DDoS, Evil twin, Zero-day, Spoofing, On-path, Brute-force, Dictionary, Insider threat, SQL injection, XSS, BEC, Supply chain/pipeline)",
+                "Vulnerabilities (Non-compliant, Unpatched, Unprotected, EOL, BYOD)"
+              ],
+              "studyNotes": "Social engineering and threat types are HEAVILY tested. Memorize these: (1) Phishing variants: Phishing = generic email. Spear phishing = targeted at specific person/org. Whaling = targeting executives. Vishing = voice (phone). Smishing = SMS text. QR code phishing = malicious QR codes. (2) Shoulder surfing: watching someone enter credentials. Use privacy screens. (3) Tailgating/piggybacking: following an authorized person through a secured door. (4) Dumpster diving: searching trash for sensitive documents. Use shredders. (5) Evil twin: fake Wi-Fi access point mimicking a legitimate one. Users connect and attacker captures traffic. (6) On-path attack (formerly man-in-the-middle): attacker intercepts communication between two parties. (7) DoS = one source floods target. DDoS = distributed, many sources. (8) Zero-day: vulnerability with no patch available yet. (9) Brute-force: tries every possible combination. Dictionary attack: tries common words/passwords. (10) SQL injection: inserts malicious SQL commands into input fields. XSS (Cross-Site Scripting): injects scripts into web pages viewed by others. (11) BEC (Business Email Compromise): attacker impersonates executive to trick employees into transferring money/data. (12) Supply chain attack: compromises a vendor/supplier to attack their customers. (13) Vulnerabilities: unpatched systems, EOL software, non-compliant configurations, and BYOD devices are all attack vectors."
+            },
+            {
+              "id": "2.6",
+              "title": "Given a scenario, implement procedures for basic SOHO malware removal.",
+              "subtopics": [
+                "Steps 1-10: Investigate/verify, Quarantine, Disable System Restore, Remediate, Update anti-malware, Scan/removal (safe mode, PE), Reimage/reinstall, Schedule scans/updates, Enable System Restore/restore point, Educate end user"
+              ],
+              "studyNotes": "The malware removal process steps MUST be memorized in order. This is a guaranteed exam topic. The 10 steps: (1) Investigate and verify malware symptoms -- confirm it is actually malware, not a false positive or hardware issue. (2) Quarantine infected systems -- disconnect from network to prevent spread. Do NOT power off (may lose volatile evidence). (3) Disable System Restore -- prevents malware from hiding in restore points. Critical step often forgotten. (4) Remediate infected systems -- manual removal of identified malware files, registry entries, scheduled tasks. (5) Update anti-malware signatures -- ensure definitions are current before scanning. (6) Scan and use removal techniques -- boot to Safe Mode (minimal drivers, no network) or use WinPE/bootable environment. Run full scan. Multiple scanners may be needed. (7) Reimage or reinstall if malware persists -- if scanning fails to remove, reimaging is the nuclear option. (8) Schedule scans and run updates -- configure ongoing protection with regular scans and automatic updates. (9) Enable System Restore and create a restore point -- re-enable after clean system is confirmed. Create a known-good restore point. (10) Educate the end user -- prevent future infections through training on safe browsing, email awareness, and phishing recognition. Memory aid: 'I Quit Doing Risky Uploads Since Reckless Surfing Eventually Ends' (Investigate, Quarantine, Disable, Remediate, Update, Scan, Reimage, Schedule, Enable, Educate)."
+            },
+            {
+              "id": "2.7",
+              "title": "Given a scenario, apply workstation security options and hardening techniques.",
+              "subtopics": [
+                "Data-at-rest encryption",
+                "Password considerations (Length, Character types, Uniqueness, Complexity, Expiration)",
+                "BIOS/UEFI passwords",
+                "End-user best practices (Screensaver locks, Log off, Secure hardware, Secure PII/passwords, Password managers)",
+                "Account management (Restrict permissions, Restrict login times, Disable guest, Failed attempts lockout, Timeout/screen lock, Account expiration)",
+                "Change default admin password",
+                "Disable AutoRun",
+                "Disable unused services"
+              ],
+              "studyNotes": "Workstation hardening reduces the attack surface. Key exam tips: (1) Data-at-rest encryption: BitLocker (Windows volumes), EFS (individual files), FileVault (macOS). Protects data if drive is physically stolen. (2) Password best practices: minimum 8+ characters (longer is better), mix of uppercase, lowercase, numbers, symbols. Avoid dictionary words. Unique per account. Expiration policies force periodic changes (though NIST now recommends against forced rotation without cause). (3) BIOS/UEFI passwords: Supervisor password prevents BIOS changes. User password prevents booting. These provide physical security layer. (4) Account lockout policy: lock account after X failed attempts (e.g., 5). Prevents brute-force attacks. Set a lockout duration (e.g., 30 minutes) to auto-unlock. (5) Disable AutoRun/AutoPlay: prevents automatic execution of programs from removable media (USB malware vector). (6) Disable unused services: each running service is a potential attack vector. Only run what is needed. (7) Change default admin passwords on ALL devices (routers, switches, printers, servers). Default credentials are publicly known. (8) Screensaver lock: configure automatic screen lock after inactivity (e.g., 5-15 minutes). Require password on wake. (9) Guest account: should be disabled on all workstations unless specifically needed. (10) Common pitfall: BIOS password can be reset by clearing CMOS -- it is not absolute protection, but provides a deterrent and delay."
+            },
+            {
+              "id": "2.8",
+              "title": "Given a scenario, apply common methods for securing mobile devices.",
+              "subtopics": [
+                "Hardening (Device encryption, Screen locks Facial/PIN/Fingerprint/Pattern/Swipe, Configuration profiles)",
+                "Locator applications",
+                "Remote wipes",
+                "Remote backup",
+                "Failed login restrictions",
+                "Policies (MDM, BYOD vs corporate, Profile security)"
+              ],
+              "studyNotes": "Mobile device security is critical in enterprise environments. Key exam tips: (1) Screen lock strength ranking (strongest to weakest): Biometric (fingerprint/facial) + PIN/password > Complex password > PIN > Pattern > Swipe (no security). (2) Device encryption: iOS encrypts by default when passcode is set. Android encryption varies by manufacturer/version but modern devices encrypt by default. (3) Remote wipe: erases all data on a lost/stolen device. Can be triggered via MDM, Find My iPhone, or Google Find My Device. Important: only works if device has internet connection. (4) Locator applications: Find My iPhone (Apple), Find My Device (Google/Android). Can locate, ring, lock, or wipe devices. (5) Failed login restrictions: wipe device after X failed attempts (e.g., 10). Increasing time delays between attempts. (6) MDM (Mobile Device Management): centrally manage all mobile devices. Can enforce encryption, passwords, app restrictions, remote wipe, VPN, email configuration. (7) BYOD vs corporate-owned: BYOD = user's personal device used for work. Creates security challenges. MDM can create a work profile/container to separate work and personal data. Corporate-owned = company controls the entire device. (8) Configuration profiles: bundled settings pushed via MDM (Wi-Fi, VPN, email, restrictions). Can be mandatory or optional. (9) Common pitfall: remote wipe is useless if the device is offline or has been factory reset by the thief. Ensure activation lock is enabled."
+            },
+            {
+              "id": "2.9",
+              "title": "Compare and contrast common data destruction and disposal methods.",
+              "subtopics": [
+                "Physical destruction (Drilling, Shredding, Degaussing, Incineration)",
+                "Recycling/repurposing (Erasing/wiping, Low-level formatting, Standard formatting)",
+                "Outsourcing (Third-party vendor, Certification of destruction)",
+                "Regulatory/environmental requirements"
+              ],
+              "studyNotes": "Data destruction methods vary by security requirement. Key exam tips: (1) Physical destruction (most secure): Drilling = holes through drive platters. Shredding = industrial shredder destroys drive into pieces. Degaussing = powerful magnetic field destroys data on magnetic media (HDDs, tapes). Does NOT work on SSDs (no magnetic media). Incineration = burning the drive. (2) Software methods: Standard format = only removes file pointers, data is recoverable. Low-level format = overwrites data with zeros, more thorough. Secure erase/wiping = uses multiple overwrite passes (e.g., DoD 5220.22-M), very difficult to recover. (3) SSD considerations: SSDs require manufacturer secure erase tools because wear leveling means standard overwriting may miss data in reserve blocks. (4) Degaussing does NOT work on SSDs -- this is a common exam trap. (5) Outsourcing: use certified vendors (NAID certified). Always get a Certificate of Destruction documenting serial numbers, dates, and methods. (6) Regulatory requirements: HIPAA (healthcare), PCI DSS (credit cards), GDPR (EU data) all mandate specific data handling and destruction procedures. (7) Environmental: batteries and electronics must be disposed of per local regulations. Do not throw in regular trash. Recyclers should be R2 or e-Stewards certified. (8) Memory aid: 'Degauss = Magnetic only, Drill/Shred/Burn = works on everything'."
+            },
+            {
+              "id": "2.10",
+              "title": "Given a scenario, apply security settings on SOHO wireless and wired networks.",
+              "subtopics": [
+                "Router settings (Change default passwords, IP filtering, Firmware updates, Content filtering, Physical placement, UPnP, Screened subnet, Secure management access)",
+                "Wireless specific (Changing SSID, Disabling SSID broadcast, Encryption settings, Guest access)",
+                "Firewall settings (Disabling unused ports, Port forwarding/mapping)"
+              ],
+              "studyNotes": "SOHO network security is a practical exam topic. Key exam tips: (1) FIRST thing to do with any new router: change the default admin password. Default credentials are publicly available and are a top attack vector. (2) Firmware updates: keep router firmware updated to patch security vulnerabilities. (3) Disable UPnP (Universal Plug and Play): automatically opens ports, which is a security risk. Malware can use UPnP to open ports without user knowledge. (4) Screened subnet (formerly DMZ): a network segment that sits between the internal network and the internet. Place public-facing servers (web, email) here to isolate them from the internal LAN. (5) SSID: change from default (reveals router brand). Disabling SSID broadcast provides minimal security (security through obscurity) but may prevent casual users from finding the network. Determined attackers can still find hidden SSIDs. (6) Encryption: always use WPA2-AES or WPA3. Never WEP or WPA-TKIP. (7) Guest network: separate network for visitors, isolated from main LAN. Limits access to internal resources. (8) IP filtering: allow/block specific IP addresses. MAC filtering is also an option but easily spoofed. (9) Port forwarding: maps external ports to internal IPs/ports. Only forward what is needed. Each open port is a potential vulnerability. (10) Physical placement: place router centrally for coverage, but consider that signal extends beyond walls -- adjacent apartments/offices can potentially connect. (11) Secure management access: use HTTPS for web interface, disable remote management unless needed."
+            },
+            {
+              "id": "2.11",
+              "title": "Given a scenario, configure relevant security settings in a browser.",
+              "subtopics": [
+                "Browser download/installation (Trusted/Untrusted sources, Hashing)",
+                "Browser patching",
+                "Extensions/plug-ins (Trusted/Untrusted)",
+                "Password managers",
+                "Secure connections/valid certificates",
+                "Settings (Pop-up blocker, Clearing browsing data, Clearing cache, Private browsing, Sign-in/browser sync, Ad blockers, Proxy, Secure DNS)",
+                "Browser feature management (Enable/disable Plugins/Extensions/Features)"
+              ],
+              "studyNotes": "Browser security is increasingly important. Key exam tips: (1) Only download browsers from official/trusted sources. Verify downloads using hash comparison (SHA-256). A different hash means the file was modified (possibly malware). (2) Keep browsers updated -- patches fix security vulnerabilities. Enable automatic updates. (3) Extensions: only install from official stores (Chrome Web Store, Firefox Add-ons). Untrusted extensions can steal data, inject ads, or install malware. Review permissions before installing. Remove unused extensions. (4) Password managers: browser built-in or dedicated (LastPass, 1Password, Bitwarden). Generate unique complex passwords for each site. Master password must be very strong. (5) SSL/TLS certificates: look for padlock icon and HTTPS. Certificate warnings mean the connection may not be secure -- do NOT proceed unless you understand why. (6) Pop-up blocker: enabled by default in modern browsers. Prevents unwanted pop-up windows (malware delivery, phishing). (7) Private browsing (Incognito/InPrivate): does NOT save history, cookies, or form data locally. Does NOT make you anonymous online -- ISP and websites can still track you. (8) Cache clearing: removes stored web content. Fixes display issues with updated sites. Clearing regularly improves privacy. (9) Secure DNS (DNS over HTTPS/DoH): encrypts DNS queries to prevent snooping. Available in modern browsers. (10) Common pitfall: private browsing does NOT protect against monitoring by employer, ISP, or network admin."
+            }
+          ]
+        },
+        {
+          "id": "3.0",
+          "name": "Software Troubleshooting",
+          "weight": 23,
+          "objectives": [
+            {
+              "id": "3.1",
+              "title": "Given a scenario, troubleshoot common Windows OS issues.",
+              "subtopics": [
+                "BSOD",
+                "Degraded performance",
+                "Boot issues",
+                "Frequent shutdowns",
+                "Services not starting",
+                "Applications crashing",
+                "Low memory warnings",
+                "USB controller resource warnings",
+                "System instability",
+                "No OS found",
+                "Slow profile load",
+                "Time drift"
+              ],
+              "studyNotes": "Windows troubleshooting is heavily scenario-based. Key exam tips: (1) BSOD (Blue Screen of Death): kernel-level crash. Note the stop code. Common causes: bad drivers, failing hardware, corrupted system files. Boot to Safe Mode to troubleshoot. Run sfc /scannow and DISM to repair system files. (2) 'No OS found': boot device not detected. Check BIOS boot order, verify drive is connected, repair boot sector with bootrec commands (/fixmbr, /fixboot, /rebuildbcd). (3) Boot issues: if Windows logo appears then crashes = driver or software issue (try Safe Mode). If no Windows logo = hardware or boot sector issue. (4) Slow performance: check Task Manager for resource hogs. Common culprits: too many startup items, insufficient RAM, fragmented HDD, malware. (5) Low memory warnings: too many applications open, insufficient RAM, page file too small. Add RAM or close applications. (6) Services not starting: check Event Viewer for errors. Verify service dependencies. Try manual start in services.msc. (7) USB controller resource warnings: too many USB devices. Use a powered USB hub or remove unnecessary devices. (8) Time drift: if persistent, check CMOS battery. If domain-joined, NTP sync issues with domain controller. (9) Slow profile load: corrupted user profile, insufficient disk space, or Group Policy processing. Try creating a new user profile. (10) System instability: run memory diagnostics (mdsched.exe), check drive health, scan for malware, check Event Viewer."
+            },
+            {
+              "id": "3.2",
+              "title": "Given a scenario, troubleshoot common mobile OS and application issues.",
+              "subtopics": [
+                "Application fails to launch/close/update/install",
+                "Slow to respond",
+                "OS fails to update",
+                "Battery life issues",
+                "Random reboots",
+                "Connectivity issues (Bluetooth, Wi-Fi, NFC)",
+                "Screen does not autorotate"
+              ],
+              "studyNotes": "Mobile troubleshooting follows a specific methodology. Key exam tips: (1) App fails to launch: force close and relaunch, clear app cache/data, uninstall and reinstall, check OS compatibility. (2) App fails to update: check storage space, check internet connection, check OS version requirements, clear app store cache. (3) App fails to install: insufficient storage, OS version too old, region restrictions, MDM restrictions blocking installation. (4) Slow response: close background apps, clear cache, restart device, check for OS updates, factory reset as last resort. (5) OS fails to update: insufficient storage (need free space for download + install), insufficient battery (usually requires >50%), poor internet connection, device may no longer be supported (EOL). (6) Battery life issues: check battery health percentage, identify battery-draining apps in settings, reduce brightness, disable unnecessary radios (Bluetooth, GPS, Wi-Fi when not needed), check for background app refresh settings. (7) Random reboots: often a failing battery or overheating issue. Could also be a buggy app or OS bug -- update everything, or factory reset. (8) Connectivity: toggle the radio off/on, forget and re-add the connection, restart device. For Bluetooth: unpair and re-pair. (9) Screen does not autorotate: check rotation lock setting (most common cause), restart device, check accelerometer by testing in another app. (10) General approach: restart > update > clear cache > reinstall app > factory reset."
+            },
+            {
+              "id": "3.3",
+              "title": "Given a scenario, troubleshoot common mobile OS and application security issues.",
+              "subtopics": [
+                "Security concerns (Unauthorized app stores, Developer mode, Root/jailbreak, Unauthorized/malicious apps, Application spoofing)",
+                "Common symptoms (High network traffic, Degraded response, Data-usage limit, Limited/no internet, High number of ads, Fake security warnings, Unexpected app behavior, Leaked personal files/data)"
+              ],
+              "studyNotes": "Mobile security issues combine security knowledge with troubleshooting. Key exam tips: (1) Root (Android) / Jailbreak (iOS): removes manufacturer restrictions. Major security risk -- bypasses built-in protections, voids warranty, allows unauthorized apps. MDM should detect and flag rooted/jailbroken devices. (2) Unauthorized app stores (sideloading): apps not vetted by Google/Apple may contain malware. Enterprise MDM should block installation from unknown sources. (3) Developer mode: enables advanced features like USB debugging. Should be disabled on production/corporate devices as it allows direct system access. (4) Application spoofing: fake apps that mimic legitimate ones to steal credentials. Check developer name, reviews, download count before installing. (5) Symptoms of compromised device: unexplained high data usage (malware exfiltrating data), excessive ads (adware), fake security warnings ('Your device is infected! Click here'), degraded performance (cryptominer or malware consuming resources), unexpected app behavior (legitimate apps modified by malware). (6) High network traffic: use data usage settings to identify which app is consuming bandwidth. Unknown apps using lots of data = likely malware. (7) Leaked personal data: indicates a compromised app or device. Change all passwords, remove suspicious apps, consider factory reset. (8) Response to suspected compromise: disconnect from network, identify malicious apps, remove them, change passwords, scan with mobile security software, factory reset if necessary."
+            },
+            {
+              "id": "3.4",
+              "title": "Given a scenario, troubleshoot common PC security issues.",
+              "subtopics": [
+                "Common symptoms (Unable to access network, Desktop alerts, False antivirus alerts, Altered files Missing/renamed/Inaccessible, Unwanted OS notifications, OS update failures)",
+                "Browser symptoms (Random pop-ups, Certificate warnings, Redirection, Degraded performance)"
+              ],
+              "studyNotes": "PC security symptoms help identify the type of attack. Key exam tips: (1) Unable to access network: could be malware modifying host file, DNS settings, or firewall rules. Check hosts file (C:\\Windows\\System32\\drivers\\etc\\hosts) for unauthorized entries. Check DNS settings for unauthorized DNS servers. (2) False antivirus alerts (scareware): pop-ups claiming your system is infected, urging you to download 'antivirus' software (which is actually malware). Legitimate antivirus does not use browser pop-ups. (3) Altered/missing/renamed files: possible ransomware (encrypted files with changed extensions), or malware deleting/hiding files. If files have strange extensions (.encrypted, .locked), ransomware is likely. (4) Desktop alerts/unwanted notifications: could be adware or browser notification permissions granted to malicious sites. Revoke notification permissions in browser settings. (5) OS update failures: malware may block updates to prevent patches that would detect/remove it. Try running updates in Safe Mode. (6) Browser redirection: DNS hijacking, modified proxy settings, or browser hijacker malware. Check proxy settings, DNS configuration, and browser extensions. (7) Certificate warnings: could indicate man-in-the-middle attack, expired certificate, or compromised website. Do NOT proceed to sites with certificate warnings unless you understand the cause. (8) Random pop-ups: adware or browser hijacker. Remove suspicious extensions, run anti-malware scan, reset browser settings. (9) Degraded browser performance: too many extensions, malicious extensions running in background, or cryptominer scripts."
+            }
+          ]
+        },
+        {
+          "id": "4.0",
+          "name": "Operational Procedures",
+          "weight": 21,
+          "objectives": [
+            {
+              "id": "4.1",
+              "title": "Given a scenario, implement best practices associated with documentation and support systems information management.",
+              "subtopics": [
+                "Ticketing systems (User info, Device info, Description, Categories, Severity, Escalation, Clear written communication Issue/Progress/Resolution)",
+                "Asset management (Inventory lists, CMDB, Asset tags, Procurement lifecycle, Warranty/licensing, Assigned users)",
+                "Types of documents (Incident reports, SOPs Software installation procedure, New user/onboarding checklist, Off-boarding checklist, SLAs Internal/External, Knowledge base/articles)"
+              ],
+              "studyNotes": "Documentation and ticketing are fundamental IT skills. Key exam tips: (1) Ticketing best practices: document EVERYTHING. Each ticket should include: user info (name, contact, location), device info (asset tag, model, OS), detailed problem description, category and severity, all troubleshooting steps taken, resolution, and time spent. (2) Severity levels: Critical (system down, affecting many users), High (major functionality impaired), Medium (workaround available), Low (minor issue, cosmetic). Escalation path follows severity. (3) CMDB (Configuration Management Database): tracks all IT assets and their relationships. Central source of truth for the IT environment. (4) Asset tags: unique identifiers physically attached to equipment. Link physical device to CMDB record. (5) Procurement lifecycle: request > approve > purchase > receive > deploy > maintain > retire/dispose. (6) SLAs (Service Level Agreements): define expected service levels. Internal = between IT and other departments. External = between company and vendor/customer. Include response times, resolution times, uptime percentages. (7) Knowledge base: searchable collection of known issues and solutions. Reduces repeat troubleshooting time. (8) Off-boarding checklist: disable accounts, recover equipment, revoke access, transfer data, remove from groups. Critical for security. (9) Common pitfall: never close a ticket without documenting the resolution -- this builds the knowledge base and helps track trends."
+            },
+            {
+              "id": "4.2",
+              "title": "Given a scenario, apply change management procedures.",
+              "subtopics": [
+                "Documented business processes (Rollback plan, Backup plan, Sandbox testing, Responsible staff, Scope, Change type Standard/Normal/Emergency, Date/time Change freeze/Maintenance windows, Affected systems/impact)",
+                "Change management (Request forms, Purpose, Risk analysis/level, Change board approvals, Implementation, Peer review, End-user acceptance)"
+              ],
+              "studyNotes": "Change management prevents uncontrolled changes from causing outages. Key exam tips: (1) Change types: Standard = pre-approved, low-risk, routine (e.g., password reset). Normal = requires full change management process and approval. Emergency = urgent, bypasses some process but still requires documentation after the fact. (2) Every change needs: a rollback plan (how to undo if something goes wrong), a backup plan (protect current state), sandbox/test environment validation, identified responsible staff, defined scope, risk analysis, scheduled maintenance window, and list of affected systems. (3) Change freeze: period when no changes are allowed (e.g., holiday shopping season for retail). Only emergency changes may be permitted during a freeze. (4) Change Advisory Board (CAB): reviews and approves/denies change requests. Includes stakeholders from affected areas. (5) Process flow: Submit request > Risk analysis > CAB review/approval > Schedule in maintenance window > Implement change > Peer review > End-user acceptance testing > Document results. (6) If change fails: execute the rollback plan and document what happened. Do NOT continue with a failing change. (7) Common pitfall: emergency changes still need documentation -- do it after the fact. 'We had to act fast' is not an excuse for zero documentation."
+            },
+            {
+              "id": "4.3",
+              "title": "Given a scenario, implement workstation backup and recovery methods.",
+              "subtopics": [
+                "Backup (Full, Incremental, Differential, Synthetic full)",
+                "Recovery (In-place/overwrite, Alternative location)",
+                "Backup testing (Frequency)",
+                "Backup rotation schemes (Onsite vs offsite, GFS, 3-2-1 rule)"
+              ],
+              "studyNotes": "Backup types and strategies are GUARANTEED exam topics. Memorize: (1) Full backup: copies ALL data every time. Slowest backup, fastest restore. Uses the most storage. (2) Incremental backup: copies only data changed since the LAST BACKUP (full or incremental). Fastest backup, slowest restore (need full + all incrementals). (3) Differential backup: copies all data changed since the LAST FULL BACKUP. Middle ground -- backup grows each day, but restore only needs full + latest differential. (4) Synthetic full: creates a full backup by combining the previous full with subsequent incrementals, without reading from source again. Reduces backup window. (5) Memory aid: 'Incremental = since last anything, Differential = since last Full'. (6) 3-2-1 Rule: 3 copies of data, on 2 different types of media, with 1 copy offsite. This is the gold standard for data protection. (7) GFS (Grandfather-Father-Son): rotation scheme. Daily (Son), Weekly (Father), Monthly (Grandfather). Provides multiple recovery points at different intervals. (8) Backup testing: CRITICAL. Untested backups may be useless. Regularly test restores to verify data integrity. Schedule tests monthly or quarterly at minimum. (9) Onsite backup: fast access for quick recovery. Offsite backup: protection against physical disasters (fire, flood). Cloud backup qualifies as offsite. (10) In-place recovery overwrites current data with backup. Alternative location restores to a different path (useful for comparing or recovering specific files)."
+            },
+            {
+              "id": "4.4",
+              "title": "Given a scenario, use common safety procedures.",
+              "subtopics": [
+                "ESD straps",
+                "ESD mats",
+                "Electrical safety (Equipment grounding)",
+                "Proper component handling/storage",
+                "Cable management",
+                "Antistatic bags",
+                "Government regulations compliance",
+                "Personal safety (Disconnect power, Lifting techniques, Fire safety, Safety goggles, Air filter mask)"
+              ],
+              "studyNotes": "Safety procedures protect both people and equipment. Key exam tips: (1) ESD (Electrostatic Discharge): as little as 30V can damage components (humans cannot feel less than 3000V). Always use ESD wrist strap connected to chassis ground or ESD mat when handling internal components. (2) Never work on equipment while wearing synthetic clothing or on carpet without ESD protection. (3) Antistatic bags: store and transport components in antistatic bags. The bag exterior is conductive -- never place components ON a bag (only IN it). (4) Proper lifting: bend at knees, keep back straight, hold close to body. Get help for heavy equipment (servers, UPS). Never lift with your back. (5) Electrical safety: always disconnect power before opening equipment. Never work on equipment plugged in. Ensure equipment is properly grounded (three-prong plugs). (6) Fire safety: know fire extinguisher types. Class C (electrical fires) -- use CO2 or dry chemical, NEVER water. ABC extinguisher covers most scenarios. (7) Safety goggles: when working with toner (fine particles), compressed air cleaning, or any operation producing debris. (8) Air filter mask: when working in dusty environments, cleaning equipment, or handling toner. Toner particles are very fine and harmful to inhale. (9) Cable management: prevents tripping hazards, improves airflow, simplifies troubleshooting. Label everything. (10) Government regulations: OSHA (workplace safety), EPA (environmental disposal), local building codes for electrical work."
+            },
+            {
+              "id": "4.5",
+              "title": "Summarize environmental impacts and local environment controls.",
+              "subtopics": [
+                "MSDS documentation (Battery disposal, Toner disposal, Other device disposal)",
+                "Power surges/brownouts/blackouts (UPS, Surge suppressor)",
+                "Temperature/humidity/ventilation (Location/placement, Dust cleanup, Compressed air/vacuums)"
+              ],
+              "studyNotes": "Environmental controls protect equipment and comply with regulations. Key exam tips: (1) MSDS/SDS (Material Safety Data Sheet/Safety Data Sheet): documents chemical properties, hazards, and disposal procedures for materials. Required for toner, batteries, cleaning chemicals. Must be available to all employees who handle these materials. (2) Battery disposal: never throw in regular trash. Lithium batteries can catch fire. Use certified recyclers. Swollen batteries are hazardous -- handle carefully. (3) Toner disposal: fine powder, harmful if inhaled. Return to manufacturer for recycling or use certified disposal. Clean spills with a toner-specific vacuum (regular vacuums spread fine particles). (4) UPS (Uninterruptible Power Supply): provides battery backup during power outages. Allows graceful shutdown of systems. Also conditions power (removes surges/sags). Two main types: online (continuous battery power) and line-interactive (switches to battery when needed). (5) Surge suppressor: protects against voltage spikes. Measured in joules -- higher is better. Replace after a major surge (they degrade). NOT the same as a UPS (no battery backup). (6) Brownout: reduced voltage. Can damage equipment. UPS protects against this. (7) Blackout: complete power loss. UPS provides temporary power. (8) Temperature: ideal server room is 68-72F (20-22C). Overheating causes failures. Use hot aisle/cold aisle configuration in data centers. (9) Humidity: too high = condensation/corrosion. Too low = ESD risk. Ideal: 40-60%. (10) Dust cleanup: use compressed air (hold can upright to avoid liquid). Never use regular vacuums near electronics -- use ESD-safe vacuums."
+            },
+            {
+              "id": "4.6",
+              "title": "Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts.",
+              "subtopics": [
+                "Incident response (Chain of custody, Inform management/law enforcement, Drive copy, Documentation, Order of volatility)",
+                "Licensing/DRM/EULA (Valid licenses, Perpetual, Personal vs corporate, Open-source)",
+                "NDA/MNDA",
+                "Regulated data (Credit card, Government ID, PII, Healthcare, Data retention)",
+                "AUP",
+                "Regulatory/business compliance (Splash screens)"
+              ],
+              "studyNotes": "Policy, compliance, and incident response are essential knowledge. Key exam tips: (1) Chain of custody: documents who handled evidence, when, and what was done. Must be unbroken for evidence to be admissible. Every transfer is documented with signatures, dates, and times. (2) Order of volatility (most to least volatile): CPU registers/cache > RAM > Swap file > HDD/SSD > Removable media > Printouts. Capture the most volatile data FIRST because it disappears when power is lost. (3) Drive copy for forensics: create a bit-for-bit image using write-blocker. NEVER work on the original drive. Document hash values to prove evidence was not altered. (4) Licensing types: Perpetual = one-time purchase, use forever. Subscription = pay periodically, lose access when payments stop. Open-source = free to use/modify (but check specific license terms like GPL, MIT, Apache). (5) EULA (End User License Agreement): legal contract between user and software publisher. Violating EULA can have legal consequences. (6) PII (Personally Identifiable Information): any data that can identify an individual (name, SSN, address, email, phone). Must be protected per regulations. (7) Regulated data: PCI DSS (credit cards), HIPAA (healthcare), FERPA (education), GDPR (EU personal data). Non-compliance = fines and legal liability. (8) NDA (Non-Disclosure Agreement): prevents sharing confidential information. MNDA = Mutual NDA (both parties). (9) AUP (Acceptable Use Policy): defines what users may/may not do with company resources. (10) Data retention policies: define how long data must be kept and when it must be destroyed."
+            },
+            {
+              "id": "4.7",
+              "title": "Given a scenario, use proper communication techniques and professionalism.",
+              "subtopics": [
+                "Professional appearance/attire (Formal, Business casual)",
+                "Be on time",
+                "Avoid distractions",
+                "Proper language avoid jargon",
+                "Positive attitude",
+                "Active listening",
+                "Cultural sensitivity",
+                "Deal with difficult customers (Don't argue, Don't dismiss, Don't be judgmental, Clarify/restate)",
+                "Handle confidential materials",
+                "Set expectations/timeline",
+                "Offer repair/replacement",
+                "Documentation",
+                "Follow up"
+              ],
+              "studyNotes": "Soft skills and professionalism questions appear on every exam. Key exam tips: (1) Active listening: let the user explain without interrupting. Take notes. Repeat back what you heard to confirm understanding ('So what you are saying is...'). (2) Avoid jargon: explain technical concepts in simple terms the user can understand. Saying 'your DNS cache needs flushing' means nothing to most users -- say 'I need to refresh your computer's internet address book.' (3) Dealing with difficult customers: NEVER argue, dismiss concerns, or be judgmental. Stay calm, empathize, and focus on solving the problem. If the customer is wrong, gently redirect without saying 'you are wrong.' (4) Set expectations: always give a realistic timeline. Under-promise and over-deliver. If you cannot fix it today, say so. (5) Documentation: document every interaction, what was tried, and the outcome. This protects you and helps future technicians. (6) Follow up: after resolving an issue, follow up to ensure the user is satisfied and the problem has not returned. This builds trust and catches recurring issues. (7) Confidentiality: never discuss a customer's issues with others. Handle sensitive data (passwords, personal info) with care. (8) Cultural sensitivity: be respectful of different backgrounds, customs, and communication styles. (9) Common pitfall: do NOT check your phone during a customer interaction. Avoid all distractions. Give the user your full attention."
+            },
+            {
+              "id": "4.8",
+              "title": "Explain the basics of scripting.",
+              "subtopics": [
+                "Script file types (.bat, .ps1, .vbs, .sh, .js, .py)",
+                "Use cases (Basic automation, Restarting machines, Remapping drives, Installing apps, Automated backups, Gathering info, Initiating updates)",
+                "Other considerations (Introducing malware, Changing settings, Browser/system crashes)"
+              ],
+              "studyNotes": "Scripting basics focus on file types and use cases, not writing code. Key exam tips: (1) Script file types: .bat = Windows batch file (CMD commands). .ps1 = PowerShell script (most powerful Windows scripting). .vbs = VBScript (legacy Windows scripting). .sh = Bash/shell script (Linux/macOS). .js = JavaScript (web/Node.js). .py = Python (cross-platform, very popular). (2) Common use cases: automate repetitive tasks (user account creation, software deployment), scheduled backups, drive mapping at login, gathering system information for inventory, pushing updates across multiple machines. (3) Security risks: scripts can be used maliciously. A malicious .bat or .ps1 file can delete files, install malware, change settings, exfiltrate data. Never run scripts from untrusted sources. (4) PowerShell execution policy: by default, PowerShell restricts running scripts. Policies: Restricted (no scripts), AllSigned (only signed scripts), RemoteSigned (local scripts run freely, downloaded must be signed), Unrestricted (all scripts run). (5) Scripts can cause unintended damage: an incorrect deletion script can wipe important data. Always test in a sandbox first. (6) Environment variables: scripts often use these to reference system paths (e.g., %USERPROFILE% in Windows, $HOME in Linux). (7) Common pitfall: do NOT memorize script syntax -- the exam tests understanding of what scripts do and when to use them, not how to write code."
+            },
+            {
+              "id": "4.9",
+              "title": "Given a scenario, use remote access technologies.",
+              "subtopics": [
+                "Methods/tools (RDP, VPN, VNC, SSH, RMM, SPICE, WinRM, Third-party Screen sharing/Videoconferencing/File transfer/Desktop management)",
+                "Security considerations"
+              ],
+              "studyNotes": "Remote access is essential for modern IT support. Key exam tips: (1) RDP (Remote Desktop Protocol): Microsoft, port 3389. Provides full graphical desktop access. Windows Pro/Enterprise only as host. Encrypted. (2) VPN (Virtual Private Network): creates encrypted tunnel to corporate network. Provides access to internal resources as if on-site. (3) VNC (Virtual Network Computing): platform-independent remote desktop. Port 5900. Less secure than RDP by default -- use with VPN. (4) SSH (Secure Shell): encrypted command-line remote access. Port 22. Used for Linux/macOS/network device administration. Replaces insecure Telnet. (5) RMM (Remote Monitoring and Management): enterprise tools for managing many endpoints remotely (ConnectWise, Datto, NinjaRMM). Includes monitoring, patching, remote access. (6) SPICE: remote display protocol for virtual machines (common in KVM/QEMU environments). (7) WinRM (Windows Remote Management): Microsoft's implementation of WS-Management protocol. Enables remote PowerShell commands. Used in enterprise automation. (8) Third-party tools: TeamViewer, AnyDesk (desktop management), Zoom/Teams (screen sharing/video), secure file transfer tools. (9) Security considerations: always use encryption, use MFA for remote access, restrict access by IP/user, keep remote access software updated, monitor remote sessions, disable remote access when not needed. (10) Common pitfall: RDP exposed directly to the internet is a major security risk. Always use VPN first, then RDP through the VPN tunnel."
+            },
+            {
+              "id": "4.10",
+              "title": "Explain basic concepts related to artificial intelligence (AI).",
+              "subtopics": [
+                "Application integration",
+                "Policy (Appropriate use, Plagiarism)",
+                "Limitations (Bias, Hallucinations, Accuracy)",
+                "Private vs public (Data security, Data source, Data privacy)"
+              ],
+              "studyNotes": "AI concepts are new to the A+ exam and reflect current technology trends. Key exam tips: (1) Application integration: AI is embedded in many tools -- email (smart compose), search (intelligent results), security (threat detection), help desks (chatbots), document analysis, and code assistance. Understand that AI augments existing workflows. (2) Appropriate use policy: organizations should have clear policies on when and how AI tools can be used. Consider data sensitivity, output verification, and acceptable use cases. (3) Plagiarism: AI-generated content may not be original. Using AI output without attribution may violate academic or professional integrity policies. Content generated by AI may also inadvertently reproduce copyrighted material. (4) Limitations -- Bias: AI models can reflect biases in their training data, leading to unfair or skewed outputs. Hallucinations: AI can generate plausible-sounding but factually incorrect information. Accuracy: AI output should always be verified by a human, especially for critical decisions. (5) Private vs public AI: Public AI (ChatGPT, Gemini) may use your input for training -- do NOT enter sensitive/confidential data. Private/enterprise AI keeps data within the organization's control. (6) Data security: sensitive company data entered into public AI tools may be exposed. Establish clear data classification policies for AI use. (7) Common pitfall: do NOT blindly trust AI output. Always verify critical information from authoritative sources."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

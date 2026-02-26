@@ -1,0 +1,1940 @@
+[
+  {
+    "id": "q-1201-1.1-001",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "concept",
+    "question": "Which form factor of RAM is specifically designed for use in laptops?",
+    "options": {
+      "A": "DIMM",
+      "B": "SO-DIMM",
+      "C": "ECC RAM",
+      "D": "SIMM"
+    },
+    "correct": "B",
+    "explanation": "SO-DIMM (Small Outline Dual Inline Memory Module) is the compact form factor used in laptops. Standard DIMMs are full-size modules for desktops. ECC RAM is error-correcting memory typically found in servers. SIMM (Single Inline Memory Module) is an obsolete memory form factor.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.1-002",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "scenario",
+    "question": "A technician is preparing to replace the keyboard on a laptop. What is the FIRST step the technician should perform before beginning the repair?",
+    "options": {
+      "A": "Remove the keyboard screws",
+      "B": "Disconnect the battery",
+      "C": "Open the laptop case",
+      "D": "Ground the keyboard ribbon cable"
+    },
+    "correct": "B",
+    "explanation": "The first step before any internal laptop repair is to disconnect the battery. This prevents electrical shock and protects the components from short circuits. Removing screws, opening the case, and handling cables all come after the battery has been safely disconnected.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.1-003",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "scenario",
+    "question": "After replacing the display on a laptop, a technician notices that the Wi-Fi signal has become significantly weaker. What is the MOST likely cause?",
+    "options": {
+      "A": "The wireless card was damaged during the repair",
+      "B": "The Wi-Fi antenna wires running through the display bezel were disconnected or damaged",
+      "C": "The laptop's BIOS needs to be updated",
+      "D": "The new display is emitting interference"
+    },
+    "correct": "B",
+    "explanation": "Wi-Fi antenna wires typically run through the display bezel in laptops. When the display is replaced, these wires can be disconnected, pinched, or damaged, leading to significantly weaker signal. The wireless card itself is unlikely to be damaged if the display was the focus. BIOS updates and display interference are not related to Wi-Fi signal degradation after a display replacement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.1-004",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "concept",
+    "question": "Which biometric feature is used by Windows Hello for facial recognition login on laptops?",
+    "options": {
+      "A": "Standard RGB webcam",
+      "B": "Infrared (IR) camera",
+      "C": "NFC scanner",
+      "D": "Fingerprint reader via webcam"
+    },
+    "correct": "B",
+    "explanation": "Windows Hello facial recognition uses an infrared (IR) camera, which can map the depth and contours of a face and works in low-light conditions. A standard RGB webcam does not provide the depth-sensing required for secure facial recognition. NFC scanners are used for near-field communication, not biometrics. Fingerprint readers are a separate biometric input device.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.1-005",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "comparison",
+    "question": "Which of the following laptop components is typically a field-replaceable unit (FRU) that a technician can swap without professional repair?",
+    "options": {
+      "A": "Soldered CPU",
+      "B": "Integrated GPU",
+      "C": "2.5-inch HDD/SSD",
+      "D": "Display backlight LED strip"
+    },
+    "correct": "C",
+    "explanation": "A 2.5-inch HDD or SSD is a common field-replaceable unit (FRU) in laptops, typically accessible through a panel on the bottom of the chassis. Soldered CPUs and integrated GPUs cannot be removed or replaced without specialized equipment. Display backlight LED strips generally require professional-level disassembly and are not considered FRUs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.1-006",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "scenario",
+    "question": "A user reports that their laptop's built-in microphone is not picking up any audio during video calls, but external USB headsets work fine. Which component should the technician investigate?",
+    "options": {
+      "A": "The sound card driver",
+      "B": "The internal microphone connection and hardware",
+      "C": "The Wi-Fi antenna",
+      "D": "The speaker output"
+    },
+    "correct": "B",
+    "explanation": "Since external USB headsets work correctly, the sound card and audio drivers are functioning. The issue is isolated to the internal microphone hardware or its connection to the motherboard. The Wi-Fi antenna is unrelated to audio. The speaker output handles playback, not recording.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.1-007",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "concept",
+    "question": "What is the approximate effective range of NFC (Near Field Communication) technology found in mobile devices?",
+    "options": {
+      "A": "Up to 10 meters",
+      "B": "Up to 1 meter",
+      "C": "About 4 centimeters",
+      "D": "About 30 meters"
+    },
+    "correct": "C",
+    "explanation": "NFC operates at an effective range of approximately 4 centimeters (about 1.5 inches). This extremely short range is a deliberate security feature, especially for contactless payments. 10 meters and 30 meters are ranges associated with Bluetooth. 1 meter is not the standard NFC range.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.1-008",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "comparison",
+    "question": "A technician needs to upgrade storage in a modern ultrabook. The laptop has an M.2 slot but no 2.5-inch drive bay. Which storage device should the technician purchase?",
+    "options": {
+      "A": "A 3.5-inch SATA HDD",
+      "B": "A 2.5-inch SATA SSD",
+      "C": "An M.2 NVMe SSD",
+      "D": "An mSATA SSD"
+    },
+    "correct": "C",
+    "explanation": "The laptop has an M.2 slot and no 2.5-inch bay, so an M.2 NVMe SSD is the correct choice. A 3.5-inch SATA HDD is for desktops. A 2.5-inch SATA SSD would not fit without a drive bay. mSATA is an older, smaller form factor that uses a different connector than M.2.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.1-009",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "scenario",
+    "question": "A user's laptop camera has a physical privacy shutter built into the bezel. What is the PRIMARY advantage of this feature over software-based camera disabling?",
+    "options": {
+      "A": "It improves camera image quality when open",
+      "B": "It provides a hardware-level guarantee that the camera cannot capture images when closed",
+      "C": "It prevents malware from disabling the camera driver",
+      "D": "It reduces power consumption more effectively than software controls"
+    },
+    "correct": "B",
+    "explanation": "A physical privacy shutter provides a hardware-level guarantee that the camera lens is physically blocked, so no image can be captured regardless of software or malware activity. Software-based controls can potentially be bypassed by malware. The shutter does not improve image quality, does not specifically prevent driver manipulation, and power savings are negligible.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.1-010",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.1",
+    "type": "scenario",
+    "question": "A technician replaces the wireless card in a laptop but finds that there are two antenna connectors (one black, one white) on the new card. The technician is unsure which connector goes where. What should the technician do?",
+    "options": {
+      "A": "Connect both wires to the same connector",
+      "B": "Refer to the service manual for proper antenna wire placement, as incorrect placement can affect signal performance",
+      "C": "Leave both disconnected and rely on Bluetooth instead",
+      "D": "Connect only the white wire, as the black wire is for NFC"
+    },
+    "correct": "B",
+    "explanation": "The technician should consult the service manual for proper antenna wire placement. The two antenna leads (often labeled MAIN and AUX) must be connected to the correct terminals for optimal wireless performance. Connecting both to one port, leaving them disconnected, or assuming color-coding functions are all incorrect approaches that could degrade or eliminate wireless connectivity.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-1.2-001",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "concept",
+    "question": "What is the KEY difference between a docking station and a port replicator?",
+    "options": {
+      "A": "A docking station uses wireless connections while a port replicator uses wired connections",
+      "B": "A docking station provides additional functionality (extra ports, drives, power), while a port replicator simply duplicates existing ports for convenience",
+      "C": "A port replicator supports more devices than a docking station",
+      "D": "A docking station only works with specific laptop brands while a port replicator is universal"
+    },
+    "correct": "B",
+    "explanation": "A docking station provides additional functionality beyond what the laptop has, including extra ports, drive bays, power delivery, and sometimes expansion slots. A port replicator simply duplicates the laptop's existing ports for convenience so the user can leave cables connected. Both can be wired, port replicators are not necessarily more versatile, and neither is strictly brand-specific.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.2-002",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "comparison",
+    "question": "Which of the following USB connector types is reversible, meaning it can be inserted in either orientation?",
+    "options": {
+      "A": "USB-A",
+      "B": "microUSB",
+      "C": "USB-C",
+      "D": "miniUSB"
+    },
+    "correct": "C",
+    "explanation": "USB-C features a reversible oval-shaped connector that can be inserted in either orientation. USB-A is the standard rectangular connector that only fits one way. MicroUSB has a small trapezoid shape with a specific orientation. MiniUSB is a larger connector found on older devices and also has a fixed orientation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.2-003",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "comparison",
+    "question": "A user has an older Android phone with a microUSB port and a new laptop with only USB-C ports. Which solution will allow the user to connect the phone to the laptop for file transfer?",
+    "options": {
+      "A": "A Lightning to USB-C cable",
+      "B": "A microUSB to USB-C adapter or cable",
+      "C": "A miniUSB to USB-A cable",
+      "D": "A Thunderbolt cable"
+    },
+    "correct": "B",
+    "explanation": "A microUSB to USB-C adapter or cable bridges the older Android phone's microUSB port to the laptop's USB-C port. A Lightning cable is Apple-proprietary and would not fit the Android phone. A miniUSB to USB-A cable has the wrong connectors on both ends. A Thunderbolt cable would not connect to a microUSB port.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.2-004",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "concept",
+    "question": "Which connection method shares a smartphone's cellular data connection with another device via a USB cable?",
+    "options": {
+      "A": "Hotspot",
+      "B": "Tethering",
+      "C": "NFC",
+      "D": "Bluetooth pairing"
+    },
+    "correct": "B",
+    "explanation": "Tethering shares a smartphone's cellular data connection via a USB cable to another device. A hotspot shares cellular data wirelessly via Wi-Fi. NFC is a very short-range communication technology used for payments and pairing. Bluetooth pairing establishes a wireless connection for peripherals and data transfer, but the term 'tethering' specifically refers to USB-based sharing.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.2-005",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "scenario",
+    "question": "A graphic designer needs to use a stylus with their tablet for precise drawing work. The stylus connects wirelessly and requires pairing. Which technology does the stylus MOST likely use to connect?",
+    "options": {
+      "A": "NFC",
+      "B": "Bluetooth",
+      "C": "Wi-Fi Direct",
+      "D": "Lightning"
+    },
+    "correct": "B",
+    "explanation": "Wireless styluses that require pairing typically use Bluetooth technology for their connection. NFC has too short a range (about 4 cm) and does not support sustained connections for drawing. Wi-Fi Direct is more commonly used for file transfers and screen sharing. Lightning is a wired Apple-proprietary connector, not a wireless technology.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.2-006",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "concept",
+    "question": "Which Apple-proprietary connector was commonly used on iPhones before the transition to USB-C?",
+    "options": {
+      "A": "Thunderbolt",
+      "B": "miniUSB",
+      "C": "Lightning",
+      "D": "microUSB"
+    },
+    "correct": "C",
+    "explanation": "Lightning is Apple's proprietary reversible connector that was used on iPhones, iPads, and other Apple devices before the transition to USB-C. Thunderbolt is a high-speed data/display interface used on Macs and PCs. MiniUSB and microUSB are universal USB connectors found on non-Apple devices.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.2-007",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "scenario",
+    "question": "An employee wants to quickly connect their laptop at their desk each morning without plugging in multiple cables for the monitor, keyboard, mouse, Ethernet, and power. Which solution BEST addresses this need?",
+    "options": {
+      "A": "A USB hub",
+      "B": "A docking station",
+      "C": "A port replicator",
+      "D": "A wireless access point"
+    },
+    "correct": "B",
+    "explanation": "A docking station is the best solution because it provides power delivery along with additional ports for monitors, peripherals, and networking, all through a single connection (usually USB-C or proprietary connector). A USB hub provides extra USB ports but typically lacks video output and power delivery. A port replicator duplicates ports but may not provide power or additional functionality. A wireless access point is a networking device, not a peripheral connectivity solution.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.2-008",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "comparison",
+    "question": "Which of the following pointing devices is embedded in the keyboard as a small rubber nub positioned between the G, H, and B keys on many business laptops?",
+    "options": {
+      "A": "Trackpad",
+      "B": "Drawing pad",
+      "C": "TrackPoint (pointing stick)",
+      "D": "Stylus"
+    },
+    "correct": "C",
+    "explanation": "A TrackPoint (pointing stick) is a small rubber nub embedded in the keyboard, commonly found between the G, H, and B keys on ThinkPad and other business laptops. A trackpad is a flat touch-sensitive surface below the keyboard. A drawing pad is a separate peripheral for artists. A stylus is a pen-like input device used on touchscreens or tablets.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.2-009",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "scenario",
+    "question": "A user at a coffee shop wants to make a contactless payment using their smartphone. Which technology does the phone use to communicate with the payment terminal?",
+    "options": {
+      "A": "Bluetooth",
+      "B": "Wi-Fi",
+      "C": "NFC",
+      "D": "Cellular"
+    },
+    "correct": "C",
+    "explanation": "NFC (Near Field Communication) is the technology used for contactless payments such as Apple Pay, Google Pay, and Samsung Pay. It operates at a very short range of about 4 cm, which enhances security for payment transactions. Bluetooth has too long a range for secure payment. Wi-Fi and cellular are network technologies not designed for point-of-sale transactions.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.2-010",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.2",
+    "type": "scenario",
+    "question": "A remote worker needs a headset for video conferencing. They want hands-free mobility while on calls. Which type of headset connection would BEST suit this requirement?",
+    "options": {
+      "A": "USB-A wired headset",
+      "B": "3.5mm wired headset",
+      "C": "Bluetooth wireless headset",
+      "D": "Lightning wired headset"
+    },
+    "correct": "C",
+    "explanation": "A Bluetooth wireless headset provides hands-free mobility, allowing the user to move around without being tethered to the computer. USB-A, 3.5mm, and Lightning headsets are all wired options that would restrict the user's movement and not provide the desired mobility during calls.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.3-001",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "concept",
+    "question": "What is the difference between a SIM card and an eSIM?",
+    "options": {
+      "A": "A SIM card is for 4G only while an eSIM supports 5G",
+      "B": "A SIM card is a physical removable card, while an eSIM is embedded in the device and can be reprogrammed remotely",
+      "C": "An eSIM is larger than a traditional SIM card",
+      "D": "A SIM card stores contacts while an eSIM does not"
+    },
+    "correct": "B",
+    "explanation": "A SIM (Subscriber Identity Module) card is a physical removable card that stores carrier information, while an eSIM (embedded SIM) is built directly into the device and can be programmed or switched between carriers remotely without physical swapping. Both support various cellular generations. An eSIM has no physical size since it is embedded. Both can store limited contact information.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.3-002",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "scenario",
+    "question": "A user complains that their phone's data plan is being consumed rapidly even when connected to their home Wi-Fi. Which setting should the technician check FIRST?",
+    "options": {
+      "A": "Bluetooth is enabled",
+      "B": "Mobile data synchronization is set to sync over cellular instead of Wi-Fi only",
+      "C": "GPS location services are turned on",
+      "D": "The phone's screen brightness is too high"
+    },
+    "correct": "B",
+    "explanation": "If synchronization for email, cloud storage, contacts, and calendar is configured to use cellular data rather than being limited to Wi-Fi, data consumption will continue even when Wi-Fi is available (if the phone temporarily switches to cellular). The technician should configure sync to Wi-Fi only. Bluetooth, GPS, and screen brightness do not consume significant cellular data.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.3-003",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "concept",
+    "question": "What is the correct sequence of steps to pair a Bluetooth device with a smartphone?",
+    "options": {
+      "A": "Enter PIN > Enable Bluetooth > Search for devices > Test connection",
+      "B": "Enable Bluetooth > Set device to discoverable > Search for devices > Enter PIN/confirm code > Test connection",
+      "C": "Search for devices > Enable Bluetooth > Enter PIN > Set device to discoverable",
+      "D": "Install Bluetooth driver > Enable Bluetooth > Test connection > Enter PIN"
+    },
+    "correct": "B",
+    "explanation": "The correct Bluetooth pairing sequence is: (1) Enable Bluetooth on both devices, (2) Set the peripheral device to discoverable/pairing mode, (3) Search for available devices from the host, (4) Select the device and enter PIN or confirm the pairing code, (5) Test the connection. You cannot search for devices without first enabling Bluetooth, and you must make the device discoverable before it appears in a search.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.3-004",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "comparison",
+    "question": "How does GPS location tracking differ from cellular location tracking?",
+    "options": {
+      "A": "GPS uses cell tower triangulation while cellular uses satellites",
+      "B": "GPS uses satellite signals and is more accurate, while cellular location uses cell tower triangulation and is less accurate but uses less battery",
+      "C": "They are identical technologies with different names",
+      "D": "Cellular is more accurate than GPS because cell towers are closer"
+    },
+    "correct": "B",
+    "explanation": "GPS (Global Positioning System) uses satellite signals to determine precise location (accuracy within a few meters) but consumes more battery. Cellular location uses triangulation between nearby cell towers, which is less accurate (accuracy within tens to hundreds of meters) but uses less battery since the cellular radio is already active. They are distinct technologies with different trade-offs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.3-005",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "scenario",
+    "question": "A company is implementing a BYOD (Bring Your Own Device) policy. Which technology should the IT department deploy to enforce corporate security policies, push corporate apps, and enable remote wipe on employees' personal devices?",
+    "options": {
+      "A": "VPN client",
+      "B": "Mobile Device Management (MDM)",
+      "C": "Antivirus software",
+      "D": "Firewall app"
+    },
+    "correct": "B",
+    "explanation": "Mobile Device Management (MDM) is specifically designed to manage and enforce corporate policies on mobile devices, including BYOD scenarios. MDM can enforce password requirements, push corporate apps, restrict certain features, enable encryption, and perform remote wipe. A VPN provides secure network access but does not manage device policies. Antivirus and firewalls provide specific security functions but lack the comprehensive device management capabilities of MDM.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.3-006",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "concept",
+    "question": "A user confuses 5G cellular and 5 GHz Wi-Fi. Which statement accurately distinguishes them?",
+    "options": {
+      "A": "They are the same technology marketed under different names",
+      "B": "5G is a cellular network standard (fifth generation), while 5 GHz is a Wi-Fi frequency band",
+      "C": "5G is a Wi-Fi standard and 5 GHz is a cellular frequency",
+      "D": "5G operates at 5 GHz frequency, hence the name"
+    },
+    "correct": "B",
+    "explanation": "5G refers to the fifth generation of cellular network technology, offering faster speeds and lower latency for mobile data. 5 GHz refers to a radio frequency band used by Wi-Fi standards (802.11a/n/ac/ax). They are completely different technologies. 5G cellular does not operate at the 5 GHz frequency band; it uses various frequency bands including sub-6 GHz and millimeter wave.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.3-007",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "scenario",
+    "question": "An employee's corporate-owned phone has been stolen. The company uses MDM. What action should the IT administrator take IMMEDIATELY to protect corporate data?",
+    "options": {
+      "A": "Disable the employee's email account",
+      "B": "Issue a remote wipe command through the MDM platform",
+      "C": "Change the company Wi-Fi password",
+      "D": "Call the carrier to suspend the phone line"
+    },
+    "correct": "B",
+    "explanation": "Issuing a remote wipe through MDM immediately erases all data on the stolen device, protecting sensitive corporate information. Disabling the email account only protects email, not other corporate data. Changing the Wi-Fi password only prevents Wi-Fi access from that device. Suspending the phone line stops cellular service but does not erase data already on the device.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-1.3-008",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "scenario",
+    "question": "A traveling salesperson needs internet access on their laptop in a rural area with no available Wi-Fi networks. Their smartphone has a strong 4G signal. What is the BEST way to provide internet to the laptop?",
+    "options": {
+      "A": "Enable the phone's mobile hotspot to share the cellular connection via Wi-Fi",
+      "B": "Connect the phone via NFC",
+      "C": "Use Bluetooth to browse the internet",
+      "D": "Connect via the phone's GPS radio"
+    },
+    "correct": "A",
+    "explanation": "Enabling the phone's mobile hotspot feature shares the 4G cellular data connection as a Wi-Fi network that the laptop can connect to. NFC has too short a range and does not support internet sharing. Standard Bluetooth does not provide internet browsing capability (Bluetooth tethering exists but hotspot is more practical and common). GPS is a location service and does not provide internet access.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-1.3-009",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "comparison",
+    "question": "In an MDM environment, what is the difference between a corporate-owned device and a BYOD device?",
+    "options": {
+      "A": "There is no difference; MDM treats all devices the same",
+      "B": "Corporate-owned devices allow full IT control including complete wipe, while BYOD policies must balance corporate security with personal data privacy, often using containerization",
+      "C": "BYOD devices are always more secure than corporate-owned devices",
+      "D": "Corporate-owned devices cannot use MDM"
+    },
+    "correct": "B",
+    "explanation": "Corporate-owned devices give IT departments full control, including the ability to completely wipe and configure the device. BYOD devices belong to the employee, so MDM must balance corporate security (enforcing password policies, encrypting corporate data) with personal privacy, often using containerization to separate corporate and personal data. MDM can manage both but with different policy levels. BYOD is not inherently more secure.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-1.3-010",
+    "exam": "Core 1",
+    "domain": "1.0 Mobile Devices",
+    "objectiveId": "1.3",
+    "type": "scenario",
+    "question": "A user wants to synchronize their business email, calendar, and contacts across their phone, tablet, and laptop. They are concerned about exceeding their cellular data cap. What should the technician recommend?",
+    "options": {
+      "A": "Disable synchronization entirely",
+      "B": "Configure synchronization to occur only when connected to Wi-Fi",
+      "C": "Increase the cellular data plan",
+      "D": "Manually copy data between devices using a USB drive"
+    },
+    "correct": "B",
+    "explanation": "Configuring synchronization to occur only over Wi-Fi prevents cellular data consumption while still keeping all devices in sync automatically when connected to Wi-Fi networks. Disabling sync entirely defeats the purpose. Increasing the data plan adds unnecessary cost. Manually copying data is impractical and error-prone for ongoing synchronization needs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.1-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "concept",
+    "question": "Which port number is used by SSH (Secure Shell)?",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "23",
+      "D": "25"
+    },
+    "correct": "B",
+    "explanation": "SSH uses port 22. Port 21 is used by FTP (control connection). Port 23 is used by Telnet (insecure remote access). Port 25 is used by SMTP (email sending). A helpful memory aid: SSH (Secure) comes before Telnet (insecure) alphabetically and numerically (22 before 23).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.1-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "concept",
+    "question": "Which protocol uses ports 67 and 68 and automatically assigns IP addresses to devices on a network?",
+    "options": {
+      "A": "DNS",
+      "B": "DHCP",
+      "C": "SMTP",
+      "D": "LDAP"
+    },
+    "correct": "B",
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) uses port 67 (server) and port 68 (client) to automatically assign IP addresses and other network configuration to devices. DNS (port 53) resolves domain names to IP addresses. SMTP (port 25) is for sending email. LDAP (port 389) is for directory services.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.1-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "scenario",
+    "question": "A network administrator needs to securely manage a remote Linux server. Which protocol and port should be used instead of Telnet?",
+    "options": {
+      "A": "FTP on port 21",
+      "B": "SSH on port 22",
+      "C": "RDP on port 3389",
+      "D": "HTTP on port 80"
+    },
+    "correct": "B",
+    "explanation": "SSH (Secure Shell) on port 22 provides encrypted remote command-line access and should be used instead of Telnet (port 23), which transmits data including passwords in plaintext. FTP (port 21) is for file transfer, not remote management. RDP (port 3389) is a graphical remote desktop protocol primarily for Windows. HTTP (port 80) is for web traffic.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.1-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "comparison",
+    "question": "What is the fundamental difference between TCP and UDP?",
+    "options": {
+      "A": "TCP is wireless and UDP is wired",
+      "B": "TCP is connection-oriented and guarantees delivery with a three-way handshake, while UDP is connectionless and does not guarantee delivery",
+      "C": "UDP is more secure than TCP",
+      "D": "TCP is used only for web browsing while UDP is used only for email"
+    },
+    "correct": "B",
+    "explanation": "TCP (Transmission Control Protocol) is connection-oriented, using a three-way handshake (SYN, SYN-ACK, ACK) to establish connections and guaranteeing ordered, reliable delivery. UDP (User Datagram Protocol) is connectionless, offering faster transmission without delivery guarantees. Neither is specifically wireless or wired. UDP is not more secure. Both protocols are used by many different applications.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.1-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "scenario",
+    "question": "A user reports they can browse the internet using IP addresses but cannot reach websites by domain name. Which service is MOST likely failing, and on which port?",
+    "options": {
+      "A": "DHCP on port 67/68",
+      "B": "DNS on port 53",
+      "C": "HTTP on port 80",
+      "D": "SMTP on port 25"
+    },
+    "correct": "B",
+    "explanation": "DNS (Domain Name System) on port 53 resolves domain names to IP addresses. If browsing by IP works but domain names fail, DNS resolution is the issue. DHCP assigns IP addresses but is not failing since the user has network connectivity. HTTP is the web protocol but works fine when using IP addresses. SMTP is for sending email and is unrelated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.1-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "concept",
+    "question": "Which protocol uses BOTH TCP and UDP, with UDP for standard queries and TCP for zone transfers?",
+    "options": {
+      "A": "DHCP",
+      "B": "FTP",
+      "C": "DNS",
+      "D": "SMTP"
+    },
+    "correct": "C",
+    "explanation": "DNS (Domain Name System) uses both TCP and UDP on port 53. Standard DNS queries use UDP for speed, while zone transfers (replicating DNS records between servers) use TCP for reliability. DHCP uses only UDP. FTP and SMTP use only TCP.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.1-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "comparison",
+    "question": "Which pair of email protocols are used for RECEIVING email, and on which ports?",
+    "options": {
+      "A": "SMTP on port 25 and HTTP on port 80",
+      "B": "POP3 on port 110 and IMAP on port 143",
+      "C": "DNS on port 53 and LDAP on port 389",
+      "D": "FTP on port 20 and HTTPS on port 443"
+    },
+    "correct": "B",
+    "explanation": "POP3 (Post Office Protocol 3) on port 110 and IMAP (Internet Message Access Protocol) on port 143 are both used for receiving/retrieving email. POP3 downloads and typically deletes mail from the server, while IMAP keeps mail on the server and syncs across devices. SMTP (port 25) is for sending email. The other protocols listed are unrelated to email retrieval.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.1-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "scenario",
+    "question": "An administrator notices that port 445 is open on a Windows file server. Which protocol is using this port?",
+    "options": {
+      "A": "HTTPS",
+      "B": "RDP",
+      "C": "SMB/CIFS",
+      "D": "LDAP"
+    },
+    "correct": "C",
+    "explanation": "Port 445 is used by SMB (Server Message Block) / CIFS (Common Internet File System) for Windows file and printer sharing. SMB on port 445 replaced the older NetBIOS-dependent file sharing that used ports 137-139. HTTPS uses port 443. RDP uses port 3389. LDAP uses port 389.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.1-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "scenario",
+    "question": "A help desk technician needs to remotely view and control a user's Windows desktop to troubleshoot an issue. Which protocol and port should be used?",
+    "options": {
+      "A": "SSH on port 22",
+      "B": "Telnet on port 23",
+      "C": "RDP on port 3389",
+      "D": "FTP on port 21"
+    },
+    "correct": "C",
+    "explanation": "RDP (Remote Desktop Protocol) on port 3389 provides graphical remote desktop access to Windows machines, allowing the technician to view and control the user's desktop. SSH (port 22) provides command-line access, not graphical. Telnet (port 23) is an insecure command-line protocol. FTP (port 21) is for file transfer only.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.1-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "concept",
+    "question": "FTP uses two ports for communication. What are they and what is each used for?",
+    "options": {
+      "A": "Port 20 for control and port 21 for data transfer",
+      "B": "Port 20 for data transfer and port 21 for control commands",
+      "C": "Port 22 for data and port 23 for control",
+      "D": "Port 80 for data and port 443 for control"
+    },
+    "correct": "B",
+    "explanation": "FTP uses port 20 for data transfer (the actual file content) and port 21 for control commands (login, directory listing, file requests). Ports 22 and 23 are SSH and Telnet respectively. Ports 80 and 443 are HTTP and HTTPS. Remember: FTP needs TWO ports -- 20 for data, 21 for control.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.1-011",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "comparison",
+    "question": "A company needs to implement a directory service to centrally manage user accounts and authenticate users on the network. Which protocol and port should be used?",
+    "options": {
+      "A": "SMTP on port 25",
+      "B": "LDAP on port 389",
+      "C": "NetBIOS on port 137-139",
+      "D": "HTTP on port 80"
+    },
+    "correct": "B",
+    "explanation": "LDAP (Lightweight Directory Access Protocol) on port 389 is used for directory services, providing centralized user account management and authentication (used by Active Directory). SMTP (port 25) is for email. NetBIOS (ports 137-139) is for legacy network naming and session services. HTTP (port 80) is for web browsing.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.1-012",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.1",
+    "type": "scenario",
+    "question": "A security auditor discovers that port 23 is open on several servers. Why should this be a security concern?",
+    "options": {
+      "A": "Port 23 is used by SMTP, which can be exploited for spam",
+      "B": "Port 23 is used by Telnet, which transmits data including credentials in plaintext",
+      "C": "Port 23 is used by SSH, which has known vulnerabilities",
+      "D": "Port 23 is used by DNS, which can be hijacked for redirection"
+    },
+    "correct": "B",
+    "explanation": "Port 23 is used by Telnet, which is insecure because it transmits all data, including usernames and passwords, in plaintext. This means anyone intercepting the traffic can read the credentials. Telnet should be replaced with SSH (port 22), which encrypts all communication. Port 23 is not used by SMTP (port 25), SSH (port 22), or DNS (port 53).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "concept",
+    "question": "Which Wi-Fi frequency band offers the MOST non-overlapping channels and least interference but has the shortest range?",
+    "options": {
+      "A": "2.4 GHz",
+      "B": "5 GHz",
+      "C": "6 GHz",
+      "D": "900 MHz"
+    },
+    "correct": "C",
+    "explanation": "The 6 GHz band (used by Wi-Fi 6E) offers the most non-overlapping channels and least interference because it is the newest and least congested band. However, higher frequencies have shorter range and more difficulty penetrating walls. The 2.4 GHz band has the longest range but only 3 non-overlapping channels (1, 6, 11) and the most interference. The 5 GHz band is in between. 900 MHz is not a standard Wi-Fi band.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "concept",
+    "question": "In the 2.4 GHz Wi-Fi frequency band, which three channels are non-overlapping and recommended for deployment?",
+    "options": {
+      "A": "1, 5, 10",
+      "B": "1, 6, 11",
+      "C": "2, 7, 12",
+      "D": "3, 8, 13"
+    },
+    "correct": "B",
+    "explanation": "Channels 1, 6, and 11 are the three non-overlapping channels in the 2.4 GHz band. Using these channels avoids co-channel interference between nearby access points. Other channel combinations overlap with adjacent channels, causing interference and reducing performance. This is one of the most commonly tested networking facts on the A+ exam.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.2-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "comparison",
+    "question": "Which 802.11 standard introduced the 5 GHz frequency band and offered speeds up to 54 Mbps?",
+    "options": {
+      "A": "802.11b",
+      "B": "802.11a",
+      "C": "802.11g",
+      "D": "802.11n"
+    },
+    "correct": "B",
+    "explanation": "802.11a was the first standard to use the 5 GHz frequency band, offering speeds up to 54 Mbps. 802.11b used 2.4 GHz with speeds up to 11 Mbps. 802.11g also used 2.4 GHz at up to 54 Mbps. 802.11n (Wi-Fi 4) was the first to use both 2.4 GHz and 5 GHz bands with speeds up to 600 Mbps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "comparison",
+    "question": "Which wireless technology uses radio waves with a typical range of 30-100 meters and is commonly used for inventory tracking and access control badges?",
+    "options": {
+      "A": "NFC",
+      "B": "Bluetooth",
+      "C": "RFID",
+      "D": "Wi-Fi"
+    },
+    "correct": "C",
+    "explanation": "RFID (Radio Frequency Identification) uses radio waves for identification and tracking, with active tags reaching ranges of 30-100 meters. It is widely used for inventory tracking, access control badges, and asset management. NFC has a range of about 4 cm. Bluetooth typically ranges 10-100 meters but is used for device-to-device communication, not tracking tags. Wi-Fi is a networking technology, not a tagging/tracking system.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "scenario",
+    "question": "A network administrator is deploying multiple wireless access points in a building. They notice significant interference between the APs. All APs are on the 2.4 GHz band using channel 6. What should the administrator do?",
+    "options": {
+      "A": "Switch all APs to channel 1",
+      "B": "Assign non-overlapping channels (1, 6, and 11) to adjacent APs",
+      "C": "Increase the power on all APs",
+      "D": "Disable all but one AP"
+    },
+    "correct": "B",
+    "explanation": "Adjacent APs should use different non-overlapping channels (1, 6, and 11 in the 2.4 GHz band) to avoid co-channel interference. Putting all APs on channel 1 would just move the problem. Increasing power would actually increase interference between APs. Disabling APs would reduce coverage. Proper channel planning ensures maximum coverage with minimal interference.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "concept",
+    "question": "Which 802.11 standard is also known as Wi-Fi 6 and introduced technologies like OFDMA and MU-MIMO to improve performance in high-density environments?",
+    "options": {
+      "A": "802.11n",
+      "B": "802.11ac",
+      "C": "802.11ax",
+      "D": "802.11g"
+    },
+    "correct": "C",
+    "explanation": "802.11ax, also known as Wi-Fi 6, introduced OFDMA (Orthogonal Frequency Division Multiple Access) and improved MU-MIMO for better performance in high-density environments like stadiums and offices. 802.11n is Wi-Fi 4. 802.11ac is Wi-Fi 5. 802.11g is an older 2.4 GHz standard with no Wi-Fi number designation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "scenario",
+    "question": "A user in a large office reports poor Wi-Fi performance. A Wi-Fi analyzer shows the 2.4 GHz band is heavily congested with signals from neighboring businesses. What is the BEST solution?",
+    "options": {
+      "A": "Add more 2.4 GHz access points",
+      "B": "Switch the user's device to the 5 GHz or 6 GHz band",
+      "C": "Change the channel width to 40 MHz on 2.4 GHz",
+      "D": "Disable Wi-Fi security to reduce overhead"
+    },
+    "correct": "B",
+    "explanation": "Moving to the 5 GHz or 6 GHz band avoids the congested 2.4 GHz spectrum. The 5 GHz and 6 GHz bands have many more available channels and less interference from neighboring networks. Adding more 2.4 GHz APs would increase congestion. Using 40 MHz channel widths on 2.4 GHz would consume more spectrum and cause more overlap. Disabling security is never recommended and does not meaningfully reduce overhead.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "comparison",
+    "question": "What is the PRIMARY advantage of the 2.4 GHz frequency band over 5 GHz for Wi-Fi?",
+    "options": {
+      "A": "Higher maximum data transfer speeds",
+      "B": "More non-overlapping channels",
+      "C": "Longer range and better wall penetration",
+      "D": "Less interference from other devices"
+    },
+    "correct": "C",
+    "explanation": "The 2.4 GHz band has longer range and better ability to penetrate walls and obstacles compared to 5 GHz. This is because lower frequencies travel farther and pass through solid objects more easily. However, 5 GHz offers higher speeds, more non-overlapping channels, and typically less interference. The 2.4 GHz band actually has the most interference from devices like microwaves, cordless phones, and Bluetooth.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.2-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "concept",
+    "question": "What does the term 'channel width' refer to in wireless networking?",
+    "options": {
+      "A": "The physical width of the antenna",
+      "B": "The range of frequencies a single channel uses, which affects data throughput",
+      "C": "The number of devices that can connect simultaneously",
+      "D": "The encryption strength of the wireless signal"
+    },
+    "correct": "B",
+    "explanation": "Channel width refers to the range of frequencies (in MHz) that a single Wi-Fi channel occupies. Common widths include 20 MHz, 40 MHz, 80 MHz, and 160 MHz. Wider channels provide higher throughput but use more spectrum and may cause more interference. Channel width is unrelated to antenna size, device capacity limits, or encryption strength.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.2-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.2",
+    "type": "scenario",
+    "question": "A company wants to implement hands-free door access for employees using their smartphones. The system requires holding the phone within a few centimeters of the reader. Which technology is being used?",
+    "options": {
+      "A": "Bluetooth",
+      "B": "Wi-Fi",
+      "C": "NFC",
+      "D": "RFID long-range"
+    },
+    "correct": "C",
+    "explanation": "NFC (Near Field Communication) operates at a range of approximately 4 centimeters, which matches the requirement of holding the phone within a few centimeters of the reader. NFC is commonly used for contactless access control and payments. Bluetooth has a much longer range (up to 100 meters). Wi-Fi is a network connectivity technology. Long-range RFID works at distances of meters, not centimeters.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.3-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "concept",
+    "question": "Which networked host service translates human-readable domain names into IP addresses?",
+    "options": {
+      "A": "DHCP server",
+      "B": "DNS server",
+      "C": "Web server",
+      "D": "Proxy server"
+    },
+    "correct": "B",
+    "explanation": "A DNS (Domain Name System) server translates human-readable domain names (like www.example.com) into IP addresses (like 93.184.216.34). DHCP assigns IP addresses to devices. A web server hosts and delivers web pages. A proxy server acts as an intermediary between clients and other servers.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.3-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "concept",
+    "question": "What is the purpose of a syslog server on a network?",
+    "options": {
+      "A": "To assign IP addresses to devices",
+      "B": "To collect and store log messages from network devices and servers for centralized monitoring",
+      "C": "To filter spam emails",
+      "D": "To balance network traffic across multiple servers"
+    },
+    "correct": "B",
+    "explanation": "A syslog server collects, stores, and manages log messages from various network devices (routers, switches, firewalls, servers) for centralized monitoring and analysis. DHCP assigns IP addresses. Spam gateways filter spam. Load balancers distribute traffic. Syslog is essential for troubleshooting and security auditing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.3-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "scenario",
+    "question": "A company's website is experiencing slow performance due to high traffic. Which networked host service should be deployed to distribute incoming traffic across multiple web servers?",
+    "options": {
+      "A": "Proxy server",
+      "B": "Load balancer",
+      "C": "UTM appliance",
+      "D": "Syslog server"
+    },
+    "correct": "B",
+    "explanation": "A load balancer distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed, improving performance and reliability. A proxy server acts as an intermediary for requests but does not distribute load across servers. A UTM (Unified Threat Management) appliance is a comprehensive security device. A syslog server collects logs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.3-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "comparison",
+    "question": "What is the difference between a UTM (Unified Threat Management) appliance and a standalone firewall?",
+    "options": {
+      "A": "A UTM is only software-based while a firewall is hardware-based",
+      "B": "A UTM combines multiple security features (firewall, antivirus, IDS/IPS, content filtering, VPN) into a single appliance, while a standalone firewall only filters network traffic",
+      "C": "A firewall provides more features than a UTM",
+      "D": "A UTM can only protect wireless networks"
+    },
+    "correct": "B",
+    "explanation": "A UTM appliance consolidates multiple security functions into one device, including firewall, antivirus/anti-malware, intrusion detection/prevention (IDS/IPS), content filtering, spam filtering, and VPN capabilities. A standalone firewall focuses solely on filtering network traffic based on rules. UTMs can be hardware or software. A firewall is a subset of UTM functionality. UTMs protect all network types.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.3-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "concept",
+    "question": "What does AAA stand for in the context of networked host services?",
+    "options": {
+      "A": "Application, Access, Authorization",
+      "B": "Authentication, Authorization, Accounting",
+      "C": "Advanced, Automated, Access",
+      "D": "Authentication, Application, Auditing"
+    },
+    "correct": "B",
+    "explanation": "AAA stands for Authentication (verifying identity), Authorization (determining what the user is allowed to do), and Accounting (tracking what the user does). AAA services like RADIUS and TACACS+ are used to control access to network resources. The other options are not standard networking terminology.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.3-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "scenario",
+    "question": "An office network has multiple shared printers that users need to access. Which networked service allows centralized management of print jobs and printer access?",
+    "options": {
+      "A": "File share server",
+      "B": "Print server",
+      "C": "Mail server",
+      "D": "NTP server"
+    },
+    "correct": "B",
+    "explanation": "A print server manages print queues, provides centralized access to shared printers, and handles print job scheduling and prioritization. A file share server manages shared files and folders. A mail server handles email. An NTP (Network Time Protocol) server synchronizes time across network devices.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.3-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "concept",
+    "question": "What type of networked system is specifically designed to monitor and control industrial equipment such as power grids, water treatment plants, and manufacturing processes?",
+    "options": {
+      "A": "IoT hub",
+      "B": "SCADA",
+      "C": "Load balancer",
+      "D": "Spam gateway"
+    },
+    "correct": "B",
+    "explanation": "SCADA (Supervisory Control and Data Acquisition) systems are designed for monitoring and controlling industrial infrastructure and processes like power grids, water treatment, and manufacturing. IoT devices are general internet-connected devices. Load balancers distribute network traffic. Spam gateways filter unwanted email. SCADA systems are critical infrastructure that requires high security.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.3-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "scenario",
+    "question": "A company wants all employee computers to display the same accurate time for logging and compliance purposes. Which networked service should be configured?",
+    "options": {
+      "A": "DNS",
+      "B": "DHCP",
+      "C": "NTP",
+      "D": "LDAP"
+    },
+    "correct": "C",
+    "explanation": "NTP (Network Time Protocol) synchronizes the clocks of computers and network devices to a reference time source, ensuring consistent and accurate timestamps across the network. This is critical for log correlation, security auditing, and regulatory compliance. DNS resolves domain names. DHCP assigns IP addresses. LDAP provides directory services.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.3-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "scenario",
+    "question": "A company wants to control which websites employees can visit during work hours. Which networked service can filter web traffic and enforce browsing policies?",
+    "options": {
+      "A": "Database server",
+      "B": "Proxy server",
+      "C": "NTP server",
+      "D": "File share server"
+    },
+    "correct": "B",
+    "explanation": "A proxy server acts as an intermediary between clients and the internet, allowing administrators to filter content, block specific websites, cache frequently accessed content, and enforce browsing policies. A database server stores structured data. An NTP server manages time synchronization. A file share server provides shared storage.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.3-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "comparison",
+    "question": "How do IoT devices differ from traditional networked devices like PCs and servers?",
+    "options": {
+      "A": "IoT devices cannot connect to the internet",
+      "B": "IoT devices are everyday objects (thermostats, cameras, appliances) with embedded network connectivity and sensors, often with limited processing power and security features",
+      "C": "IoT devices are more powerful than traditional servers",
+      "D": "IoT devices only use wired connections"
+    },
+    "correct": "B",
+    "explanation": "IoT (Internet of Things) devices are everyday objects embedded with sensors, software, and network connectivity, allowing them to collect and exchange data. Examples include smart thermostats, security cameras, and connected appliances. They typically have limited processing power and may have minimal built-in security, making them potential security risks. IoT devices do connect to the internet (that is the 'Internet' in IoT), and they commonly use wireless connections.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.3-011",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.3",
+    "type": "scenario",
+    "question": "Users in an organization are receiving a large number of phishing and junk emails. Which networked service should the IT team implement to reduce unwanted email before it reaches users' inboxes?",
+    "options": {
+      "A": "Load balancer",
+      "B": "Spam gateway",
+      "C": "Syslog server",
+      "D": "NTP server"
+    },
+    "correct": "B",
+    "explanation": "A spam gateway (also called a spam filter or email security gateway) intercepts incoming email and filters out spam, phishing attempts, and malicious messages before they reach users' inboxes. A load balancer distributes traffic but does not filter content. A syslog server collects logs. An NTP server synchronizes time.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.4-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "concept",
+    "question": "Which DNS record type maps a domain name to an IPv4 address?",
+    "options": {
+      "A": "AAAA",
+      "B": "CNAME",
+      "C": "A",
+      "D": "MX"
+    },
+    "correct": "C",
+    "explanation": "An A (Address) record maps a domain name to an IPv4 address. AAAA records map to IPv6 addresses. CNAME (Canonical Name) records create aliases pointing one domain to another. MX (Mail Exchange) records specify mail servers for a domain.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.4-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "comparison",
+    "question": "What is the difference between an A record and an AAAA record in DNS?",
+    "options": {
+      "A": "An A record is for internal use and AAAA is for external use",
+      "B": "An A record maps to an IPv4 address while an AAAA record maps to an IPv6 address",
+      "C": "An AAAA record is four times faster than an A record",
+      "D": "An A record is encrypted while an AAAA record is not"
+    },
+    "correct": "B",
+    "explanation": "An A record maps a domain name to a 32-bit IPv4 address (e.g., 192.168.1.1). An AAAA record (quad-A) maps a domain name to a 128-bit IPv6 address (e.g., 2001:0db8::1). The 'AAAA' name reflects that IPv6 addresses are four times the length of IPv4. Both can be used for internal or external DNS, and neither involves encryption by itself.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.4-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "concept",
+    "question": "Which DNS record type is used to specify the mail server responsible for receiving email on behalf of a domain?",
+    "options": {
+      "A": "A",
+      "B": "CNAME",
+      "C": "TXT",
+      "D": "MX"
+    },
+    "correct": "D",
+    "explanation": "MX (Mail Exchange) records specify the mail server(s) responsible for receiving email for a domain and include a priority value for load distribution. A records map to IPv4 addresses. CNAME records create domain aliases. TXT records store text-based information like SPF, DKIM, and DMARC policies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.4-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "scenario",
+    "question": "An email administrator wants to prevent spoofing of their company's email domain. Which DNS TXT record types should they implement?",
+    "options": {
+      "A": "A, AAAA, and CNAME",
+      "B": "SPF, DKIM, and DMARC",
+      "C": "MX, PTR, and NS",
+      "D": "SOA, SRV, and CAA"
+    },
+    "correct": "B",
+    "explanation": "SPF (Sender Policy Framework) specifies which servers can send email for the domain. DKIM (DomainKeys Identified Mail) adds a digital signature to verify email authenticity. DMARC (Domain-based Message Authentication, Reporting, and Conformance) ties SPF and DKIM together and defines how to handle failed authentication. These three TXT records work together to prevent email domain spoofing. A/AAAA/CNAME are address and alias records. MX/PTR/NS are mail, reverse lookup, and nameserver records.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.4-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "concept",
+    "question": "In DHCP, what is a lease?",
+    "options": {
+      "A": "A permanent IP address assigned to a device",
+      "B": "A temporary assignment of an IP address to a device for a specified period of time",
+      "C": "A reserved MAC address entry",
+      "D": "A static route on the router"
+    },
+    "correct": "B",
+    "explanation": "A DHCP lease is a temporary assignment of an IP address to a device for a specific duration. When the lease expires, the device must renew it or receive a new IP address. A permanent assignment would be a static IP, not a DHCP lease. A MAC address reservation ties a specific IP to a MAC address but still uses the leasing mechanism. A static route is a routing configuration, not a DHCP concept.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.4-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "scenario",
+    "question": "A network administrator wants a specific printer to always receive the IP address 192.168.1.100 from the DHCP server. What should the administrator configure?",
+    "options": {
+      "A": "A DHCP exclusion",
+      "B": "A DHCP reservation",
+      "C": "A DHCP scope reduction",
+      "D": "A DNS CNAME record"
+    },
+    "correct": "B",
+    "explanation": "A DHCP reservation (also called a static DHCP assignment) maps a device's MAC address to a specific IP address, ensuring the device always receives the same IP from DHCP. A DHCP exclusion removes IP addresses from the pool so they are not assigned. Scope reduction would shrink the available IP range. A DNS CNAME record is a domain alias and is unrelated to IP assignment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.4-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "comparison",
+    "question": "What is the difference between a DHCP scope and a DHCP exclusion?",
+    "options": {
+      "A": "A scope defines the range of IP addresses available for assignment, while an exclusion removes specific addresses from that range so they are not assigned",
+      "B": "A scope is for IPv6 and an exclusion is for IPv4",
+      "C": "An exclusion is a larger range than a scope",
+      "D": "A scope is temporary and an exclusion is permanent"
+    },
+    "correct": "A",
+    "explanation": "A DHCP scope defines the full range of IP addresses that the DHCP server can assign (e.g., 192.168.1.100 to 192.168.1.200). An exclusion removes specific addresses within that scope from assignment (e.g., excluding 192.168.1.150 for a device with a static IP). Both apply to any IP version. The exclusion is within the scope range. Both can be modified as needed.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.4-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "concept",
+    "question": "What is the primary purpose of a VLAN (Virtual Local Area Network)?",
+    "options": {
+      "A": "To increase internet speed",
+      "B": "To logically segment a physical network into separate broadcast domains without requiring additional hardware",
+      "C": "To encrypt all network traffic",
+      "D": "To provide wireless coverage"
+    },
+    "correct": "B",
+    "explanation": "A VLAN logically segments a physical network into separate broadcast domains, improving security and performance by isolating traffic between groups of devices. Devices on different VLANs cannot communicate without a router or Layer 3 switch, even if they share the same physical switch. VLANs do not increase internet speed, encrypt traffic, or provide wireless coverage.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.4-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "scenario",
+    "question": "A remote employee needs to securely access the company's internal network resources from home. Which technology should the IT department configure?",
+    "options": {
+      "A": "VLAN",
+      "B": "VPN",
+      "C": "DHCP reservation",
+      "D": "DNS CNAME"
+    },
+    "correct": "B",
+    "explanation": "A VPN (Virtual Private Network) creates an encrypted tunnel over the public internet, allowing the remote employee to securely access internal network resources as if they were physically on the corporate network. A VLAN segments a local network but does not extend it remotely. A DHCP reservation assigns a specific local IP. A DNS CNAME is a domain alias.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.4-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "scenario",
+    "question": "A DNS administrator needs to create an alias so that 'mail.example.com' points to 'webserver.example.com' without creating a separate A record. Which DNS record type should be used?",
+    "options": {
+      "A": "A",
+      "B": "MX",
+      "C": "CNAME",
+      "D": "TXT"
+    },
+    "correct": "C",
+    "explanation": "A CNAME (Canonical Name) record creates an alias from one domain name to another. In this case, mail.example.com would point to webserver.example.com, which in turn has its own A record. An A record maps directly to an IP address. An MX record specifies mail servers. A TXT record stores text data like SPF policies.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.4-011",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.4",
+    "type": "comparison",
+    "question": "What distinguishes SPF, DKIM, and DMARC from each other as email authentication mechanisms stored in DNS TXT records?",
+    "options": {
+      "A": "SPF validates sending servers, DKIM adds cryptographic signatures to emails, and DMARC defines the policy for handling failures of SPF/DKIM checks",
+      "B": "They are three names for the same technology",
+      "C": "SPF encrypts emails, DKIM compresses them, and DMARC deletes spam",
+      "D": "SPF is for IPv4, DKIM is for IPv6, and DMARC is for both"
+    },
+    "correct": "A",
+    "explanation": "SPF (Sender Policy Framework) lists which mail servers are authorized to send email for a domain. DKIM (DomainKeys Identified Mail) attaches a cryptographic digital signature to outgoing emails so recipients can verify they have not been altered. DMARC (Domain-based Message Authentication, Reporting, and Conformance) builds on SPF and DKIM by defining a policy (reject, quarantine, none) for emails that fail authentication, and enables reporting. They are three distinct but complementary technologies.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.5-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "concept",
+    "question": "What is the PRIMARY function of a router on a network?",
+    "options": {
+      "A": "To connect devices within the same network segment",
+      "B": "To forward packets between different networks based on IP addresses",
+      "C": "To provide wireless access to the network",
+      "D": "To supply power to network devices"
+    },
+    "correct": "B",
+    "explanation": "A router's primary function is to forward packets between different networks (such as between a LAN and the internet) using IP addresses to determine the best path. Switches connect devices within the same network segment. Access points provide wireless connectivity. PoE switches or injectors supply power to network devices.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.5-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "comparison",
+    "question": "What is the key difference between a managed switch and an unmanaged switch?",
+    "options": {
+      "A": "A managed switch is wireless and an unmanaged switch is wired",
+      "B": "A managed switch allows configuration of VLANs, QoS, port mirroring, and other features, while an unmanaged switch is plug-and-play with no configuration options",
+      "C": "An unmanaged switch has more ports than a managed switch",
+      "D": "A managed switch does not support Ethernet"
+    },
+    "correct": "B",
+    "explanation": "A managed switch provides a configuration interface (CLI or web) and supports advanced features like VLANs, Quality of Service (QoS), port mirroring, SNMP monitoring, and access control lists. An unmanaged switch is a simple plug-and-play device with no configuration options -- it simply forwards traffic based on MAC addresses. Both are wired Ethernet devices and can come in various port counts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.5-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "concept",
+    "question": "What is the purpose of a patch panel in network infrastructure?",
+    "options": {
+      "A": "To amplify wireless signals",
+      "B": "To provide a centralized point where network cables are terminated and organized, allowing easy management and changes",
+      "C": "To convert fiber optic signals to copper",
+      "D": "To filter network traffic"
+    },
+    "correct": "B",
+    "explanation": "A patch panel is a passive device that provides a centralized termination point for network cables running from wall jacks throughout a building. It allows easy management, labeling, and reconfiguration of connections using short patch cables. It does not amplify signals (that is a repeater/amplifier), convert media types (that is a media converter), or filter traffic (that is a firewall).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.5-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "scenario",
+    "question": "A company wants to install IP security cameras in a warehouse where there are no power outlets near the camera locations. Which technology allows the cameras to receive both data and electrical power over a single Ethernet cable?",
+    "options": {
+      "A": "VLAN",
+      "B": "Power over Ethernet (PoE)",
+      "C": "VPN",
+      "D": "NFC"
+    },
+    "correct": "B",
+    "explanation": "Power over Ethernet (PoE) delivers both data and electrical power over a single Ethernet cable, eliminating the need for separate power outlets at each camera location. PoE can be provided through PoE-capable switches or PoE injectors. VLANs segment networks logically. VPN provides secure remote access. NFC is a short-range communication technology.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.5-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "comparison",
+    "question": "What is the difference between a PoE injector and a PoE switch?",
+    "options": {
+      "A": "A PoE injector provides power to a single device by adding power to an existing Ethernet connection, while a PoE switch has built-in power delivery on multiple ports",
+      "B": "A PoE switch only works with wireless devices",
+      "C": "A PoE injector provides more power than a PoE switch",
+      "D": "They are the same device with different names"
+    },
+    "correct": "A",
+    "explanation": "A PoE injector (also called a midspan device) adds power to a single Ethernet connection, placed between a standard switch and the powered device. A PoE switch has PoE capability built into multiple ports, providing both data switching and power delivery without additional hardware. PoE switches work with wired PoE devices. Power levels depend on the PoE standard, not device type. They serve different deployment scenarios.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.5-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "concept",
+    "question": "What unique identifier is permanently assigned to a Network Interface Card (NIC)?",
+    "options": {
+      "A": "IP address",
+      "B": "Subnet mask",
+      "C": "MAC address",
+      "D": "Default gateway"
+    },
+    "correct": "C",
+    "explanation": "A MAC (Media Access Control) address is a unique 48-bit hardware identifier burned into every NIC at the factory. It is written in hexadecimal format (e.g., 00:1A:2B:3C:4D:5E). An IP address is assigned by DHCP or manually and can change. A subnet mask defines the network portion of an IP address. A default gateway is the router's IP address.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.5-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "scenario",
+    "question": "A small business is setting up internet service via fiber optic. The ISP installs a device at the customer's premises that converts the fiber optic signal to an Ethernet connection. What is this device called?",
+    "options": {
+      "A": "Cable modem",
+      "B": "DSL modem",
+      "C": "ONT (Optical Network Terminal)",
+      "D": "Wireless access point"
+    },
+    "correct": "C",
+    "explanation": "An ONT (Optical Network Terminal) is the customer-premises device that terminates the fiber optic connection and converts the optical signal to Ethernet for the customer's network. A cable modem converts coaxial cable signals. A DSL modem converts telephone line signals. A wireless access point provides Wi-Fi connectivity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.5-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "comparison",
+    "question": "How does a cable modem differ from a DSL modem?",
+    "options": {
+      "A": "A cable modem uses the coaxial cable TV infrastructure, while a DSL modem uses the telephone line infrastructure",
+      "B": "A DSL modem is always faster than a cable modem",
+      "C": "A cable modem requires fiber optic cables",
+      "D": "A DSL modem can only be used for voice calls"
+    },
+    "correct": "A",
+    "explanation": "A cable modem connects to the internet via the coaxial cable TV infrastructure (DOCSIS standard), while a DSL modem uses existing copper telephone lines. Speed depends on the specific plan and technology version, so DSL is not always faster. Cable modems use coaxial, not fiber. DSL modems provide data connectivity alongside voice on the same phone line.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.5-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "scenario",
+    "question": "A network administrator needs to inspect traffic on a specific switch port without affecting the network. What type of device can passively copy network traffic for analysis?",
+    "options": {
+      "A": "PoE injector",
+      "B": "Network tap",
+      "C": "Patch panel",
+      "D": "Cable modem"
+    },
+    "correct": "B",
+    "explanation": "A network tap is a passive device that creates a copy of network traffic flowing through it, allowing monitoring and analysis without affecting the original data flow. This can also be accomplished via port mirroring on a managed switch. A PoE injector provides power. A patch panel organizes cable connections. A cable modem provides internet connectivity.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.5-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.5",
+    "type": "concept",
+    "question": "Which PoE standard delivers up to approximately 30 watts of power and is commonly known as PoE+?",
+    "options": {
+      "A": "IEEE 802.3af",
+      "B": "IEEE 802.3at",
+      "C": "IEEE 802.3bt",
+      "D": "IEEE 802.3ac"
+    },
+    "correct": "B",
+    "explanation": "IEEE 802.3at (PoE+) delivers up to approximately 30 watts per port. IEEE 802.3af is the original PoE standard delivering up to about 15.4 watts. IEEE 802.3bt (PoE++) provides up to 60-100 watts for high-power devices. IEEE 802.3ac is related to VLAN tagging, not PoE.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.6-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "concept",
+    "question": "Which of the following is a private IPv4 address range commonly used in SOHO networks?",
+    "options": {
+      "A": "8.8.8.0/24",
+      "B": "192.168.1.0/24",
+      "C": "172.217.0.0/16",
+      "D": "104.16.0.0/16"
+    },
+    "correct": "B",
+    "explanation": "192.168.1.0/24 is within the private IPv4 range 192.168.0.0 - 192.168.255.255 (Class C private range) commonly used in home and small office networks. The three private IPv4 ranges are: 10.0.0.0/8, 172.16.0.0/12 (172.16.0.0 - 172.31.255.255), and 192.168.0.0/16. The other options are all public IP addresses.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.6-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "concept",
+    "question": "What is APIPA (Automatic Private IP Addressing) and when does it activate?",
+    "options": {
+      "A": "A protocol that assigns public IP addresses when DHCP fails",
+      "B": "A feature that assigns an IP address in the 169.254.x.x range when a device cannot reach a DHCP server",
+      "C": "A security feature that blocks unauthorized devices",
+      "D": "A protocol that converts IPv4 addresses to IPv6"
+    },
+    "correct": "B",
+    "explanation": "APIPA automatically assigns an IP address in the 169.254.0.1 - 169.254.255.254 range when a device cannot contact a DHCP server. This allows limited communication with other APIPA devices on the same network segment but does not provide internet access. APIPA addresses are link-local and private, not public. APIPA is not a security feature or an address conversion protocol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.6-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "scenario",
+    "question": "A user's computer shows an IP address of 169.254.45.120. What does this indicate?",
+    "options": {
+      "A": "The computer has been assigned a valid DHCP address",
+      "B": "The computer has a static IP configuration",
+      "C": "The computer failed to reach a DHCP server and has self-assigned an APIPA address",
+      "D": "The computer is connected to a VPN"
+    },
+    "correct": "C",
+    "explanation": "An IP address in the 169.254.x.x range is an APIPA (Automatic Private IP Addressing) address, indicating the computer could not contact a DHCP server. This is often caused by DHCP server failure, network cable issues, or misconfigured network settings. The computer will have limited local connectivity and no internet access. This is neither a valid DHCP address, a static configuration, nor a VPN address.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.6-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "comparison",
+    "question": "What is the difference between a static IP address and a dynamic IP address?",
+    "options": {
+      "A": "Static IPs are only for servers, dynamic IPs are only for desktops",
+      "B": "A static IP is manually configured and does not change, while a dynamic IP is automatically assigned by DHCP and may change over time",
+      "C": "Dynamic IPs are faster than static IPs",
+      "D": "Static IPs use IPv6 while dynamic IPs use IPv4"
+    },
+    "correct": "B",
+    "explanation": "A static IP address is manually configured on the device and remains constant, making it ideal for servers, printers, and network infrastructure. A dynamic IP address is automatically assigned by a DHCP server and may change when the lease expires. Both can be used on any device type. Neither affects speed. Both can use IPv4 or IPv6.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.6-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "concept",
+    "question": "What does a subnet mask determine in network configuration?",
+    "options": {
+      "A": "The speed of the network connection",
+      "B": "Which portion of an IP address identifies the network and which portion identifies the host",
+      "C": "The DNS server to use",
+      "D": "The wireless channel to connect to"
+    },
+    "correct": "B",
+    "explanation": "A subnet mask determines which bits of an IP address represent the network portion and which represent the host portion. For example, a subnet mask of 255.255.255.0 means the first three octets identify the network and the last octet identifies individual hosts. Subnet masks do not affect speed, DNS configuration, or wireless channels.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.6-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "scenario",
+    "question": "A SOHO router is configured with the IP address 192.168.1.1 and a subnet mask of 255.255.255.0. A computer on the network has an IP of 192.168.1.50 but cannot access the internet. The computer can ping other devices on the 192.168.1.x network. What is the MOST likely issue?",
+    "options": {
+      "A": "The subnet mask is incorrect",
+      "B": "The computer's default gateway is not set to 192.168.1.1",
+      "C": "The DNS server is down",
+      "D": "The computer has an APIPA address"
+    },
+    "correct": "B",
+    "explanation": "Since the computer can communicate with other local devices (same subnet), the IP and subnet mask are correct. The inability to reach the internet indicates the default gateway is not properly configured. The gateway must point to the router (192.168.1.1) for traffic to be forwarded to the internet. The computer does not have an APIPA address (it has a valid 192.168.1.x address). DNS issues would prevent name resolution but not all internet access.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.6-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "comparison",
+    "question": "How does IPv6 addressing differ from IPv4 addressing?",
+    "options": {
+      "A": "IPv6 uses 32-bit addresses while IPv4 uses 128-bit addresses",
+      "B": "IPv6 uses 128-bit hexadecimal addresses providing a vastly larger address space, while IPv4 uses 32-bit decimal addresses",
+      "C": "IPv6 is slower than IPv4",
+      "D": "IPv4 supports more devices than IPv6"
+    },
+    "correct": "B",
+    "explanation": "IPv6 uses 128-bit addresses written in hexadecimal (e.g., 2001:0db8:85a3::8a2e:0370:7334), providing approximately 340 undecillion unique addresses. IPv4 uses 32-bit addresses in decimal notation (e.g., 192.168.1.1), supporting about 4.3 billion addresses. IPv6 was created because IPv4 addresses were running out. IPv6 is not inherently slower, and it supports far more devices than IPv4.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.6-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "scenario",
+    "question": "A home user sets up a new router and notices it assigns addresses in the 192.168.0.x range to all devices. The user wants to host a web server accessible from the internet. What must be configured on the router to allow external traffic to reach the internal web server?",
+    "options": {
+      "A": "Change all devices to static IPv6 addresses",
+      "B": "Configure port forwarding (NAT) to direct incoming traffic on port 80/443 to the internal web server's private IP",
+      "C": "Disable the firewall completely",
+      "D": "Assign the web server an APIPA address"
+    },
+    "correct": "B",
+    "explanation": "Port forwarding (a function of NAT - Network Address Translation) maps incoming traffic on specific ports from the router's public IP to a specific private IP address on the internal network. This allows external users to reach the internal web server. Changing to IPv6 does not solve the NAT traversal issue on an IPv4 network. Disabling the firewall is a severe security risk and does not enable inbound routing. An APIPA address cannot be reached from outside.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.6-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "concept",
+    "question": "What is the role of the default gateway in a SOHO network?",
+    "options": {
+      "A": "To assign IP addresses to all devices",
+      "B": "To serve as the router address that forwards traffic from the local network to external networks like the internet",
+      "C": "To resolve domain names to IP addresses",
+      "D": "To provide wireless encryption"
+    },
+    "correct": "B",
+    "explanation": "The default gateway is the IP address of the router interface on the local network. When a device needs to communicate with a host outside its local subnet, it sends the traffic to the default gateway (router), which forwards it toward the destination. DHCP assigns IP addresses. DNS resolves domain names. Wireless encryption is handled by security protocols like WPA3.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.6-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.6",
+    "type": "comparison",
+    "question": "Which of the following are the three private IPv4 address ranges defined by RFC 1918?",
+    "options": {
+      "A": "10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16",
+      "B": "10.0.0.0/8, 169.254.0.0/16, 192.168.0.0/16",
+      "C": "127.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16",
+      "D": "10.0.0.0/8, 172.16.0.0/12, 224.0.0.0/4"
+    },
+    "correct": "A",
+    "explanation": "The three RFC 1918 private IPv4 ranges are: 10.0.0.0/8 (10.0.0.0 - 10.255.255.255), 172.16.0.0/12 (172.16.0.0 - 172.31.255.255), and 192.168.0.0/16 (192.168.0.0 - 192.168.255.255). 169.254.0.0/16 is APIPA (link-local), not private RFC 1918. 127.0.0.0/8 is the loopback range. 224.0.0.0/4 is the multicast range.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.7-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "concept",
+    "question": "Which internet connection type delivers data via light pulses through thin glass or plastic strands and offers the highest speeds?",
+    "options": {
+      "A": "DSL",
+      "B": "Cable",
+      "C": "Fiber",
+      "D": "Satellite"
+    },
+    "correct": "C",
+    "explanation": "Fiber optic connections transmit data as pulses of light through thin glass or plastic strands, offering the highest speeds (up to multi-gigabit) and lowest latency. DSL uses copper telephone lines. Cable uses coaxial cable. Satellite uses radio signals to orbiting satellites and has high latency.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.7-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "comparison",
+    "question": "What is the PRIMARY disadvantage of satellite internet compared to fiber or cable?",
+    "options": {
+      "A": "Satellite is more expensive to install",
+      "B": "Satellite has high latency due to the distance signals must travel to and from orbiting satellites",
+      "C": "Satellite has no download capability",
+      "D": "Satellite only works during daytime"
+    },
+    "correct": "B",
+    "explanation": "Satellite internet suffers from high latency (typically 500-700ms for geostationary satellites) because signals must travel approximately 35,786 km to a geostationary satellite and back. This makes it unsuitable for real-time applications like video conferencing and online gaming. Satellite can be expensive, but latency is the primary technical disadvantage. Satellite provides both download and upload and works 24/7, though weather can affect signal quality.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.7-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "concept",
+    "question": "Which network type covers a metropolitan area, such as an entire city?",
+    "options": {
+      "A": "LAN",
+      "B": "WAN",
+      "C": "MAN",
+      "D": "PAN"
+    },
+    "correct": "C",
+    "explanation": "A MAN (Metropolitan Area Network) spans a city or large campus, larger than a LAN but smaller than a WAN. A LAN (Local Area Network) covers a building or small area. A WAN (Wide Area Network) spans large geographic distances, even continents. A PAN (Personal Area Network) covers a very short range around a person, typically within a few meters.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.7-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "comparison",
+    "question": "Which network type is specifically designed for high-speed storage access, typically using Fibre Channel or iSCSI, and is dedicated to connecting servers to shared storage devices?",
+    "options": {
+      "A": "LAN",
+      "B": "WAN",
+      "C": "SAN",
+      "D": "WLAN"
+    },
+    "correct": "C",
+    "explanation": "A SAN (Storage Area Network) is a specialized, high-speed network dedicated to connecting servers to shared storage devices (disk arrays, tape libraries). SANs use protocols like Fibre Channel or iSCSI. A LAN connects local devices for general networking. A WAN covers large geographic areas. A WLAN is a wireless local area network.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.7-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "scenario",
+    "question": "A rural homeowner has no access to cable, DSL, or fiber internet. Their only options are satellite and a local wireless provider. What type of internet service does the local wireless provider offer?",
+    "options": {
+      "A": "WISP (Wireless Internet Service Provider)",
+      "B": "WLAN",
+      "C": "VPN",
+      "D": "SAN"
+    },
+    "correct": "A",
+    "explanation": "A WISP (Wireless Internet Service Provider) delivers internet access using fixed wireless technology, often via directional antennas pointed at the provider's tower. WISPs are common in rural areas where wired infrastructure is not available. A WLAN is a local wireless network. A VPN provides secure remote access. A SAN is a storage network.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.7-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "concept",
+    "question": "What type of network does a Bluetooth connection between a smartphone and a wireless earbud represent?",
+    "options": {
+      "A": "LAN",
+      "B": "WAN",
+      "C": "PAN",
+      "D": "MAN"
+    },
+    "correct": "C",
+    "explanation": "A PAN (Personal Area Network) covers a very short range, typically within a few meters of a person, connecting personal devices like smartphones, earbuds, smartwatches, and fitness trackers. Bluetooth is the most common PAN technology. A LAN covers a building. A WAN spans large distances. A MAN covers a city.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.7-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "comparison",
+    "question": "How does DSL internet service differ from cable internet service?",
+    "options": {
+      "A": "DSL uses existing telephone lines while cable uses coaxial TV cable; DSL speed is typically distance-dependent from the central office while cable bandwidth is shared among neighborhood users",
+      "B": "DSL is always faster than cable",
+      "C": "Cable requires fiber optic lines while DSL uses satellite",
+      "D": "DSL and cable are the same technology"
+    },
+    "correct": "A",
+    "explanation": "DSL (Digital Subscriber Line) uses existing copper telephone lines and its speed degrades with distance from the telephone company's central office. Cable internet uses the coaxial cable TV infrastructure and bandwidth is shared among users in the same neighborhood. DSL is not always faster than cable; cable often provides higher speeds. Cable does not require fiber, and DSL does not use satellite. They are distinct technologies.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.7-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "scenario",
+    "question": "A company has offices in New York, London, and Tokyo, all connected through a private leased-line network. What type of network is this?",
+    "options": {
+      "A": "LAN",
+      "B": "WAN",
+      "C": "MAN",
+      "D": "PAN"
+    },
+    "correct": "B",
+    "explanation": "A WAN (Wide Area Network) connects networks across large geographic distances, including different cities, countries, or continents. Private leased lines between offices in different countries form a WAN. A LAN covers a single building or campus. A MAN covers a city. A PAN covers a personal area within a few meters.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.7-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "concept",
+    "question": "Which term describes a LAN that uses wireless technology instead of wired Ethernet connections?",
+    "options": {
+      "A": "SAN",
+      "B": "WLAN",
+      "C": "MAN",
+      "D": "PAN"
+    },
+    "correct": "B",
+    "explanation": "A WLAN (Wireless Local Area Network) is a LAN that uses wireless technology (typically Wi-Fi based on 802.11 standards) for connectivity instead of or in addition to wired Ethernet. A SAN is a storage area network. A MAN covers a metropolitan area. A PAN is a personal area network for close-range devices.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.7-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.7",
+    "type": "scenario",
+    "question": "A field service technician in a remote area needs to access cloud-based service tickets from their tablet. There is no Wi-Fi available but they have cellular signal. Which internet connection type are they using?",
+    "options": {
+      "A": "DSL",
+      "B": "Fiber",
+      "C": "Cellular (4G/5G)",
+      "D": "Cable"
+    },
+    "correct": "C",
+    "explanation": "Cellular internet (4G LTE or 5G) uses the mobile phone network to provide wireless data access, available wherever there is cellular signal coverage. This is ideal for mobile workers in areas without fixed broadband (DSL, fiber, cable). DSL, fiber, and cable all require a physical connection to infrastructure and are not available to a mobile user in a remote location.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.8-001",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "concept",
+    "question": "Which networking tool is used to attach an RJ-45 connector to the end of a network cable?",
+    "options": {
+      "A": "Punchdown tool",
+      "B": "Crimper",
+      "C": "Cable tester",
+      "D": "Toner probe"
+    },
+    "correct": "B",
+    "explanation": "A crimper (or crimping tool) is used to attach RJ-45 connectors to the ends of Ethernet cables by pressing the metal pins into the cable conductors. A punchdown tool terminates wires into patch panels or keystone jacks. A cable tester verifies cable integrity and wiring. A toner probe traces cables through walls and ceilings.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.8-002",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "concept",
+    "question": "What is the purpose of a punchdown tool in network installation?",
+    "options": {
+      "A": "To crimp RJ-45 connectors onto cable ends",
+      "B": "To terminate individual wires into the insulation displacement contacts (IDC) of patch panels or keystone jacks",
+      "C": "To test cable continuity",
+      "D": "To strip the outer jacket from network cables"
+    },
+    "correct": "B",
+    "explanation": "A punchdown tool pushes individual wires into the insulation displacement contacts (IDC) of patch panels, 66 blocks, or 110 blocks, simultaneously seating the wire and cutting the excess. It also works with keystone jacks. A crimper attaches RJ-45 connectors. A cable tester checks continuity. A cable stripper removes the outer jacket.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.8-003",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "scenario",
+    "question": "A network technician needs to identify a specific cable among a bundle of unlabeled cables running through a ceiling. Which tool combination should the technician use?",
+    "options": {
+      "A": "Crimper and cable stripper",
+      "B": "Toner probe (tone generator and probe)",
+      "C": "Wi-Fi analyzer",
+      "D": "Loopback plug"
+    },
+    "correct": "B",
+    "explanation": "A toner probe (consisting of a tone generator and an inductive probe) is used to trace and identify individual cables within a bundle. The tone generator is connected to one end of the cable and emits a signal, while the probe detects the signal at the other end or along the cable path. A crimper attaches connectors. A cable stripper removes cable jackets. A Wi-Fi analyzer is for wireless signals. A loopback plug tests NIC ports.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.8-004",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "concept",
+    "question": "What does a cable tester verify when testing a network cable?",
+    "options": {
+      "A": "The speed of data transmission on the cable",
+      "B": "Proper wiring, continuity, and the absence of shorts, opens, or crossed pairs",
+      "C": "The wireless signal strength near the cable",
+      "D": "The IP address assigned to devices connected to the cable"
+    },
+    "correct": "B",
+    "explanation": "A cable tester verifies the physical integrity of a network cable by checking for proper pin-to-pin wiring (T568A/T568B), continuity (all conductors connected end to end), and detecting faults like shorts (wires touching), opens (broken wires), and crossed pairs (wires connected to wrong pins). Cable testers do not measure speed, wireless signals, or IP configurations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.8-005",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "scenario",
+    "question": "A network administrator suspects that a NIC on a server is malfunctioning. Which tool can be used to test the NIC's send and receive functionality without requiring another device?",
+    "options": {
+      "A": "Cable tester",
+      "B": "Loopback plug",
+      "C": "Toner probe",
+      "D": "Wi-Fi analyzer"
+    },
+    "correct": "B",
+    "explanation": "A loopback plug (or loopback adapter) redirects the NIC's outgoing signal back to its own receive port, allowing the administrator to test the NIC's send and receive functionality in isolation. If the loopback test passes, the NIC is functioning properly and the problem is elsewhere. A cable tester checks cable integrity. A toner probe traces cables. A Wi-Fi analyzer is for wireless troubleshooting.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.8-006",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "concept",
+    "question": "What is the purpose of a cable stripper in network cable installation?",
+    "options": {
+      "A": "To test cable connectivity",
+      "B": "To carefully remove the outer jacket from a network cable without damaging the inner conductors",
+      "C": "To crimp connectors onto cable ends",
+      "D": "To trace cables through walls"
+    },
+    "correct": "B",
+    "explanation": "A cable stripper is designed to precisely remove the outer jacket (sheath) from a network cable without nicking or damaging the individual wire pairs inside. Damaged inner conductors can cause intermittent connectivity issues or complete failure. Cable testers check connectivity. Crimpers attach connectors. Toner probes trace cables.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.8-007",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "scenario",
+    "question": "Users in a specific area of the office report intermittent Wi-Fi connectivity. The network administrator needs to analyze the wireless environment to identify channel congestion and signal strength issues. Which tool should be used?",
+    "options": {
+      "A": "Cable tester",
+      "B": "Punchdown tool",
+      "C": "Wi-Fi analyzer",
+      "D": "Crimper"
+    },
+    "correct": "C",
+    "explanation": "A Wi-Fi analyzer (software or hardware) scans the wireless environment to display information about nearby access points, channel usage, signal strength, noise levels, and interference. This data helps the administrator identify channel congestion, weak signals, or overlapping networks causing intermittent connectivity. Cable testers, punchdown tools, and crimpers are all wired networking tools.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-2.8-008",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "comparison",
+    "question": "How does a network tap differ from a cable tester?",
+    "options": {
+      "A": "A network tap tests cable continuity while a cable tester captures live traffic",
+      "B": "A network tap passively copies live network traffic for monitoring/analysis, while a cable tester checks the physical integrity and wiring of a cable",
+      "C": "They perform the same function",
+      "D": "A cable tester requires power but a network tap does not"
+    },
+    "correct": "B",
+    "explanation": "A network tap is a passive device inserted inline on a network connection to create a copy of all passing traffic for monitoring, security analysis, or troubleshooting purposes. A cable tester checks the physical properties of a cable (continuity, wiring, shorts). They serve entirely different purposes: a tap monitors live data traffic while a cable tester verifies cable integrity. Both devices may or may not require power depending on the specific model.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-2.8-009",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "scenario",
+    "question": "A technician is making custom Ethernet cables and needs to ensure the wires are in the correct order according to the T568B wiring standard before crimping. The correct order for T568B starting at pin 1 is:",
+    "options": {
+      "A": "Green-white, Green, Orange-white, Blue, Blue-white, Orange, Brown-white, Brown",
+      "B": "Orange-white, Orange, Green-white, Blue, Blue-white, Green, Brown-white, Brown",
+      "C": "Blue-white, Blue, Orange-white, Green, Green-white, Orange, Brown-white, Brown",
+      "D": "Brown-white, Brown, Green-white, Blue, Blue-white, Green, Orange-white, Orange"
+    },
+    "correct": "B",
+    "explanation": "The T568B wiring standard (the most common in the US) pin order is: Pin 1 Orange-white, Pin 2 Orange, Pin 3 Green-white, Pin 4 Blue, Pin 5 Blue-white, Pin 6 Green, Pin 7 Brown-white, Pin 8 Brown. Option A shows the T568A standard. Options C and D show incorrect wiring orders that would cause cable faults.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-2.8-010",
+    "exam": "Core 1",
+    "domain": "2.0 Networking",
+    "objectiveId": "2.8",
+    "type": "scenario",
+    "question": "A security analyst needs to capture all network traffic between two switches for intrusion detection analysis without disrupting the existing network traffic flow. Which tool should be installed?",
+    "options": {
+      "A": "Cable stripper",
+      "B": "Loopback plug",
+      "C": "Network tap",
+      "D": "Punchdown tool"
+    },
+    "correct": "C",
+    "explanation": "A network tap is installed inline between two network devices (like switches) and creates an exact copy of all traffic passing through for analysis by an IDS or packet analyzer. Network taps are passive and do not disrupt or modify the traffic flow. A cable stripper removes cable jackets. A loopback plug tests NICs. A punchdown tool terminates cables in patch panels.",
+    "difficulty": "medium"
+  }
+]

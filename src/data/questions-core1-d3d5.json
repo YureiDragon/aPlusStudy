@@ -1,0 +1,2892 @@
+[
+  {
+    "id": "q-1201-3.1-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "concept",
+    "question": "Which LCD panel technology provides the widest viewing angles?",
+    "options": {
+      "A": "TN",
+      "B": "IPS",
+      "C": "VA",
+      "D": "CCFL"
+    },
+    "correct": "B",
+    "explanation": "IPS (In-Plane Switching) panels offer the widest viewing angles among LCD types, typically 178 degrees both horizontally and vertically. TN (Twisted Nematic) panels have the narrowest viewing angles. VA (Vertical Alignment) panels have better viewing angles than TN but not as good as IPS. CCFL is a backlight technology, not a panel type.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.1-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "concept",
+    "question": "What is the primary function of an inverter in an older LCD display?",
+    "options": {
+      "A": "Convert DC power to AC power for the CCFL backlight",
+      "B": "Convert analog signals to digital signals",
+      "C": "Regulate the refresh rate of the display",
+      "D": "Control the pixel density of the panel"
+    },
+    "correct": "A",
+    "explanation": "An inverter in older LCD displays converts DC power to AC power to drive the CCFL (Cold Cathode Fluorescent Lamp) backlight. Modern LED-backlit displays do not require an inverter since LEDs run on DC power. The inverter does not convert signals, regulate refresh rates, or control pixel density.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.1-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "comparison",
+    "question": "Which display technology is capable of producing true blacks by completely turning off individual pixels?",
+    "options": {
+      "A": "IPS LCD",
+      "B": "TN LCD",
+      "C": "OLED",
+      "D": "VA LCD"
+    },
+    "correct": "C",
+    "explanation": "OLED (Organic Light-Emitting Diode) displays can produce true blacks because each pixel emits its own light and can be completely turned off. All LCD types (IPS, TN, VA) use a backlight that cannot be completely blocked, resulting in some light leakage. VA panels come closest to deep blacks among LCDs but still cannot match OLED.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.1-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "scenario",
+    "question": "A graphic designer needs a monitor with accurate color reproduction and wide viewing angles for collaborative work where multiple people view the screen. Which panel technology should a technician recommend?",
+    "options": {
+      "A": "TN",
+      "B": "VA",
+      "C": "IPS",
+      "D": "Resistive touch"
+    },
+    "correct": "C",
+    "explanation": "IPS panels offer the best color accuracy and widest viewing angles, making them ideal for graphic design work where accurate colors matter and multiple people may view the screen from different angles. TN panels have poor color accuracy and narrow viewing angles. VA panels have better contrast but narrower viewing angles than IPS. A resistive touch panel is an input technology, not a display panel type.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.1-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "concept",
+    "question": "A display has a resolution of 3840 x 2160. What is this resolution commonly known as?",
+    "options": {
+      "A": "1080p (Full HD)",
+      "B": "1440p (QHD)",
+      "C": "4K (Ultra HD)",
+      "D": "720p (HD)"
+    },
+    "correct": "C",
+    "explanation": "3840 x 2160 is commonly known as 4K or Ultra HD (UHD). 1080p (Full HD) is 1920 x 1080. 1440p (QHD) is 2560 x 1440. 720p (HD) is 1280 x 720. The name 4K comes from the approximately 4,000 horizontal pixels.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.1-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "comparison",
+    "question": "Which LCD panel type typically offers the fastest response times, making it popular for competitive gaming?",
+    "options": {
+      "A": "IPS",
+      "B": "VA",
+      "C": "TN",
+      "D": "Mini-LED"
+    },
+    "correct": "C",
+    "explanation": "TN (Twisted Nematic) panels typically have the fastest response times (as low as 1ms), making them popular for competitive gaming where motion clarity is critical. IPS panels traditionally have slower response times, though modern IPS panels have improved significantly. VA panels generally have the slowest response times among the three. Mini-LED is a backlight technology, not a panel type.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.1-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "scenario",
+    "question": "A user complains that their laptop touchscreen responds to touch input but the displayed image appears washed out when viewed from the side. Which component is MOST likely responsible for the washed-out image?",
+    "options": {
+      "A": "The digitizer",
+      "B": "The TN panel",
+      "C": "The inverter",
+      "D": "The touchscreen controller"
+    },
+    "correct": "B",
+    "explanation": "A washed-out image when viewed from the side is characteristic of a TN panel, which has notoriously narrow viewing angles. The digitizer handles touch input (which is working fine). The inverter powers the backlight and would not cause color shifting at angles. The touchscreen controller processes touch data, not display output.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.1-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "concept",
+    "question": "What does pixel density measure in a display?",
+    "options": {
+      "A": "The total number of pixels on the screen",
+      "B": "The number of pixels per inch (PPI)",
+      "C": "The brightness of each pixel in nits",
+      "D": "The color depth of each pixel in bits"
+    },
+    "correct": "B",
+    "explanation": "Pixel density measures the number of pixels per inch (PPI) on a display. Higher PPI means sharper, more detailed images. Total pixel count relates to resolution, not density. Brightness is measured in nits or candelas. Color depth is measured in bits per pixel (e.g., 8-bit, 10-bit).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.1-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "scenario",
+    "question": "A technician is replacing a cracked laptop screen. The touch functionality no longer works after installing the new display panel, but the image looks fine. Which component was MOST likely not reconnected properly?",
+    "options": {
+      "A": "The inverter cable",
+      "B": "The LVDS cable",
+      "C": "The digitizer ribbon cable",
+      "D": "The GPU connector"
+    },
+    "correct": "C",
+    "explanation": "The digitizer is the component that detects touch input on a touchscreen. If the image displays correctly but touch does not work, the digitizer ribbon cable was most likely not reconnected properly. The inverter cable powers the backlight (display would be dark). The LVDS cable carries the video signal (no image if disconnected). There is no direct GPU connector to the display panel.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.1-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "comparison",
+    "question": "How does Mini-LED backlighting differ from traditional LED backlighting in displays?",
+    "options": {
+      "A": "Mini-LED uses fewer but larger LEDs for better brightness",
+      "B": "Mini-LED uses many smaller LEDs for more precise local dimming zones",
+      "C": "Mini-LED eliminates the need for a backlight entirely",
+      "D": "Mini-LED only works with TN panels"
+    },
+    "correct": "B",
+    "explanation": "Mini-LED backlighting uses thousands of smaller LEDs compared to traditional LED backlighting, enabling many more local dimming zones for better contrast and deeper blacks. It does not use fewer LEDs -- it uses significantly more. Unlike OLED, Mini-LED still uses a backlight. Mini-LED backlighting can be paired with any LCD panel type including IPS and VA, not just TN.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-3.1-011",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "concept",
+    "question": "A monitor is advertised with a 144Hz refresh rate. What does this specification indicate?",
+    "options": {
+      "A": "It can display 144 different colors per second",
+      "B": "It refreshes the image on screen 144 times per second",
+      "C": "It has a 144-pixel-per-inch density",
+      "D": "It supports a maximum resolution of 144p"
+    },
+    "correct": "B",
+    "explanation": "A 144Hz refresh rate means the monitor refreshes (redraws) the entire image 144 times per second. Higher refresh rates result in smoother motion, which is especially beneficial for gaming and fast-moving content. Refresh rate has nothing to do with color output, pixel density, or resolution.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.1-012",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.1",
+    "type": "scenario",
+    "question": "A photographer needs a display that can reproduce the widest range of colors for professional photo editing. Which specification should the technician prioritize?",
+    "options": {
+      "A": "Highest refresh rate",
+      "B": "Widest color gamut coverage (e.g., Adobe RGB or DCI-P3)",
+      "C": "Highest pixel density",
+      "D": "Fastest response time"
+    },
+    "correct": "B",
+    "explanation": "Color gamut defines the range of colors a display can reproduce. Professional photographers need displays with wide color gamut coverage such as Adobe RGB or DCI-P3 to accurately edit and proof photos. Refresh rate affects motion smoothness, not color accuracy. Pixel density affects sharpness. Response time affects motion blur. None of those directly improve color reproduction range.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-3.2-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "concept",
+    "question": "Which Ethernet cable category supports speeds up to 10 Gbps at distances up to 100 meters?",
+    "options": {
+      "A": "Cat 5",
+      "B": "Cat 5e",
+      "C": "Cat 6a",
+      "D": "Cat 6"
+    },
+    "correct": "C",
+    "explanation": "Cat 6a supports 10 Gbps at distances up to 100 meters. Cat 5 supports up to 100 Mbps. Cat 5e supports up to 1 Gbps. Cat 6 supports 10 Gbps but only at distances up to 55 meters; beyond that it falls back to 1 Gbps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "concept",
+    "question": "What is the standard wiring scheme used for a straight-through Ethernet patch cable on both ends?",
+    "options": {
+      "A": "T568A on both ends",
+      "B": "T568A on one end and T568B on the other",
+      "C": "T568B on both ends",
+      "D": "Either A or C -- both ends must match"
+    },
+    "correct": "D",
+    "explanation": "A straight-through cable uses the same wiring standard on both ends. It can be T568A on both ends or T568B on both ends. The key requirement is consistency. A crossover cable uses T568A on one end and T568B on the other. In practice, T568B is the more commonly used standard in the United States.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "concept",
+    "question": "Which connector type is used with coaxial cable for cable television and cable modem connections?",
+    "options": {
+      "A": "RJ-45",
+      "B": "RJ-11",
+      "C": "F-type",
+      "D": "BNC"
+    },
+    "correct": "C",
+    "explanation": "F-type connectors are the standard threaded coaxial connectors used for cable TV and cable modem connections. RJ-45 is used for Ethernet networking. RJ-11 is used for telephone connections. BNC is a bayonet-style coaxial connector used in older networking and video applications, not residential cable.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.2-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "comparison",
+    "question": "What is the key difference between STP and UTP cabling?",
+    "options": {
+      "A": "STP uses fiber optic strands while UTP uses copper",
+      "B": "STP has a metallic shielding around the wire pairs to reduce EMI while UTP does not",
+      "C": "UTP supports higher data rates than STP",
+      "D": "STP uses only two wire pairs while UTP uses four"
+    },
+    "correct": "B",
+    "explanation": "STP (Shielded Twisted Pair) has a metallic foil or braided shield around the wire pairs to reduce electromagnetic interference (EMI), while UTP (Unshielded Twisted Pair) relies only on the twisting of wire pairs for interference reduction. Both use copper conductors, not fiber. Both can support the same data rates depending on category. Both typically use four pairs of wires.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.2-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "scenario",
+    "question": "A technician is running network cables through the space above a drop ceiling that serves as an air return plenum. Which type of cable jacket is REQUIRED by fire code?",
+    "options": {
+      "A": "PVC-jacketed cable",
+      "B": "Plenum-rated cable",
+      "C": "Shielded twisted pair cable",
+      "D": "Direct-burial cable"
+    },
+    "correct": "B",
+    "explanation": "Plenum-rated cable is required by fire code when running cables through plenum spaces (areas used for air circulation such as above drop ceilings or below raised floors). Plenum cable uses a fire-retardant jacket that produces less toxic smoke when burned. Standard PVC-jacketed cable produces toxic fumes and is not allowed in plenum spaces. STP and direct-burial are cable types unrelated to fire ratings.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "comparison",
+    "question": "What distinguishes single-mode fiber optic cable from multi-mode fiber optic cable?",
+    "options": {
+      "A": "Single-mode uses a larger core and supports shorter distances",
+      "B": "Single-mode uses a smaller core and supports longer distances",
+      "C": "Multi-mode uses a laser light source while single-mode uses LED",
+      "D": "Multi-mode supports faster speeds than single-mode"
+    },
+    "correct": "B",
+    "explanation": "Single-mode fiber has a smaller core (approximately 8-10 microns) and uses a laser light source, allowing it to transmit over much longer distances (up to 100 km or more). Multi-mode fiber has a larger core (50 or 62.5 microns) and typically uses LED light sources for shorter distances (up to about 2 km). Multi-mode does not inherently support faster speeds than single-mode.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "concept",
+    "question": "Which fiber optic connector type uses a push-pull latching mechanism and is the smallest of the common fiber connectors?",
+    "options": {
+      "A": "ST",
+      "B": "SC",
+      "C": "LC",
+      "D": "FC"
+    },
+    "correct": "C",
+    "explanation": "LC (Lucent Connector) is the smallest common fiber optic connector and uses a push-pull latching mechanism similar to an RJ-45 tab. ST (Straight Tip) uses a bayonet-style twist-lock mechanism. SC (Subscriber Connector) uses a push-pull mechanism but is larger than LC. FC (Ferrule Connector) uses a threaded screw-on mechanism.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "concept",
+    "question": "Which USB standard provides a maximum data transfer rate of 5 Gbps?",
+    "options": {
+      "A": "USB 2.0",
+      "B": "USB 3.0",
+      "C": "USB 1.1",
+      "D": "USB 4.0"
+    },
+    "correct": "B",
+    "explanation": "USB 3.0 (also known as USB 3.2 Gen 1 or SuperSpeed USB) provides a maximum data transfer rate of 5 Gbps. USB 2.0 (Hi-Speed) supports up to 480 Mbps. USB 1.1 supports up to 12 Mbps. USB 4.0 supports up to 40 Gbps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.2-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "scenario",
+    "question": "A technician needs to connect a laptop to an external monitor and also charge the laptop through a single cable. Which connector and technology combination would BEST accomplish this?",
+    "options": {
+      "A": "HDMI cable",
+      "B": "VGA cable with a USB power adapter",
+      "C": "USB-C with Thunderbolt",
+      "D": "DVI cable"
+    },
+    "correct": "C",
+    "explanation": "USB-C with Thunderbolt can carry video, data, and power delivery over a single cable, making it ideal for connecting to a monitor while simultaneously charging. HDMI carries video and audio but not power for charging. VGA only carries analog video. DVI carries only digital video (and some versions carry analog). None of the other options can charge the laptop.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "comparison",
+    "question": "Which display connector supports both audio and video and is the MOST commonly found on modern TVs and monitors?",
+    "options": {
+      "A": "VGA",
+      "B": "DVI",
+      "C": "HDMI",
+      "D": "DB9"
+    },
+    "correct": "C",
+    "explanation": "HDMI (High-Definition Multimedia Interface) carries both audio and video and is the most common connector on modern TVs and monitors. VGA is an analog video-only connector. DVI carries digital video only (no audio in standard DVI). DB9 is a serial connector used for legacy devices, not displays.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.2-011",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "scenario",
+    "question": "A technician is terminating Ethernet cables in a server room patch panel. Which tool is required to push individual wires into the IDC contacts on the patch panel?",
+    "options": {
+      "A": "Cable crimper",
+      "B": "Punchdown tool",
+      "C": "Wire stripper",
+      "D": "Cable tester"
+    },
+    "correct": "B",
+    "explanation": "A punchdown tool is used to push (punch) individual wires into the insulation displacement contacts (IDC) on patch panels and keystone jacks. A cable crimper is used to attach RJ-45 connectors to cable ends. A wire stripper removes the outer jacket from cables. A cable tester verifies connectivity but does not terminate cables.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.2-012",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.2",
+    "type": "comparison",
+    "question": "Which of the following connectors is a legacy Apple proprietary connector that has been largely replaced by USB-C?",
+    "options": {
+      "A": "Molex",
+      "B": "Lightning",
+      "C": "Micro-USB",
+      "D": "Mini-USB"
+    },
+    "correct": "B",
+    "explanation": "Lightning is Apple's proprietary connector used on iPhones and iPads, which has been largely replaced by USB-C on newer Apple devices. Molex is a power connector used inside PCs for drives and peripherals. Micro-USB is a standard USB connector used on older Android devices. Mini-USB is an older standard USB connector used on cameras and other older devices.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.3-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "concept",
+    "question": "Which RAM form factor is designed specifically for laptops and small form factor devices?",
+    "options": {
+      "A": "DIMM",
+      "B": "SODIMM",
+      "C": "SIMM",
+      "D": "RIMM"
+    },
+    "correct": "B",
+    "explanation": "SODIMM (Small Outline Dual Inline Memory Module) is the compact RAM form factor designed for laptops and small form factor devices. DIMM is the full-size form factor used in desktop computers and servers. SIMM (Single Inline Memory Module) is an obsolete form factor. RIMM (Rambus Inline Memory Module) is also obsolete and was used with Rambus DRAM.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.3-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "comparison",
+    "question": "Which DDR generation operates at the lowest voltage, resulting in better power efficiency?",
+    "options": {
+      "A": "DDR3 (1.5V)",
+      "B": "DDR4 (1.2V)",
+      "C": "DDR5 (1.1V)",
+      "D": "DDR2 (1.8V)"
+    },
+    "correct": "C",
+    "explanation": "DDR5 operates at 1.1V, the lowest voltage of any DDR generation, providing the best power efficiency. DDR4 operates at 1.2V. DDR3 operates at 1.5V. DDR2 operates at 1.8V. Each successive DDR generation has reduced voltage for improved power efficiency and reduced heat output.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.3-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "concept",
+    "question": "What type of RAM includes additional circuitry to detect and correct single-bit memory errors?",
+    "options": {
+      "A": "DDR5",
+      "B": "SODIMM",
+      "C": "ECC RAM",
+      "D": "Buffered RAM"
+    },
+    "correct": "C",
+    "explanation": "ECC (Error-Correcting Code) RAM includes additional circuitry and an extra memory chip per module to detect and correct single-bit memory errors. It is primarily used in servers and workstations where data integrity is critical. DDR5 is a generation of RAM, not an error-correction feature. SODIMM is a form factor. Buffered (registered) RAM adds a register between the memory and controller but does not inherently correct errors.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.3-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "scenario",
+    "question": "A technician is upgrading a desktop workstation that has four DIMM slots colored in alternating black and blue pairs. To enable dual-channel mode with two new RAM sticks, how should the technician install them?",
+    "options": {
+      "A": "Install both sticks in adjacent slots of different colors",
+      "B": "Install both sticks in the matching colored slots",
+      "C": "Install one stick in the first slot and leave the other for later",
+      "D": "Install both sticks in any available slots since dual-channel is automatic"
+    },
+    "correct": "B",
+    "explanation": "To enable dual-channel mode, matching RAM modules must be installed in the same-colored DIMM slots, which correspond to the same memory channel. The alternating colors indicate Channel A and Channel B. Installing in adjacent slots of different colors would put both modules on different channels without proper pairing. Dual-channel is not automatic regardless of slot placement; specific slot pairing is required.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.3-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "comparison",
+    "question": "Why are DDR generations NOT interchangeable in motherboard DIMM slots?",
+    "options": {
+      "A": "They all use the same physical connector but require different BIOS versions",
+      "B": "Each DDR generation has a different notch position on the module preventing incorrect installation",
+      "C": "They are interchangeable as long as the voltage matches",
+      "D": "Only the clock speed differs between generations"
+    },
+    "correct": "B",
+    "explanation": "Each DDR generation has a physical key notch in a different position on the module edge, which prevents a module from being inserted into a slot designed for a different DDR generation. This is a deliberate design to prevent damage from incompatible voltage and signaling. DDR generations differ in voltage, speed, pin count, and physical keying. They are never interchangeable regardless of BIOS version or voltage matching.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.3-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "scenario",
+    "question": "A server administrator needs to maximize memory bandwidth for a database server. The motherboard supports quad-channel memory. How many identical RAM modules are needed to fully utilize quad-channel mode?",
+    "options": {
+      "A": "Two modules",
+      "B": "Three modules",
+      "C": "Four modules",
+      "D": "Eight modules"
+    },
+    "correct": "C",
+    "explanation": "Quad-channel memory requires four identical RAM modules, one for each channel, to fully utilize the bandwidth. Two modules would only enable dual-channel. Three modules would not properly populate all four channels. Eight modules could work in quad-channel if the motherboard has eight slots (two per channel), but the minimum for quad-channel is four modules.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.3-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "concept",
+    "question": "What is the primary advantage of ECC RAM over non-ECC RAM?",
+    "options": {
+      "A": "Faster clock speeds",
+      "B": "Lower cost per module",
+      "C": "Ability to detect and correct single-bit memory errors",
+      "D": "Smaller physical form factor"
+    },
+    "correct": "C",
+    "explanation": "The primary advantage of ECC RAM is its ability to detect and correct single-bit memory errors, improving data integrity and system reliability. ECC RAM is typically slower than equivalent non-ECC RAM due to the overhead of error checking. ECC RAM costs more, not less. ECC RAM uses the same DIMM form factor as non-ECC RAM with an additional chip.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.3-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "scenario",
+    "question": "A technician attempts to install a DDR4 RAM module into a motherboard, but the module will not seat properly despite being pushed firmly. What is the MOST likely cause?",
+    "options": {
+      "A": "The DIMM slot retention clips are broken",
+      "B": "The motherboard uses DDR5 slots, which have a different notch position",
+      "C": "The RAM module is defective",
+      "D": "The technician needs to apply more force"
+    },
+    "correct": "B",
+    "explanation": "The most likely cause is that the motherboard uses DDR5 slots, which have a different key notch position than DDR4. Each DDR generation has a unique notch placement to prevent incorrect installation. Broken retention clips would not prevent the module from seating. A defective RAM module would still physically fit the correct slot type. Applying more force could damage the module and motherboard and should never be done.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.3-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "comparison",
+    "question": "How does DDR5 differ from DDR4 in terms of maximum supported capacity per module?",
+    "options": {
+      "A": "DDR5 supports the same maximum capacity as DDR4",
+      "B": "DDR5 supports significantly higher maximum capacity per module than DDR4",
+      "C": "DDR4 supports higher capacity per module than DDR5",
+      "D": "Both are limited to 8 GB per module"
+    },
+    "correct": "B",
+    "explanation": "DDR5 supports significantly higher maximum capacity per module than DDR4. DDR5 modules can reach up to 128 GB per module and beyond, while DDR4 modules typically max out at 64 GB per module. DDR5 achieves this through higher density memory chips and a redesigned architecture. Neither generation is limited to just 8 GB per module.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-3.3-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.3",
+    "type": "concept",
+    "question": "In a dual-channel memory configuration, what happens to the effective memory bandwidth compared to single-channel?",
+    "options": {
+      "A": "Bandwidth is cut in half",
+      "B": "Bandwidth remains the same but latency improves",
+      "C": "Bandwidth is effectively doubled",
+      "D": "Bandwidth triples"
+    },
+    "correct": "C",
+    "explanation": "In a dual-channel memory configuration, two memory modules are accessed simultaneously, effectively doubling the memory bandwidth compared to single-channel mode. This is because the memory controller can read from or write to both channels at the same time. Bandwidth does not decrease, stay the same, or triple. Dual-channel specifically doubles the available bandwidth.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.4-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "concept",
+    "question": "Which HDD spindle speed is commonly found in enterprise-grade servers requiring maximum performance?",
+    "options": {
+      "A": "5,400 RPM",
+      "B": "7,200 RPM",
+      "C": "10,000 RPM",
+      "D": "15,000 RPM"
+    },
+    "correct": "D",
+    "explanation": "15,000 RPM drives are enterprise-grade drives designed for maximum mechanical disk performance in servers and SANs. 5,400 RPM drives are low-power drives used in laptops and external storage. 7,200 RPM is the standard speed for desktop HDDs. 10,000 RPM drives (like the WD Raptor) are high-performance desktop/workstation drives but not the fastest enterprise option.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.4-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "comparison",
+    "question": "What is the primary difference between 2.5-inch and 3.5-inch hard drive form factors?",
+    "options": {
+      "A": "2.5-inch drives are used in desktops; 3.5-inch drives are for laptops",
+      "B": "2.5-inch drives are smaller and typically used in laptops; 3.5-inch drives are larger and used in desktops",
+      "C": "3.5-inch drives are faster than 2.5-inch drives in all cases",
+      "D": "2.5-inch drives use SATA while 3.5-inch drives use IDE only"
+    },
+    "correct": "B",
+    "explanation": "2.5-inch drives are the smaller form factor typically used in laptops, while 3.5-inch drives are the larger form factor used in desktop computers. The size refers to the approximate width of the drive platters. Speed depends on RPM and technology, not form factor alone. Both form factors can use SATA connections. IDE is a legacy interface not specific to either size.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.4-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "concept",
+    "question": "Which SSD interface connects directly to the PCIe bus and provides the fastest storage performance?",
+    "options": {
+      "A": "SATA III",
+      "B": "NVMe",
+      "C": "SAS",
+      "D": "eSATA"
+    },
+    "correct": "B",
+    "explanation": "NVMe (Non-Volatile Memory Express) is a protocol designed specifically for SSDs that connects directly to the PCIe bus, providing dramatically faster speeds (up to 7,000+ MB/s for PCIe Gen 4) compared to other interfaces. SATA III is limited to approximately 600 MB/s. SAS is used in enterprise environments and is faster than SATA but slower than NVMe. eSATA is an external SATA interface limited to 600 MB/s.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.4-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "scenario",
+    "question": "A technician is installing an M.2 SSD in a motherboard. The drive is keyed with an M key. What interface does this M.2 drive MOST likely use?",
+    "options": {
+      "A": "SATA only",
+      "B": "USB 3.0",
+      "C": "NVMe (PCIe)",
+      "D": "SAS"
+    },
+    "correct": "C",
+    "explanation": "An M.2 drive with an M key is most likely an NVMe drive using the PCIe interface for maximum performance. M.2 drives with a B key or B+M key typically use SATA. The M key notch position is designed to indicate PCIe/NVMe capability. M.2 drives do not use USB 3.0 or SAS interfaces.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.4-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "comparison",
+    "question": "Which RAID level provides data striping with NO redundancy, offering maximum performance but no fault tolerance?",
+    "options": {
+      "A": "RAID 0",
+      "B": "RAID 1",
+      "C": "RAID 5",
+      "D": "RAID 10"
+    },
+    "correct": "A",
+    "explanation": "RAID 0 uses data striping across multiple disks with no redundancy, providing maximum read/write performance but zero fault tolerance. If any single drive fails, all data is lost. RAID 1 uses mirroring for full redundancy. RAID 5 uses striping with distributed parity. RAID 10 combines striping and mirroring for both performance and redundancy.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.4-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "concept",
+    "question": "What is the minimum number of drives required for a RAID 5 array?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "B",
+    "explanation": "RAID 5 requires a minimum of three drives. It uses block-level striping with distributed parity across all drives. One drive's worth of capacity is used for parity data, so with three drives you get the capacity of two drives. RAID 0 and RAID 1 require a minimum of two drives. RAID 6 requires a minimum of four drives. RAID 10 requires a minimum of four drives.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.4-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "scenario",
+    "question": "A company needs a RAID configuration that can survive the failure of TWO drives simultaneously. Which RAID level should the technician implement?",
+    "options": {
+      "A": "RAID 0",
+      "B": "RAID 1",
+      "C": "RAID 5",
+      "D": "RAID 6"
+    },
+    "correct": "D",
+    "explanation": "RAID 6 uses double distributed parity, allowing the array to survive the simultaneous failure of any two drives. RAID 0 has no redundancy. RAID 1 (mirroring) can survive one drive failure. RAID 5 uses single distributed parity and can only survive one drive failure. RAID 6 requires a minimum of four drives and sacrifices two drives' worth of capacity for dual parity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.4-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "comparison",
+    "question": "How does RAID 10 differ from RAID 5 in terms of fault tolerance and performance?",
+    "options": {
+      "A": "RAID 10 offers better write performance and can tolerate multiple drive failures within different mirror pairs; RAID 5 has slower writes due to parity calculations and tolerates only one failure",
+      "B": "RAID 5 is faster and more fault tolerant than RAID 10",
+      "C": "RAID 10 and RAID 5 provide identical performance and fault tolerance",
+      "D": "RAID 10 uses parity while RAID 5 uses mirroring"
+    },
+    "correct": "A",
+    "explanation": "RAID 10 (1+0) combines mirroring and striping, providing excellent write performance (no parity calculations) and the ability to survive multiple drive failures as long as both drives in a mirror pair do not fail simultaneously. RAID 5 has slower write performance due to parity calculation overhead and can only tolerate a single drive failure. RAID 10 uses mirroring (not parity), and RAID 5 uses parity (not mirroring).",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-3.4-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "concept",
+    "question": "Which removable storage format is commonly used in digital cameras and smartphones for expandable storage?",
+    "options": {
+      "A": "CompactFlash",
+      "B": "SD/microSD card",
+      "C": "USB flash drive",
+      "D": "mSATA drive"
+    },
+    "correct": "B",
+    "explanation": "SD (Secure Digital) and microSD cards are the most commonly used removable storage in digital cameras and smartphones. CompactFlash is an older format used in professional cameras but not smartphones. USB flash drives are portable storage devices but not typically used inside cameras or phones. mSATA is an internal SSD form factor, not removable consumer media.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.4-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "scenario",
+    "question": "A technician needs to install an SSD in an older laptop that only has a 2.5-inch SATA drive bay and no M.2 slot. Which SSD type is the BEST choice?",
+    "options": {
+      "A": "NVMe M.2 SSD",
+      "B": "2.5-inch SATA SSD",
+      "C": "mSATA SSD",
+      "D": "PCIe add-in card SSD"
+    },
+    "correct": "B",
+    "explanation": "A 2.5-inch SATA SSD is the best choice as it physically fits the existing drive bay and uses the same SATA connector as the original HDD. An NVMe M.2 SSD requires an M.2 slot which the laptop lacks. An mSATA SSD requires an mSATA slot. A PCIe add-in card SSD requires a PCIe expansion slot, which laptops typically do not have.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.4-011",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.4",
+    "type": "comparison",
+    "question": "What distinguishes mSATA from M.2 as SSD form factors?",
+    "options": {
+      "A": "mSATA is newer and faster than M.2",
+      "B": "M.2 supports both SATA and NVMe protocols while mSATA supports only SATA",
+      "C": "mSATA and M.2 are identical in every way",
+      "D": "M.2 is only used in desktop computers"
+    },
+    "correct": "B",
+    "explanation": "M.2 is a versatile form factor that supports both SATA and NVMe (PCIe) protocols, depending on the key type and drive. mSATA is an older form factor that only supports the SATA protocol and is limited to SATA speeds (approximately 600 MB/s). M.2 has largely replaced mSATA due to its flexibility and support for much faster NVMe drives. M.2 is used in both laptops and desktops.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "concept",
+    "question": "Which motherboard form factor is the largest and provides the most expansion slots?",
+    "options": {
+      "A": "Mini-ITX",
+      "B": "Micro-ATX",
+      "C": "ATX",
+      "D": "Nano-ITX"
+    },
+    "correct": "C",
+    "explanation": "ATX (Advanced Technology Extended) is the largest standard motherboard form factor at 12 x 9.6 inches and provides the most expansion slots (typically 7 PCIe slots). Micro-ATX is smaller at 9.6 x 9.6 inches with fewer expansion slots (typically 4). Mini-ITX is the smallest common form factor at 6.7 x 6.7 inches with usually just one expansion slot. Nano-ITX is even smaller and rarely used in desktop PCs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.5-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "concept",
+    "question": "What is the purpose of the 20+4 pin connector on a motherboard?",
+    "options": {
+      "A": "To supply power to the CPU",
+      "B": "To supply main power to the motherboard",
+      "C": "To connect front panel USB headers",
+      "D": "To provide power to PCIe graphics cards"
+    },
+    "correct": "B",
+    "explanation": "The 20+4 pin (24-pin) connector is the main motherboard power connector that supplies power from the PSU to the motherboard. The CPU has its own dedicated 4+4 pin (8-pin) or 4-pin (EPS) power connector. Front panel USB headers use small pin headers. PCIe graphics cards use 6-pin or 8-pin supplementary power connectors directly from the PSU.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.5-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "comparison",
+    "question": "What is the primary difference between Intel and AMD CPU sockets?",
+    "options": {
+      "A": "Intel CPUs use PGA (pins on the CPU) while AMD uses LGA (pins in the socket)",
+      "B": "Intel desktop CPUs typically use LGA (pins in the socket) while AMD desktop CPUs have traditionally used PGA (pins on the CPU), though AMD's newer AM5 uses LGA",
+      "C": "Intel and AMD use the same socket types and are interchangeable",
+      "D": "AMD CPUs do not use sockets; they are soldered directly to the motherboard"
+    },
+    "correct": "B",
+    "explanation": "Intel desktop CPUs have traditionally used LGA (Land Grid Array) sockets where the pins are in the motherboard socket and the CPU has flat contact pads. AMD desktop CPUs have traditionally used PGA (Pin Grid Array) where the pins are on the CPU itself. However, AMD's newer AM5 socket has switched to LGA. Intel and AMD are never interchangeable. AMD CPUs do use sockets (not soldered) for desktops.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "scenario",
+    "question": "A technician needs to enable Secure Boot on a workstation to meet corporate security policies. Where should the technician configure this setting?",
+    "options": {
+      "A": "Windows Device Manager",
+      "B": "BIOS/UEFI firmware settings",
+      "C": "Windows Firewall settings",
+      "D": "The antivirus software configuration"
+    },
+    "correct": "B",
+    "explanation": "Secure Boot is configured in the BIOS/UEFI firmware settings. Secure Boot ensures that only trusted, digitally signed operating system bootloaders can execute during startup, preventing rootkits and unauthorized OS loading. Device Manager manages hardware drivers. Windows Firewall manages network traffic rules. Antivirus software scans for malware but does not control the boot process.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "concept",
+    "question": "What does TPM (Trusted Platform Module) provide for a computer system?",
+    "options": {
+      "A": "Additional RAM storage for virtual machines",
+      "B": "Hardware-based security functions including encryption key storage and secure boot verification",
+      "C": "Faster graphics processing for gaming",
+      "D": "Additional network connectivity"
+    },
+    "correct": "B",
+    "explanation": "TPM (Trusted Platform Module) is a dedicated hardware chip or firmware that provides hardware-based security functions including storing encryption keys, supporting disk encryption (like BitLocker), and verifying the integrity of the boot process. TPM does not provide RAM, graphics processing, or network connectivity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "comparison",
+    "question": "What distinguishes x86, x64, and ARM processor architectures?",
+    "options": {
+      "A": "x86 is 32-bit, x64 is 64-bit extending x86, and ARM is a RISC architecture focused on power efficiency",
+      "B": "All three are identical architectures with different brand names",
+      "C": "ARM is the fastest architecture; x86 and x64 are obsolete",
+      "D": "x86 is for servers only, x64 is for desktops, and ARM is for networking equipment"
+    },
+    "correct": "A",
+    "explanation": "x86 is the original 32-bit instruction set architecture from Intel. x64 (also called x86-64 or AMD64) extends x86 to 64-bit, supporting more memory and larger data processing. ARM is a RISC (Reduced Instruction Set Computing) architecture designed for power efficiency, commonly used in mobile devices, tablets, and increasingly in laptops and servers. They are distinct architectures, none is obsolete, and they are used across various device types.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "scenario",
+    "question": "A technician is building a new PC and notices the CPU temperature is reaching 95 degrees Celsius under load. The heatsink is properly mounted. What should the technician check FIRST?",
+    "options": {
+      "A": "Replace the CPU with a lower-power model",
+      "B": "Verify that thermal paste was properly applied between the CPU and heatsink",
+      "C": "Replace the motherboard",
+      "D": "Add more RAM to reduce CPU load"
+    },
+    "correct": "B",
+    "explanation": "The first thing to check is whether thermal paste was properly applied between the CPU and heatsink. Thermal paste fills microscopic gaps between the CPU heat spreader and heatsink, enabling efficient heat transfer. Missing, dried, or improperly applied thermal paste is a common cause of overheating. Replacing the CPU or motherboard would be premature. Adding RAM does not directly reduce CPU temperatures.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "concept",
+    "question": "Which expansion card would a technician install to add video capture capabilities to a desktop PC for recording gameplay?",
+    "options": {
+      "A": "NIC (Network Interface Card)",
+      "B": "Sound card",
+      "C": "Capture card",
+      "D": "RAID controller card"
+    },
+    "correct": "C",
+    "explanation": "A capture card is designed to capture video input from external sources such as game consoles, cameras, or other computers for recording or streaming. A NIC provides network connectivity. A sound card processes audio input and output. A RAID controller manages disk arrays. Only a capture card provides video capture functionality.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.5-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "scenario",
+    "question": "A company wants to use full-disk encryption with BitLocker on their Windows workstations. What hardware component is required for BitLocker to store encryption keys securely?",
+    "options": {
+      "A": "A dedicated GPU",
+      "B": "TPM (Trusted Platform Module) version 1.2 or higher",
+      "C": "ECC RAM",
+      "D": "A RAID controller"
+    },
+    "correct": "B",
+    "explanation": "BitLocker requires a TPM (Trusted Platform Module) version 1.2 or higher to securely store encryption keys and verify boot integrity. While BitLocker can work without TPM using a USB key or password, the standard and recommended configuration uses TPM. A GPU handles graphics processing. ECC RAM handles memory error correction. A RAID controller manages disk arrays. None of these store encryption keys.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "comparison",
+    "question": "What is the advantage of liquid cooling over traditional air cooling (fans and heatsinks) for a CPU?",
+    "options": {
+      "A": "Liquid cooling is always cheaper and easier to install",
+      "B": "Liquid cooling provides more efficient heat dissipation and quieter operation under heavy loads",
+      "C": "Liquid cooling eliminates the need for thermal paste",
+      "D": "Air cooling always outperforms liquid cooling"
+    },
+    "correct": "B",
+    "explanation": "Liquid cooling provides more efficient heat dissipation than air cooling because liquid transfers heat more effectively than air, and it generally operates more quietly under heavy loads since the radiator fans can spin at lower speeds. Liquid cooling is typically more expensive and more complex to install. Liquid cooling still requires thermal paste between the CPU and the water block. Air cooling does not always outperform liquid cooling, especially in high-performance systems.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.5-011",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "concept",
+    "question": "What does HSM (Hardware Security Module) provide that differs from TPM?",
+    "options": {
+      "A": "HSM is a network-accessible, high-performance cryptographic device for enterprise key management, while TPM is a local chip on individual motherboards",
+      "B": "HSM and TPM are the same thing with different names",
+      "C": "HSM provides cooling solutions while TPM provides security",
+      "D": "TPM is more powerful than HSM in all scenarios"
+    },
+    "correct": "A",
+    "explanation": "An HSM (Hardware Security Module) is a dedicated, tamper-resistant hardware device designed for high-performance cryptographic operations and enterprise-level key management, often network-accessible and shared across an organization. TPM is a chip integrated into individual motherboards for local system security functions. HSM and TPM serve different scales of security needs. HSM does not provide cooling. TPM is not more powerful than HSM for cryptographic operations.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-3.5-012",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.5",
+    "type": "scenario",
+    "question": "A technician needs to enable virtualization support for running virtual machines on a workstation. Where should this feature be enabled?",
+    "options": {
+      "A": "Windows Task Manager",
+      "B": "BIOS/UEFI settings (Intel VT-x or AMD-V)",
+      "C": "The hypervisor software preferences",
+      "D": "Windows Control Panel"
+    },
+    "correct": "B",
+    "explanation": "Hardware virtualization support (Intel VT-x or AMD-V) must be enabled in the BIOS/UEFI firmware settings. This is a CPU feature that is often disabled by default and must be turned on before hypervisor software can utilize it. While hypervisor software uses this feature, it cannot enable the hardware-level setting itself. Task Manager and Control Panel do not control CPU hardware features.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.6-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "concept",
+    "question": "What are the standard AC input voltage ranges for power supplies used in the United States versus Europe?",
+    "options": {
+      "A": "US: 220-240V, Europe: 110-120V",
+      "B": "US: 110-120V, Europe: 220-240V",
+      "C": "Both use 110-120V",
+      "D": "Both use 220-240V"
+    },
+    "correct": "B",
+    "explanation": "The United States uses 110-120V AC input, while European countries use 220-240V AC input. Many modern power supplies feature auto-switching to detect and accommodate both voltage ranges automatically. Using the wrong voltage setting on a manual-switch PSU can damage the power supply and connected components.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.6-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "concept",
+    "question": "Which DC output voltage from a power supply is primarily used to power the CPU and PCIe graphics cards?",
+    "options": {
+      "A": "3.3V",
+      "B": "5V",
+      "C": "12V",
+      "D": "24V"
+    },
+    "correct": "C",
+    "explanation": "The 12V rail is used to power the most demanding components including the CPU, PCIe graphics cards, fans, and hard drive motors. The 5V rail powers USB ports, SATA logic circuits, and some older components. The 3.3V rail powers RAM and certain motherboard circuits. Standard PC power supplies do not output 24V.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.6-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "scenario",
+    "question": "A technician is building a gaming PC with a high-end graphics card that requires 300W alone, plus a CPU drawing 125W and other components using 150W. What is the MINIMUM recommended PSU wattage?",
+    "options": {
+      "A": "500W",
+      "B": "575W",
+      "C": "650W or higher",
+      "D": "400W"
+    },
+    "correct": "C",
+    "explanation": "The total power draw is approximately 575W (300W + 125W + 150W). It is recommended to have a PSU with at least 10-20% headroom above the total power draw to account for power spikes, efficiency losses, and component longevity. A 650W or higher PSU provides adequate headroom. A 500W or 400W PSU would be insufficient. A 575W PSU would have zero headroom, which is not recommended.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.6-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "comparison",
+    "question": "What is the advantage of a modular power supply over a non-modular power supply?",
+    "options": {
+      "A": "Modular PSUs are always more powerful",
+      "B": "Modular PSUs allow you to connect only the cables you need, improving airflow and cable management",
+      "C": "Non-modular PSUs are less reliable",
+      "D": "Modular PSUs are always cheaper"
+    },
+    "correct": "B",
+    "explanation": "A modular power supply allows the user to connect only the cables needed for their specific build, which reduces cable clutter, improves airflow inside the case, and makes cable management easier. Modularity does not affect power output capability, inherent reliability, or cost. In fact, modular PSUs are typically more expensive than equivalent non-modular models.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.6-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "concept",
+    "question": "What does the 80 Plus efficiency rating on a power supply indicate?",
+    "options": {
+      "A": "The PSU can deliver at least 80% of its rated wattage",
+      "B": "The PSU converts at least 80% of AC input power to DC output power, wasting less energy as heat",
+      "C": "The PSU has at least 80 output connectors",
+      "D": "The PSU weighs at least 80% less than standard models"
+    },
+    "correct": "B",
+    "explanation": "The 80 Plus certification means the power supply converts at least 80% of the AC power drawn from the wall outlet into usable DC power, with no more than 20% wasted as heat. Higher 80 Plus tiers (Bronze, Silver, Gold, Platinum, Titanium) indicate even greater efficiency. This does not relate to wattage delivery, connector count, or physical weight.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.6-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "scenario",
+    "question": "A critical server requires continuous uptime and protection against power supply failure. Which PSU feature should the technician ensure is implemented?",
+    "options": {
+      "A": "Modular cabling",
+      "B": "80 Plus Titanium rating",
+      "C": "Redundant power supply",
+      "D": "Higher wattage rating"
+    },
+    "correct": "C",
+    "explanation": "A redundant power supply configuration uses two or more PSUs so that if one fails, the other continues to provide power without interruption. This is essential for servers requiring high availability. Modular cabling improves cable management but not reliability. 80 Plus Titanium improves energy efficiency. Higher wattage ensures sufficient power but does not protect against PSU failure.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.6-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "concept",
+    "question": "Which connector is the main power connector that supplies power from the PSU to the motherboard?",
+    "options": {
+      "A": "4-pin Molex",
+      "B": "6-pin PCIe",
+      "C": "20+4 pin (24-pin) ATX",
+      "D": "4+4 pin EPS"
+    },
+    "correct": "C",
+    "explanation": "The 20+4 pin (24-pin) ATX connector is the main motherboard power connector. The 4-pin Molex powers older peripherals like fans and legacy drives. The 6-pin PCIe provides supplementary power to graphics cards. The 4+4 pin EPS (8-pin) provides dedicated power to the CPU. Each serves a different purpose.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.6-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "comparison",
+    "question": "A power supply rated at 750W with an 80 Plus Gold certification (90% efficiency at 50% load) is operating at 50% load. How much power does it draw from the wall outlet?",
+    "options": {
+      "A": "375W",
+      "B": "About 417W",
+      "C": "750W",
+      "D": "675W"
+    },
+    "correct": "B",
+    "explanation": "At 50% load, the PSU delivers 375W of DC power. With 90% efficiency, the calculation is: 375W / 0.90 = approximately 417W drawn from the wall. The remaining ~42W is lost as heat. The PSU does not draw its full 750W rating. The 675W figure incorrectly applies the efficiency percentage to the total wattage rating.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-3.6-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "scenario",
+    "question": "A technician is replacing a PSU in an older system and notices the new PSU only has a 24-pin connector, but the motherboard has a 20-pin main power socket. What should the technician do?",
+    "options": {
+      "A": "The PSU is incompatible and must be returned",
+      "B": "Use the 20+4 pin connector with only the 20-pin portion attached, leaving the extra 4-pin section detached",
+      "C": "Force the 24-pin connector into the 20-pin socket",
+      "D": "Use an adapter to convert the 24-pin to a Molex connector"
+    },
+    "correct": "B",
+    "explanation": "Modern PSU main power connectors are designed as 20+4 pin, meaning the 4-pin section can be detached to work with older 20-pin motherboards. The technician simply connects the 20-pin portion and leaves the extra 4-pin segment disconnected. The PSU is fully compatible. Forcing a full 24-pin connector could damage the motherboard. A Molex adapter would not provide main motherboard power.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.6-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.6",
+    "type": "concept",
+    "question": "Which DC output voltage rail from a PSU powers RAM and certain low-voltage motherboard circuits?",
+    "options": {
+      "A": "12V",
+      "B": "5V",
+      "C": "3.3V",
+      "D": "-12V"
+    },
+    "correct": "C",
+    "explanation": "The 3.3V rail powers RAM modules, certain motherboard chipset components, and some low-voltage circuits. The 12V rail powers the CPU, GPU, fans, and drive motors. The 5V rail powers USB devices, SATA logic, and some legacy components. The -12V rail is a legacy rail that was used for serial port interfaces and is rarely needed in modern systems.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.7-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "concept",
+    "question": "Which printer driver language is preferred for graphic design work because it produces high-quality, resolution-independent output?",
+    "options": {
+      "A": "PCL (Printer Command Language)",
+      "B": "PostScript",
+      "C": "ASCII",
+      "D": "XPS"
+    },
+    "correct": "B",
+    "explanation": "PostScript is a page description language developed by Adobe that produces high-quality, resolution-independent output, making it preferred for graphic design and desktop publishing. PCL (Printer Command Language) by HP is a simpler, faster driver but not as precise for complex graphics. ASCII is a text encoding standard, not a printer language. XPS is Microsoft's alternative to PDF but not a standard printer driver language.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.7-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "concept",
+    "question": "What does duplex printing mean?",
+    "options": {
+      "A": "Printing on both sides of the paper",
+      "B": "Printing two copies of each page",
+      "C": "Printing in two colors",
+      "D": "Printing on two different paper sizes"
+    },
+    "correct": "A",
+    "explanation": "Duplex printing means printing on both sides of the paper (front and back). Automatic duplex means the printer flips the paper itself; manual duplex requires the user to flip and re-feed the paper. Printing two copies is simply multiple copies. Two-color printing is called duotone. Printing on different paper sizes involves tray selection, not duplexing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.7-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "scenario",
+    "question": "An office needs to allow all employees to print to a shared printer without installing it individually on each computer. What is the BEST solution?",
+    "options": {
+      "A": "Connect the printer to each computer via USB",
+      "B": "Set up a print server or network printer share",
+      "C": "Email all documents to one person who prints them",
+      "D": "Install the printer driver on a USB flash drive for each user"
+    },
+    "correct": "B",
+    "explanation": "Setting up a print server or sharing the printer through a network share allows all employees to access the printer over the network. A print server manages print jobs centrally and does not require individual USB connections. Connecting USB to each computer is impractical. Emailing to one person is inefficient. Installing drivers from a USB drive still requires individual configuration on each machine.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.7-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "concept",
+    "question": "Which multifunction device feature allows scanning of multi-page documents without manually placing each page on the glass?",
+    "options": {
+      "A": "Flatbed scanner",
+      "B": "ADF (Automatic Document Feeder)",
+      "C": "Duplex unit",
+      "D": "Finishing module"
+    },
+    "correct": "B",
+    "explanation": "The ADF (Automatic Document Feeder) allows users to load a stack of pages and scan them automatically one by one without manual intervention. A flatbed scanner requires manually placing each page on the glass. A duplex unit handles two-sided printing. A finishing module handles post-print tasks like stapling and hole punching.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.7-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "scenario",
+    "question": "A company wants to ensure that sensitive documents printed on the office printer can only be retrieved by the person who sent the print job. Which security feature should be configured?",
+    "options": {
+      "A": "Duplex printing",
+      "B": "Secured prints requiring authentication at the printer",
+      "C": "Color printing restrictions",
+      "D": "Paper tray locking"
+    },
+    "correct": "B",
+    "explanation": "Secured prints (also called pull printing or PIN printing) hold the print job on the printer until the user authenticates at the device using a PIN, badge, or other credential to release it. This prevents sensitive documents from sitting in the output tray for anyone to pick up. Duplex printing relates to double-sided output. Color restrictions limit color usage. Paper tray locking prevents tray access but not document security.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.7-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "comparison",
+    "question": "What is the difference between PCL and PostScript printer drivers?",
+    "options": {
+      "A": "PCL is for color printers only; PostScript is for black and white only",
+      "B": "PCL is faster for general printing and processes on the PC; PostScript produces higher-quality output for graphics and processes on the printer",
+      "C": "PostScript is faster but lower quality than PCL",
+      "D": "There is no difference; they are interchangeable"
+    },
+    "correct": "B",
+    "explanation": "PCL (Printer Command Language) is generally faster for everyday office printing as much of the processing occurs on the computer. PostScript renders on the printer itself and produces higher-quality, more precise output for complex graphics, gradients, and design work. Both support color and monochrome. They are not interchangeable -- different printers support different driver types and the output quality differs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.7-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "scenario",
+    "question": "A network administrator needs to configure a multifunction printer to automatically email scanned documents to users. Which scan-to destination type should be configured?",
+    "options": {
+      "A": "Scan to USB",
+      "B": "Scan to email (SMTP)",
+      "C": "Scan to SMB share",
+      "D": "Scan to cloud"
+    },
+    "correct": "B",
+    "explanation": "Scan to email uses SMTP (Simple Mail Transfer Protocol) to send scanned documents directly to users' email addresses from the printer. Scan to USB saves files to a connected USB drive. Scan to SMB share saves files to a network folder. Scan to cloud uploads to a cloud storage service. While SMB and cloud are valid network scan options, the requirement to email documents directly to users is best met by scan to email.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.7-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "concept",
+    "question": "What is the purpose of updating firmware on a multifunction printer?",
+    "options": {
+      "A": "To replace the toner cartridge",
+      "B": "To fix bugs, patch security vulnerabilities, and add new features to the printer's embedded software",
+      "C": "To increase the paper tray capacity",
+      "D": "To change the printer's physical connector type"
+    },
+    "correct": "B",
+    "explanation": "Firmware updates for printers fix bugs, patch security vulnerabilities, improve performance, and sometimes add new features. Firmware is the embedded software that controls the printer's operation. Replacing toner is a consumable maintenance task. Paper tray capacity is a physical hardware limitation. Connector types are hardware features that cannot be changed with software.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.7-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "scenario",
+    "question": "An organization wants to track who prints what and how many pages each user prints for cost allocation. Which printer security/management feature should be implemented?",
+    "options": {
+      "A": "Secure Boot",
+      "B": "Audit logs",
+      "C": "Duplex printing",
+      "D": "ADF scanning"
+    },
+    "correct": "B",
+    "explanation": "Audit logs track print activity including who printed, what was printed, how many pages, and when. This data can be used for cost allocation, compliance, and identifying misuse. Secure Boot is a system firmware feature, not a printer feature. Duplex printing saves paper but does not track usage. ADF scanning automates document feeding but does not log print activity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.7-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.7",
+    "type": "comparison",
+    "question": "What is the difference between landscape and portrait print orientation?",
+    "options": {
+      "A": "Landscape prints in color; portrait prints in black and white",
+      "B": "Landscape orients the page wider than tall; portrait orients the page taller than wide",
+      "C": "Portrait uses more ink than landscape",
+      "D": "Landscape requires special paper"
+    },
+    "correct": "B",
+    "explanation": "Landscape orientation prints with the page wider than it is tall (horizontal), while portrait orientation prints with the page taller than it is wide (vertical). Orientation has nothing to do with color versus black and white, ink usage differences, or special paper requirements. The choice depends on the content being printed.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.8-001",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "concept",
+    "question": "Which component in a laser printer applies toner to the drum?",
+    "options": {
+      "A": "Fuser assembly",
+      "B": "Transfer roller",
+      "C": "Developer roller",
+      "D": "Pickup roller"
+    },
+    "correct": "C",
+    "explanation": "The developer roller applies toner from the toner cartridge to the imaging drum in the areas that have been exposed by the laser. The fuser assembly uses heat and pressure to bond toner to the paper. The transfer roller transfers toner from the drum to the paper. The pickup roller grabs paper from the tray to feed it into the printer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.8-002",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "scenario",
+    "question": "A laser printer is producing prints with a repeating smudge at regular intervals on every page. Which maintenance action should the technician perform FIRST?",
+    "options": {
+      "A": "Replace the toner cartridge",
+      "B": "Replace the maintenance kit (includes fuser, rollers, and drum)",
+      "C": "Clean the paper path",
+      "D": "Update the printer firmware"
+    },
+    "correct": "B",
+    "explanation": "Repeating defects at regular intervals in a laser printer typically indicate a worn drum, fuser, or roller. The maintenance kit includes replacement fuser, rollers, and drum components. Replacing just the toner cartridge may not resolve the issue if the drum or fuser is causing the defect. Cleaning the paper path helps with jams but not repeating image defects. Firmware updates do not fix mechanical wear issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.8-003",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "concept",
+    "question": "What is the purpose of calibrating a laser printer?",
+    "options": {
+      "A": "To align the paper trays physically",
+      "B": "To adjust color accuracy and print density for optimal output quality",
+      "C": "To reset the page counter to zero",
+      "D": "To test the network connectivity"
+    },
+    "correct": "B",
+    "explanation": "Calibrating a laser printer adjusts the color registration, density levels, and alignment to ensure optimal print quality and accurate color reproduction. This is especially important after replacing toner cartridges or the imaging drum. Calibration does not physically align trays, reset page counters, or test network connectivity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.8-004",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "comparison",
+    "question": "How does inkjet printer maintenance differ from laser printer maintenance?",
+    "options": {
+      "A": "Inkjet printers require toner replacement while laser printers use ink cartridges",
+      "B": "Inkjet printers require ink cartridge and printhead maintenance, while laser printers require toner and fuser maintenance",
+      "C": "Both printer types use identical maintenance procedures",
+      "D": "Inkjet printers never need maintenance"
+    },
+    "correct": "B",
+    "explanation": "Inkjet printers use ink cartridges and printheads that can clog and need cleaning or replacement, along with roller and paper feeder maintenance. Laser printers use toner cartridges and require periodic replacement of the fuser assembly, imaging drum, and transfer rollers via maintenance kits. The maintenance procedures are fundamentally different because the printing technologies are different. All printers require maintenance.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.8-005",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "scenario",
+    "question": "An inkjet printer is producing prints with horizontal lines of missing color. The ink cartridges are full. What is the MOST likely cause and solution?",
+    "options": {
+      "A": "The paper is incompatible -- replace with different paper",
+      "B": "The printhead nozzles are clogged -- run a printhead cleaning cycle",
+      "C": "The printer is out of toner -- replace the toner",
+      "D": "The fuser is overheating -- let the printer cool down"
+    },
+    "correct": "B",
+    "explanation": "Horizontal lines of missing color with full ink cartridges indicate clogged printhead nozzles. Running a printhead cleaning cycle (usually accessible through the printer's maintenance menu) forces ink through the nozzles to clear blockages. Paper type would not cause missing color lines. Inkjet printers do not use toner or fusers -- those are laser printer components.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.8-006",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "concept",
+    "question": "What type of paper is required for a thermal printer to produce output?",
+    "options": {
+      "A": "Standard copy paper",
+      "B": "Specially coated thermal paper that changes color when heated",
+      "C": "Glossy photo paper",
+      "D": "Carbon copy multipart paper"
+    },
+    "correct": "B",
+    "explanation": "Thermal printers require specially coated thermal paper that contains chemicals which change color (typically black) when heated by the printer's heating element. Standard copy paper, glossy photo paper, and carbon multipart paper will not produce output on a thermal printer. Carbon multipart paper is used with impact printers, not thermal printers.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.8-007",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "scenario",
+    "question": "A thermal receipt printer at a retail store is producing blank receipts even though the paper roll appears to be loaded correctly. What should the technician check?",
+    "options": {
+      "A": "The toner level",
+      "B": "Whether the thermal paper is loaded with the correct side facing the heating element",
+      "C": "The ink ribbon",
+      "D": "The fuser temperature"
+    },
+    "correct": "B",
+    "explanation": "Thermal paper has a coated side and an uncoated side. If the paper is loaded with the wrong side facing the heating element, the receipts will be blank because the heat-sensitive coating is not being contacted. Thermal printers do not use toner, ink ribbons, or fusers. The paper orientation is the most common cause of blank output on a properly loaded thermal printer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-3.8-008",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "concept",
+    "question": "Which type of printer uses an ink-soaked ribbon and a printhead that strikes the ribbon against the paper to create characters?",
+    "options": {
+      "A": "Laser printer",
+      "B": "Inkjet printer",
+      "C": "Thermal printer",
+      "D": "Impact (dot matrix) printer"
+    },
+    "correct": "D",
+    "explanation": "Impact printers (dot matrix printers) use a printhead with pins that strike an ink-soaked ribbon against the paper to create characters and images. They are the only printer type that can print on multipart (carbon copy) forms. Laser printers use toner and a laser to create images. Inkjet printers spray ink through nozzles. Thermal printers use heat on special paper.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.8-009",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "scenario",
+    "question": "A shipping department uses an impact printer for multipart forms. The print output has become very faint. Which component should the technician replace?",
+    "options": {
+      "A": "The toner cartridge",
+      "B": "The ink ribbon",
+      "C": "The fuser assembly",
+      "D": "The thermal paper"
+    },
+    "correct": "B",
+    "explanation": "Faint output on an impact printer indicates the ink ribbon is depleted and needs replacement. Impact printers use an ink-soaked ribbon that gradually dries out with use. Toner cartridges are used in laser printers. Fuser assemblies are laser printer components. Thermal paper is used in thermal printers. Impact printers specifically use replaceable ink ribbons.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-3.8-010",
+    "exam": "Core 1",
+    "domain": "3.0 Hardware",
+    "objectiveId": "3.8",
+    "type": "comparison",
+    "question": "Why would a business choose to use an impact printer instead of a laser or inkjet printer?",
+    "options": {
+      "A": "Impact printers produce the highest quality output",
+      "B": "Impact printers are the quietest type of printer",
+      "C": "Impact printers can print on multipart carbon copy forms that require physical impact",
+      "D": "Impact printers are the fastest type of printer"
+    },
+    "correct": "C",
+    "explanation": "The primary advantage of impact printers is their ability to print on multipart (carbon copy) forms, which require physical impact to transfer the impression through multiple layers. This makes them essential for applications like shipping labels, invoices, and receipts that need duplicate copies. Impact printers produce lower quality output than laser or inkjet, are very noisy, and are slower than modern printers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-001",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "concept",
+    "question": "What is the primary purpose of a sandbox in virtualization?",
+    "options": {
+      "A": "To provide maximum network performance for production servers",
+      "B": "To create an isolated environment for safely testing software or analyzing malware without affecting the host system",
+      "C": "To permanently store virtual machine backups",
+      "D": "To increase the physical RAM available to the host"
+    },
+    "correct": "B",
+    "explanation": "A sandbox is an isolated virtual environment used to safely test software, analyze potential malware, or run untrusted code without risk to the host system or network. If something malicious occurs, it is contained within the sandbox. Sandboxes are not designed for maximum performance, permanent storage, or increasing physical resources.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.1-002",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "comparison",
+    "question": "What is the key difference between a Type 1 and Type 2 hypervisor?",
+    "options": {
+      "A": "Type 1 runs directly on bare metal hardware; Type 2 runs on top of a host operating system",
+      "B": "Type 2 runs on bare metal; Type 1 runs on a host OS",
+      "C": "Type 1 can only run Linux VMs; Type 2 can run any OS",
+      "D": "There is no difference between Type 1 and Type 2 hypervisors"
+    },
+    "correct": "A",
+    "explanation": "A Type 1 (bare-metal) hypervisor runs directly on the physical hardware without a host OS (examples: VMware ESXi, Microsoft Hyper-V Server, Citrix XenServer). A Type 2 (hosted) hypervisor runs on top of a host operating system (examples: VMware Workstation, Oracle VirtualBox, Parallels). Type 1 is generally more efficient and used in enterprise environments. Both can run various guest operating systems.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.1-003",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "scenario",
+    "question": "A company needs to run a legacy Windows XP application on modern Windows 11 workstations. Which virtualization approach would BEST address this requirement?",
+    "options": {
+      "A": "Deploy a physical Windows XP machine for each user",
+      "B": "Use application virtualization to run the legacy app in an isolated virtual environment on Windows 11",
+      "C": "Downgrade all workstations to Windows XP",
+      "D": "Install the legacy app directly on Windows 11 without any virtualization"
+    },
+    "correct": "B",
+    "explanation": "Application virtualization allows legacy applications to run in an isolated virtual environment on modern operating systems without requiring a full virtual machine or dedicated hardware. This solves cross-platform compatibility issues. Deploying physical XP machines is expensive and insecure. Downgrading to XP eliminates modern security and features. Installing directly on Windows 11 may fail due to compatibility issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-004",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "concept",
+    "question": "What is VDI (Virtual Desktop Infrastructure)?",
+    "options": {
+      "A": "A type of physical desktop computer",
+      "B": "A technology that hosts desktop environments on a centralized server, allowing users to access their desktops remotely from thin clients or other devices",
+      "C": "A backup solution for desktop files",
+      "D": "A type of display adapter for virtual reality"
+    },
+    "correct": "B",
+    "explanation": "VDI (Virtual Desktop Infrastructure) hosts desktop operating systems as virtual machines on centralized servers. Users connect to their virtual desktops remotely using thin clients, laptops, or other devices. This centralizes management, improves security, and reduces hardware costs. VDI is not a physical computer, backup solution, or display adapter.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-005",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "comparison",
+    "question": "How do containers differ from traditional virtual machines?",
+    "options": {
+      "A": "Containers include a full guest operating system; VMs share the host kernel",
+      "B": "Containers share the host OS kernel and are more lightweight; VMs include a full guest OS and hypervisor layer, using more resources",
+      "C": "Containers and VMs are identical technologies",
+      "D": "VMs are more lightweight and faster to start than containers"
+    },
+    "correct": "B",
+    "explanation": "Containers share the host operating system kernel and package only the application and its dependencies, making them extremely lightweight and fast to start (seconds vs. minutes). Virtual machines include a complete guest operating system, making them larger and slower to boot but providing stronger isolation. Containers do not include a full OS. VMs are heavier, not lighter, than containers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-006",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "scenario",
+    "question": "A development team needs to quickly spin up identical testing environments for each developer that can be created and destroyed in seconds. Which virtualization technology is BEST suited for this?",
+    "options": {
+      "A": "Type 1 hypervisor with full VMs",
+      "B": "Physical dedicated servers for each developer",
+      "C": "Containers (e.g., Docker)",
+      "D": "VDI desktops"
+    },
+    "correct": "C",
+    "explanation": "Containers (such as Docker) are ideal for quickly creating and destroying identical, lightweight environments in seconds. They share the host OS kernel, consume minimal resources, and can be defined as code for consistent reproduction. Full VMs take minutes to start and use more resources. Physical servers are expensive and inflexible. VDI provides desktop environments, not development test environments.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-007",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "concept",
+    "question": "Which hardware requirement MUST be enabled in BIOS/UEFI to run virtual machines efficiently?",
+    "options": {
+      "A": "Secure Boot",
+      "B": "Intel VT-x or AMD-V (hardware virtualization support)",
+      "C": "TPM 2.0",
+      "D": "Fast Boot"
+    },
+    "correct": "B",
+    "explanation": "Intel VT-x (for Intel CPUs) or AMD-V (for AMD CPUs) is the hardware virtualization technology that must be enabled in BIOS/UEFI for hypervisors to run VMs efficiently. Without this, virtualization either will not work or will run in a much slower software emulation mode. Secure Boot verifies OS integrity. TPM provides encryption key storage. Fast Boot speeds up startup but is unrelated to virtualization.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-008",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "scenario",
+    "question": "A company is deploying virtual machines on a host server with 64 GB of RAM. They plan to run four VMs, each requiring 12 GB of RAM. The host OS requires 4 GB. What is the maximum RAM available for the VMs, and is this configuration viable?",
+    "options": {
+      "A": "64 GB available; the configuration works perfectly",
+      "B": "60 GB available (64 - 4 for host); the configuration is viable since 4 x 12 = 48 GB is under 60 GB",
+      "C": "48 GB available; the configuration will fail",
+      "D": "32 GB available; only two VMs can run"
+    },
+    "correct": "B",
+    "explanation": "The host OS requires 4 GB, leaving 60 GB for VMs. Four VMs at 12 GB each need 48 GB total, which is within the available 60 GB. This configuration is viable with 12 GB of headroom. The full 64 GB is not available for VMs since the host OS needs its share. The configuration will not fail since 48 GB is less than 60 GB. All four VMs can run simultaneously.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-4.1-009",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "concept",
+    "question": "What is a key security consideration when deploying virtual machines?",
+    "options": {
+      "A": "VMs are inherently immune to malware and do not need security measures",
+      "B": "Each VM should be treated as a separate system requiring its own security controls including firewalls, patching, and antivirus",
+      "C": "Only the host system needs security; VMs are automatically protected",
+      "D": "VMs cannot be connected to networks, so security is not a concern"
+    },
+    "correct": "B",
+    "explanation": "Each virtual machine should be treated as an independent system with its own security requirements. This means each VM needs its own firewall rules, OS patches, antivirus software, and access controls. VMs are not immune to malware. Host security does not automatically protect guest VMs. VMs are commonly connected to networks and are therefore exposed to network-based threats.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.1-010",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.1",
+    "type": "comparison",
+    "question": "Which is an example of a Type 1 hypervisor?",
+    "options": {
+      "A": "Oracle VirtualBox",
+      "B": "VMware Workstation",
+      "C": "VMware ESXi",
+      "D": "Parallels Desktop"
+    },
+    "correct": "C",
+    "explanation": "VMware ESXi is a Type 1 (bare-metal) hypervisor that runs directly on the physical hardware without requiring a host operating system. Oracle VirtualBox, VMware Workstation, and Parallels Desktop are all Type 2 (hosted) hypervisors that run on top of a host operating system (Windows, macOS, or Linux).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.2-001",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "concept",
+    "question": "Which cloud deployment model provides dedicated infrastructure exclusively for a single organization?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Hybrid cloud",
+      "D": "Community cloud"
+    },
+    "correct": "B",
+    "explanation": "A private cloud provides dedicated infrastructure exclusively for a single organization, offering maximum control and security. A public cloud shares infrastructure among multiple tenants. A hybrid cloud combines private and public cloud elements. A community cloud is shared among several organizations with common concerns (such as government agencies or healthcare providers).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.2-002",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "comparison",
+    "question": "What is the difference between IaaS, PaaS, and SaaS cloud service models?",
+    "options": {
+      "A": "IaaS provides virtual infrastructure (compute/storage/network); PaaS provides a platform for developing applications; SaaS provides complete applications ready to use",
+      "B": "All three are identical service models with different marketing names",
+      "C": "SaaS provides the most control to the customer; IaaS provides the least",
+      "D": "PaaS is only for personal use; IaaS and SaaS are for businesses"
+    },
+    "correct": "A",
+    "explanation": "IaaS (Infrastructure as a Service) provides virtualized computing resources like VMs, storage, and networking (e.g., AWS EC2). PaaS (Platform as a Service) provides a development platform with tools and runtime environments (e.g., Heroku, Google App Engine). SaaS (Software as a Service) provides complete, ready-to-use applications (e.g., Microsoft 365, Salesforce). IaaS gives the most control to the customer; SaaS gives the least. All are used by businesses and individuals.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.2-003",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "concept",
+    "question": "What does elasticity mean in cloud computing?",
+    "options": {
+      "A": "The ability to physically stretch network cables",
+      "B": "The ability to automatically scale resources up or down based on demand",
+      "C": "The flexibility of the cloud provider's cancellation policy",
+      "D": "The ability to bounce back from a network outage"
+    },
+    "correct": "B",
+    "explanation": "Elasticity in cloud computing refers to the ability to automatically and dynamically scale computing resources up (add more VMs, storage, bandwidth) when demand increases and scale down when demand decreases. This ensures optimal performance during peak times and cost savings during low-demand periods. It is not related to physical infrastructure, cancellation policies, or disaster recovery (which is availability).",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.2-004",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "scenario",
+    "question": "A company has sensitive data that must remain on-premises due to regulatory requirements but also wants to leverage cloud resources for handling seasonal traffic spikes. Which cloud model is BEST suited?",
+    "options": {
+      "A": "Public cloud only",
+      "B": "Private cloud only",
+      "C": "Hybrid cloud",
+      "D": "Community cloud"
+    },
+    "correct": "C",
+    "explanation": "A hybrid cloud combines private (on-premises) and public cloud resources, allowing the company to keep sensitive data on-premises for regulatory compliance while leveraging public cloud resources for scalability during seasonal traffic spikes. A public-only model cannot keep data on-premises. A private-only model limits scalability. A community cloud is shared among organizations with common interests but does not specifically address the on-premises plus scalability requirement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.2-005",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "concept",
+    "question": "What is metered utilization in cloud computing?",
+    "options": {
+      "A": "A free unlimited usage model",
+      "B": "A billing model where customers pay based on actual resource consumption (compute, storage, bandwidth)",
+      "C": "A method of measuring internet speed",
+      "D": "A tool for measuring the physical temperature of cloud servers"
+    },
+    "correct": "B",
+    "explanation": "Metered utilization (also called pay-as-you-go) is a cloud billing model where customers are charged based on the actual amount of resources consumed, such as CPU hours, storage used, and data transferred (ingress/egress). This differs from flat-rate billing. It is not a free model, speed measurement, or temperature monitoring system.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.2-006",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "comparison",
+    "question": "In cloud metered billing, what is the difference between ingress and egress data?",
+    "options": {
+      "A": "Ingress is data entering the cloud environment; egress is data leaving the cloud environment",
+      "B": "Ingress is outbound data; egress is inbound data",
+      "C": "Both terms refer to the same type of data transfer",
+      "D": "Ingress is data stored in the cloud; egress is data deleted from the cloud"
+    },
+    "correct": "A",
+    "explanation": "Ingress refers to data entering (flowing into) the cloud environment from external sources, while egress refers to data leaving (flowing out of) the cloud environment to external destinations. Cloud providers typically charge more for egress than ingress. Ingress is inbound (not outbound). They are not the same. Egress is not about deletion but about data transfer out.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.2-007",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "concept",
+    "question": "What does multitenancy mean in cloud computing?",
+    "options": {
+      "A": "Multiple cloud providers managing a single customer's data",
+      "B": "Multiple customers sharing the same physical infrastructure and resources while remaining logically isolated from each other",
+      "C": "A single customer using multiple data centers",
+      "D": "Multiple administrators managing a single virtual machine"
+    },
+    "correct": "B",
+    "explanation": "Multitenancy means multiple customers (tenants) share the same underlying physical infrastructure (servers, storage, network) in a cloud environment while remaining logically isolated from one another. Each tenant's data and applications are invisible to other tenants. It is not about multiple providers, multiple data centers for one customer, or multiple administrators on one VM.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.2-008",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "scenario",
+    "question": "A small startup wants to deploy a web application without managing servers, operating systems, or runtime environments. They only want to write and deploy code. Which cloud service model should they use?",
+    "options": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "On-premises hosting"
+    },
+    "correct": "B",
+    "explanation": "PaaS (Platform as a Service) is ideal for developers who want to focus on writing and deploying code without managing the underlying infrastructure, operating systems, or runtime environments. The cloud provider handles all platform management. IaaS would require managing VMs and OS. SaaS provides finished applications, not a development platform. On-premises hosting requires managing everything.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.2-009",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "comparison",
+    "question": "What distinguishes shared resources from dedicated resources in cloud computing?",
+    "options": {
+      "A": "Shared resources are always faster than dedicated resources",
+      "B": "Dedicated resources are reserved exclusively for one customer, while shared resources are divided among multiple customers",
+      "C": "Shared resources are more expensive than dedicated resources",
+      "D": "Dedicated and shared resources are identical in performance and cost"
+    },
+    "correct": "B",
+    "explanation": "Dedicated resources are physical hardware reserved exclusively for a single customer, providing consistent performance and enhanced security. Shared resources are pooled among multiple customers (multitenancy), which is typically more cost-effective but may have variable performance. Shared resources are generally less expensive, not more. Dedicated resources offer more predictable performance than shared.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-4.2-010",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "concept",
+    "question": "What does high availability mean in cloud computing?",
+    "options": {
+      "A": "Resources are available for purchase at any time",
+      "B": "Systems are designed with redundancy and failover to ensure maximum uptime and minimal downtime",
+      "C": "Data is available to all users without authentication",
+      "D": "Cloud services are available only during business hours"
+    },
+    "correct": "B",
+    "explanation": "High availability in cloud computing means systems are designed with redundancy, failover mechanisms, and load balancing to ensure services remain operational with minimal downtime, often measured in 'nines' (e.g., 99.99% uptime). It does not refer to purchasing availability, public data access, or limited operating hours. Authentication is separate from availability.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-4.2-011",
+    "exam": "Core 1",
+    "domain": "4.0 Virtualization and Cloud Computing",
+    "objectiveId": "4.2",
+    "type": "scenario",
+    "question": "A team of remote workers needs to collaborate on documents and ensure all team members always have access to the latest file versions. Which cloud feature addresses this need?",
+    "options": {
+      "A": "Elasticity",
+      "B": "Metered utilization",
+      "C": "File synchronization",
+      "D": "Multitenancy"
+    },
+    "correct": "C",
+    "explanation": "File synchronization (file sync) in the cloud ensures that files are automatically kept up to date across all devices and users. When one user modifies a file, the changes are synchronized to all other users and devices automatically. Elasticity handles scaling resources. Metered utilization is a billing model. Multitenancy is about shared infrastructure architecture.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.1-001",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "concept",
+    "question": "What do POST beep codes indicate when a computer is powered on?",
+    "options": {
+      "A": "The operating system has loaded successfully",
+      "B": "Hardware diagnostic results -- different beep patterns indicate specific hardware failures",
+      "C": "The hard drive is formatting",
+      "D": "The CPU speed setting"
+    },
+    "correct": "B",
+    "explanation": "POST (Power-On Self-Test) beep codes are audio signals produced by the motherboard BIOS during startup to communicate hardware diagnostic results. Different beep patterns (number and duration of beeps) indicate specific hardware failures such as RAM errors, GPU problems, or motherboard issues. Beep codes occur before the OS loads. They are not related to hard drive formatting or CPU speed.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.1-002",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "scenario",
+    "question": "A user reports that their computer displays a Blue Screen of Death (BSOD) with a WHEA_UNCORRECTABLE_ERROR message and then restarts. What is the MOST likely cause?",
+    "options": {
+      "A": "A corrupted desktop wallpaper image",
+      "B": "A hardware failure such as a faulty CPU, RAM, or overheating component",
+      "C": "An outdated web browser",
+      "D": "A full recycle bin"
+    },
+    "correct": "B",
+    "explanation": "WHEA_UNCORRECTABLE_ERROR is a Windows stop error (BSOD) that typically indicates a hardware-level failure. Common causes include a faulty CPU, bad RAM, overheating, or a failing hard drive. WHEA stands for Windows Hardware Error Architecture. Desktop wallpapers, web browsers, and the recycle bin do not cause hardware-level stop errors.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.1-003",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "scenario",
+    "question": "A technician presses the power button on a desktop computer but the screen remains completely blank and there are no beep codes, fans spin briefly then stop. What should the technician check FIRST?",
+    "options": {
+      "A": "The graphics card drivers",
+      "B": "The power supply connections and verify the PSU is functional",
+      "C": "The operating system installation",
+      "D": "The network cable connection"
+    },
+    "correct": "B",
+    "explanation": "When a computer shows no display, no beeps, and fans spin briefly then stop, this typically indicates a power delivery issue. The technician should first verify the PSU is functional by checking power connections, testing with a PSU tester or known-good PSU, and ensuring all power cables are properly seated. Drivers and OS cannot load without power. Network connectivity is unrelated to boot issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.1-004",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "concept",
+    "question": "What does a burning smell from a computer case MOST likely indicate?",
+    "options": {
+      "A": "Normal operation during high CPU load",
+      "B": "An electrical component has shorted out or is overheating -- the computer should be powered off immediately",
+      "C": "The fans are working harder than usual",
+      "D": "New thermal paste is curing"
+    },
+    "correct": "B",
+    "explanation": "A burning smell from a computer indicates an electrical component has shorted out, is overheating, or a capacitor has failed. The computer should be powered off immediately to prevent further damage or fire risk. Burning smells are never normal during operation. Fans working harder produce noise, not smells. Thermal paste does not produce a burning smell during normal use.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.1-005",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "scenario",
+    "question": "A desktop computer has been experiencing random shutdowns. Upon inspection, the technician finds the CPU temperature reading is 98 degrees Celsius under load. What is the MOST likely cause of the shutdowns?",
+    "options": {
+      "A": "The hard drive is failing",
+      "B": "The CPU is overheating, triggering thermal protection shutdown",
+      "C": "The RAM is incompatible",
+      "D": "The monitor is defective"
+    },
+    "correct": "B",
+    "explanation": "A CPU temperature of 98 degrees Celsius is critically high. Modern CPUs have thermal protection that forces a shutdown to prevent permanent damage when temperatures exceed safe limits (typically 90-105 degrees Celsius depending on the model). The technician should check the heatsink, thermal paste, and case airflow. Hard drive failure, incompatible RAM, and monitor issues do not cause thermal shutdowns.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.1-006",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "concept",
+    "question": "What does visible capacitor swelling or leaking on a motherboard indicate?",
+    "options": {
+      "A": "The motherboard is brand new and the capacitors are settling in",
+      "B": "The capacitors have failed and the motherboard likely needs replacement",
+      "C": "The capacitors need to be refilled with electrolyte",
+      "D": "This is a normal part of the motherboard aging process that does not affect function"
+    },
+    "correct": "B",
+    "explanation": "Swollen or leaking capacitors indicate capacitor failure. Capacitors should be flat-topped and dry. When they bulge, leak electrolyte, or show corrosion, they can cause system instability, random reboots, failure to POST, or complete system failure. The motherboard typically needs replacement (or professional capacitor replacement). This is not normal aging and capacitors cannot be refilled.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.1-007",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "scenario",
+    "question": "A user reports that their computer's system clock keeps resetting to an incorrect date and time after every shutdown. What is the MOST likely cause?",
+    "options": {
+      "A": "The operating system is corrupted",
+      "B": "The CMOS battery (CR2032) on the motherboard is dead and needs replacement",
+      "C": "The time zone settings are wrong",
+      "D": "The network time server is offline"
+    },
+    "correct": "B",
+    "explanation": "The CMOS battery (typically a CR2032 coin cell) maintains the system clock and BIOS settings when the computer is powered off. When this battery dies, the system clock resets and BIOS settings may be lost each time the computer is shut down. Replacing the CMOS battery resolves the issue. OS corruption and wrong time zone settings would not cause the clock to reset after shutdown. A network time server would correct the time when connected, not cause resets.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.1-008",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "scenario",
+    "question": "A computer is running very sluggishly. Task Manager shows 95% memory usage with many applications open. What is the MOST effective solution?",
+    "options": {
+      "A": "Replace the graphics card",
+      "B": "Add more RAM or close unnecessary applications",
+      "C": "Replace the network card",
+      "D": "Update the display drivers"
+    },
+    "correct": "B",
+    "explanation": "When memory usage is at 95%, the system is running out of RAM and likely relying heavily on virtual memory (page file), which is much slower. Adding more physical RAM or closing unnecessary applications will reduce memory pressure and improve performance. A graphics card, network card, or display drivers would not resolve a RAM exhaustion issue.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.1-009",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "concept",
+    "question": "A grinding or clicking noise coming from inside a desktop computer case is MOST likely caused by which component?",
+    "options": {
+      "A": "RAM modules",
+      "B": "A failing hard drive or a fan with a broken bearing",
+      "C": "The CPU",
+      "D": "The CMOS battery"
+    },
+    "correct": "B",
+    "explanation": "Grinding or clicking noises from inside a computer typically indicate a failing hard drive (clicking of death from the read/write head) or a fan with a worn or broken bearing. RAM modules, the CPU, and the CMOS battery have no moving parts and do not produce mechanical sounds. Immediate data backup is recommended if a hard drive is the source.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.1-010",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.1",
+    "type": "scenario",
+    "question": "A specific application consistently crashes with an error about insufficient memory, but the system has 16 GB of RAM and only 40% is being used. What is the MOST likely explanation?",
+    "options": {
+      "A": "The system needs more than 16 GB of total RAM",
+      "B": "The application is 32-bit and is limited to approximately 4 GB of addressable memory, which it is exhausting",
+      "C": "The hard drive is full",
+      "D": "The CPU is too slow for the application"
+    },
+    "correct": "B",
+    "explanation": "A 32-bit application can only address approximately 4 GB of memory regardless of how much physical RAM the system has. If the application exceeds its 32-bit memory limit, it will crash with memory errors even when plenty of system RAM is available. Upgrading to a 64-bit version of the application (if available) would resolve this. Total system RAM is sufficient. Hard drive space and CPU speed are separate from application memory addressing limits.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-5.2-001",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "concept",
+    "question": "What does a continuously flashing drive activity LED with no boot indicate?",
+    "options": {
+      "A": "The drive is working normally",
+      "B": "The system is attempting to read from the drive but may be encountering errors or the drive is failing",
+      "C": "The LED is decorative and has no meaning",
+      "D": "The network connection is active"
+    },
+    "correct": "B",
+    "explanation": "A continuously flashing drive LED with no successful boot indicates the system is repeatedly attempting to read from the drive but failing. This can indicate a failing drive, corrupted boot sector, or connectivity issue between the drive and motherboard. A normally working drive shows intermittent activity. Drive LEDs indicate disk activity, not network status. They are functional indicators, not decorative.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.2-002",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "scenario",
+    "question": "A user reports hearing clicking and grinding noises from their desktop computer, and file access has become extremely slow. What should the technician do FIRST?",
+    "options": {
+      "A": "Defragment the hard drive",
+      "B": "Immediately back up the user's data -- clicking/grinding from an HDD indicates imminent drive failure",
+      "C": "Run a virus scan",
+      "D": "Increase the virtual memory page file size"
+    },
+    "correct": "B",
+    "explanation": "Clicking and grinding noises from an HDD (known as the 'click of death') indicate mechanical failure of the read/write heads or platters. The drive could fail completely at any moment. The top priority is to immediately back up user data before the drive fails entirely. Defragmentation would further stress a failing drive. A virus scan or page file change would not address mechanical failure.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.2-003",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "concept",
+    "question": "What does the error message 'Bootable device not found' during startup indicate?",
+    "options": {
+      "A": "The monitor is not connected",
+      "B": "The system cannot find a drive with a valid operating system to boot from",
+      "C": "The keyboard is disconnected",
+      "D": "The CPU has failed"
+    },
+    "correct": "B",
+    "explanation": "The 'Bootable device not found' error means the BIOS/UEFI cannot locate a storage device with a valid boot sector or operating system. Common causes include a disconnected or failed boot drive, incorrect boot order in BIOS, a corrupted boot sector, or a missing OS. This error is unrelated to monitors, keyboards, or CPU functionality.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.2-004",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "concept",
+    "question": "What does S.M.A.R.T. technology do for storage drives?",
+    "options": {
+      "A": "Increases the drive's storage capacity",
+      "B": "Monitors drive health metrics and predicts potential failures before they occur",
+      "C": "Encrypts all data on the drive",
+      "D": "Defragments the drive automatically"
+    },
+    "correct": "B",
+    "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) is a monitoring system built into HDDs and SSDs that tracks health indicators like reallocated sectors, temperature, read error rates, and power-on hours. It can warn users of impending drive failure before data loss occurs. S.M.A.R.T. does not increase capacity, encrypt data, or defragment drives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.2-005",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "scenario",
+    "question": "A RAID 5 array with four drives has one drive fail. What is the current state of the array and what should the technician do?",
+    "options": {
+      "A": "The array has failed completely -- restore from backup immediately",
+      "B": "The array is in degraded mode but still operational -- replace the failed drive as soon as possible to rebuild the array",
+      "C": "The array is unaffected -- no action needed",
+      "D": "Only half the data is accessible"
+    },
+    "correct": "B",
+    "explanation": "RAID 5 can tolerate one drive failure. When one drive fails, the array enters degraded mode -- it remains operational but without redundancy. The parity data allows the array to reconstruct the missing data on the fly. The technician should replace the failed drive as soon as possible so the array can rebuild its redundancy. If a second drive fails before the rebuild completes, data will be lost.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.2-006",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "scenario",
+    "question": "A user reports that file transfers to their SSD have become unusually slow, taking minutes instead of seconds. S.M.A.R.T. data shows no errors. What should the technician investigate?",
+    "options": {
+      "A": "The SSD is connected via a slower interface (e.g., SATA instead of NVMe) or the drive is nearly full, which degrades SSD write performance",
+      "B": "The monitor resolution is too high",
+      "C": "The keyboard is malfunctioning",
+      "D": "The audio drivers need updating"
+    },
+    "correct": "A",
+    "explanation": "Extended read/write times on an SSD can be caused by the drive being connected to a slower interface than expected (SATA vs NVMe), the drive being nearly full (SSDs slow down significantly when they run low on free space), thermal throttling, or a SATA cable/port issue. Monitor resolution, keyboard function, and audio drivers have no effect on storage transfer speeds.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.2-007",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "concept",
+    "question": "What does low IOPS (Input/Output Operations Per Second) on a storage device indicate?",
+    "options": {
+      "A": "The device has excellent performance",
+      "B": "The storage device is performing slowly and may be a bottleneck for system performance",
+      "C": "The network connection is slow",
+      "D": "The CPU needs to be upgraded"
+    },
+    "correct": "B",
+    "explanation": "Low IOPS means the storage device is processing fewer read/write operations per second than expected, indicating poor storage performance. This can bottleneck overall system responsiveness, especially for databases and virtual machines. Common causes include aging HDDs, fragmentation, or overloaded storage controllers. IOPS measures storage performance, not network speed or CPU performance.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.2-008",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "scenario",
+    "question": "After a power outage, a server's RAID controller reports that the RAID array is missing and shows individual disks instead of the array. What should the technician attempt?",
+    "options": {
+      "A": "Format all drives and start over",
+      "B": "Check the RAID controller's configuration utility to reimport or rebuild the array using the existing drive data",
+      "C": "Replace all the drives",
+      "D": "Reinstall the operating system immediately"
+    },
+    "correct": "B",
+    "explanation": "After a power outage, RAID metadata can sometimes become inconsistent, causing the controller to not recognize the array. The RAID controller's configuration utility often has an option to reimport or rediscover the existing array using the metadata stored on each drive. Formatting all drives would destroy all data. Replacing drives is unnecessary if they are physically functional. Reinstalling the OS would not restore the RAID configuration.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-5.2-009",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "concept",
+    "question": "What is the significance of audible alarms from a server's RAID controller?",
+    "options": {
+      "A": "The server room temperature is too high",
+      "B": "One or more drives in the RAID array have failed or the array is in a degraded state",
+      "C": "A new email has arrived",
+      "D": "The server is ready for use"
+    },
+    "correct": "B",
+    "explanation": "Audible alarms from a RAID controller indicate a critical condition such as a drive failure, degraded array, or battery backup unit failure. These alarms require immediate attention to prevent data loss. The alarm will typically continue until the issue is resolved or silenced by an administrator. RAID alarms are not related to room temperature, notifications, or normal operational status.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.2-010",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.2",
+    "type": "comparison",
+    "question": "A technician needs to check if a hard drive is likely to fail soon. Which built-in drive technology provides predictive failure information?",
+    "options": {
+      "A": "RAID",
+      "B": "S.M.A.R.T.",
+      "C": "BitLocker",
+      "D": "TRIM"
+    },
+    "correct": "B",
+    "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) monitors drive health indicators and can predict failures. RAID provides data redundancy but does not predict individual drive failures. BitLocker provides disk encryption. TRIM is an SSD optimization command that informs the drive which data blocks are no longer in use. Only S.M.A.R.T. provides predictive failure information.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.3-001",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A user connects a laptop to a projector via HDMI but the projector shows 'No Signal.' The laptop display works fine. What should the technician check FIRST?",
+    "options": {
+      "A": "Replace the projector bulb",
+      "B": "Verify the projector is set to the correct input source (HDMI) and check the cable connection",
+      "C": "Reinstall the operating system",
+      "D": "Replace the laptop's motherboard"
+    },
+    "correct": "B",
+    "explanation": "The most common cause of 'No Signal' on a projector is an incorrect input source selection or a loose cable. The technician should first verify the projector is set to the HDMI input and that the cable is securely connected at both ends. The laptop display working fine confirms the GPU is functional. Replacing the bulb, reinstalling the OS, or replacing the motherboard are unnecessary and premature steps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.3-002",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "concept",
+    "question": "What causes image burn-in on a display?",
+    "options": {
+      "A": "Running the display at too high a resolution",
+      "B": "Displaying a static image for an extended period, causing permanent ghost images on the screen",
+      "C": "Using the wrong display cable type",
+      "D": "Setting the brightness too low"
+    },
+    "correct": "B",
+    "explanation": "Burn-in occurs when a static image is displayed for an extended period, causing the pixels in that area to degrade unevenly and leave a permanent ghost image visible on the screen. This is most common on OLED and older plasma displays. Resolution settings, cable types, and low brightness do not cause burn-in. Using screensavers and display timeouts helps prevent burn-in.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.3-003",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A monitor displays colors with an obvious blue tint. White backgrounds appear blue-ish. What should the technician do to resolve the issue?",
+    "options": {
+      "A": "Replace the monitor immediately",
+      "B": "Check the monitor's color settings, adjust the color temperature, and verify the cable connection is secure (loose VGA/DVI cables can cause color issues)",
+      "C": "Install a color filter on the screen",
+      "D": "Lower the screen resolution"
+    },
+    "correct": "B",
+    "explanation": "Incorrect color display can be caused by improper color temperature settings in the monitor's OSD (On-Screen Display), a loose or damaged video cable (especially analog VGA connections where a loose pin can drop a color channel), or incorrect driver color profiles. The technician should adjust color settings and check cable connections before replacing the monitor. A color filter or resolution change will not fix the underlying issue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.3-004",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "concept",
+    "question": "What is the difference between a dead pixel and a stuck pixel on a display?",
+    "options": {
+      "A": "A dead pixel always shows white; a stuck pixel always shows black",
+      "B": "A dead pixel does not light up at all (appears black); a stuck pixel is permanently lit in one color (red, green, or blue)",
+      "C": "Dead and stuck pixels are the same thing",
+      "D": "A dead pixel affects the entire screen; a stuck pixel affects only one corner"
+    },
+    "correct": "B",
+    "explanation": "A dead pixel does not receive power and appears as a permanent black dot on the screen. A stuck pixel is permanently lit in one color (typically red, green, or blue) because it is stuck in an on state. Stuck pixels can sometimes be fixed by running pixel-cycling tools, but dead pixels generally cannot be repaired. Both affect a single pixel location, not the entire screen or corners.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.3-005",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A user reports that their projector image is dim and slightly yellowish compared to when it was new. What is the MOST likely cause?",
+    "options": {
+      "A": "The projector input source is incorrect",
+      "B": "The projector bulb is aging and needs replacement",
+      "C": "The HDMI cable is too long",
+      "D": "The room lighting has changed"
+    },
+    "correct": "B",
+    "explanation": "Projector bulbs (lamps) degrade over time, producing a dimmer and sometimes discolored (yellowish) image as they approach the end of their lifespan. Replacing the bulb restores brightness and color accuracy. An incorrect input would show no image. HDMI cable length affects signal quality (artifacts, no signal) but not color temperature. Room lighting affects perceived brightness but not the yellowish tint.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.3-006",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A user reports that their monitor screen flickers intermittently. What are the MOST likely causes a technician should investigate?",
+    "options": {
+      "A": "The keyboard and mouse are interfering with the display",
+      "B": "A loose or damaged video cable, incompatible refresh rate settings, or a failing backlight",
+      "C": "The speakers are too close to the monitor",
+      "D": "The printer is causing interference"
+    },
+    "correct": "B",
+    "explanation": "Screen flickering is commonly caused by a loose or damaged video cable (intermittent signal loss), an incorrectly configured refresh rate (too low or unsupported), or a failing display backlight. Keyboards, mice, speakers (unless they contain strong unshielded magnets near CRT monitors), and printers do not cause monitor flickering. The technician should reseat the cable, check refresh rate settings, and test with a different cable.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.3-007",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A user connects their laptop to a projector and the projected image is too large, with the edges cut off beyond the screen. What setting should be adjusted?",
+    "options": {
+      "A": "Increase the projector's resolution",
+      "B": "Adjust the projector's zoom, keystone, or the laptop's display resolution/scaling to match the projector's native resolution",
+      "C": "Replace the projection screen with a larger one",
+      "D": "Increase the HDMI cable length"
+    },
+    "correct": "B",
+    "explanation": "When a projected image is too large or oversized, the technician should adjust the projector's zoom/focus settings, keystone correction, or change the laptop's output resolution to match the projector's native resolution. Image scaling and overscan settings may also need adjustment. Increasing the projector's resolution beyond its native capability is not possible. Replacing the screen or changing cable length does not address the scaling issue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.3-008",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A user has connected their laptop to a monitor via HDMI. Video displays correctly but there is no audio from the monitor's built-in speakers. What should the technician check?",
+    "options": {
+      "A": "HDMI does not support audio -- use separate speakers",
+      "B": "Verify that the HDMI audio output is selected as the default playback device in the laptop's sound settings",
+      "C": "Replace the HDMI cable with a VGA cable",
+      "D": "The monitor's speakers are broken and need hardware repair"
+    },
+    "correct": "B",
+    "explanation": "HDMI carries both video and audio. When audio is not playing through the monitor's speakers, the most common cause is that the HDMI audio output is not selected as the default playback device in the operating system's sound settings. The laptop may still be routing audio through its own speakers or headphone jack. HDMI does support audio. VGA does not support audio at all. The speakers may be functional but simply not receiving the audio signal.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.3-009",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "concept",
+    "question": "What causes a fuzzy or blurry image on a digital display?",
+    "options": {
+      "A": "Running the display at a resolution other than its native resolution",
+      "B": "Having too many windows open",
+      "C": "Using a wired instead of wireless connection",
+      "D": "The display being too close to the user"
+    },
+    "correct": "A",
+    "explanation": "A fuzzy or blurry image on an LCD/LED digital display is most commonly caused by running it at a resolution other than its native resolution. When the display must scale the image to fill the screen, interpolation causes blurriness. Analog connections (VGA) can also cause fuzziness if not properly adjusted. The number of open windows, connection type (wired vs wireless mouse/keyboard), and viewing distance do not cause image blurriness.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.3-010",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.3",
+    "type": "scenario",
+    "question": "A projector shuts down intermittently during presentations and displays a temperature warning light. What is the MOST likely cause?",
+    "options": {
+      "A": "The presentation file is too large",
+      "B": "The projector is overheating due to blocked air vents, a dirty filter, or a failing internal fan",
+      "C": "The HDMI cable is defective",
+      "D": "The room is too bright"
+    },
+    "correct": "B",
+    "explanation": "Intermittent projector shutdowns with temperature warnings indicate the projector is overheating. Common causes include blocked air vents (placed too close to a wall or surface), a clogged dust filter, a failing internal fan, or high ambient temperatures. The technician should clean the filter, ensure proper ventilation, and check the fan. File size, HDMI cables, and room brightness do not cause thermal shutdowns.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.4-001",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "concept",
+    "question": "What is the most significant safety concern with a swollen mobile device battery?",
+    "options": {
+      "A": "It will drain faster than normal",
+      "B": "It poses a fire or explosion risk and should be carefully removed and properly disposed of at a battery recycling center",
+      "C": "It will cause the screen to display incorrect colors",
+      "D": "It will make the device heavier"
+    },
+    "correct": "B",
+    "explanation": "A swollen lithium-ion battery is a serious safety hazard as it can rupture, catch fire, or explode. The swelling is caused by internal chemical decomposition producing gas. The device should be powered off, the battery carefully removed (if possible), and it must be disposed of at an authorized battery recycling center -- never in regular trash. While a swollen battery may push the screen out, the primary concern is fire/explosion risk.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.4-002",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "scenario",
+    "question": "A smartphone user reports their device charges very slowly or only charges when the cable is held at a specific angle. What is the MOST likely cause?",
+    "options": {
+      "A": "The battery needs a factory reset",
+      "B": "The charging port on the device is damaged, dirty, or has debris inside",
+      "C": "The phone's Wi-Fi is interfering with charging",
+      "D": "The phone's storage is full"
+    },
+    "correct": "B",
+    "explanation": "Slow charging or charging only at certain cable angles typically indicates a damaged, worn, or debris-filled charging port. Lint, dust, and pocket debris commonly accumulate in charging ports, preventing a solid connection. The port may also have a damaged or bent connector pin. Batteries do not have factory resets. Wi-Fi does not interfere with charging. Storage capacity does not affect charging.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.4-003",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "scenario",
+    "question": "A user dropped their smartphone in water. The phone still powers on but the touchscreen is unresponsive in certain areas. What is the MOST likely affected component?",
+    "options": {
+      "A": "The SIM card",
+      "B": "The digitizer has been damaged by liquid",
+      "C": "The phone's RAM",
+      "D": "The battery"
+    },
+    "correct": "B",
+    "explanation": "The digitizer is the component that senses touch input. Liquid damage can cause the digitizer to malfunction, resulting in unresponsive areas or erratic touch behavior. Since the phone powers on and displays an image, the LCD/OLED panel and main board are partially functional. The SIM card handles cellular identity. RAM handles system memory. The battery provides power. None of these would cause touch-specific issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.4-004",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "concept",
+    "question": "A mobile device is overheating frequently. Which of the following are common causes?",
+    "options": {
+      "A": "The device has too many contacts in the address book",
+      "B": "Intensive app usage, direct sunlight exposure, a failing battery, or a runaway background process",
+      "C": "The screen brightness is too low",
+      "D": "The device has too many saved text messages"
+    },
+    "correct": "B",
+    "explanation": "Common causes of mobile device overheating include CPU-intensive apps (gaming, video), prolonged direct sunlight exposure, a degraded or failing battery, and background processes consuming excessive CPU cycles. Contacts, text messages, and low screen brightness do not generate significant heat. High screen brightness can contribute slightly to heat but is not a primary cause of overheating.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.4-005",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "scenario",
+    "question": "A tablet user reports that the on-screen cursor drifts on its own and taps register in the wrong location. What is this issue called and what is the solution?",
+    "options": {
+      "A": "Screen burn-in -- replace the display",
+      "B": "Cursor drift or touch calibration issue -- recalibrate the touchscreen or replace the digitizer if damaged",
+      "C": "Low battery -- charge the device",
+      "D": "GPS malfunction -- reset location services"
+    },
+    "correct": "B",
+    "explanation": "Cursor drift (ghost touching) and incorrect touch registration are touchscreen calibration issues often caused by a malfunctioning digitizer, a screen protector interfering with touch sensitivity, or software calibration problems. The solution is to recalibrate the touchscreen through the device settings, or replace the digitizer if it is physically damaged. This is not burn-in, a battery issue, or a GPS problem.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.4-006",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "scenario",
+    "question": "A user reports they cannot install any new apps on their smartphone. The device is not managed by an MDM solution. What should the technician check?",
+    "options": {
+      "A": "The user's email configuration",
+      "B": "Available storage space, OS version compatibility, and whether app installation from unknown sources is needed",
+      "C": "The phone's Bluetooth settings",
+      "D": "The screen resolution settings"
+    },
+    "correct": "B",
+    "explanation": "Common causes for being unable to install apps include insufficient storage space, the app requiring a newer OS version than what is installed, or (for sideloaded apps) the 'Install from unknown sources' setting being disabled. The technician should check available storage, verify OS version compatibility, and review installation settings. Email configuration, Bluetooth, and screen resolution are unrelated to app installation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.4-007",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "concept",
+    "question": "What are common indicators that a mobile device has been infected with malware?",
+    "options": {
+      "A": "The device's screen protector is peeling",
+      "B": "Excessive battery drain, unexpected data usage, pop-up ads, unfamiliar apps appearing, and degraded performance",
+      "C": "The device's volume buttons feel sticky",
+      "D": "The phone case has changed color"
+    },
+    "correct": "B",
+    "explanation": "Common malware indicators on mobile devices include rapid battery drain (malware running in background), unexpected spikes in data usage (data exfiltration), persistent pop-up advertisements (adware), apps the user did not install appearing on the device, and overall degraded performance. Physical issues like screen protectors, sticky buttons, and phone case discoloration are unrelated to malware.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.4-008",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "scenario",
+    "question": "A user reports that their smartphone's battery drains from 100% to 0% in just a few hours with minimal usage. The phone is two years old. What is the MOST likely cause?",
+    "options": {
+      "A": "The screen resolution is too high",
+      "B": "The battery has degraded due to charge cycle wear and needs replacement",
+      "C": "The SIM card is draining the battery",
+      "D": "The phone case is blocking the antenna"
+    },
+    "correct": "B",
+    "explanation": "Lithium-ion batteries in smartphones degrade over time and charge cycles. After approximately 500 charge cycles (typically 1.5-2 years of normal use), battery capacity can drop significantly, leading to rapid drain. Most smartphones have a battery health indicator in settings. Screen resolution does not cause rapid drain. SIM cards consume negligible power. Phone cases do not drain batteries (though signal searching from blocked antennas could contribute slightly).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.4-009",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "scenario",
+    "question": "A user's tablet stylus is no longer being detected by the screen, but finger touch still works normally. What should the technician troubleshoot?",
+    "options": {
+      "A": "Replace the tablet's battery",
+      "B": "Check if the stylus needs charging or a new battery, verify stylus compatibility, and check Bluetooth pairing if it is an active stylus",
+      "C": "Reset the tablet's network settings",
+      "D": "Increase the screen brightness"
+    },
+    "correct": "B",
+    "explanation": "If finger touch works but the stylus does not, the issue is with the stylus, not the screen. Active styluses (like Apple Pencil or Samsung S Pen) require charging or battery replacement and Bluetooth pairing. The technician should check the stylus battery/charge level, verify it is compatible with the tablet model, and ensure Bluetooth is paired correctly. Replacing the tablet battery, resetting network settings, or adjusting brightness will not resolve stylus detection issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.4-010",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.4",
+    "type": "comparison",
+    "question": "A mobile device has no Wi-Fi connectivity but cellular data works fine. What should the technician check?",
+    "options": {
+      "A": "Replace the SIM card",
+      "B": "Verify Wi-Fi is enabled, check for airplane mode, forget and reconnect to the Wi-Fi network, and verify the Wi-Fi router is functioning",
+      "C": "Replace the device's screen",
+      "D": "Update the device's contacts"
+    },
+    "correct": "B",
+    "explanation": "When cellular works but Wi-Fi does not, the issue is specific to the Wi-Fi connection. The technician should verify Wi-Fi is enabled and airplane mode is off, forget the saved network and reconnect (re-entering the password), restart the Wi-Fi router, and check if other devices can connect to the same network. SIM card replacement would affect cellular, not Wi-Fi. Screen replacement and contact updates are unrelated.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.5-001",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "scenario",
+    "question": "Users in an office report intermittent wireless connectivity. Their devices repeatedly connect and disconnect from the Wi-Fi network. What should the technician investigate FIRST?",
+    "options": {
+      "A": "Replace all user laptops",
+      "B": "Check for wireless interference from nearby devices (microwaves, cordless phones, neighboring APs on the same channel) and verify access point placement",
+      "C": "Reinstall the operating system on all devices",
+      "D": "Replace the office's Ethernet switches"
+    },
+    "correct": "B",
+    "explanation": "Intermittent wireless connectivity is commonly caused by wireless interference from devices operating on the same frequency (microwaves, cordless phones, Bluetooth on 2.4 GHz), overlapping channels from neighboring access points, or poor AP placement causing weak signal areas. The technician should use a Wi-Fi analyzer to check for interference and channel conflicts. Replacing laptops, reinstalling OS, or replacing Ethernet switches would not address wireless interference.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.5-002",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "concept",
+    "question": "What is jitter in network communications and how does it affect performance?",
+    "options": {
+      "A": "Jitter is the total bandwidth available on the network",
+      "B": "Jitter is the variation in packet arrival times, which causes audio/video quality issues in real-time communications like VoIP",
+      "C": "Jitter is the speed at which data is downloaded",
+      "D": "Jitter is the number of devices connected to the network"
+    },
+    "correct": "B",
+    "explanation": "Jitter is the variation (inconsistency) in the delay between packet arrivals. High jitter causes packets to arrive at irregular intervals, which is particularly problematic for real-time applications like VoIP calls and video conferencing, causing choppy audio, dropped words, and video artifacts. Jitter is not bandwidth, download speed, or device count. Buffering can mitigate some jitter effects.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.5-003",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "scenario",
+    "question": "A company's VoIP phone system has poor call quality with choppy audio, echoing, and dropped words. What network conditions are MOST likely causing this?",
+    "options": {
+      "A": "High available bandwidth",
+      "B": "High latency, high jitter, and/or packet loss on the network",
+      "C": "Too few IP addresses on the DHCP server",
+      "D": "DNS resolution failures"
+    },
+    "correct": "B",
+    "explanation": "Poor VoIP quality (choppy audio, echoing, dropped words) is primarily caused by high latency (delay in packet delivery), high jitter (inconsistent packet timing), and packet loss (packets not arriving at all). VoIP requires low latency (<150ms), low jitter (<30ms), and minimal packet loss (<1%). DHCP and DNS issues would prevent connections entirely rather than degrading call quality. High bandwidth would help, not hinder, VoIP.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.5-004",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "concept",
+    "question": "What does port flapping indicate on a network switch?",
+    "options": {
+      "A": "The switch port is transmitting data at maximum speed",
+      "B": "A switch port is rapidly alternating between up and down states, typically caused by a bad cable, failing NIC, or duplex mismatch",
+      "C": "The port is being used for the first time",
+      "D": "The port is being shared by multiple devices"
+    },
+    "correct": "B",
+    "explanation": "Port flapping occurs when a switch port rapidly alternates between up (link) and down (no link) states. Common causes include a damaged or loose Ethernet cable, a failing network interface card (NIC), a duplex or speed mismatch, or electromagnetic interference. Port flapping can cause network instability and excessive spanning tree recalculations. It is not related to normal data transmission, first-time use, or port sharing.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-5.5-005",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "scenario",
+    "question": "A user reports that their wired network connection shows 'Limited Connectivity' and they cannot access the internet, though they can ping other local devices. What is the MOST likely issue?",
+    "options": {
+      "A": "The NIC is failing",
+      "B": "The device has not received a valid IP configuration from DHCP, or the default gateway/DNS is misconfigured",
+      "C": "The Ethernet cable is completely disconnected",
+      "D": "The monitor is not functioning"
+    },
+    "correct": "B",
+    "explanation": "Limited connectivity with local access but no internet typically indicates a DHCP issue (the device may have an APIPA address in the 169.254.x.x range), an incorrect default gateway, or misconfigured DNS settings. If the user can ping local devices, the physical connection is working (ruling out a disconnected cable or failed NIC). Monitor function is unrelated to network connectivity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.5-006",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "concept",
+    "question": "What does high latency on a network indicate?",
+    "options": {
+      "A": "The network has excellent response times",
+      "B": "There is a significant delay between sending data and receiving a response, causing slow network performance",
+      "C": "The network has too much available bandwidth",
+      "D": "Too many devices have been removed from the network"
+    },
+    "correct": "B",
+    "explanation": "High latency means there is a significant delay between when data is sent and when a response is received (measured in milliseconds). This causes slow-loading websites, delayed file transfers, and poor real-time communication quality. Common causes include network congestion, long physical distances, multiple router hops, and overloaded network devices. High latency is not a sign of good performance or excessive bandwidth.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.5-007",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "scenario",
+    "question": "Multiple users in one section of an office experience slow network speeds, while users in other areas have normal speeds. All affected users connect to the same network switch. What should the technician check?",
+    "options": {
+      "A": "The DNS server configuration",
+      "B": "The specific switch for issues including port speeds, duplex settings, a failing backplane, or a bad uplink cable",
+      "C": "Each user's email settings",
+      "D": "The office thermostat"
+    },
+    "correct": "B",
+    "explanation": "When slow speeds are isolated to users on a specific switch, the issue likely lies with that switch. The technician should check for auto-negotiation issues (ports running at 10/100 Mbps instead of 1 Gbps), duplex mismatches (half vs full duplex), a failing switch backplane, or a degraded uplink cable connecting the switch to the core network. DNS settings, email configuration, and office temperature are unrelated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.5-008",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "scenario",
+    "question": "A user reports they can access websites by IP address but not by domain name. What is the MOST likely cause?",
+    "options": {
+      "A": "The user's NIC has failed",
+      "B": "DNS resolution is failing -- check DNS server settings and DNS server availability",
+      "C": "The Ethernet cable is damaged",
+      "D": "The user's account has been locked out"
+    },
+    "correct": "B",
+    "explanation": "If a user can access resources by IP address but not by hostname/domain name, the issue is with DNS (Domain Name System) resolution. The DNS server may be down, the user's DNS settings may be misconfigured, or the DNS cache may be corrupted. The technician should verify DNS settings (ipconfig /all), try alternate DNS servers, and flush the DNS cache (ipconfig /flushdns). The NIC and cable are working since IP access works. Account lockout would not affect DNS.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.5-009",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "concept",
+    "question": "What is external interference in the context of wireless networking?",
+    "options": {
+      "A": "Unauthorized users accessing the network",
+      "B": "Radio frequency signals from external sources that disrupt Wi-Fi communication on the same frequency band",
+      "C": "Physical damage to the access point",
+      "D": "Software bugs in the wireless driver"
+    },
+    "correct": "B",
+    "explanation": "External interference refers to radio frequency (RF) signals from non-Wi-Fi sources that operate on the same frequency bands (2.4 GHz or 5 GHz) and disrupt wireless communications. Common sources include microwave ovens, cordless phones, baby monitors, and Bluetooth devices (all on 2.4 GHz). Unauthorized access is a security issue. Physical damage and driver bugs are separate problems. Moving to 5 GHz or 6 GHz bands can reduce interference from most common sources.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.5-010",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.5",
+    "type": "scenario",
+    "question": "A user reports they cannot connect to the corporate Wi-Fi network. Their device shows 'Authentication failure.' Other users can connect without issues. What should the technician check?",
+    "options": {
+      "A": "Replace the wireless access point",
+      "B": "Verify the user's credentials are correct, check if the account is locked or expired, and confirm the device's security protocol matches the network (WPA2/WPA3)",
+      "C": "Replace the user's monitor",
+      "D": "Defragment the user's hard drive"
+    },
+    "correct": "B",
+    "explanation": "An authentication failure on Wi-Fi with other users unaffected points to a user-specific credential issue. The technician should verify the username and password are correct, check if the user's account has been locked or expired in Active Directory, and confirm the device is configured with the correct security protocol (WPA2-Enterprise, WPA3). Since other users connect fine, the access point is working correctly. Monitors and disk fragmentation are unrelated.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-001",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A laser printer is producing pages with consistent vertical lines running down the entire length of each page. What is the MOST likely cause?",
+    "options": {
+      "A": "Low toner level",
+      "B": "A scratch or defect on the imaging drum or a dirty/damaged wiper blade",
+      "C": "The paper is loaded incorrectly",
+      "D": "The network connection is unstable"
+    },
+    "correct": "B",
+    "explanation": "Consistent vertical lines on every page from a laser printer typically indicate a scratch or defect on the imaging drum, or a dirty/damaged wiper blade that is not properly cleaning the drum surface. This causes toner to be deposited in the same location on every page. Low toner causes faded output, not lines. Paper loading causes jams, not image defects. Network issues cause connectivity problems, not print quality issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-002",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "concept",
+    "question": "What causes garbled or garbage characters in print output?",
+    "options": {
+      "A": "The paper type is wrong",
+      "B": "An incorrect or corrupted printer driver, a communication error between the computer and printer, or a PCL/PostScript language mismatch",
+      "C": "The toner is a different brand than the printer",
+      "D": "The printer is too far from the computer"
+    },
+    "correct": "B",
+    "explanation": "Garbled print output (random characters, symbols, or garbage text) is typically caused by an incorrect or corrupted printer driver, a miscommunication between the computer and printer (bad cable, protocol error), or a mismatch between the printer language (PCL vs PostScript) and the driver. Paper type causes quality issues, not garbled text. Toner brand does not affect text rendering. Physical distance (within cable specs) does not cause garbled output.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-003",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A printer experiences frequent paper jams. The technician has verified the correct paper type and size are being used. What should be checked next?",
+    "options": {
+      "A": "The printer's IP address",
+      "B": "The pickup rollers for wear and contamination, paper path for obstructions, and paper guides for proper adjustment",
+      "C": "The printer's DNS settings",
+      "D": "The computer's display settings"
+    },
+    "correct": "B",
+    "explanation": "Frequent paper jams (with correct paper) are commonly caused by worn or dirty pickup rollers that cannot grip the paper properly, obstructions in the paper path, or misaligned paper guides. The technician should clean or replace pickup rollers, inspect the paper path for torn paper fragments, and verify paper guides are properly adjusted. IP address, DNS settings, and display settings are unrelated to physical paper handling.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-004",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A laser printer consistently produces faded, light printouts. What should the technician check FIRST?",
+    "options": {
+      "A": "The Ethernet cable connection",
+      "B": "The toner level -- low toner is the most common cause of faded laser prints",
+      "C": "The printer's wireless signal strength",
+      "D": "The user's email configuration"
+    },
+    "correct": "B",
+    "explanation": "Faded or light output from a laser printer is most commonly caused by low toner. The technician should check the toner level first and replace the cartridge if low. Other causes include incorrect print density settings, a worn imaging drum, or high humidity affecting the toner. Ethernet cables, wireless signal strength, and email configuration do not affect print quality or density.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.6-005",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "concept",
+    "question": "What causes multipage misfeeds (multiple pages being pulled at once) in a printer?",
+    "options": {
+      "A": "The printer driver is outdated",
+      "B": "Worn separation pads or rollers, paper that is stuck together (from humidity or static), or overfilled paper trays",
+      "C": "The network connection is too fast",
+      "D": "The toner cartridge is too full"
+    },
+    "correct": "B",
+    "explanation": "Multipage misfeeds occur when the printer pulls more than one sheet at a time. Common causes include worn separation pads or rollers that fail to separate individual sheets, paper stuck together due to humidity or static (fan the paper before loading), or overfilled paper trays. Printer drivers, network speed, and toner levels do not cause physical paper feeding issues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-006",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "Multiple print jobs are listed as 'pending' in the print queue but nothing is printing. The printer appears to be online and ready. What should the technician do?",
+    "options": {
+      "A": "Replace the toner cartridge",
+      "B": "Restart the print spooler service, clear the print queue, and verify the printer connection",
+      "C": "Replace the printer's paper tray",
+      "D": "Reinstall the operating system"
+    },
+    "correct": "B",
+    "explanation": "Multiple pending jobs with an online printer often indicate a stuck or frozen print spooler service. The technician should restart the print spooler service (services.msc > Print Spooler > Restart), clear the pending jobs from the queue, and verify the connection between the computer and printer. Toner replacement, tray replacement, and OS reinstallation are unnecessary and would not resolve a spooler issue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-007",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "concept",
+    "question": "What causes speckling (tiny random dots scattered across a printed page) on a laser printer?",
+    "options": {
+      "A": "Using the wrong paper size",
+      "B": "Toner contamination on the drum or rollers, a defective toner cartridge, or a worn drum allowing toner to escape",
+      "C": "An outdated printer driver",
+      "D": "The print queue being too full"
+    },
+    "correct": "B",
+    "explanation": "Speckling (random scattered dots or spots) on laser prints is caused by loose toner particles on the drum or rollers, a defective or leaking toner cartridge, or a worn imaging drum that is not properly controlling toner distribution. Cleaning the printer interior and replacing the toner cartridge or drum typically resolves this. Paper size, driver versions, and queue fullness do not cause speckling.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-008",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A laser printer produces pages where a faint duplicate of the printed image appears further down on the same page. What is this defect called and what causes it?",
+    "options": {
+      "A": "Burn-in -- caused by leaving the printer on too long",
+      "B": "Double/echo imaging (ghosting) -- caused by a worn or defective drum that retains the previous image, or a fuser not properly bonding toner",
+      "C": "Paper jamming -- caused by using the wrong paper weight",
+      "D": "Garbled output -- caused by a corrupt driver"
+    },
+    "correct": "B",
+    "explanation": "Double or echo imaging (ghosting) occurs when a faint copy of a previously printed image appears on subsequent pages or further down the same page. This is caused by a drum that is not properly discharging the previous image, a worn drum, or a fuser that is not reaching the correct temperature to properly bond toner to the page. It is not burn-in, a paper jam, or a driver issue.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q-1201-5.6-009",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A user reports that their printed pages come out in landscape orientation when they selected portrait in the application. What should the technician check?",
+    "options": {
+      "A": "The toner level",
+      "B": "The printer driver's default orientation setting, the application's page setup, and any conflicting settings between the application and printer properties",
+      "C": "The Ethernet cable",
+      "D": "The power supply to the printer"
+    },
+    "correct": "B",
+    "explanation": "Incorrect print orientation is caused by conflicting settings between the application's page setup and the printer driver's default settings. The technician should check the printer properties/preferences for the default orientation, the application's page setup and print settings, and ensure they are not overriding each other. Toner level, Ethernet cables, and power supply have no effect on page orientation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.6-010",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A multifunction printer's finishing unit is not stapling documents even though stapling is selected in print settings. What should the technician investigate?",
+    "options": {
+      "A": "The toner level",
+      "B": "Whether the staple cartridge is empty, the finishing unit is properly installed, and the driver correctly supports the finishing options",
+      "C": "The scanner glass cleanliness",
+      "D": "The paper size in the main tray"
+    },
+    "correct": "B",
+    "explanation": "When the finishing unit fails to staple, the technician should check if the staple cartridge is empty or jammed, verify the finishing unit is properly seated and connected to the printer, and confirm the printer driver is correctly configured to use the finishing options. Toner level affects print quality, not stapling. Scanner glass affects scanning. Paper size in the main tray does not affect the stapling function.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q-1201-5.6-011",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "concept",
+    "question": "A printer displays a 'Tray Not Recognized' error. What are common causes?",
+    "options": {
+      "A": "The printer's firmware is too new",
+      "B": "The paper tray is not fully inserted, the tray sensors are dirty or damaged, or the tray is incompatible with the printer model",
+      "C": "The USB cable is too long",
+      "D": "The print queue has too many jobs"
+    },
+    "correct": "B",
+    "explanation": "A 'Tray Not Recognized' error typically indicates the paper tray is not fully seated in the printer, the tray detection sensors are dirty, damaged, or blocked, or an incompatible tray is being used. The technician should remove and reinsert the tray firmly, clean the tray sensors, and verify the tray is the correct model for the printer. Firmware version, USB cable length, and print queue size are unrelated to tray recognition.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q-1201-5.6-012",
+    "exam": "Core 1",
+    "domain": "5.0 Hardware and Network Troubleshooting",
+    "objectiveId": "5.6",
+    "type": "scenario",
+    "question": "A network printer is no longer accessible to any users. The printer's display shows it is online and connected. What should the technician investigate?",
+    "options": {
+      "A": "Replace the toner cartridge",
+      "B": "Check the printer's IP address (it may have changed via DHCP), verify network cable connectivity, and confirm the printer is on the correct network/VLAN",
+      "C": "Replace all users' computers",
+      "D": "Change the paper in the tray"
+    },
+    "correct": "B",
+    "explanation": "When a network printer is unreachable by all users despite showing online status, the issue is typically network-related. The printer's IP address may have changed (common with DHCP leases expiring), the network cable may be loose or disconnected, or the printer may have been moved to a different VLAN. The technician should verify the IP address, check network connectivity with ping, and confirm VLAN assignment. Toner, computers, and paper are unrelated to network accessibility.",
+    "difficulty": "medium"
+  }
+]

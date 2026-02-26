@@ -1,0 +1,2618 @@
+[
+  {
+    "term": "2.4 GHz",
+    "fullName": "",
+    "definition": "A Wi-Fi frequency band with longer range and more interference than 5 GHz. Non-overlapping channels: 1, 6, 11.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "3-2-1 rule",
+    "fullName": "",
+    "definition": "A backup best practice: maintain 3 copies of data, on 2 different media types, with 1 copy stored offsite.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "5 GHz",
+    "fullName": "",
+    "definition": "A Wi-Fi frequency band offering faster speeds, less interference, and shorter range than 2.4 GHz.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "6 GHz",
+    "fullName": "",
+    "definition": "The newest Wi-Fi frequency band (Wi-Fi 6E/7) offering the most channels and least interference.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "802.11",
+    "fullName": "",
+    "definition": "A family of IEEE standards for wireless networking, including a/b/g/n/ac/ax variants.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "802.1X",
+    "fullName": "",
+    "definition": "An IEEE standard for port-based network access control providing authentication for LAN/WLAN connections.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "A record",
+    "fullName": "",
+    "definition": "A DNS record type that maps a domain name to an IPv4 address.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "AAA",
+    "fullName": "Authentication, Authorization, and Accounting",
+    "definition": "A security framework that controls access to resources: Authentication verifies identity, Authorization determines access level, Accounting tracks usage.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "AAAA record",
+    "fullName": "",
+    "definition": "A DNS record type that maps a domain name to an IPv6 address.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "ACL",
+    "fullName": "Access Control List",
+    "definition": "A set of rules that filters network traffic or defines permissions for files and resources.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Active Directory",
+    "fullName": "",
+    "definition": "A Microsoft directory service for Windows domain networks providing authentication, group policy, and centralized resource management.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "ADF",
+    "fullName": "Automatic Document Feeder",
+    "definition": "A printer component that automatically feeds multiple pages for scanning or copying without manual placement.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "adware",
+    "fullName": "",
+    "definition": "Software that automatically displays or downloads advertising material, often bundled with free programs.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "AES",
+    "fullName": "Advanced Encryption Standard",
+    "definition": "A symmetric encryption algorithm using 128, 192, or 256-bit keys. The standard for WPA2 wireless encryption.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "APCM",
+    "fullName": "",
+    "definition": "Administrative, Physical, and Technical security controls used to protect information systems.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "APFS",
+    "fullName": "Apple File System",
+    "definition": "Apple's proprietary file system optimized for SSDs, supporting encryption, snapshots, and space sharing.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "API",
+    "fullName": "Application Programming Interface",
+    "definition": "A set of protocols and tools that allows software applications to communicate with each other.",
+    "exam": "Both",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "APIPA",
+    "fullName": "Automatic Private IP Addressing",
+    "definition": "A Windows feature that assigns an IP in the 169.254.x.x range when a DHCP server is unavailable.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "APK",
+    "fullName": "Android Package Kit",
+    "definition": "The file format used by Android for distributing and installing mobile applications.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "apt",
+    "fullName": "Advanced Package Tool",
+    "definition": "A package management system used by Debian-based Linux distributions for installing and updating software.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "ARM",
+    "fullName": "Advanced RISC Machine",
+    "definition": "An energy-efficient processor architecture used in mobile devices and increasingly in laptops.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "ARP",
+    "fullName": "Address Resolution Protocol",
+    "definition": "A protocol that maps IP addresses to MAC addresses on a local network.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "ATX",
+    "fullName": "Advanced Technology Extended",
+    "definition": "The most common motherboard form factor (12 x 9.6 inches), supporting up to 7 expansion slots.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "AUP",
+    "fullName": "Acceptable Use Policy",
+    "definition": "A document defining the acceptable use of organizational IT resources by employees.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "backup",
+    "fullName": "",
+    "definition": "A copy of data stored separately to protect against data loss from hardware failure, malware, or deletion.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "batch file",
+    "fullName": "",
+    "definition": "A script file (.bat) in Windows that contains a series of commands executed sequentially.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "BEC",
+    "fullName": "Business Email Compromise",
+    "definition": "A sophisticated scam targeting businesses to defraud through compromised or spoofed business email accounts.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "biometrics",
+    "fullName": "",
+    "definition": "Authentication using unique physical characteristics such as fingerprints, facial features, or retinal patterns.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "BIOS",
+    "fullName": "Basic Input/Output System",
+    "definition": "Legacy firmware that initializes hardware and boots the OS. Being replaced by UEFI.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "BitLocker",
+    "fullName": "",
+    "definition": "A Windows full-disk encryption feature that protects data by encrypting entire volumes. Requires TPM or USB startup key.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Bluetooth",
+    "fullName": "",
+    "definition": "A short-range wireless technology for exchanging data over short distances (typically up to 10 meters).",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "boot order",
+    "fullName": "",
+    "definition": "The BIOS/UEFI sequence for checking devices for a bootable operating system during startup.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "botnet",
+    "fullName": "",
+    "definition": "A network of compromised computers controlled by an attacker for coordinated attacks like DDoS.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "brownout",
+    "fullName": "",
+    "definition": "A temporary drop in voltage in an electrical power supply that can cause hardware instability.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "brute force",
+    "fullName": "",
+    "definition": "An attack that systematically tries all possible password combinations until finding the correct one.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "BSOD",
+    "fullName": "Blue Screen of Death",
+    "definition": "A Windows stop error screen displayed when the system encounters a critical error requiring a restart.",
+    "exam": "Core 2",
+    "domain": "3.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "BYOD",
+    "fullName": "Bring Your Own Device",
+    "definition": "A policy allowing employees to use personal devices for work purposes, requiring security considerations.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "cable tester",
+    "fullName": "",
+    "definition": "A device that verifies network cables are properly wired, checking continuity and correct pin-outs.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "Cat 5e",
+    "fullName": "Category 5 Enhanced",
+    "definition": "An Ethernet cable supporting speeds up to 1 Gbps at 100 meters.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Cat 6",
+    "fullName": "Category 6",
+    "definition": "An Ethernet cable supporting speeds up to 10 Gbps at 55 meters.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Cat 6a",
+    "fullName": "Category 6 Augmented",
+    "definition": "An Ethernet cable supporting 10 Gbps at the full 100-meter distance.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Cat 8",
+    "fullName": "Category 8",
+    "definition": "An Ethernet cable supporting speeds up to 25/40 Gbps at distances up to 30 meters.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "certificate",
+    "fullName": "",
+    "definition": "A digital document using cryptographic keys to verify the identity of a person, device, or organization.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "chain of custody",
+    "fullName": "",
+    "definition": "A documented process tracking the handling and location of evidence from collection to presentation.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "chipset",
+    "fullName": "",
+    "definition": "Integrated circuits on a motherboard managing data flow between processor, memory, and peripherals.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "CHKDSK",
+    "fullName": "Check Disk",
+    "definition": "A Windows command-line utility that checks a disk volume for errors and attempts to repair them.",
+    "exam": "Core 2",
+    "domain": "3.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "CIDR",
+    "fullName": "Classless Inter-Domain Routing",
+    "definition": "A method of IP address allocation and routing that replaces the older classful addressing system.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "CIFS",
+    "fullName": "Common Internet File System",
+    "definition": "A network file sharing protocol (variant of SMB) that allows remote file access across networks.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "CLI",
+    "fullName": "Command-Line Interface",
+    "definition": "A text-based interface for interacting with the OS by typing commands.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "cloud-based backup",
+    "fullName": "",
+    "definition": "A backup strategy storing data copies on remote servers via the internet for off-site protection.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "CMOS",
+    "fullName": "Complementary Metal-Oxide-Semiconductor",
+    "definition": "A chip that stores BIOS/UEFI settings. Powered by a coin cell battery on the motherboard.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "CNAME record",
+    "fullName": "Canonical Name Record",
+    "definition": "A DNS record that creates an alias pointing one domain name to another.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "compliance",
+    "fullName": "",
+    "definition": "Adherence to laws, regulations, and policies governing IT operations and data handling.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "container",
+    "fullName": "",
+    "definition": "A lightweight, isolated application environment that shares the host OS kernel. More efficient than full VMs.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "CPU",
+    "fullName": "Central Processing Unit",
+    "definition": "The primary processor that executes instructions and performs calculations in a computer.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "crimper",
+    "fullName": "",
+    "definition": "A tool for attaching connectors (like RJ-45) to network cable ends.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "crosstalk",
+    "fullName": "",
+    "definition": "Unwanted signal interference between adjacent wires in a cable degrading network performance.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "cryptominer",
+    "fullName": "",
+    "definition": "Malware that uses system resources to mine cryptocurrency without the owner knowledge or consent.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "DaaS",
+    "fullName": "Desktop as a Service",
+    "definition": "A cloud model delivering virtual desktops to end users over the internet.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "data at rest",
+    "fullName": "",
+    "definition": "Stored data not actively being transmitted, requiring encryption for protection.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "data in transit",
+    "fullName": "",
+    "definition": "Data actively moving across a network, requiring encryption protocols like TLS.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "DDoS",
+    "fullName": "Distributed Denial of Service",
+    "definition": "An attack using multiple compromised systems to flood a target with traffic, making it unavailable.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "DDR",
+    "fullName": "Double Data Rate",
+    "definition": "A type of synchronous RAM that transfers data on both the rising and falling edges of the clock signal.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "default gateway",
+    "fullName": "",
+    "definition": "The router IP address that devices use as the access point to reach other networks.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "defragmentation",
+    "fullName": "",
+    "definition": "Reorganizing fragmented data on a hard disk to improve performance. Not needed for SSDs.",
+    "exam": "Core 2",
+    "domain": "3.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "degaussing",
+    "fullName": "",
+    "definition": "A data destruction method that uses a strong magnetic field to erase data from magnetic storage media.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "DHCP",
+    "fullName": "Dynamic Host Configuration Protocol",
+    "definition": "A protocol that automatically assigns IP addresses and network configuration to devices. Uses ports 67 (server) and 68 (client).",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "dictionary attack",
+    "fullName": "",
+    "definition": "A password attack systematically trying words from a predefined list of likely passwords.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "differential backup",
+    "fullName": "",
+    "definition": "A backup copying all files changed since the last full backup, growing larger each day.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "DIMM",
+    "fullName": "Dual Inline Memory Module",
+    "definition": "A standard-size RAM module used in desktop computers.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "DISM",
+    "fullName": "Deployment Image Servicing and Management",
+    "definition": "A Windows command-line tool for servicing Windows images and repairing the component store.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "DisplayPort",
+    "fullName": "",
+    "definition": "A digital display interface supporting high resolutions and multi-monitor daisy-chaining.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "DKIM",
+    "fullName": "DomainKeys Identified Mail",
+    "definition": "An email authentication method using digital signatures to verify the sender and message integrity.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "DLP",
+    "fullName": "Data Loss Prevention",
+    "definition": "Security tools and policies that prevent unauthorized transmission or leakage of sensitive data.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "DMARC",
+    "fullName": "Domain-based Message Authentication",
+    "definition": "An email validation system combining SPF and DKIM to detect and prevent email spoofing.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "DMZ",
+    "fullName": "Demilitarized Zone",
+    "definition": "A network segment between internal and external networks hosting public-facing services.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "DNS",
+    "fullName": "Domain Name System",
+    "definition": "A hierarchical system that translates domain names to IP addresses. Uses port 53.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "docking station",
+    "fullName": "",
+    "definition": "A device allowing a laptop to connect to multiple peripherals through a single connection.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "domain controller",
+    "fullName": "",
+    "definition": "A Windows server providing authentication and enforcing security policies across a domain.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "DoS",
+    "fullName": "Denial of Service",
+    "definition": "An attack that makes a system or network unavailable by overwhelming it with traffic.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "driver",
+    "fullName": "",
+    "definition": "Software allowing the operating system to communicate with and control a specific hardware device.",
+    "exam": "Both",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "dumpster diving",
+    "fullName": "",
+    "definition": "A social engineering technique searching through discarded materials for sensitive information.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "duplex",
+    "fullName": "",
+    "definition": "Communication mode: half-duplex allows one direction at a time; full-duplex allows simultaneous bidirectional.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "DVI",
+    "fullName": "Digital Visual Interface",
+    "definition": "A video interface that supports digital and/or analog signals. Types include DVI-D, DVI-A, and DVI-I.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "ECC",
+    "fullName": "Error-Correcting Code",
+    "definition": "A type of RAM that can detect and correct single-bit memory errors. Used in servers.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "EDR",
+    "fullName": "Endpoint Detection and Response",
+    "definition": "An advanced security solution that monitors endpoints for threats and provides investigation and response capabilities.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "EFS",
+    "fullName": "Encrypting File System",
+    "definition": "A Windows feature that encrypts individual files and folders on NTFS volumes.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "EMI",
+    "fullName": "Electromagnetic Interference",
+    "definition": "Electrical disturbance from external sources that can degrade network cable performance.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "ESD",
+    "fullName": "Electrostatic Discharge",
+    "definition": "A sudden flow of static electricity that can damage sensitive electronic components.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "eSIM",
+    "fullName": "Embedded SIM",
+    "definition": "A SIM card built into a device that can be reprogrammed remotely without physical swap.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "EULA",
+    "fullName": "End User License Agreement",
+    "definition": "A legal contract between software publisher and user defining terms of use for the software.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "event log",
+    "fullName": "",
+    "definition": "Windows records of system events (System, Application, Security logs) used for troubleshooting.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "evil twin",
+    "fullName": "",
+    "definition": "A rogue wireless access point impersonating a legitimate one to intercept user traffic.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "exFAT",
+    "fullName": "Extended File Allocation Table",
+    "definition": "A file system optimized for flash drives and SD cards, supporting files larger than 4 GB.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "ext4",
+    "fullName": "Fourth Extended Filesystem",
+    "definition": "The default Linux file system supporting volumes up to 1 exbibyte and files up to 16 tebibytes.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "FAT32",
+    "fullName": "File Allocation Table 32",
+    "definition": "An older file system with a 4 GB maximum file size. Compatible with most operating systems.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "fileless malware",
+    "fullName": "",
+    "definition": "Malware that operates entirely in memory without writing files to disk, making it harder to detect.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "firewall",
+    "fullName": "",
+    "definition": "A security device or software that monitors and controls network traffic based on predefined rules.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "FTP",
+    "fullName": "File Transfer Protocol",
+    "definition": "A protocol for transferring files between systems. Uses ports 20 (data) and 21 (control). Unencrypted.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "full backup",
+    "fullName": "",
+    "definition": "A complete copy of all selected data, the baseline for differential and incremental strategies.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "gateway",
+    "fullName": "",
+    "definition": "A network device connecting two different networks or protocols, translating between them.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "GBIC",
+    "fullName": "Gigabit Interface Converter",
+    "definition": "A hot-swappable transceiver module for fiber optic or copper networking. Replaced by SFP.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "geotracking",
+    "fullName": "",
+    "definition": "Using GPS or network methods to determine and record a mobile device geographic location.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "GFS",
+    "fullName": "Grandfather-Father-Son",
+    "definition": "A backup rotation scheme using daily (son), weekly (father), and monthly (grandfather) backup cycles.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "GPO",
+    "fullName": "Group Policy Object",
+    "definition": "A collection of settings in Active Directory that define what a system will look like and how it behaves for users.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "GPT",
+    "fullName": "GUID Partition Table",
+    "definition": "A modern disk partitioning scheme supporting drives larger than 2 TB and up to 128 partitions.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "GPU",
+    "fullName": "Graphics Processing Unit",
+    "definition": "A specialized processor designed for rendering graphics and parallel processing tasks.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "gpupdate",
+    "fullName": "",
+    "definition": "A Windows command (gpupdate /force) that refreshes Group Policy settings without rebooting.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "Group Policy",
+    "fullName": "",
+    "definition": "A Windows feature providing centralized management of settings in an Active Directory environment.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "GUI",
+    "fullName": "Graphical User Interface",
+    "definition": "A visual interface that allows users to interact with the system using windows, icons, and menus.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "hard reset",
+    "fullName": "",
+    "definition": "A forced restart clearing volatile memory, typically done by holding the power button.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "hash",
+    "fullName": "",
+    "definition": "A fixed-size output from a hash function used to verify data integrity. Common: MD5, SHA-256.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "HDD",
+    "fullName": "Hard Disk Drive",
+    "definition": "A storage device that uses spinning magnetic platters and read/write heads.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "HDMI",
+    "fullName": "High-Definition Multimedia Interface",
+    "definition": "A digital audio/video interface supporting high-definition video and multi-channel audio.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "heatsink",
+    "fullName": "",
+    "definition": "A passive heat exchanger transferring heat from a CPU or other component to surrounding air.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "hibernate",
+    "fullName": "",
+    "definition": "A power state saving the session to disk and powering off. Session restores on next boot.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "honeypot",
+    "fullName": "",
+    "definition": "A decoy system designed to attract and detect attackers, providing early warning of intrusions.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "HTTP",
+    "fullName": "Hypertext Transfer Protocol",
+    "definition": "The protocol for transmitting web pages. Uses port 80. Unencrypted.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "HTTPS",
+    "fullName": "Hypertext Transfer Protocol Secure",
+    "definition": "HTTP encrypted with TLS/SSL for secure web communication. Uses port 443.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "hub",
+    "fullName": "",
+    "definition": "A basic network device that broadcasts all traffic to every port. Replaced by switches.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "hybrid cloud",
+    "fullName": "",
+    "definition": "A cloud environment combining public and private cloud infrastructure with orchestration between them.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "hypervisor",
+    "fullName": "",
+    "definition": "Software that creates and manages virtual machines. Type 1 runs on bare metal; Type 2 runs on a host OS.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "IaaS",
+    "fullName": "Infrastructure as a Service",
+    "definition": "A cloud model providing virtualized computing resources (servers, storage, networking) over the internet.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "IAM",
+    "fullName": "Identity and Access Management",
+    "definition": "A framework of policies and technologies ensuring the right users have appropriate access to resources.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "ICMP",
+    "fullName": "Internet Control Message Protocol",
+    "definition": "A network protocol used for diagnostic and error reporting. Ping uses ICMP.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "IDS",
+    "fullName": "Intrusion Detection System",
+    "definition": "A security system that monitors network traffic for suspicious activity and generates alerts.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "IGMP",
+    "fullName": "Internet Group Management Protocol",
+    "definition": "A protocol managing multicast group membership on IPv4 networks.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "image deployment",
+    "fullName": "",
+    "definition": "Applying a disk image with OS and applications to multiple computers for standardized setup.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "IMAP",
+    "fullName": "Internet Message Access Protocol",
+    "definition": "An email retrieval protocol that keeps messages on the server. Uses port 143 (or 993 for secure).",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "impersonation",
+    "fullName": "",
+    "definition": "A social engineering technique where an attacker pretends to be a trusted individual.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "incremental backup",
+    "fullName": "",
+    "definition": "A backup copying only files changed since the last backup of any type. Less storage, complex restore.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "IoT",
+    "fullName": "Internet of Things",
+    "definition": "Network-connected smart devices (thermostats, cameras, sensors) that collect and exchange data.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "IP",
+    "fullName": "Internet Protocol",
+    "definition": "The network layer protocol responsible for addressing and routing packets across networks.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "IPA",
+    "fullName": "iOS App Store Package",
+    "definition": "The file format used for distributing and installing applications on Apple iOS devices.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "ipconfig",
+    "fullName": "",
+    "definition": "A Windows command displaying network configuration (IP address, subnet mask, default gateway).",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "IPS",
+    "fullName": "Intrusion Prevention System",
+    "definition": "A security system that monitors and actively blocks suspicious network traffic.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "IPv4",
+    "fullName": "Internet Protocol version 4",
+    "definition": "The fourth version of IP using 32-bit addresses (e.g., 192.168.1.1), providing about 4.3 billion addresses.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "IPv6",
+    "fullName": "Internet Protocol version 6",
+    "definition": "The latest version of IP using 128-bit addresses, providing virtually unlimited addresses.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "iSCSI",
+    "fullName": "Internet Small Computer Systems Interface",
+    "definition": "A protocol that maps SCSI commands over TCP/IP networks for block-level storage access.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "ITX",
+    "fullName": "Information Technology Extended",
+    "definition": "A small motherboard form factor (Mini-ITX: 6.7 x 6.7 inches) with 1 expansion slot.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "jailbreaking",
+    "fullName": "",
+    "definition": "Removing software restrictions on iOS devices to allow installation of unauthorized apps.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Kerberos",
+    "fullName": "",
+    "definition": "A network authentication protocol using tickets to verify identity. Used in Active Directory environments.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "keylogger",
+    "fullName": "",
+    "definition": "Malware that records keystrokes to capture passwords, credit card numbers, and other sensitive data.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "KVM",
+    "fullName": "Keyboard, Video, Mouse",
+    "definition": "A switch device allowing one set of keyboard, video, and mouse to control multiple computers.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "LACP",
+    "fullName": "Link Aggregation Control Protocol",
+    "definition": "A protocol that combines multiple network connections into a single logical link for increased bandwidth and redundancy.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "LAN",
+    "fullName": "Local Area Network",
+    "definition": "A network covering a small geographic area such as an office or building.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "laser printer",
+    "fullName": "",
+    "definition": "A printer using laser, toner, and fuser. Steps: processing, charging, exposing, developing, transferring, fusing, cleaning.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "latency",
+    "fullName": "",
+    "definition": "The time delay between sending a request and receiving a response, measured in milliseconds.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "LDAP",
+    "fullName": "Lightweight Directory Access Protocol",
+    "definition": "A protocol for accessing and maintaining directory information services. Uses port 389.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "least privilege",
+    "fullName": "",
+    "definition": "A security principle granting users only the minimum permissions needed to perform their job functions.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Lightning",
+    "fullName": "",
+    "definition": "Apple proprietary reversible connector used on older iPhones and iPads for charging and data transfer.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "load balancer",
+    "fullName": "",
+    "definition": "A device distributing incoming traffic across multiple servers for reliability and performance.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "localhost",
+    "fullName": "",
+    "definition": "The hostname referring to the current device (127.0.0.1), used for testing local network services.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "loopback address",
+    "fullName": "",
+    "definition": "IP address 127.0.0.1 (IPv4) or ::1 (IPv6) used to test the TCP/IP stack on the local machine.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "M.2",
+    "fullName": "",
+    "definition": "A compact form factor specification for expansion cards and SSDs, supporting both SATA and NVMe interfaces.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "MAC",
+    "fullName": "Media Access Control",
+    "definition": "A unique hardware address assigned to a network interface card for identification on the network.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "MAN",
+    "fullName": "Metropolitan Area Network",
+    "definition": "A network covering a city or large campus, larger than LAN but smaller than WAN.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "man-in-the-middle",
+    "fullName": "",
+    "definition": "An attack intercepting and possibly altering communication between two parties.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "mATX",
+    "fullName": "Micro-ATX",
+    "definition": "A mid-size motherboard form factor (9.6 x 9.6 inches) with up to 4 expansion slots.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "MBR",
+    "fullName": "Master Boot Record",
+    "definition": "A legacy disk partitioning scheme limited to 2 TB drives and 4 primary partitions.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "MBR vs GPT",
+    "fullName": "",
+    "definition": "MBR: legacy, 2TB max, 4 primary partitions. GPT: modern, 9.4 ZB max, 128 partitions, requires UEFI.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "MDM",
+    "fullName": "Mobile Device Management",
+    "definition": "Software that manages, monitors, and secures mobile devices used in enterprise environments.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "MDR",
+    "fullName": "Managed Detection and Response",
+    "definition": "A managed security service combining EDR technology with human expertise for threat detection.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "MFA",
+    "fullName": "Multifactor Authentication",
+    "definition": "Authentication requiring two or more verification methods from different categories (something you know/have/are).",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "modem",
+    "fullName": "",
+    "definition": "A device that modulates/demodulates signals to connect to an ISP, converting digital data to analog and vice versa.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "MSDS",
+    "fullName": "Material Safety Data Sheet",
+    "definition": "A document detailing safe handling, storage, and disposal of hazardous materials like toner and batteries.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "MSI",
+    "fullName": "Microsoft Installer",
+    "definition": "A Windows installer package format used for installing, maintaining, and removing software.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "multimeter",
+    "fullName": "",
+    "definition": "A testing tool measuring voltage, current, and resistance for diagnosing electrical issues.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "MX record",
+    "fullName": "Mail Exchange Record",
+    "definition": "A DNS record that specifies the mail server responsible for receiving email for a domain.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NAND flash",
+    "fullName": "",
+    "definition": "Non-volatile storage technology used in SSDs, USB drives, and memory cards.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "NAS",
+    "fullName": "Network Attached Storage",
+    "definition": "A dedicated file storage device connected to a network, providing centralized data access to clients.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NAT",
+    "fullName": "Network Address Translation",
+    "definition": "A technique that translates private IP addresses to a public IP address for internet access.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NDA",
+    "fullName": "Non-Disclosure Agreement",
+    "definition": "A legal contract preventing disclosure of confidential information shared between parties.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "NDP",
+    "fullName": "Neighbor Discovery Protocol",
+    "definition": "An IPv6 protocol that replaces ARP, handling address resolution and router discovery.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NetBIOS",
+    "fullName": "Network Basic Input/Output System",
+    "definition": "A legacy API for communication on local networks. Uses ports 137-139.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "netstat",
+    "fullName": "",
+    "definition": "A command displaying active network connections, listening ports, and routing tables.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NFC",
+    "fullName": "Near Field Communication",
+    "definition": "A short-range wireless technology (~4 cm) used for contactless payments and quick device pairing.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "nslookup",
+    "fullName": "",
+    "definition": "A command-line tool querying DNS servers to find IP addresses for domain names.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NTFS",
+    "fullName": "New Technology File System",
+    "definition": "The primary Windows file system supporting encryption, compression, quotas, and permissions.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "NTP",
+    "fullName": "Network Time Protocol",
+    "definition": "A protocol for synchronizing clocks across networked devices. Uses port 123.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "NVMe",
+    "fullName": "Non-Volatile Memory Express",
+    "definition": "A high-speed storage protocol designed for SSDs, connecting via PCIe for significantly faster performance than SATA.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "offboarding",
+    "fullName": "",
+    "definition": "Revoking access, recovering equipment, and disabling accounts when an employee leaves.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "on-premises",
+    "fullName": "",
+    "definition": "IT infrastructure installed on the organization's physical premises rather than in the cloud.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "OTP",
+    "fullName": "One-Time Password",
+    "definition": "A password valid for only one login session or transaction, often generated by an authenticator app.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "OU",
+    "fullName": "Organizational Unit",
+    "definition": "A container in Active Directory used to organize and apply Group Policy to users, groups, and computers.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "PaaS",
+    "fullName": "Platform as a Service",
+    "definition": "A cloud model providing a platform for developing, running, and managing applications without managing infrastructure.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "PAM",
+    "fullName": "Privileged Access Management",
+    "definition": "Security tools controlling and monitoring access for accounts with elevated permissions.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "PAN",
+    "fullName": "Personal Area Network",
+    "definition": "A very small network for connecting personal devices, typically within a few meters (Bluetooth).",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "parity",
+    "fullName": "",
+    "definition": "An error detection method in RAID (RAID 5) using calculated data to rebuild if a drive fails.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "PAT",
+    "fullName": "Port Address Translation",
+    "definition": "A type of NAT that maps multiple private addresses to a single public IP using different port numbers.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "patch cable",
+    "fullName": "",
+    "definition": "A short Ethernet cable connecting devices to wall jacks, patch panels, or switches.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "PCIe",
+    "fullName": "Peripheral Component Interconnect Express",
+    "definition": "A high-speed serial expansion bus standard used for GPUs, NVMe SSDs, and expansion cards.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "PE",
+    "fullName": "Preinstallation Environment",
+    "definition": "A lightweight version of Windows used for deployment, recovery, and troubleshooting.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "penetration testing",
+    "fullName": "",
+    "definition": "An authorized simulated attack to evaluate system security and identify vulnerabilities.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "phishing",
+    "fullName": "",
+    "definition": "A social engineering attack using fraudulent emails or messages to trick users into revealing sensitive information.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "PII",
+    "fullName": "Personally Identifiable Information",
+    "definition": "Data that can identify a specific individual, such as SSN, name, address, or biometric records.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "ping",
+    "fullName": "",
+    "definition": "A network diagnostic command using ICMP to test connectivity and measure round-trip time to a host.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "PKI",
+    "fullName": "Public Key Infrastructure",
+    "definition": "A framework for managing digital certificates and public-key encryption to secure communications.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "plenum cable",
+    "fullName": "",
+    "definition": "Network cable with fire-retardant jacket for installation in air circulation spaces in buildings.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "PoE",
+    "fullName": "Power over Ethernet",
+    "definition": "A technology that delivers electrical power along with data over standard Ethernet cables.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "POP3",
+    "fullName": "Post Office Protocol version 3",
+    "definition": "An email retrieval protocol that downloads messages from the server. Uses port 110 (or 995 for secure).",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "port",
+    "fullName": "",
+    "definition": "A logical communication endpoint (0-65535) directing network traffic to specific services.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "port forwarding",
+    "fullName": "",
+    "definition": "Redirecting network traffic from one port/IP to another, commonly configured on routers.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "POST",
+    "fullName": "Power-On Self-Test",
+    "definition": "A diagnostic process the BIOS/UEFI runs at startup to verify hardware functionality.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "PowerShell",
+    "fullName": "",
+    "definition": "A Microsoft task automation framework with a command-line shell and scripting language (.ps1 files).",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "private cloud",
+    "fullName": "",
+    "definition": "Cloud infrastructure dedicated to a single organization, offering greater control and security.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "proxy",
+    "fullName": "",
+    "definition": "A server that acts as an intermediary between clients and the internet, providing caching, filtering, and anonymity.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "PSU",
+    "fullName": "Power Supply Unit",
+    "definition": "A component that converts AC power to DC power for computer components. Rated in watts.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "public cloud",
+    "fullName": "",
+    "definition": "Cloud services available to anyone over the internet, owned and operated by third-party providers.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "punchdown tool",
+    "fullName": "",
+    "definition": "A hand tool inserting wires into insulation displacement connectors on patch panels.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "PXE",
+    "fullName": "Preboot Execution Environment",
+    "definition": "A standard for booting a computer from a network connection, used for remote OS installation.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "QoS",
+    "fullName": "Quality of Service",
+    "definition": "Network traffic management that prioritizes certain types of data to ensure performance for critical applications.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "RADIUS",
+    "fullName": "Remote Authentication Dial-In User Service",
+    "definition": "A networking protocol providing centralized AAA management for users connecting to a network.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "RAID",
+    "fullName": "Redundant Array of Independent Disks",
+    "definition": "A storage technology combining multiple drives for redundancy and/or performance. Common levels: 0, 1, 5, 10.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "RAID 0",
+    "fullName": "",
+    "definition": "Disk striping across two or more drives for performance. No redundancy — if one drive fails, all data is lost.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "RAID 1",
+    "fullName": "",
+    "definition": "Disk mirroring using two drives with identical copies. Full redundancy but uses 50% of total capacity.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "RAID 10",
+    "fullName": "",
+    "definition": "A combination of RAID 1 and RAID 0 (mirroring + striping). Requires 4+ drives. High performance and redundancy.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "RAID 5",
+    "fullName": "",
+    "definition": "Striping with distributed parity across 3+ drives. Can survive one drive failure. Most popular RAID level.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "RAID 6",
+    "fullName": "",
+    "definition": "RAID with double distributed parity across 4+ drives. Can survive two simultaneous drive failures.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "RAM",
+    "fullName": "Random Access Memory",
+    "definition": "Volatile system memory used for temporarily storing data and programs currently in use.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "ransomware",
+    "fullName": "",
+    "definition": "Malware that encrypts files and demands payment for the decryption key.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "ransomware removal",
+    "fullName": "",
+    "definition": "Process of identifying and removing ransomware, often requiring safe mode boot and anti-malware tools.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "RDP",
+    "fullName": "Remote Desktop Protocol",
+    "definition": "A Microsoft protocol for remote graphical connection to another computer. Uses port 3389.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "remote wipe",
+    "fullName": "",
+    "definition": "A security feature allowing remote erasure of all data on a lost or stolen mobile device.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "RFID",
+    "fullName": "Radio Frequency Identification",
+    "definition": "A technology using radio waves for identification and tracking via tags (passive or active).",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "RJ-11",
+    "fullName": "Registered Jack 11",
+    "definition": "A smaller connector with 6 positions used for telephone (POTS) and DSL connections.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "RJ-45",
+    "fullName": "Registered Jack 45",
+    "definition": "The standard connector for Ethernet cables with 8 pins/contacts.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "RMM",
+    "fullName": "Remote Monitoring and Management",
+    "definition": "Software for remotely monitoring and managing endpoints, deploying patches, and troubleshooting.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "robocopy",
+    "fullName": "Robust File Copy",
+    "definition": "A Windows command-line tool for reliable file copying and mirroring with resume support.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "ROM",
+    "fullName": "Read-Only Memory",
+    "definition": "Non-volatile memory that retains data without power, typically containing firmware.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "rooting",
+    "fullName": "",
+    "definition": "Gaining root (superuser) access on an Android device, allowing modifications beyond manufacturer restrictions.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "rootkit",
+    "fullName": "",
+    "definition": "Malware that hides deep in the OS to provide continued privileged access while evading detection.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "router",
+    "fullName": "",
+    "definition": "A network device that forwards packets between different networks based on IP addresses.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "S.M.A.R.T.",
+    "fullName": "Self-Monitoring, Analysis, and Reporting Technology",
+    "definition": "A monitoring system in drives that detects and reports indicators of reliability and health.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "SaaS",
+    "fullName": "Software as a Service",
+    "definition": "A cloud model delivering software applications over the internet on a subscription basis.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "Safe Mode",
+    "fullName": "",
+    "definition": "A Windows diagnostic mode loading only essential drivers for troubleshooting system problems.",
+    "exam": "Core 2",
+    "domain": "3.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "SAML",
+    "fullName": "Security Assertion Markup Language",
+    "definition": "An XML-based standard for exchanging authentication data between identity providers and service providers.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SAN",
+    "fullName": "Storage Area Network",
+    "definition": "A dedicated high-speed network providing block-level storage access, typically using Fibre Channel or iSCSI.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SATA",
+    "fullName": "Serial Advanced Technology Attachment",
+    "definition": "A standard interface for connecting storage devices. Supports speeds up to 6 Gbps (SATA III).",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "SCADA",
+    "fullName": "Supervisory Control and Data Acquisition",
+    "definition": "Industrial control systems used in power plants and manufacturing. Often vulnerable legacy systems.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Secure Boot",
+    "fullName": "",
+    "definition": "A UEFI feature ensuring only signed, trusted software loads during boot to prevent rootkits.",
+    "exam": "Both",
+    "domain": "3.0",
+    "category": "Security"
+  },
+  {
+    "term": "SFC",
+    "fullName": "System File Checker",
+    "definition": "A Windows command-line utility (sfc /scannow) that scans and repairs protected system files.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "SFC /scannow",
+    "fullName": "",
+    "definition": "Windows command that scans and repairs protected system files.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "SFP",
+    "fullName": "Small Form-Factor Pluggable",
+    "definition": "A compact, hot-pluggable transceiver module for fiber optic or copper networking connections.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "shoulder surfing",
+    "fullName": "",
+    "definition": "Looking over someone's shoulder to steal passwords or sensitive information.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SIP",
+    "fullName": "Session Initiation Protocol",
+    "definition": "A signaling protocol for initiating, maintaining, and terminating VoIP and multimedia sessions.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SLA",
+    "fullName": "Service Level Agreement",
+    "definition": "A contract defining expected service performance metrics between a provider and customer.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "SMB",
+    "fullName": "Server Message Block",
+    "definition": "A network file sharing protocol used by Windows for accessing shared files and printers. Uses port 445.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "smishing",
+    "fullName": "",
+    "definition": "Phishing attacks conducted via SMS text messages.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SMTP",
+    "fullName": "Simple Mail Transfer Protocol",
+    "definition": "A protocol for sending email between servers. Uses port 25 (or 587 for submission).",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SNMP",
+    "fullName": "Simple Network Management Protocol",
+    "definition": "A protocol for monitoring and managing network devices. Uses ports 161/162.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SO-DIMM",
+    "fullName": "Small Outline Dual Inline Memory Module",
+    "definition": "A compact RAM module designed for laptops and small form factor devices.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "social engineering",
+    "fullName": "",
+    "definition": "Manipulation techniques that exploit human psychology to gain unauthorized access to information or systems.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SOP",
+    "fullName": "Standard Operating Procedure",
+    "definition": "A documented set of step-by-step instructions for carrying out routine operations.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "spear phishing",
+    "fullName": "",
+    "definition": "A targeted phishing attack directed at specific individuals or organizations.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SPF",
+    "fullName": "Sender Policy Framework",
+    "definition": "An email authentication method that verifies the sender IP is authorized for the sending domain.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SPICE",
+    "fullName": "Simple Protocol for Independent Computing Environments",
+    "definition": "A remote display protocol for virtual machines offering better performance than VNC.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "spyware",
+    "fullName": "",
+    "definition": "Malware that secretly monitors user activity and collects personal information without consent.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SQL injection",
+    "fullName": "",
+    "definition": "An attack that inserts malicious SQL code into input fields to manipulate database queries.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SSD",
+    "fullName": "Solid State Drive",
+    "definition": "A storage device using NAND flash memory with no moving parts. Faster and more durable than HDDs.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "SSH",
+    "fullName": "Secure Shell",
+    "definition": "A cryptographic protocol for secure remote access and command execution. Uses port 22.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SSID",
+    "fullName": "Service Set Identifier",
+    "definition": "The name of a wireless network that identifies it to users and devices.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "SSL",
+    "fullName": "Secure Sockets Layer",
+    "definition": "A deprecated encryption protocol replaced by TLS. Used for securing web communications.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "SSO",
+    "fullName": "Single Sign-On",
+    "definition": "An authentication method allowing users to access multiple applications with one set of credentials.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "stalkerware",
+    "fullName": "",
+    "definition": "Malware designed to covertly monitor someone activities including location, messages, and calls.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "star topology",
+    "fullName": "",
+    "definition": "A network layout where all devices connect to a central hub or switch. Most common LAN topology.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "STP",
+    "fullName": "Spanning Tree Protocol",
+    "definition": "A network protocol that prevents switching loops by creating a loop-free logical topology.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "subnet",
+    "fullName": "",
+    "definition": "A logical subdivision of an IP network, defined by a subnet mask, that segments network traffic.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "subnet mask",
+    "fullName": "",
+    "definition": "A 32-bit number dividing an IP address into network and host portions.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "supply chain attack",
+    "fullName": "",
+    "definition": "An attack targeting less-secure elements in a supply chain to compromise the final product or service.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "surge protector",
+    "fullName": "",
+    "definition": "A device protecting electronics from voltage spikes by diverting excess electricity to ground.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "switch",
+    "fullName": "",
+    "definition": "A network device that forwards traffic based on MAC addresses within a LAN, operating at Layer 2.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Syslog",
+    "fullName": "",
+    "definition": "A standard for message logging that collects log data from multiple network devices centrally. Port 514.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "System Restore",
+    "fullName": "",
+    "definition": "A Windows feature reverting system files and settings to a previous point without affecting personal files.",
+    "exam": "Core 2",
+    "domain": "3.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "TACACS+",
+    "fullName": "Terminal Access Controller Access-Control System Plus",
+    "definition": "A Cisco protocol providing separate AAA services with full encryption. Uses TCP port 49.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "tailgating",
+    "fullName": "",
+    "definition": "Following an authorized person through a secure door without presenting credentials.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Task Manager",
+    "fullName": "",
+    "definition": "A Windows utility showing running processes, performance stats, and allowing process termination.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "Task Scheduler",
+    "fullName": "",
+    "definition": "A Windows utility that runs programs or scripts automatically at scheduled times or in response to events.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "TCP",
+    "fullName": "Transmission Control Protocol",
+    "definition": "A connection-oriented transport protocol providing reliable, ordered delivery using a three-way handshake.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Telnet",
+    "fullName": "",
+    "definition": "An unencrypted remote access protocol. Uses port 23. Replaced by SSH for security.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "tethering",
+    "fullName": "",
+    "definition": "Using a mobile device's cellular connection to provide internet access to other devices.",
+    "exam": "Core 1",
+    "domain": "1.0",
+    "category": "Mobile"
+  },
+  {
+    "term": "thin client",
+    "fullName": "",
+    "definition": "A lightweight computer relying on a server for processing, used in VDI environments.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "throughput",
+    "fullName": "",
+    "definition": "The actual data successfully transferred over a network per unit of time.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "Thunderbolt",
+    "fullName": "",
+    "definition": "A high-speed interface combining PCIe and DisplayPort. Thunderbolt 3/4 uses USB-C connector.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "TKIP",
+    "fullName": "Temporal Key Integrity Protocol",
+    "definition": "A deprecated wireless encryption protocol from WPA. Replaced by AES-CCMP in WPA2.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "TLS",
+    "fullName": "Transport Layer Security",
+    "definition": "A cryptographic protocol that provides secure communication over networks. Successor to SSL.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "tone generator",
+    "fullName": "",
+    "definition": "A network tool sending a signal through a cable, used with a tone probe to trace cables.",
+    "exam": "Core 1",
+    "domain": "5.0",
+    "category": "Troubleshooting"
+  },
+  {
+    "term": "TOTP",
+    "fullName": "Time-based One-Time Password",
+    "definition": "A temporary passcode generated by an algorithm using the current time as an input factor.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "TPM",
+    "fullName": "Trusted Platform Module",
+    "definition": "A hardware security chip that stores encryption keys and supports secure boot and BitLocker.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "traceroute",
+    "fullName": "",
+    "definition": "A command (tracert on Windows) showing the path packets take through the network to reach a destination.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "trojan",
+    "fullName": "",
+    "definition": "Malware disguised as legitimate software that creates backdoors for unauthorized access.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "TXT record",
+    "fullName": "",
+    "definition": "A DNS record holding text data, used for SPF, DKIM, and DMARC email authentication.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "Type 1 hypervisor",
+    "fullName": "",
+    "definition": "A hypervisor running directly on hardware (bare-metal) without a host OS. Examples: VMware ESXi, Hyper-V.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "Type 2 hypervisor",
+    "fullName": "",
+    "definition": "A hypervisor running on top of a host OS. Examples: VMware Workstation, VirtualBox.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "UAC",
+    "fullName": "User Account Control",
+    "definition": "A Windows security feature that prompts for confirmation before allowing elevated privileges.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "UDP",
+    "fullName": "User Datagram Protocol",
+    "definition": "A connectionless transport protocol providing fast but unreliable delivery without error checking.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "UEFI",
+    "fullName": "Unified Extensible Firmware Interface",
+    "definition": "Modern firmware replacing BIOS, supporting larger drives, Secure Boot, and a graphical interface.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "UPnP",
+    "fullName": "Universal Plug and Play",
+    "definition": "A protocol that allows devices to automatically discover each other and configure port forwarding. Can be a security risk.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "UPS",
+    "fullName": "Uninterruptible Power Supply",
+    "definition": "A device providing backup battery power during outages, allowing graceful shutdown of equipment.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "USB",
+    "fullName": "Universal Serial Bus",
+    "definition": "A standard interface for connecting peripherals. Types include USB-A, USB-B, USB-C, micro, mini.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "USB-C",
+    "fullName": "",
+    "definition": "A reversible USB connector supporting data, video, and power delivery in a compact form factor.",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "UTM",
+    "fullName": "Unified Threat Management",
+    "definition": "An all-in-one security appliance combining firewall, antivirus, content filtering, and IDS/IPS.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "VDI",
+    "fullName": "Virtual Desktop Infrastructure",
+    "definition": "Technology that hosts desktop environments on a centralized server and delivers them to thin clients.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "VGA",
+    "fullName": "Video Graphics Array",
+    "definition": "An analog video interface using a 15-pin D-sub connector. Maximum resolution of 640x480 (standard).",
+    "exam": "Core 1",
+    "domain": "3.0",
+    "category": "Hardware"
+  },
+  {
+    "term": "virus",
+    "fullName": "",
+    "definition": "Malware attaching to legitimate programs, replicating when the host executes.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "vishing",
+    "fullName": "",
+    "definition": "Phishing attacks conducted via voice phone calls.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "VLAN",
+    "fullName": "Virtual Local Area Network",
+    "definition": "A logical network segment that groups devices regardless of physical location, improving security and performance.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "VM",
+    "fullName": "Virtual Machine",
+    "definition": "A software-based emulation of a computer system that runs on a host machine using a hypervisor.",
+    "exam": "Core 1",
+    "domain": "4.0",
+    "category": "Cloud"
+  },
+  {
+    "term": "VNC",
+    "fullName": "Virtual Network Computing",
+    "definition": "A platform-independent remote desktop sharing system using the Remote Frame Buffer protocol.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "VPN",
+    "fullName": "Virtual Private Network",
+    "definition": "An encrypted tunnel between devices over the internet, providing secure remote access to a private network.",
+    "exam": "Both",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "wake-on-LAN",
+    "fullName": "",
+    "definition": "A standard allowing a computer to be turned on remotely by a network message.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "WAN",
+    "fullName": "Wide Area Network",
+    "definition": "A network spanning a large geographic area, connecting multiple LANs. The internet is the largest WAN.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "WAP",
+    "fullName": "Wireless Access Point",
+    "definition": "A device that allows wireless devices to connect to a wired network, extending Wi-Fi coverage.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "whaling",
+    "fullName": "",
+    "definition": "A phishing attack specifically targeting high-level executives or important individuals.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "WinRE",
+    "fullName": "Windows Recovery Environment",
+    "definition": "A recovery environment providing diagnostic and repair tools for fixing boot issues.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "WinRM",
+    "fullName": "Windows Remote Management",
+    "definition": "A Microsoft protocol for remote management of Windows machines via command line.",
+    "exam": "Core 2",
+    "domain": "4.0",
+    "category": "Operations"
+  },
+  {
+    "term": "WLAN",
+    "fullName": "Wireless Local Area Network",
+    "definition": "A wireless local area network linking devices using Wi-Fi within a limited area.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "workgroup",
+    "fullName": "",
+    "definition": "A peer-to-peer Windows network where each computer manages its own security independently.",
+    "exam": "Core 2",
+    "domain": "1.0",
+    "category": "Operating Systems"
+  },
+  {
+    "term": "worm",
+    "fullName": "",
+    "definition": "Self-replicating malware spreading across networks without user interaction.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "WPA2",
+    "fullName": "Wi-Fi Protected Access 2",
+    "definition": "A wireless security protocol using AES-CCMP encryption. The current minimum recommended standard.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "WPA3",
+    "fullName": "Wi-Fi Protected Access 3",
+    "definition": "The latest wireless security protocol offering SAE handshake and protection against offline attacks.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "XDR",
+    "fullName": "Extended Detection and Response",
+    "definition": "An advanced security solution integrating data from endpoints, networks, and cloud for comprehensive threat detection.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "XSS",
+    "fullName": "Cross-Site Scripting",
+    "definition": "A web vulnerability allowing attackers to inject malicious scripts into web pages viewed by other users.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Z-Wave",
+    "fullName": "",
+    "definition": "A wireless communication protocol for home automation operating on sub-1 GHz frequencies.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  },
+  {
+    "term": "zero trust",
+    "fullName": "",
+    "definition": "A security model requiring strict identity verification for every person and device regardless of network location.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "zero-day",
+    "fullName": "",
+    "definition": "A previously unknown vulnerability exploited before the vendor releases a patch.",
+    "exam": "Core 2",
+    "domain": "2.0",
+    "category": "Security"
+  },
+  {
+    "term": "Zigbee",
+    "fullName": "",
+    "definition": "A low-power, short-range wireless protocol for IoT devices and home automation.",
+    "exam": "Core 1",
+    "domain": "2.0",
+    "category": "Networking"
+  }
+]
